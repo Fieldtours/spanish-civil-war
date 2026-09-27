@@ -1,0 +1,102 @@
+[
+ [
+  "madrid-06",
+  "Paracuellos de Jarama cemetery",
+  40.496,
+  -3.527,
+  "LOW",
+  40.51167,
+  -3.54616,
+  "HIGH"
+ ],
+ [
+  "madrid-09",
+  "Cerro Garabitas, Casa de Campo",
+  40.417,
+  -3.756,
+  "MEDIUM",
+  40.4345,
+  -3.7565,
+  "HIGH"
+ ],
+ [
+  "madrid-11",
+  "Puente de los Franceses",
+  40.4316,
+  -3.7285,
+  "MEDIUM",
+  40.4337,
+  -3.7358,
+  "HIGH"
+ ],
+ [
+  "madrid-24",
+  "Blockhaus 13, Colmenar del Arroyo",
+  40.4687,
+  -4.1197,
+  "MEDIUM",
+  40.4329,
+  -4.1828,
+  "HIGH"
+ ],
+ [
+  "aragon-24",
+  "Muela de Villaspesa",
+  40.29899,
+  -1.10597,
+  "HIGH",
+  40.297,
+  -1.1118,
+  "MEDIUM"
+ ],
+ [
+  "catalonia-01",
+  "Poble Vell de Corbera d'Ebre",
+  41.07857,
+  0.4762,
+  "HIGH",
+  41.0796,
+  0.4746,
+  "HIGH"
+ ],
+ [
+  "catalonia-17",
+  "Castell de Móra d'Ebre",
+  41.09333,
+  0.64278,
+  "LOW",
+  41.0942,
+  0.6409,
+  "HIGH"
+ ],
+ [
+  "north-05",
+  "Intxorta front & Elgeta memory centre",
+  43.17778,
+  -2.45278,
+  "MEDIUM",
+  43.1368,
+  -2.4875,
+  "MEDIUM"
+ ],
+ [
+  "south-03",
+  "Parque Federico García Lorca, Alfacar (Fuente Grande)",
+  37.2399,
+  -3.5563,
+  "MEDIUM",
+  37.2444,
+  -3.5534,
+  "HIGH"
+ ],
+ [
+  "south-11",
+  "Refugio antiaéreo de Villanueva de Córdoba",
+  38.317,
+  -4.617,
+  "MEDIUM",
+  38.3225,
+  -4.6286,
+  "HIGH"
+ ]
+]

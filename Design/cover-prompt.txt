@@ -1,0 +1,8 @@
+IMAGE PROMPT FOR THE WELCOME COVER (paste into ChatGPT or another image generator)
+Size: portrait 9:19.5 (phone) — make a second version in landscape 16:10 for computers.
+
+A vintage 1930s lithographic poster, printed in three inks on aged cream newsprint: burnt umber, faded vermilion red and ochre. Title at the top in bold condensed stencil capitals: "THE SPANISH CIVIL WAR", and underneath in smaller letters "1936 – 1939". Below, a dramatic but sober scene: the shattered bell tower and roofless church of a ruined Aragonese village (like old Belchite) on a hill, dry terraced fields and olive trees below, a winding dirt road with a line of tiny civilian refugees and a mule cart, low winter sun, long shadows. In the sky, faint distant silhouettes of 1930s biplanes. No flags, no party symbols, no insignia, no uniforms in the foreground, no weapons pointed at the viewer. Mood: remembrance, not glory. Visible halftone and paper grain, slightly misregistered colour plates, hand-stencilled lettering. Leave the bottom fifth of the image calm (plain fields) so buttons can sit over it.
+
+When you have the picture, save it on your Desktop in:
+DZ Charlie Field Guides > The Spanish Civil War > Design
+and name it cover-painted.jpg. Claude will put it into the app.

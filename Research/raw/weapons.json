@@ -1,0 +1,594 @@
+[
+ {
+  "id": "mauser-1893",
+  "name": "Mauser M1893 'Spanish Mauser' and M1916 short rifle",
+  "side": "Both",
+  "cat": "rifle",
+  "origin": "Germany (Ludwig Loewe/DWM, Berlin) and Spain (Fábrica de Armas de Oviedo; later La Coruña)",
+  "specs": [
+   [
+    "Calibre",
+    "7×57 mm Mauser"
+   ],
+   [
+    "Action",
+    "Bolt action, 5-round internal box magazine, stripper clips"
+   ],
+   [
+    "Length",
+    "1,235 mm (M1893 rifle); c. 1,050 mm (M1916 mosquetón)"
+   ],
+   [
+    "Weight",
+    "c. 4 kg (rifle); c. 3.9 kg (short rifle)"
+   ],
+   [
+    "Adopted",
+    "1893 (rifle); 1916 (short rifle)"
+   ]
+  ],
+  "t": "The standard rifle of the Spanish Army in July 1936, so both sides started the war with it. The M1893 introduced the flush, staggered five-round magazine later used in the famous Mauser 98, and the Oviedo arms factory built both the long rifle and the shorter M1916 'mosquetón', which became the most common infantry arm of the war. Oviedo itself was besieged throughout 1936–37 with the factory in Nationalist hands, while the Republic relied on stocks, captured rifles and foreign purchases. Most soldiers you meet in period photographs of either army carry one.",
+  "good": "Accurate, reliable, flat-shooting 7 mm round; well understood by every Spanish soldier; ammunition made in Spain.",
+  "bad": "Many 1936 stocks were worn or old; the Republic lost the main Oviedo factory output and never had enough; long rifle awkward in trenches and street fighting.",
+  "changes": "Jul 1936: split between the two sides with the army and Guardia Civil depots. Autumn 1936: Nationalists keep the Oviedo factory output; the Republic has to buy foreign rifles in a mix of calibres. 1937–39: the M1916 short rifle becomes the typical infantry arm of the Nationalists; captured Mausers are prized on the Republican side over foreign types.",
+  "story": "At San Juan Hill in Cuba (1 July 1898), Spanish troops with M1893 Mausers inflicted heavy losses on better-supplied US forces; the US Army studied the rifle and adopted a Mauser-type design as the M1903 Springfield. Source: Wikipedia, 'Mauser Model 1893' (https://en.wikipedia.org/wiki/Mauser_Model_1893).",
+  "img": {
+   "file": "File:M43 Spanish Mauser Fabrica De Armas De La Coruña.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/M43_Spanish_Mauser_Fabrica_De_Armas_De_La_Coru%C3%B1a.JPG",
+   "licence": "Probably CC BY-SA (user photo) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:M43_Spanish_Mauser_Fabrica_De_Armas_De_La_Coru%C3%B1a.JPG",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download. NOTE: shows the post-war M43 descendant, not an M1893/M1916; replace from Category:Mauser rifles if a true M1893/M1916 image is found."
+  }
+ },
+ {
+  "id": "mosin-nagant",
+  "name": "Mosin–Nagant M1891 ('Mexicanski')",
+  "side": "Republic",
+  "cat": "rifle",
+  "origin": "Russia/USSR (Tula, Izhevsk, Sestroretsk); some US-made (Remington, New England Westinghouse) WWI contract rifles",
+  "specs": [
+   [
+    "Calibre",
+    "7.62×54 mmR"
+   ],
+   [
+    "Action",
+    "Bolt action, 5-round internal magazine"
+   ],
+   [
+    "Length",
+    "1,306 mm (infantry rifle)"
+   ],
+   [
+    "Weight",
+    "c. 4.2 kg"
+   ],
+   [
+    "Adopted",
+    "1891 (Russian Empire)"
+   ]
+  ],
+  "t": "From October 1936 Soviet ships unloaded tens of thousands of Mosin–Nagant rifles at Cartagena and other Republican ports, and they became the most numerous foreign rifle in the Popular Army. Soldiers called them 'mexicanos' or 'mexicanskis', because early aid was officially passed off as coming from Mexico, which openly supported the Republic. Many were Tsarist-era rifles, some made in the United States during the First World War, and their ammunition was not made in Spain. Visitors will see them in the Ebro and Madrid museums, often with the long spike bayonet fixed.",
+  "good": "Rugged and accurate; long reach with the spike bayonet; arrived in large numbers when the Republic most needed rifles.",
+  "bad": "Long and heavy; different calibre from Spanish Mausers complicated supply; many rifles were old and worn.",
+  "changes": "Oct 1936: first deliveries arm the new Mixed Brigades and International Brigades defending Madrid. 1937: standard in many Popular Army units. 1938–39: stays in use to the end; captured stocks were used by the Francoist army after 1939.",
+  "story": "Historian Gerald Howson showed that much of the Soviet aid consisted of old, mixed weapons, sometimes sold to the Republic at inflated prices, paid with the gold of the Bank of Spain. Source: G. Howson, 'Arms for Spain' (1998); summary at https://en.wikipedia.org/wiki/Foreign_involvement_in_the_Spanish_Civil_War.",
+  "img": {
+   "file": "File:Mosin-Nagant M1891 - Ryssland - AM.032971.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Mosin-Nagant_M1891_-_Ryssland_-_AM.032971.jpg",
+   "licence": "CC BY 4.0 (Armémuseum, Stockholm - standard licence for AM.* files) - verify",
+   "author": "Armémuseum (Swedish Army Museum)",
+   "page": "https://commons.wikimedia.org/wiki/File:Mosin-Nagant_M1891_-_Ryssland_-_AM.032971.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "maxim-1910",
+  "name": "Maxim M1910 machine gun",
+  "side": "Republic",
+  "cat": "mg",
+  "origin": "USSR (Tula Arms Plant)",
+  "specs": [
+   [
+    "Calibre",
+    "7.62×54 mmR"
+   ],
+   [
+    "Feed",
+    "250-round fabric belt"
+   ],
+   [
+    "Rate of fire",
+    "c. 550–600 rounds/min"
+   ],
+   [
+    "Cooling",
+    "Water jacket"
+   ],
+   [
+    "Weight",
+    "c. 23 kg gun; c. 64 kg with Sokolov wheeled mount and shield"
+   ]
+  ],
+  "t": "The Russian version of Hiram Maxim's water-cooled machine gun, mounted on its small two-wheeled Sokolov carriage with a steel shield. Several thousand were sent by the Soviet Union from autumn 1936 and they became the backbone of Republican defensive fire, notably in the defence of Madrid, at the Jarama and later on the Ebro. Water cooling let a crew fire long bursts from a fixed position, ideal for the trench lines and hill positions you can still walk today. They were heavy, needing a crew of several men to move them.",
+  "good": "Could fire for long periods without overheating; very reliable; the wheeled mount made it easy to roll on roads.",
+  "bad": "Very heavy on hills and in mountain terrain; needed water; different ammunition from Spanish weapons.",
+  "changes": "Nov 1936: in action in the defence of Madrid. Feb 1937: key weapon of the Republican line at the Jarama. 1938: still used on the Ebro, where crews had to carry them up the Pàndols and Cavalls sierras.",
+  "story": "Water for the cooling jackets was scarce in the dry Serra de Pàndols in summer 1938; veterans recalled crews using any liquid they had. Treat as veterans' anecdote only; for the gun itself see https://en.wikipedia.org/wiki/Maxim_M1910_machine_gun.",
+  "img": {
+   "file": "File:Maxim (M1910) machine gun at Athens War Museum on November 22, 2022.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Maxim_(M1910)_machine_gun_at_Athens_War_Museum_on_November_22,_2022.jpg",
+   "licence": "Probably CC BY-SA 4.0 or CC0 (user photo 2022) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Maxim_(M1910)_machine_gun_at_Athens_War_Museum_on_November_22,_2022.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "naranjero",
+  "name": "Naranjero submachine gun (Spanish copy of the MP 28/II)",
+  "side": "Republic",
+  "cat": "smg",
+  "origin": "Republican Spain (war-industry workshops in the Valencia region; 'naranjero' = 'orange-grower')",
+  "specs": [
+   [
+    "Calibre",
+    "9×23 mm Largo"
+   ],
+   [
+    "Action",
+    "Blowback, selective fire"
+   ],
+   [
+    "Magazine",
+    "Side-mounted box, 32 rounds (typical)"
+   ],
+   [
+    "Rate of fire",
+    "c. 500–600 rounds/min"
+   ],
+   [
+    "Based on",
+    "Bergmann/Haenel MP 28/II"
+   ]
+  ],
+  "t": "The Republic's war industries copied the German MP 28/II submachine gun, rechambered for the Spanish 9 mm Largo pistol round. Because production was centred in the Valencia region, the weapon got the nickname 'naranjero', after the orange groves. It gave assault troops, guards and officers close-range firepower in trenches and streets. After 1939 captured naranjeros stayed in Spanish service for years. It is one of the few Spanish Civil War weapons designed and built in Spain during the war itself, a sign of how the Republic tried to build its own arms industry.",
+  "good": "Robust, simple design; used a cartridge made in Spain; useful for trench raids and close combat.",
+  "bad": "Made in improvised workshops, quality varied; heavy for its role; never produced in the numbers needed.",
+  "changes": "1936: Republican units use seized pre-war MP 28s and other imported types. 1937–38: Spanish-made naranjero appears in growing numbers. 1939: captured stocks go to the Francoist army and security forces.",
+  "story": "Pistol-calibre submachine guns were rare in 1936 Spain; many were confiscated from police and private collections in the first days of the war. Source (general): https://en.wikipedia.org/wiki/MP_28 (Spanish production section) - check Spanish sources (e.g. Artemio Mortera) before publication.",
+  "img": {
+   "file": "File:MP28 2.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/MP28_2.JPG",
+   "licence": "Probably CC BY-SA (user photo) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:MP28_2.JPG",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download. NOTE: shows a German MP 28, not a Spanish naranjero; acceptable as 'original design' image or replace."
+  }
+ },
+ {
+  "id": "astra-400",
+  "name": "Astra 400 pistol (and Republican copies)",
+  "side": "Both",
+  "cat": "pistol",
+  "origin": "Spain (Unceta y Compañía, Gernika/Guernica); Republican copy 'F. Ascaso' made in Catalonia",
+  "specs": [
+   [
+    "Calibre",
+    "9×23 mm Largo (also fired other 9 mm types)"
+   ],
+   [
+    "Action",
+    "Straight blowback"
+   ],
+   [
+    "Magazine",
+    "8 rounds"
+   ],
+   [
+    "Weight",
+    "c. 1.1 kg"
+   ],
+   [
+    "Length",
+    "c. 225 mm"
+   ]
+  ],
+  "t": "The Astra 400 was the Spanish Army's standard pistol from 1921, made by Unceta y Compañía in Gernika. Its blowback action and heavy spring were simple and robust, and it would fire a range of 9 mm cartridges, a big advantage in a war of mixed ammunition. Officers and militia leaders of both sides carried it. When the Basque country fell in 1937 the factory went to the Nationalists, so the Republic built its own copy in Catalonia, named 'F. Ascaso' after the anarchist Francisco Ascaso, killed in Barcelona in July 1936.",
+  "good": "Reliable, tolerant of different 9 mm cartridges, made in Spain.",
+  "bad": "Heavy recoil spring made it hard to cock; heavy for a pistol; Republic lost its source in 1937.",
+  "changes": "Jul 1936: standard issue on both sides. Apr–Jun 1937: Gernika and the Basque arms industry fall to the Nationalists. 1937–38: Republican 'F. Ascaso' copy made in Catalonia.",
+  "story": "The Astra works at Gernika is widely reported to have survived the bombing of 26 April 1937 while much of the town burned; whether this was deliberate is debated. Sources: https://en.wikipedia.org/wiki/Astra_400 ; https://en.wikipedia.org/wiki/Bombing_of_Guernica.",
+  "img": {
+   "file": "File:Museo Eibar Pistola Campo Giro ASTRA.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Museo_Eibar_Pistola_Campo_Giro_ASTRA.JPG",
+   "licence": "Probably CC BY-SA (user photo, Museo de la Industria Armera, Eibar) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Museo_Eibar_Pistola_Campo_Giro_ASTRA.JPG",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download. NOTE: shows the Campo-Giro pistol made by Astra, the direct predecessor of the Astra 400; replace if a true Astra 400 photo is found in Category:Pistols of Spain."
+  }
+ },
+ {
+  "id": "laffitte",
+  "name": "Laffitte hand grenade ('bomba Laffitte')",
+  "side": "Both",
+  "cat": "grenade",
+  "origin": "Spain (Spanish design of the 1920s; made in many state and wartime workshops)",
+  "specs": [
+   [
+    "Type",
+    "Offensive hand grenade, impact (percussion) fuze"
+   ],
+   [
+    "Body",
+    "Thin sheet-metal cylinder"
+   ],
+   [
+    "Arming",
+    "Safety tape/strap unwinds in flight (details vary by model)"
+   ],
+   [
+    "Filler",
+    "High explosive (trilita/TNT or substitutes)"
+   ],
+   [
+    "Weight",
+    "c. 0.4–0.5 kg (sources vary)"
+   ]
+  ],
+  "t": "The Laffitte grenade was the standard Spanish Army hand grenade before the war and was made in huge numbers by both sides. Unlike time-fuzed grenades, it exploded on impact: a tape unwound in flight to arm the fuze. Its thin casing produced blast rather than heavy fragments, so a soldier could throw it while advancing. Poorly made wartime copies, especially early in the war, could fail to explode or go off too easily, and militias also used home-made 'bombas' and dynamite charges, above all Asturian miners.",
+  "good": "Cheap and simple to mass-produce; blast effect good for clearing trenches and houses; usable while advancing.",
+  "bad": "Impact fuze was dangerous if dropped after arming; many duds from improvised factories; short range of effect.",
+  "changes": "Jul 1936: both sides use army stocks; militias improvise with dynamite. 1937: mass production in Republican war industries and Nationalist factories. 1938: remains the typical grenade of the Ebro trenches; many unexploded Laffittes are still found on battlefields today (do not touch).",
+  "story": "Asturian miners in the 1934 revolution and 1936–37 were famous for dynamite charges thrown by hand; regular grenades like the Laffitte replaced them as war industries grew. Details of the Laffitte mechanism need a Spanish-language source before publication (e.g. https://es.wikipedia.org/wiki/Granada_Laffitte).",
+  "img": {
+   "file": null,
+   "url": null,
+   "licence": null,
+   "author": null,
+   "page": "https://commons.wikimedia.org/wiki/Category:Hand_grenades_of_the_Spanish_Civil_War",
+   "check": "No specific file confirmed; pick a Laffitte image from this Commons category and verify licence."
+  }
+ },
+ {
+  "id": "t-26",
+  "name": "T-26 light tank",
+  "side": "Republic",
+  "cat": "tank",
+  "origin": "USSR (Leningrad, Kirov/Voroshilov plant), based on the British Vickers 6-ton",
+  "specs": [
+   [
+    "Main gun",
+    "45 mm 20-K"
+   ],
+   [
+    "Armour",
+    "up to 15 mm"
+   ],
+   [
+    "Weight",
+    "c. 10 t"
+   ],
+   [
+    "Crew",
+    "3"
+   ],
+   [
+    "Speed",
+    "c. 30 km/h on road"
+   ],
+   [
+    "Delivered to Spain",
+    "c. 281 (Oct 1936–1938)"
+   ]
+  ],
+  "t": "The T-26 model 1933 was the most important tank of the war. Its 45 mm gun could destroy any German or Italian tank in Spain at long range, while enemy machine guns could not penetrate it. Soviet crews and advisers fought in the first T-26s from October 1936 near Madrid; Spanish crews took over later. Poor coordination with infantry often wasted its advantage. The Nationalists captured many T-26s and put them into their own units, and some served in the Spanish army long after 1939. Look for surviving examples at the El Goloso armour museum near Madrid.",
+  "good": "Powerful 45 mm gun, superior to the Panzer I and CV-33; reliable.",
+  "bad": "Thin armour vulnerable to anti-tank guns and the 88 mm; often used without infantry support; limited crews and spares.",
+  "changes": "29 Oct 1936: first action at Seseña (south of Madrid). Nov 1936–Mar 1937: Madrid, Jarama, Guadalajara. 1937: Brunete, Belchite, Fuentes de Ebro (with BT-5s). 1938–39: numbers fall; captured T-26s serve in Nationalist units.",
+  "story": "At Seseña on 29 October 1936 a T-26 of Paul Arman's company is reported to have rammed an Italian CV-33 tankette off the road; Arman became a Hero of the Soviet Union. Source: https://en.wikipedia.org/wiki/T-26 (Spanish Civil War section).",
+  "img": {
+   "file": "File:T-26.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/T-26.JPG",
+   "licence": "Probably CC BY-SA or PD (user photo) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:T-26.JPG",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download. Content of image not seen: check it is a T-26 mod.1933 (single turret)."
+  }
+ },
+ {
+  "id": "panzer-i",
+  "name": "Panzer I light tank",
+  "side": "Nationalist",
+  "cat": "tank",
+  "origin": "Germany (Krupp and others)",
+  "specs": [
+   [
+    "Armament",
+    "2 × 7.92 mm MG 13 machine guns"
+   ],
+   [
+    "Armour",
+    "up to 13 mm"
+   ],
+   [
+    "Weight",
+    "c. 5.4 t"
+   ],
+   [
+    "Crew",
+    "2"
+   ],
+   [
+    "Speed",
+    "c. 37–40 km/h"
+   ]
+  ],
+  "t": "Germany sent Panzer I tanks with the Condor Legion's tank training group ('Gruppe Drohne', commanded by Wilhelm von Thoma) from autumn 1936, handing most to Nationalist units. Armed only with machine guns, it was quickly shown to be no match for the T-26, which it could not penetrate. The Nationalists tried fitting some with an Italian 20 mm Breda cannon, and prized captured T-26s instead. The lessons the Germans learned in Spain, about radios, gun calibre and armour, fed directly into their tank designs of 1939–40.",
+  "good": "Fast, mechanically reliable, good for training and for supporting infantry against soft targets.",
+  "bad": "Machine guns only; thin armour; outgunned by the T-26 and BT-5.",
+  "changes": "Oct 1936: first arrivals, in action near Madrid. 1937: some fitted with 20 mm Breda gun ('Panzer I Breda'); Nationalists rely more on captured T-26s. 1938–39: used in Aragon, the Ebro and Catalonia in combined units.",
+  "story": "Von Thoma reportedly offered a bounty of 500 pesetas for each Republican T-26 captured intact. Source: https://en.wikipedia.org/wiki/Panzer_I (Spanish Civil War section).",
+  "img": {
+   "file": "File:Bundesarchiv Bild 183-E20569-21, Spanien, Ausbildung durch \"Legion Condor\".jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Bundesarchiv_Bild_183-E20569-21,_Spanien,_Ausbildung_durch_%22Legion_Condor%22.jpg",
+   "licence": "CC BY-SA 3.0 DE (Bundesarchiv Bild 183 series)",
+   "author": "Unknown author / Bundesarchiv",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-E20569-21,_Spanien,_Ausbildung_durch_%22Legion_Condor%22.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download. Believed to show Condor Legion training of Spanish tank crews on Panzer I - confirm content. Fallback: File:SdKfz101.jpg."
+  }
+ },
+ {
+  "id": "cv-33",
+  "name": "CV-33 / CV-35 (L3) tankette",
+  "side": "Nationalist",
+  "cat": "tank",
+  "origin": "Italy (Fiat-Ansaldo)",
+  "specs": [
+   [
+    "Armament",
+    "1–2 machine guns (6.5 mm or 8 mm); flamethrower version L3 lf"
+   ],
+   [
+    "Armour",
+    "up to 12–14 mm"
+   ],
+   [
+    "Weight",
+    "c. 3.2 t"
+   ],
+   [
+    "Crew",
+    "2"
+   ],
+   [
+    "Speed",
+    "c. 42 km/h"
+   ]
+  ],
+  "t": "The small two-man tankette was the main armoured vehicle of Mussolini's Corpo Truppe Volontarie (CTV). Italy sent it to Spain from August 1936 and it fought at Madrid, Málaga, Guadalajara, Santander and in Aragon and Catalonia. Fast and cheap, it had machine guns only and armour that rifles firing armour-piercing bullets could pierce. At Guadalajara in March 1937, Italian columns stuck on muddy roads were hit by Republican T-26s and aircraft. A flamethrower version was feared by infantry in trenches. Survivors are shown at the El Goloso museum.",
+  "good": "Small, fast, cheap; good for reconnaissance and chasing retreating infantry; flamethrower version effective against trenches.",
+  "bad": "No turret, only machine guns; very thin armour; useless against T-26s.",
+  "changes": "Aug–Oct 1936: first arrivals, in action near Madrid (Seseña, 29 Oct 1936). Mar 1937: defeated at Guadalajara. 1937–39: used in the North, Aragon, Levant and Catalonia; handed to the Spanish army after the war.",
+  "story": "At Guadalajara (8–23 March 1937) Italian volunteers of the Garibaldi Battalion of the International Brigades fought against Mussolini's CTV; Republican loudspeakers called on Italians to desert. Source: https://en.wikipedia.org/wiki/Battle_of_Guadalajara.",
+  "img": {
+   "file": "File:Spanish CV33 at El Goloso.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Spanish_CV33_at_El_Goloso.jpg",
+   "licence": "Probably CC BY-SA (user photo, Museo de Medios Acorazados, El Goloso) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Spanish_CV33_at_El_Goloso.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "i-16",
+  "name": "Polikarpov I-16 'Mosca' (and I-15 'Chato')",
+  "side": "Republic",
+  "cat": "aircraft",
+  "origin": "USSR (Polikarpov design bureau; I-15s also built in Spain under licence)",
+  "specs": [
+   [
+    "Type",
+    "Single-seat monoplane fighter (I-15: biplane)"
+   ],
+   [
+    "Engine",
+    "Shvetsov M-25, c. 700 hp (I-16 type 5/6)"
+   ],
+   [
+    "Top speed",
+    "c. 440–450 km/h"
+   ],
+   [
+    "Armament",
+    "2 × 7.62 mm ShKAS machine guns (later types more)"
+   ],
+   [
+    "First combat in Spain",
+    "Nov 1936, over Madrid"
+   ]
+  ],
+  "t": "The I-16 was one of the first monoplane fighters in service with retractable landing gear. Soviet pilots flew it over Madrid from November 1936, and it gave the Republic air superiority over Madrid that winter. Republicans called it 'Mosca' (fly); Nationalists called it 'Rata' (rat). The I-15 biplane was called 'Chato' (snub-nose) and was later built in Spain. From 1937 the German Bf 109 became a dangerous rival, and by 1938 Soviet deliveries could not keep up with losses. Surviving I-16s flew with the Spanish air force until the 1950s.",
+  "good": "Fast, agile in roll, strongly armed for 1936; gave the Republic control of the air over Madrid in winter 1936–37.",
+  "bad": "Tricky to fly; outclassed by the Bf 109 from 1937–38; not enough aircraft or trained pilots.",
+  "changes": "Nov 1936: first combat over Madrid. 1937: Jarama, Guadalajara, Brunete; Spanish pilots trained in the USSR take over. 1938: heavy losses on the Ebro against Bf 109s. 1939: survivors captured and used by the Francoist air force.",
+  "story": "Spanish pilots gave both Soviet fighters nicknames that stuck: the snub-nosed I-15 'Chato' and the stubby I-16 'Mosca', while the other side called the I-16 'Rata'. Source: https://en.wikipedia.org/wiki/Polikarpov_I-16.",
+  "img": {
+   "file": "File:Polikarpov I-16 with spanish republican markings.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Polikarpov_I-16_with_spanish_republican_markings.jpg",
+   "licence": "Probably PD (period photo) - verify",
+   "author": "Unknown - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Polikarpov_I-16_with_spanish_republican_markings.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download. Alt I-15: File:Polikarpov I-15 (4321424501).jpg (Flickr import, licence to verify)."
+  }
+ },
+ {
+  "id": "ju-52",
+  "name": "Junkers Ju 52/3m",
+  "side": "Nationalist",
+  "cat": "aircraft",
+  "origin": "Germany (Junkers, Dessau)",
+  "specs": [
+   [
+    "Type",
+    "Three-engine transport / auxiliary bomber"
+   ],
+   [
+    "Engines",
+    "3 × BMW 132, c. 725 hp each"
+   ],
+   [
+    "Top speed",
+    "c. 250–270 km/h"
+   ],
+   [
+    "Bomb load",
+    "up to c. 1,500 kg"
+   ],
+   [
+    "Crew",
+    "3–4"
+   ]
+  ],
+  "t": "The Ju 52 changed the war in its first weeks. From late July 1936 German Ju 52s, with Italian SM.81s, carried Franco's Army of Africa from Morocco across the Strait of Gibraltar to Seville and Jerez, the first large military airlift in history, while the Republican navy controlled the sea. Later, as the bomber of the Condor Legion's K/88, it bombed Madrid, the northern front and, on 26 April 1937, Gernika. Slow and vulnerable to fighters, it was replaced as a bomber by the He 111 during 1937 but served as a transport to the end.",
+  "good": "Rugged, simple, could use rough airfields; carried men and heavy loads.",
+  "bad": "Slow and poorly armed; easy prey for I-15 and I-16 fighters; inaccurate as a bomber.",
+  "changes": "Jul–Oct 1936: airlift of the Army of Africa across the Strait. Nov 1936: night bombing of Madrid. Apr 1937: bombing of Durango and Gernika. Late 1937: replaced by He 111 as front-line bomber; continues as transport.",
+  "story": "Between late July and October 1936 Ju 52s and other aircraft flew around 14,000 soldiers and their equipment from Tetouan to Seville (numbers vary by source). Source: https://en.wikipedia.org/wiki/Junkers_Ju_52 ; https://en.wikipedia.org/wiki/Army_of_Africa_(Spain).",
+  "img": {
+   "file": "File:Bundesarchiv Bild 183-C0214-0007-013, Spanien, Flugzeug der Legion Condor.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Bundesarchiv_Bild_183-C0214-0007-013,_Spanien,_Flugzeug_der_Legion_Condor.jpg",
+   "licence": "CC BY-SA 3.0 DE (Bundesarchiv Bild 183 series)",
+   "author": "Unknown author / Bundesarchiv",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-C0214-0007-013,_Spanien,_Flugzeug_der_Legion_Condor.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download. Aircraft type in picture not seen - confirm it is a Ju 52. Fallback: File:Bundesarchiv Bild 146-1989-014-30, Flugzeug Junkers Ju 52.jpg."
+  }
+ },
+ {
+  "id": "he-111",
+  "name": "Heinkel He 111 B",
+  "side": "Nationalist",
+  "cat": "aircraft",
+  "origin": "Germany (Heinkel, Rostock)",
+  "specs": [
+   [
+    "Type",
+    "Twin-engine medium bomber"
+   ],
+   [
+    "Engines",
+    "2 × Daimler-Benz DB 600, c. 900–1,000 hp"
+   ],
+   [
+    "Top speed",
+    "c. 370 km/h"
+   ],
+   [
+    "Bomb load",
+    "c. 1,500 kg"
+   ],
+   [
+    "Crew",
+    "4"
+   ]
+  ],
+  "t": "The He 111 arrived in Spain in early 1937 with the Condor Legion's experimental bomber unit (VB/88) and from mid-1937 replaced the Ju 52 as the main German bomber in Spain. It was faster than many Republican fighters and was used against towns, ports, roads and front lines in the North, Aragon, the Levant and on the Ebro. Its early success in Spain, where it could often outrun fighters, made the Luftwaffe over-confident in unescorted bombers, a mistake that cost them in the Battle of Britain in 1940.",
+  "good": "Fast for its day; good bomb load; could often escape I-15 fighters.",
+  "bad": "Weak defensive armament; vulnerable once faced with faster fighters.",
+  "changes": "Mar 1937: first He 111s with VB/88. Apr 1937: involved in the bombing of Gernika together with Ju 52s and Italian aircraft (the exact mix is still discussed). 1938: main Condor Legion bomber over Aragon, the Levant and the Ebro. 1939: survivors pass to the Spanish air force.",
+  "story": "Spain later built the He 111 under licence as the CASA 2.111, which flew until the 1970s. Source: https://en.wikipedia.org/wiki/CASA_2.111.",
+  "img": {
+   "file": "File:Condor Legion Heinkel He-111B during the Spanish Civil War.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Condor_Legion_Heinkel_He-111B_during_the_Spanish_Civil_War.jpg",
+   "licence": "Probably PD (period photo) - verify",
+   "author": "Unknown - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Condor_Legion_Heinkel_He-111B_during_the_Spanish_Civil_War.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "sm-79",
+  "name": "Savoia-Marchetti SM.79 Sparviero",
+  "side": "Nationalist",
+  "cat": "aircraft",
+  "origin": "Italy (Savoia-Marchetti, Sesto Calende)",
+  "specs": [
+   [
+    "Type",
+    "Three-engine medium bomber"
+   ],
+   [
+    "Engines",
+    "3 × Alfa Romeo 126, c. 750–780 hp"
+   ],
+   [
+    "Top speed",
+    "c. 430 km/h"
+   ],
+   [
+    "Bomb load",
+    "c. 1,250 kg"
+   ],
+   [
+    "Crew",
+    "4–5"
+   ]
+  ],
+  "t": "Italy's fast three-engine bomber arrived in Spain in 1937 with the Aviazione Legionaria. Units based in Mallorca bombed Barcelona, Valencia, Alicante and other cities of the Mediterranean coast, often without any warning, while others supported ground offensives in Aragon and on the Ebro. Its speed made it hard to catch for Republican fighters. The raids on Barcelona of 16–18 March 1938 by Italian bombers from Mallorca, including SM.79s, were among the worst attacks on a European city before the Second World War and caused international protests.",
+  "good": "Fast, long range, good bomb load; hard for Republican fighters to catch.",
+  "bad": "Wooden and fabric structure; vulnerable to fighter attack once intercepted; limited accuracy.",
+  "changes": "1937: arrives in Spain; bombing of coastal cities from Mallorca. 16–18 Mar 1938: Barcelona raids. 1938: supports the Aragon and Levant offensives and the Ebro battle. 1939: survivors handed to the Spanish air force.",
+  "story": "The March 1938 raids on Barcelona killed around 1,000 people; figures vary between sources (roughly 900 to 1,300). Source: https://en.wikipedia.org/wiki/Bombing_of_Barcelona.",
+  "img": {
+   "file": "File:Savoia-Marchetti S.M.79 Sparviero (1936) (3717660827).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Savoia-Marchetti_S.M.79_Sparviero_(1936)_(3717660827).jpg",
+   "licence": "Probably 'No known copyright restrictions' (San Diego Air and Space Museum Flickr) - verify",
+   "author": "San Diego Air and Space Museum Archives (probable) - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Savoia-Marchetti_S.M.79_Sparviero_(1936)_(3717660827).jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "flak-18",
+  "name": "8.8 cm Flak 18 ('88')",
+  "side": "Nationalist",
+  "cat": "artillery",
+  "origin": "Germany (Krupp)",
+  "specs": [
+   [
+    "Calibre",
+    "88 mm, L/56"
+   ],
+   [
+    "Muzzle velocity",
+    "c. 820 m/s"
+   ],
+   [
+    "Effective ceiling",
+    "c. 8,000 m"
+   ],
+   [
+    "Rate of fire",
+    "c. 15–20 rounds/min"
+   ],
+   [
+    "Weight",
+    "c. 5 t in firing position"
+   ]
+  ],
+  "t": "The later-famous German '88' had its first combat in Spain with the Condor Legion's anti-aircraft battalion (F/88). Designed to shoot down aircraft, it proved just as effective against ground targets: its fast, flat-firing shell could destroy bunkers, machine-gun nests and tanks at long range. In Spain the Germans tested it in this direct-fire role, for example against Republican fortifications in the North and Aragon, and learned lessons they used in 1940 and in North Africa. Several Spanish museums show examples; the Spanish army built its own copies after the war.",
+  "good": "Powerful, accurate and fast-firing; worked against aircraft, bunkers and tanks.",
+  "bad": "Heavy and conspicuous; needed trained crews and a tractor; expensive.",
+  "changes": "Late 1936: arrives with the Condor Legion as anti-aircraft gun. 1937: used against ground targets in the North (Bilbao Iron Belt, Asturias). 1938: used in direct fire in Aragon, the Levant and on the Ebro. After 1939: some pass to the Spanish army.",
+  "story": "German reports from Spain recommended giving the 88 armour-piercing ammunition and a direct-fire role against tanks, which became standard in 1940. Source: https://en.wikipedia.org/wiki/8.8_cm_Flak_18/36/37/41 (Spanish Civil War section).",
+  "img": {
+   "file": "File:8.8 cm Flak 18-36-37 3.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/8.8_cm_Flak_18-36-37_3.jpg",
+   "licence": "Probably CC BY-SA (user museum photo) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:8.8_cm_Flak_18-36-37_3.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ }
+]

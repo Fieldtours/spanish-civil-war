@@ -1,0 +1,353 @@
+/* ===== The Spanish Civil War 1936–1939 · DZ Charlie field guide ===== */
+(function(){
+"use strict";
+const D=window.SCW, S=D.stops, byId={};S.forEach(s=>byId[s.id]=s);
+const REG={};D.regions.forEach(r=>REG[r.id]=r);
+const PH={};D.phases.forEach(p=>PH[p.id]=p);
+const $=(s,r)=>(r||document).querySelector(s), $$=(s,r)=>[...(r||document).querySelectorAll(s)];
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const LS={get(k,d){try{const v=localStorage.getItem("scw-"+k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem("scw-"+k,JSON.stringify(v))}catch(e){}}};
+const rad=d=>d*Math.PI/180;
+function km(a,b,c,d){const h=Math.sin(rad(c-a)/2)**2+Math.cos(rad(a))*Math.cos(rad(c))*Math.sin(rad(d-b)/2)**2;return 12742*Math.asin(Math.sqrt(h))}
+const fmtKm=k=>k<1?Math.round(k*1000/10)*10+" m":(k<10?k.toFixed(1):Math.round(k))+" km";
+const fmtMin=m=>{m=Math.round(m);const h=Math.floor(m/60),r=m%60;return h?(h+" h"+(r?" "+String(r).padStart(2,"0")+" min":"")):r+" min"};
+const drive=k=>{const road=k*1.35;return road/(k>80?90:60)*60};
+const gmaps=(la,lo)=>`https://www.google.com/maps/dir/?api=1&destination=${la},${lo}`;
+const CERTTXT={HIGH:"exact spot known",MEDIUM:"right area — exact spot uncertain",LOW:"general area only"};
+const pillS=c=>`<span class="pill-c c-${c}" title="${CERTTXT[c]}">${c}</span>`;
+const pill=c=>`<button type="button" class="pill-c c-${c}" data-cert="${c}" aria-label="${c}: ${CERTTXT[c]}. Tap for an explanation">${c}</button>`;
+const MEMCATS=["Cemetery","Memorial","Repression & memory site"];
+const isMem=s=>MEMCATS.includes(s.k);
+const IC={
+ tour:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="2.2"/><circle cx="18" cy="5" r="2.2"/><path d="M8 19h7.5a3.5 3.5 0 0 0 0-7h-7a3.5 3.5 0 0 1 0-7H16"/></svg>',
+ time:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="5" cy="5" r="1.6"/><circle cx="5" cy="12" r="1.6"/><circle cx="5" cy="19" r="1.6"/><path d="M5 6.6v3.8M5 13.6v3.8M10 5h10M10 12h10M10 19h10"/></svg>',
+ map:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/></svg>',
+ home:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>',
+ more:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>',
+ search:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>',
+ near:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="7.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>',
+ weap:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 20L17 5M20 20L7 5M15 3l4 1-1 4M9 3L5 4l1 4"/></svg>',
+ back:'<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>',
+ book:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/></svg>',
+ flag:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 21V4M5 4h12l-2 4 2 4H5"/></svg>',
+ people:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14c3 0 5 2 5 5"/></svg>',
+ star:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>',
+ doc:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M9 11h7M9 15h7M9 7h4"/></svg>',
+ bm:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 18l6-7 4 4 6-8"/><path d="M16 7h4v4"/></svg>',
+ pin:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>',
+ dl:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></svg>',
+ cloud:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18a4.5 4.5 0 0 1-.5-9A6 6 0 0 1 18 9.5a4 4 0 0 1-.5 8.5z"/><path d="M12 11v6M9.5 14.5L12 17l2.5-2.5"/></svg>',
+ go:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15l13-7.5z"/></svg>',
+ museum:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 9l9-5 9 5M5 9v9M19 9v9M9.5 9v9M14.5 9v9M3 20h18"/></svg>',
+ all:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 12h8"/></svg>',
+ mem:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M9 21V8l3-4 3 4v13M6 21h12"/></svg>',
+ ib:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l3 6 6 .5-4.6 4 1.4 6.5L12 17l-5.8 3 1.4-6.5L3 9.5 9 9z"/></svg>',
+ ess:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg>',
+ reg:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 6l5-2 6 3 5-2v13l-5 2-6-3-5 2z"/></svg>',
+ circle:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8" stroke-dasharray="3 3"/><circle cx="12" cy="12" r="2.5" fill="currentColor"/></svg>',
+ screen:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" stroke-dasharray="4 3"/><path d="M9 12h6M12 9v6"/></svg>'
+};
+/* ---------------- numbering ---------------- */
+S.forEach((s,i)=>s.no=i+1);
+/* ---------------- toast ---------------- */
+function toast(t){const e=document.createElement("div");e.className="toast";e.setAttribute("role","status");e.textContent=t;document.body.appendChild(e);setTimeout(()=>e.remove(),2600)}
+/* ---------------- location ---------------- */
+let ME=null;
+function locate(){return new Promise((res,rej)=>{if(!navigator.geolocation)return rej(new Error("no"));navigator.geolocation.getCurrentPosition(p=>{ME=[p.coords.latitude,p.coords.longitude];res(ME)},e=>rej(e),{enableHighAccuracy:true,timeout:12000,maximumAge:60000})})}
+/* ---------------- visited ---------------- */
+let VIS=new Set(LS.get("visited",[]));
+function toggleVisited(id){VIS.has(id)?VIS.delete(id):VIS.add(id);LS.set("visited",[...VIS]);refreshCounts()}
+/* ================= NAVIGATION ================= */
+const PAGES={
+ home:{t:"The Spanish Civil War",tab:"home",main:1},tour:{t:"Tour planner",tab:"tour",main:1},time:{t:"Timeline",tab:"time",main:1},map:{t:"Map",tab:"map",main:1},more:{t:"More",tab:"more",main:1},
+ sites:{t:"Sites by area",tab:"more"},big:{t:"The big picture",tab:"more"},brief:{t:"Briefing",tab:"more"},orig:{t:"How it began",tab:"more"},people:{t:"People",tab:"more"},
+ bm:{t:"Battle maps",tab:"more"},weap:{t:"Weapons & arms",tab:"more"},gloss:{t:"Words to know",tab:"more"},links:{t:"Find out more",tab:"more"},cred:{t:"Credits & sources",tab:"more"}
+};
+let CUR="home";const rendered={};
+function show(id,push){if(!PAGES[id])id="home";const P=PAGES[id];
+  $$("section.pgw").forEach(s=>s.hidden=s.id!=="p-"+id);
+  $("#tt-b").textContent=P.t;$("#back").hidden=!!P.main;
+  $$(".bot button").forEach(b=>b.getAttribute("data-go")===P.tab?b.setAttribute("aria-current","page"):b.removeAttribute("aria-current"));
+  if(!rendered[id]&&RENDER[id]){RENDER[id]();rendered[id]=1}
+  if(ONSHOW[id])ONSHOW[id]();
+  CUR=id;window.scrollTo(0,0);
+  if(push!==false){try{history.pushState({p:id},"","#"+id)}catch(e){}}
+  const h=$("#p-"+id+" h2");if(h&&push!==false){h.setAttribute("tabindex","-1");h.focus({preventScroll:true})}
+}
+addEventListener("popstate",e=>{if(closeTop())return;show((e.state&&e.state.p)||(location.hash.slice(1)||"home"),false)});
+document.addEventListener("click",e=>{const g=e.target.closest("[data-go]");if(g){e.preventDefault();show(g.getAttribute("data-go"))}
+  const st=e.target.closest("[data-stop]");if(st&&!e.target.closest("a")){e.preventDefault();openStop(st.getAttribute("data-stop"))}
+  const c=e.target.closest("[data-cert]");if(c){e.preventDefault();e.stopPropagation();certSheet(c.getAttribute("data-cert"))}});
+$("#back").addEventListener("click",()=>{if(history.length>1)history.back();else show("home")});
+/* overlays stack (sheets) */
+const STACK=[];
+function pushLayer(el,onClose){STACK.push({el,onClose,focus:document.activeElement});document.body.appendChild(el);document.body.style.overflow="hidden";try{history.pushState({layer:1,p:CUR},"","#"+CUR)}catch(e){}}
+function closeTop(){const L=STACK.pop();if(!L)return false;L.el.remove();L.onClose&&L.onClose();if(!STACK.length)document.body.style.overflow="";if(L.focus&&L.focus.focus)L.focus.focus();return true}
+function closeLayer(){if(STACK.length){history.back()}}
+addEventListener("keydown",e=>{if(e.key==="Escape"&&STACK.length){e.preventDefault();closeLayer()}});
+function sheet(html,label){const o=document.createElement("div");o.className="sheet";o.setAttribute("role","dialog");o.setAttribute("aria-modal","true");o.setAttribute("aria-label",label||"Details");
+  o.innerHTML=`<div class="in"><div class="grab"></div>${html}</div>`;o.addEventListener("click",e=>{if(e.target===o||e.target.closest("[data-close]"))closeLayer()});pushLayer(o);const f=o.querySelector("[data-close]");f&&f.focus();return o}
+function certSheet(c){sheet(`<div class="sh"><div class="x"><div class="k">How sure are we of the spot?</div><h2>${c} rating</h2></div><button type="button" class="cl" data-close>Close</button></div>
+ ${["HIGH","MEDIUM","LOW"].map(x=>`<p style="display:flex;gap:10px;align-items:flex-start"><span class="pill-c c-${x}" style="flex:0 0 auto">${x}</span><span>${{HIGH:"We know the spot: a museum, memorial, surviving trench, ruin or well-documented building. The pin is where you stand.",MEDIUM:"Close by: the right hill, street or field, but the exact spot is uncertain or the pin marks a viewpoint. Look around within a few hundred metres.",LOW:"General area only: the pin is on the town or valley. Use it to get there, then follow local signs or ask."}[x]}</span></p>`).join("")}
+ <p class="small">Every position in this guide was placed from a named source (listed on each stop). Where sources disagree about what happened, the stop says so in a dashed box.</p>`,"Accuracy rating")}
+/* ================= STOP SHEET ================= */
+function battleFor(id){return D.battles.find(b=>b.stop===id||(b.stops||[]).includes(id))}
+function openStop(id){const s=byId[id];if(!s)return;const r=REG[s.r];
+  const dist=ME?`<span class="chip" style="color:#1a5fc4">${fmtKm(km(ME[0],ME[1],s.la,s.lo))} from you</span>`:"";
+  const inPlan=PLAN.res&&PLAN.res.ids.includes(id);
+  const bt=battleFor(id);
+  const o=sheet(`<div class="sh"><div class="x"><div class="k">No. ${s.no} · ${esc(r.short)} · ${esc(s.k)}</div><h2>${esc(s.n)}</h2></div><button type="button" class="cl" data-close>Close</button></div>
+   <div class="meta">${pill(s.c)}<span class="chip">${esc(s.d)}</span><span class="chip">${esc(PH[s.ph]?PH[s.ph].name:"")}</span><span class="chip">≈ ${fmtMin(s.m)} visit</span>${s.p===1?'<span class="chip" style="color:var(--red)">★ Must see</span>':""}${dist}</div>
+   ${bt?`<button type="button" class="bmbtn" data-battle="${bt.id}">${BMICON}<span><b>Battle map: ${esc(bt.name)}</b><span>See how the fight unfolded, step by step</span></span></button>`:""}
+   ${s.img?`<figure style="margin:6px 0 12px"><img src="${esc(s.img)}" alt="" style="width:100%;border-radius:12px"><figcaption class="small">${esc(s.imgc)}</figcaption></figure>`:""}
+   ${s.t.split(/\n+/).map(p=>`<p>${esc(p)}</p>`).join("")}
+   <div class="look"><b>What you can see today</b>${esc(s.lk)}</div>
+   <div class="plan"><b>Plan your visit</b>${esc(s.pl)}</div>
+   ${s.pv?`<div class="privnote">⚠︎ <span>Private land: view it from the road or public path only.</span></div>`:""}
+   ${s.ds?`<div class="disp"><b>Where sources disagree:</b> ${esc(s.ds)}</div>`:""}
+   <div class="acts">
+     <a class="btn d full" href="${gmaps(s.la,s.lo)}" target="_blank" rel="noopener">${IC.go} Directions in Google Maps</a>
+     <button type="button" class="btn l" data-a="map">${IC.map} Show on map</button>
+     <button type="button" class="btn l" data-a="vis" aria-pressed="${VIS.has(id)}">${VIS.has(id)?"✓ Visited":"Mark visited"}</button>
+     ${PLAN.res?`<button type="button" class="btn l full" data-a="plan">${inPlan?"Remove from my tour":"+ Add to my tour"}</button>`:""}
+   </div>
+   <p class="small typ">${esc(s.tw)} · ${s.la.toFixed(4)}, ${s.lo.toFixed(4)}</p>
+   <p class="src">Sources: ${(s.src||[]).map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">[${i+1}] ${esc(u.replace(/^https?:\/\/(www\.)?/,"").slice(0,48))}</a>`).join(" ")}</p>`,s.n);
+  o.querySelector('[data-a=map]').onclick=()=>{closeLayer();setTimeout(()=>{show("map");MAPPAGE.focusStop(id)},50)};
+  const v=o.querySelector('[data-a=vis]');v.onclick=()=>{toggleVisited(id);v.textContent=VIS.has(id)?"✓ Visited":"Mark visited";v.setAttribute("aria-pressed",VIS.has(id))};
+  const pb=o.querySelector('[data-a=plan]');if(pb)pb.onclick=()=>{closeLayer();planToggle(id)};
+}
+/* ================= RENDERERS ================= */
+const RENDER={},ONSHOW={};
+function stopRow(s,extra){return `<button type="button" class="stop${VIS.has(s.id)?" vis":""}${isMem(s)?" mem":""}" data-stop="${s.id}"><span class="no">${s.no}</span><span class="x"><b>${esc(s.n)}</b><span class="m">${pillS(s.c)}<span>${esc(s.tw)}</span><span>${esc(s.k)}</span>${s.p===1?'<span class="pri1">★ Must see</span>':""}${extra||""}</span></span></button>`}
+function stopMarkers(list,num){return list.map((s,i)=>({id:s.id,la:s.la,lo:s.lo,label:num?num(s,i):s.no,pri:s.p,cert:s.c,fill:VIS.has(s.id)?"#3d2b1f":(isMem(s)?"#eeeeea":"#fffdf7"),tc:VIS.has(s.id)?"#fff":(isMem(s)?"#444":"#3d2b1f"),ring:isMem(s)?"#666":"#3d2b1f",shape:(s.k==="Museum"||s.k==="Interpretation centre")?"sq":"c"}))}
+function mkMap(box,opt){return new GeoMap(box,Object.assign({clusterUntil:170,onTap:m=>openStop(m.id)},opt||{}))}
+function fullMap(title,setup){const o=document.createElement("div");o.className="mapfull";o.setAttribute("role","dialog");o.setAttribute("aria-modal","true");o.setAttribute("aria-label",title);
+  o.innerHTML=`<div class="fbar"><b>${esc(title)}</b><button type="button" data-close>Close</button></div><div class="mapbox"></div>`;o.querySelector("[data-close]").onclick=closeLayer;pushLayer(o);const m=mkMap(o.querySelector(".mapbox"),{controls:true});setup(m);return m}
+/* ---------- HOME ---------- */
+RENDER.home=function(){
+  const nMus=S.filter(s=>s.k==="Museum"||s.k==="Interpretation centre"||s.k==="Air-raid shelter").length;
+  $("#home-stats").innerHTML=`<div><b>${S.length}</b><span>sites to visit</span></div><div><b>${D.regions.length}</b><span>areas of Spain</span></div><div><b>${nMus}</b><span>museums &amp; shelters</span></div><div><b id="vis-n">${VIS.size}</b><span>visited</span></div>`;
+  const m=mkMap($("#home-map"),{capH:22,expand:()=>fullMap("All sites",mm=>{mm.setMarkers(stopMarkers(S));mm.fitSpain()})});
+  m.setMarkers(stopMarkers(S));m.fitSpain();window.addEventListener("resize",()=>m.fitSpain());
+};
+function refreshCounts(){const v=$("#vis-n");if(v)v.textContent=VIS.size}
+/* ---------- MORE ---------- */
+/* static in HTML */
+/* ---------- SITES BY AREA ---------- */
+let SITEREG="all";
+RENDER.sites=function(){const seg=$("#sites-seg");seg.innerHTML=`<button type="button" aria-pressed="true" data-r="all">All areas</button>`+D.regions.map(r=>`<button type="button" aria-pressed="false" data-r="${r.id}">${esc(r.short)}</button>`).join("");
+  seg.onclick=e=>{const b=e.target.closest("button");if(!b)return;SITEREG=b.dataset.r;$$("button",seg).forEach(x=>x.setAttribute("aria-pressed",x===b));drawSites()};drawSites()};
+function drawSites(){const out=[];(SITEREG==="all"?D.regions:[REG[SITEREG]]).forEach(r=>{const l=S.filter(s=>s.r===r.id).sort((a,b)=>a.p-b.p||a.no-b.no);
+  out.push(`<h3>${esc(r.name)}</h3>${r.img?`<figure style="margin:0 0 10px"><img src="${esc(r.img)}" alt="" loading="lazy" style="width:100%;max-height:230px;object-fit:cover;border-radius:14px"><figcaption class="small">${esc(r.cap)}</figcaption></figure>`:""}<p class="lede">${esc(r.blurb)} <b>${l.length} sites.</b></p>`+l.map(s=>stopRow(s)).join(""))});$("#sites-list").innerHTML=out.join("")}
+/* ---------- MAP PAGE ---------- */
+const MAPPAGE={m:null,reg:"all",kind:"all",
+ kinds:{all:["All"],fight:["Battlefields & trenches",["Battlefield","Trenches & fortifications","Ruined village"]],mus:["Museums & shelters",["Museum","Interpretation centre","Air-raid shelter"]],mem:["Memorials & cemeteries",["Cemetery","Memorial","Repression & memory site"]],city:["Places in towns",["City site"]]},
+ list(){return S.filter(s=>(this.reg==="all"||s.r===this.reg)&&(this.kind==="all"||this.kinds[this.kind][1].includes(s.k)))},
+ draw(){const l=this.list();this.m.setMarkers(stopMarkers(l));this.m.hl=this.reg==="all"?null:this.reg;this.inview()},
+ inview(){const b=this.m.bounds();const l=this.list().filter(s=>s.la>=b.s&&s.la<=b.n&&s.lo>=b.w&&s.lo<=b.e).sort((a,b)=>a.p-b.p||a.no-b.no);
+   $("#map-count").textContent=`${l.length} site${l.length===1?"":"s"} in this view`;$("#map-list").innerHTML=l.slice(0,40).map(s=>stopRow(s)).join("")+(l.length>40?`<p class="small">Zoom in to see the other ${l.length-40}.</p>`:"")},
+ focusStop(id){const s=byId[id];this.reg="all";this.kind="all";$$("#map-reg button,#map-kind button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v==="all"));this.draw();this.m.focus=id;this.m.center(s.la,s.lo,Math.max(this.m.k,900));this.inview()}};
+RENDER.map=function(){const M=MAPPAGE;
+  $("#map-reg").innerHTML=`<button type="button" data-v="all" aria-pressed="true">All Spain</button>`+D.regions.map(r=>`<button type="button" data-v="${r.id}" aria-pressed="false">${esc(r.short)}</button>`).join("");
+  $("#map-kind").innerHTML=Object.entries(M.kinds).map(([k,v])=>`<button type="button" data-v="${k}" aria-pressed="${k==="all"}">${v[0]}</button>`).join("");
+  M.m=mkMap($("#map-box"),{onMove:()=>M.inview(),home:()=>{M.reg==="all"?M.m.fitSpain():M.m.fit(M.list().map(s=>[s.la,s.lo]),50)}});
+  $("#map-reg").onclick=e=>{const b=e.target.closest("button");if(!b)return;M.reg=b.dataset.v;$$("#map-reg button").forEach(x=>x.setAttribute("aria-pressed",x===b));M.draw();M.reg==="all"?M.m.fitSpain():M.m.fit(M.list().map(s=>[s.la,s.lo]),50)};
+  $("#map-kind").onclick=e=>{const b=e.target.closest("button");if(!b)return;M.kind=b.dataset.v;$$("#map-kind button").forEach(x=>x.setAttribute("aria-pressed",x===b));M.draw()};
+  M.m.fitSpain();M.draw()};
+ONSHOW.map=()=>{if(MAPPAGE.m){MAPPAGE.m.resize();MAPPAGE.m.setMarkers(stopMarkers(MAPPAGE.list()))}};
+/* ---------- TIMELINE ---------- */
+let TPH="all",TMAP=null;
+RENDER.time=function(){const seg=$("#time-seg");seg.innerHTML=`<button type="button" data-v="all" aria-pressed="true">All ${D.time.length}</button>`+D.phases.map(p=>`<button type="button" data-v="${p.id}" aria-pressed="false">${esc(p.name)}</button>`).join("");
+  TMAP=mkMap($("#time-map"),{cluster:false,r:12,capH:0,onTap:m=>{const el=$("#ev-"+m.id);if(el){el.scrollIntoView({behavior:"smooth",block:"center"});el.style.outline="3px solid var(--red)";setTimeout(()=>el.style.outline="",1600)}},home:()=>fitT()});
+  seg.onclick=e=>{const b=e.target.closest("button");if(!b)return;TPH=b.dataset.v;$$("button",seg).forEach(x=>x.setAttribute("aria-pressed",x===b));drawTime()};drawTime()};
+function fitT(){const l=tlist();TMAP.fit(l.map(t=>[t.lat,t.lon]),30)}
+function tlist(){return D.time.map((t,i)=>Object.assign({i},t)).filter(t=>TPH==="all"||t.phase===TPH)}
+function drawTime(){const l=tlist();
+  TMAP.setMarkers(l.map(t=>({id:t.i,la:t.lat,lo:t.lon,label:t.i+1,cert:t.certainty,pri:1,fill:"#fffdf7"})));TMAP.ov.line=TPH==="all"?null:l.map(t=>[t.lat,t.lon]);fitT();
+  let ph=null;$("#time-list").innerHTML=l.map(t=>{let h="";if(t.phase!==ph){ph=t.phase;const P=PH[ph];h=`<div class="ph"><b>${esc(P.name)}</b><span>${esc(P.when)}</span></div>`}
+   return h+`<div class="ev" id="ev-${t.i}"><button type="button" class="no" aria-label="Show number ${t.i+1} on the map" data-tpos="${t.i}">${t.i+1}</button><div><div class="dt">${esc(t.date)}</div><b>${esc(t.title)}</b><p>${esc(t.t)}</p><div class="pl">${pill(t.certainty)}<span>${esc(t.place)}</span></div></div></div>`}).join("");
+  $$("[data-tpos]").forEach(b=>b.onclick=()=>{const t=D.time[+b.dataset.tpos];TMAP.focus=+b.dataset.tpos;TMAP.center(t.lat,t.lon,Math.max(TMAP.k,300));$("#time-map").scrollIntoView({behavior:"smooth",block:"center"})})}
+ONSHOW.time=()=>{if(TMAP){TMAP.resize()}};
+/* ---------- BIG PICTURE ---------- */
+RENDER.big=function(){$("#big-f").innerHTML=D.factors.map((f,i)=>`<div class="sec"><h4>${i+1}. ${esc(f.h)}</h4><p>${esc(f.t)}</p></div>`).join("");
+  $("#big-c").innerHTML=`<div class="clock">`+D.clock.map(r=>r.length===1?`<div class="hdr">${esc(r[0])}</div>`:`<div class="row"><div class="t">${esc(r[0])}</div><div><p>${esc(r[1])}</p><small>${pill(r[3]||"MEDIUM")}<span>${esc(r[2])}</span></small></div></div>`).join("")+`</div>`};
+RENDER.brief=function(){$("#brief-t").innerHTML=D.brief.map(f=>`<div class="sec"><h4>${esc(f.h)}</h4><p>${esc(f.t)}</p></div>`).join("")};
+RENDER.orig=function(){$("#orig-t").innerHTML=D.orig.map(f=>`<div class="sec"><h4>${esc(f.h)}</h4><p>${esc(f.t)}</p></div>`).join("")};
+let PSIDE="all";
+RENDER.people=function(){const seg=$("#people-seg");const sides=[["all","Everyone"],["Republic","Republic"],["Nationalist","Nationalist"],["F","From abroad"]];
+  seg.innerHTML=sides.map(([k,v])=>`<button type="button" data-v="${k}" aria-pressed="${k==="all"}">${v}</button>`).join("");
+  seg.onclick=e=>{const b=e.target.closest("button");if(!b)return;PSIDE=b.dataset.v;$$("button",seg).forEach(x=>x.setAttribute("aria-pressed",x===b));drawPeople()};drawPeople()};
+function drawPeople(){$("#people-l").innerHTML=D.people.filter(p=>PSIDE==="all"||(PSIDE==="F"?/Foreign/.test(p.side):p.side===PSIDE)).map(p=>`<div class="man"><span class="side side-${/Foreign/.test(p.side)?"F":p.side}">${esc(p.side)}</span><b>${esc(p.name)}</b><div class="rl">${esc(p.role)} · ${esc(p.dates)}</div><p>${esc(p.t)}</p></div>`).join("")}
+RENDER.gloss=function(){$("#gloss-l").innerHTML=`<dl class="gl">`+D.gloss.map(g=>`<dt>${esc(g[0])}</dt><dd>${esc(g[1])}</dd>`).join("")+`</dl>`};
+RENDER.links=function(){$("#links-l").innerHTML=D.regions.map(r=>{const l=D.links.filter(x=>x.region===r.id);if(!l.length)return"";return `<h3>${esc(r.name)}</h3><div class="sec">`+l.map(x=>`<p style="margin:0 0 8px"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></p>`).join("")+`</div>`}).join("")};
+RENDER.cred=function(){$("#cred-l").innerHTML=`<div class="sec"><h4>Pictures</h4>`+D.credits.map(c=>`<p style="margin:0 0 8px;font-size:14px">${esc(c)}</p>`).join("")+`</div>`};
+/* ---------- BATTLE MAPS LIST ---------- */
+const BMICON='<svg viewBox="0 0 34 34" aria-hidden="true"><path d="M5 26 L15 14" stroke="#b03a2e" stroke-width="3.5" stroke-linecap="round"/><path d="M13 11 L18 12 L16 17 z" fill="#b03a2e"/><path d="M29 26 L19 14" stroke="#2d4d73" stroke-width="3.5" stroke-linecap="round"/><path d="M21 11 L16 12 L18 17 z" fill="#2d4d73"/></svg>';
+RENDER.bm=function(){$("#bm-l").innerHTML=D.battles.map(b=>`<button type="button" class="bmbtn" data-battle="${b.id}">${BMICON}<span><b>${esc(b.name)}</b><span>${esc(b.when)} · ${esc(b.place)}</span></span></button>`).join("")};
+/* ---------- WEAPONS ---------- */
+RENDER.weap=function(){$("#weap-l").innerHTML=D.weapons.map(w=>`<article class="wp" id="w-${w.id}">
+  ${w.img?`<div class="im" role="button" tabindex="0" data-view="${esc(w.img)}" data-cap="${esc(w.cap)}"><img src="${esc(w.img)}" alt="${esc(w.name)}" loading="lazy"><span class="zo">Tap to enlarge</span></div>`:""}
+  <div class="bd"><h4>${esc(w.name)}</h4><div class="wh"><span class="chip">${esc(w.side==="Both"?"Used by both sides":w.side)}</span><span class="chip">${esc(w.origin)}</span></div>
+  <p>${esc(w.t)}</p><table>${w.specs.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join("")}</table>
+  <div class="gb"><div class="g"><b>Good at</b>${esc(w.good)}</div><div class="b"><b>Weak at</b>${esc(w.bad)}</div></div>
+  <p><b>How it changed:</b> ${esc(w.changes)}</p><div class="story">${esc(w.story)}</div>${w.cap?`<p class="cred">Picture: ${esc(w.cap)}</p>`:""}${(w.src||[]).length?`<p class="cred">Read more: ${w.src.map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\//,"").replace(/^en\.wikipedia\.org\/wiki\//,"Wikipedia: ").replace(/_/g," ").slice(0,60))}</a>`).join(" · ")}</p>`:""}</div></article>`).join("");
+  $("#weap-l").addEventListener("click",e=>{const v=e.target.closest("[data-view]");if(v)viewer(v.dataset.view,v.dataset.cap)});
+  $("#weap-l").addEventListener("keydown",e=>{const v=e.target.closest("[data-view]");if(v&&(e.key==="Enter"||e.key===" ")){e.preventDefault();viewer(v.dataset.view,v.dataset.cap)}})};
+function viewer(src,cap){const o=document.createElement("div");o.className="viewer";o.setAttribute("role","dialog");o.setAttribute("aria-modal","true");o.setAttribute("aria-label","Picture");
+  o.innerHTML=`<button type="button" data-close>Close</button><img src="${esc(src)}" alt=""><p>${esc(cap||"")}</p>`;o.onclick=e=>{if(e.target===o||e.target.closest("[data-close]"))closeLayer()};pushLayer(o);o.querySelector("button").focus()}
+/* ================= SEARCH ================= */
+function openSearch(){const o=document.createElement("div");o.className="search";o.setAttribute("role","dialog");o.setAttribute("aria-modal","true");o.setAttribute("aria-label","Search");
+  o.innerHTML=`<div class="sb"><input type="search" placeholder="Place, battle, person…" aria-label="Search the guide"><button type="button" data-close>Close</button></div><div class="res" aria-live="polite"><p class="small">Try: Belchite, Gernika, Orwell, shelter, Ebro, International Brigades.</p></div>`;
+  o.querySelector("[data-close]").onclick=closeLayer;pushLayer(o);const inp=o.querySelector("input"),res=o.querySelector(".res");inp.focus();
+  const norm=t=>String(t||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+  inp.addEventListener("input",()=>{const q=norm(inp.value.trim());if(q.length<2){res.innerHTML="";return}
+    const st=S.filter(s=>norm(s.n+" "+s.tw).includes(q)).concat(S.filter(s=>!norm(s.n+" "+s.tw).includes(q)&&norm(s.t+" "+s.lk).includes(q))).slice(0,30);
+    const pp=D.people.filter(p=>norm(p.name+" "+p.role).includes(q)).slice(0,6);
+    const tt=D.time.map((t,i)=>Object.assign({i},t)).filter(t=>norm(t.title+" "+t.place+" "+t.t).includes(q)).slice(0,6);
+    const gg=D.gloss.filter(g=>norm(g[0]+" "+g[1]).includes(q)).slice(0,5);
+    res.innerHTML=(st.length?`<h3 style="margin-top:4px">Sites</h3>`+st.map(s=>stopRow(s)).join(""):"")+(pp.length?`<h3>People</h3>`+pp.map(p=>`<div class="man"><b>${esc(p.name)}</b><div class="rl">${esc(p.role)}</div></div>`).join(""):"")+
+      (tt.length?`<h3>Timeline</h3>`+tt.map(t=>`<div class="ev"><div><div class="dt">${esc(t.date)}</div><b>${esc(t.title)}</b><p>${esc(t.place)}</p></div></div>`).join(""):"")+
+      (gg.length?`<h3>Words</h3><dl class="gl">`+gg.map(g=>`<dt>${esc(g[0])}</dt><dd>${esc(g[1])}</dd>`).join("")+`</dl>`:"")||`<p>No matches for “${esc(inp.value)}”.</p>`});
+  inp.addEventListener("keydown",e=>{if(e.key==="Escape"){e.preventDefault();closeLayer()}})}
+/* ================= WHERE AM I ================= */
+function whereAmI(){const o=sheet(`<div class="sh"><div class="x"><div class="k">Where am I?</div><h2>Nearest sites</h2></div><button type="button" class="cl" data-close>Close</button></div><p id="wai">Finding your position… (it stays on your phone and is never sent anywhere)</p>`,"Nearest sites");
+  locate().then(p=>{const l=S.map(s=>({s,d:km(p[0],p[1],s.la,s.lo)})).sort((a,b)=>a.d-b.d).slice(0,6);const box=o.querySelector("#wai");if(!box)return;
+    box.outerHTML=(l[0].d>150?`<p class="privnote">You are ${fmtKm(l[0].d)} from the nearest site. These are the closest:</p>`:"")+l.map(x=>stopRow(x.s,`<span class="d">${fmtKm(x.d)}</span>`)).join("")+`<button type="button" class="btn l" style="width:100%" id="wai-map">${IC.map} Show me on the map</button>`;
+    const b=o.querySelector("#wai-map");b&&(b.onclick=()=>{closeLayer();setTimeout(()=>{show("map");MAPPAGE.m.ov.me=p;MAPPAGE.m.center(p[0],p[1],Math.max(MAPPAGE.m.k,500));MAPPAGE.inview()},50)})
+  }).catch(()=>{const box=o.querySelector("#wai");if(box)box.innerHTML="Your position isn't available. Check that location is switched on for your browser, or use the Map to find sites."})}
+/* ================= TOUR PLANNER ================= */
+const TIMES=[["2h","2 hours",1,120],["half","Half a day",1,240],["1d","1 day",1,0],["2d","2 days",2,0],["3d","3 days",3,0],["5d","4–5 days",5,0],["7d","1 week",7,0],["14d","2 weeks",14,0]];
+const FOCUS=[["ess","The essentials","The must-see and very worthwhile sites first; others only if there is time.",IC.ess,s=>s.p<=3],["all","Everything","Every site, most important first.",IC.all,()=>true],["ib","International Brigades","Where the volunteers from abroad fought, and their memorials.",IC.ib,s=>/International Brigad|Lincoln|XV Brigade|XI Brigade|XII Brigade|British Battalion|Mac-Paps|Garibaldi|Thälmann|Dombrowski/i.test(s.t+" "+s.n)],["mus","Museums & shelters","Indoor visits: museums, interpretation centres and air-raid shelters.",IC.museum,s=>["Museum","Interpretation centre","Air-raid shelter"].includes(s.k)],["mem","Cemeteries & memorials","Places of remembrance, graves and memorials of both sides.",IC.mem,s=>MEMCATS.includes(s.k)]];
+let PLAN=Object.assign({step:1,mode:"regions",regions:[],place:null,radius:50,box:null,time:"1d",start:"first",startPlace:null,hours:7,focus:"ess",forced:[],dropped:[],res:null},LS.get("plan",{}));
+PLAN.step=PLAN.res?4:1;
+function savePlan(){const p=Object.assign({},PLAN);LS.set("plan",p)}
+function towns(){const m=new Map();S.forEach(s=>{const t=(s.tw||"").split(/[\/(]/)[0].trim();if(t&&!m.has(t))m.set(t,[s.la,s.lo])});D.geo.places.forEach(p=>{if(!m.has(p[0])&&p[3]>30000)m.set(p[0],[p[1],p[2]])});return [...m.entries()].sort((a,b)=>a[0].localeCompare(b[0],"es"))}
+function areaStops(){return S.filter(s=>{if(PLAN.mode==="regions")return PLAN.regions.includes(s.r);if(PLAN.mode==="around"&&PLAN.place)return km(PLAN.place[0],PLAN.place[1],s.la,s.lo)<=PLAN.radius;if(PLAN.mode==="screen"&&PLAN.box){const b=PLAN.box;return s.la>=b.s&&s.la<=b.n&&s.lo>=b.w&&s.lo<=b.e}return false})}
+let PMAP=null;
+RENDER.tour=function(){drawPlanner()};
+ONSHOW.tour=()=>{if(PMAP)PMAP.resize()};
+function stepsBar(n){return `<div class="steps" aria-label="Step ${n} of 3">${[1,2,3].map(i=>`<span class="${i<=n?"on":""}"></span>`).join("")}</div>`}
+function drawPlanner(){const box=$("#tour-body");PMAP=null;
+  if(PLAN.step===4&&PLAN.res)return drawResult(box);
+  if(PLAN.step===1){
+    box.innerHTML=stepsBar(1)+`<p class="eb">Step 1 of 3</p><h2 class="pt">Where do you want to tour?</h2>
+    <div class="opts" role="group" aria-label="How to choose your area">
+     <button type="button" class="opt" data-m="regions" aria-pressed="${PLAN.mode==="regions"}"><span class="ic">${IC.reg}</span><span><b>Pick an area of Spain</b><span>Tap one or more areas on the map or in the list.</span></span></button>
+     <button type="button" class="opt" data-m="around" aria-pressed="${PLAN.mode==="around"}"><span class="ic">${IC.circle}</span><span><b>Around a place</b><span>Around you, or around a town, within a distance you choose.</span></span></button>
+     <button type="button" class="opt" data-m="screen" aria-pressed="${PLAN.mode==="screen"}"><span class="ic">${IC.screen}</span><span><b>What's on my screen</b><span>Move the map to the part you want, then tap "Tour this area".</span></span></button>
+    </div><div id="p-area"></div><div class="count" id="p-count"></div>
+    <div class="navrow"><button type="button" class="btn r" id="p-next">Next: how much time? ›</button></div>`;
+    $$(".opt",box).forEach(b=>b.onclick=()=>{PLAN.mode=b.dataset.m;$$(".opt",box).forEach(x=>x.setAttribute("aria-pressed",x===b));areaUI()});
+    $("#p-next").onclick=()=>{if(areaStops().length<1)return;PLAN.step=2;savePlan();drawPlanner();window.scrollTo(0,0)};
+    areaUI();return}
+  if(PLAN.step===2){const tw=towns();
+    box.innerHTML=stepsBar(2)+`<p class="eb">Step 2 of 3</p><h2 class="pt">How much time do you have?</h2>
+    <div class="grid2" role="group" aria-label="Time available">${TIMES.map(t=>`<button type="button" data-t="${t[0]}" aria-pressed="${PLAN.time===t[0]}">${t[1]}</button>`).join("")}</div>
+    <div class="field"><label for="p-start">Where do you start?</label><select id="p-start"><option value="first">At the first site on the route</option><option value="me">Where I am now (uses your location)</option><optgroup label="A town">${tw.map(t=>`<option value="t:${esc(t[0])}">${esc(t[0])}</option>`).join("")}</optgroup></select></div>
+    <div class="field" id="p-hwrap"><label for="p-hours">Hours of visiting and driving each day: <span id="p-hv">${PLAN.hours}</span></label><input type="range" id="p-hours" min="4" max="10" step="1" value="${PLAN.hours}"><div class="rangelab"><span>4 h</span><span>7 h</span><span>10 h</span></div></div>
+    <div class="navrow"><button type="button" class="btn l" id="p-back">‹ Back</button><button type="button" class="btn r" id="p-next">Next ›</button></div>`;
+    const st=$("#p-start");st.value=PLAN.start==="town"&&PLAN.startPlace?"t:"+PLAN.startPlace[2]:PLAN.start;if(!st.value)st.value="first";
+    const hw=()=>{$("#p-hwrap").hidden=["2h","half"].includes(PLAN.time)};hw();
+    $$(".grid2 button",box).forEach(b=>b.onclick=()=>{PLAN.time=b.dataset.t;$$(".grid2 button",box).forEach(x=>x.setAttribute("aria-pressed",x===b));hw()});
+    $("#p-hours").oninput=e=>{PLAN.hours=+e.target.value;$("#p-hv").textContent=PLAN.hours};
+    $("#p-back").onclick=()=>{PLAN.step=1;drawPlanner()};
+    $("#p-next").onclick=()=>{const v=st.value;if(v.startsWith("t:")){const n=v.slice(2);const t=tw.find(x=>x[0]===n);PLAN.start="town";PLAN.startPlace=[t[1][0],t[1][1],n]}else PLAN.start=v;
+      if(PLAN.start==="me"){locate().then(p=>{PLAN.startPlace=[p[0],p[1],"your position"];PLAN.step=3;savePlan();drawPlanner()}).catch(()=>{toast("Your position isn't available — starting at the first site instead.");PLAN.start="first";PLAN.step=3;savePlan();drawPlanner()})}
+      else{PLAN.step=3;savePlan();drawPlanner()}window.scrollTo(0,0)};return}
+  if(PLAN.step===3){box.innerHTML=stepsBar(3)+`<p class="eb">Step 3 of 3 · optional</p><h2 class="pt">What matters most?</h2>
+    <div class="opts" role="group" aria-label="Focus">${FOCUS.map(f=>`<button type="button" class="opt" data-f="${f[0]}" aria-pressed="${PLAN.focus===f[0]}"><span class="ic">${f[3]}</span><span><b>${f[1]}</b><span>${f[2]}</span></span></button>`).join("")}</div>
+    <div class="navrow"><button type="button" class="btn l" id="p-back">‹ Back</button><button type="button" class="btn r" id="p-go">${IC.go} Build my tour</button></div>`;
+    $$(".opt",box).forEach(b=>b.onclick=()=>{PLAN.focus=b.dataset.f;$$(".opt",box).forEach(x=>x.setAttribute("aria-pressed",x===b))});
+    $("#p-back").onclick=()=>{PLAN.step=2;drawPlanner()};
+    $("#p-go").onclick=()=>{PLAN.forced=[];PLAN.dropped=[];build();PLAN.step=4;savePlan();drawPlanner();window.scrollTo(0,0)};return}
+}
+function areaUI(){const a=$("#p-area");const cnt=()=>{const n=areaStops().length;const c=$("#p-count");c.className="count"+(n<3?" warn":"");c.innerHTML=n<3?`<span>${n} site${n===1?"":"s"} in your area — widen it for a fuller tour</span><b>${n}</b>`:`<span>Sites in your area</span><b>${n}</b>`;$("#p-next").disabled=n<1;if(PMAP){PMAP.sel=PLAN.mode==="regions"?new Set(PLAN.regions):null;PMAP.ov.circle=PLAN.mode==="around"&&PLAN.place?{la:PLAN.place[0],lo:PLAN.place[1],km:PLAN.radius}:null;PMAP.setMarkers(stopMarkers(areaStops().length&&PLAN.mode!=="screen"?areaStops():S))}};
+  if(PLAN.mode==="regions"){a.innerHTML=`<div class="mapbox" style="height:340px" id="p-map"></div><p class="small">Tap the map to choose an area (tap again to remove it), or use the buttons.</p><div class="rgrid" role="group" aria-label="Areas">${D.regions.map(r=>`<button type="button" data-r="${r.id}" aria-pressed="${PLAN.regions.includes(r.id)}">${esc(r.name)}<small>${S.filter(s=>s.r===r.id).length} sites</small></button>`).join("")}</div>`;
+    const tog=id=>{const i=PLAN.regions.indexOf(id);i<0?PLAN.regions.push(id):PLAN.regions.splice(i,1);$$(".rgrid button",a).forEach(b=>b.setAttribute("aria-pressed",PLAN.regions.includes(b.dataset.r)));cnt()};
+    PMAP=mkMap($("#p-map"),{onMapTap:ll=>{const id=PMAP.regionAt(ll[0],ll[1]);if(id)tog(id)},onTap:m=>{tog(byId[m.id].r)}});PMAP.fitSpain();
+    $$(".rgrid button",a).forEach(b=>b.onclick=()=>tog(b.dataset.r))}
+  else if(PLAN.mode==="around"){const tw=towns();const RS=[10,25,50,100,200];
+    a.innerHTML=`<div class="grid2" style="margin-top:6px"><button type="button" id="p-me">${IC.near} Around me</button><select id="p-town" aria-label="Or choose a town" style="min-height:54px;border-radius:14px;border:2px solid var(--line2);font-size:16px;padding:6px 8px;background:var(--surface)"><option value="">…or choose a town</option>${tw.map(t=>`<option>${esc(t[0])}</option>`).join("")}</select></div>
+    <div class="field"><label for="p-rad">Distance: <span id="p-rv">${PLAN.radius} km</span></label><input type="range" id="p-rad" min="0" max="4" step="1" value="${Math.max(0,RS.indexOf(PLAN.radius))}"><div class="rangelab">${RS.map(r=>`<span>${r}</span>`).join("")}</div></div>
+    <div class="mapbox" style="height:320px" id="p-map"></div><p class="small" id="p-where">${PLAN.place?"Centre: "+esc(PLAN.place[2]):"Choose a centre: your position or a town. You can also tap the map."}</p>`;
+    PMAP=mkMap($("#p-map"),{onMapTap:ll=>{PLAN.place=[ll[0],ll[1],"the point you tapped"];upd()}});
+    const upd=()=>{$("#p-where").textContent=PLAN.place?"Centre: "+PLAN.place[2]:"";cnt();if(PLAN.place){const d=PLAN.radius/111;PMAP.fit([[PLAN.place[0]-d,PLAN.place[1]-d*1.3],[PLAN.place[0]+d,PLAN.place[1]+d*1.3]],20)}};
+    $("#p-me").onclick=()=>{$("#p-where").textContent="Finding your position…";locate().then(p=>{PLAN.place=[p[0],p[1],"your position"];PMAP.ov.me=p;upd()}).catch(()=>{$("#p-where").textContent="Your position isn't available — choose a town instead."})};
+    $("#p-town").onchange=e=>{const t=tw.find(x=>x[0]===e.target.value);if(t){PLAN.place=[t[1][0],t[1][1],t[0]];upd()}};
+    $("#p-rad").oninput=e=>{PLAN.radius=RS[+e.target.value];$("#p-rv").textContent=PLAN.radius+" km";upd()};
+    PLAN.place?upd():PMAP.fitSpain()}
+  else{a.innerHTML=`<div class="mapbox" style="height:380px" id="p-map"></div><button type="button" class="btn d" style="width:100%;margin-top:10px" id="p-use">${IC.screen} Tour this area</button><p class="small">Pinch or use + and − to zoom to the part of Spain you want, then tap the button.</p>`;
+    PMAP=mkMap($("#p-map"),{});if(PLAN.box){PMAP.fit([[PLAN.box.s,PLAN.box.w],[PLAN.box.n,PLAN.box.e]],0)}else PMAP.fitSpain();
+    $("#p-use").onclick=()=>{PLAN.box=PMAP.bounds();cnt();$("#p-count").scrollIntoView({behavior:"smooth",block:"center"})}}
+  cnt()}
+/* ---- the route builder ---- */
+function budget(){const t=TIMES.find(x=>x[0]===PLAN.time);return{days:t[2],perDay:t[3]||PLAN.hours*60}}
+function order(pts,start,iters){iters=iters==null?40:iters; // nearest neighbour + 2-opt, open path from start
+  if(!pts.length)return[];const rem=pts.slice();const out=[];let cur=start||null;
+  if(!cur){rem.sort((a,b)=>a.p-b.p);const f=rem.shift();out.push(f);cur=[f.la,f.lo]}
+  while(rem.length){let bi=0,bd=1e9;rem.forEach((s,i)=>{const d=km(cur[0],cur[1],s.la,s.lo);if(d<bd){bd=d;bi=i}});const s=rem.splice(bi,1)[0];out.push(s);cur=[s.la,s.lo]}
+  const P=start?[{la:start[0],lo:start[1],st:1}].concat(out):out;const dd=(a,b)=>km(a.la,a.lo,b.la,b.lo);
+  let imp=true,guard=0;while(imp&&guard++<iters){imp=false;for(let i=1;i<P.length-2;i++)for(let j=i+1;j<P.length-1;j++){const a=P[i-1],b=P[i],c=P[j],d=P[j+1];if(dd(a,c)+dd(b,d)<dd(a,b)+dd(c,d)-0.01){P.splice(i,j-i+1,...P.slice(i,j+1).reverse());imp=true}}}
+  return start?P.slice(1):P}
+function split(route,start,B){const days=[];let cur=start,day=[],used=0;
+  for(const s of route){const leg=cur?drive(km(cur[0],cur[1],s.la,s.lo)):0;const need=leg+s.m;
+    if(day.length&&used+need>B.perDay){days.push({stops:day,used});day=[];used=0;const leg2=0;/* next day starts at overnight town near last stop */ const need2=leg+s.m;day.push({s,leg,legKm:cur?km(cur[0],cur[1],s.la,s.lo):0});used=need2;cur=[s.la,s.lo];continue}
+    day.push({s,leg,legKm:cur?km(cur[0],cur[1],s.la,s.lo):0});used+=need;cur=[s.la,s.lo]}
+  if(day.length)days.push({stops:day,used});return days}
+function fits(days,B){return days.length<=B.days&&days.every(d=>d.used<=B.perDay+5||d.stops.length===1)}
+function build(){const B=budget();const f=FOCUS.find(x=>x[0]===PLAN.focus);
+  const area=areaStops().filter(s=>!PLAN.dropped.includes(s.id));
+  let cand=area.filter(s=>f[4](s)||PLAN.forced.includes(s.id));if(PLAN.focus==="ess"&&cand.length<3)cand=area.slice();
+  const start=(PLAN.start==="me"||PLAN.start==="town")&&PLAN.startPlace?[PLAN.startPlace[0],PLAN.startPlace[1]]:null;
+  const ref=start||(()=>{const c=cand.slice().sort((a,b)=>a.p-b.p)[0];return c?[c.la,c.lo]:[40.4,-3.7]})();
+  const span=Math.max(60,B.days*140);const sc=s=>s.p+km(ref[0],ref[1],s.la,s.lo)/span;cand.sort((a,b)=>(PLAN.forced.includes(b.id)-PLAN.forced.includes(a.id))||sc(a)-sc(b));
+  let sel=[];let best=null;
+  const cap=B.days*B.perDay;let vis=0;
+  for(const s of cand){if(vis+s.m>cap)continue;const t=sel.concat([s]);const r=order(t,start,2);const d=split(r,start,B);if(fits(d,B)){sel=t;vis+=s.m;best={r,d}}}
+  if(best){const r=order(sel,start,40);const d=split(r,start,B);if(fits(d,B))best={r,d}}
+  if(!best&&cand.length){const s=cand[0];best={r:[s],d:split([s],start,B)};sel=[s]}
+  const ids=sel.map(s=>s.id);const left=area.filter(s=>!ids.includes(s.id)).sort((a,b)=>a.p-b.p||a.no-b.no);
+  PLAN.res={ids,route:best?best.r.map(s=>s.id):[],days:best?best.d.map(d=>({ids:d.stops.map(x=>x.s.id),legs:d.stops.map(x=>[x.legKm,x.leg]),used:d.used})):[],left:left.map(s=>s.id),start:start?PLAN.startPlace:null,built:Date.now()}}
+function planToggle(id){if(!PLAN.res)return;if(PLAN.res.ids.includes(id)){PLAN.dropped.push(id);PLAN.forced=PLAN.forced.filter(x=>x!==id)}else{PLAN.forced.push(id);PLAN.dropped=PLAN.dropped.filter(x=>x!==id)}build();savePlan();if(CUR==="tour")drawPlanner();else show("tour")}
+function drawResult(box){const R=PLAN.res,B=budget();const t=TIMES.find(x=>x[0]===PLAN.time);
+  const vis=R.days.reduce((a,d)=>a+d.ids.reduce((x,id)=>x+byId[id].m,0),0),drv=R.days.reduce((a,d)=>a+d.legs.reduce((x,l)=>x+l[1],0),0);
+  const areaTxt=PLAN.mode==="regions"?PLAN.regions.map(r=>REG[r].short).join(", "):(PLAN.mode==="around"?`${PLAN.radius} km around ${PLAN.place?PLAN.place[2]:""}`:"the area on your screen");
+  let n=0;
+  box.innerHTML=`<p class="eb">Your tour</p><h2 class="pt">${esc(t[1])} · ${esc(areaTxt)}</h2>
+   <div class="sum"><b>${R.ids.length} stops · ${R.days.length} day${R.days.length>1?"s":""}</b><span>About ${fmtMin(vis+drv)} in all, including ${fmtMin(drv)} of driving. ${R.start?"Starting from "+esc(R.start[2])+".":""}</span></div>
+   <div class="mapbox" style="height:320px" id="r-map"></div>
+   ${R.days.map((d,di)=>{const last=byId[d.ids[d.ids.length-1]];return `<div class="dayh"><b>${R.days.length>1?"Day "+(di+1):"Your route"}</b><span>${fmtMin(d.used)}</span></div>`+d.ids.map((id,i)=>{const s=byId[id];n++;const lg=d.legs[i];
+     return (lg[0]>0.3?`<div class="leg">↓ ${fmtKm(lg[0])} · about ${fmtMin(lg[1])} by car</div>`:"")+`<div class="card" style="padding:12px 14px;margin-bottom:8px"><div style="display:flex;gap:12px;align-items:flex-start"><button type="button" class="no" style="flex:0 0 38px;height:38px;border-radius:50%;border:2px solid var(--earth);background:${VIS.has(id)?"var(--earth)":"var(--paper3)"};color:${VIS.has(id)?"#fff":"var(--earth)"};font-family:var(--disp);font-weight:800;font-size:17px;cursor:pointer" data-stop="${id}" aria-label="Open stop ${n}">${n}</button><div style="flex:1;min-width:0"><b style="display:block;font-size:17px;line-height:1.25;cursor:pointer" data-stop="${id}">${esc(s.n)}</b><div class="small" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:3px">${pill(s.c)}<span>${esc(s.tw)}</span><span>≈ ${fmtMin(s.m)}</span></div><p style="font-size:14.5px;margin:6px 0 0;color:var(--ink2)">${esc(s.lk)}</p>
+     <div class="stopacts"><a class="gm" href="${gmaps(s.la,s.lo)}" target="_blank" rel="noopener">${IC.go} Google Maps</a><button type="button" class="chip" data-stop="${id}" style="min-height:40px;cursor:pointer">Read the story</button><button type="button" class="rm" data-drop="${id}">Remove</button></div></div></div></div>`}).join("")+
+     (di<R.days.length-1?`<div class="night">🌙 <span>Overnight near <b>${esc(last.tw.split(/[\/(]/)[0].trim())}</b></span><a href="https://www.google.com/maps/search/hotels/@${last.la},${last.lo},13z" target="_blank" rel="noopener">Find a place to stay ›</a></div>`:"")}).join("")}
+   ${R.left.length?`<details class="leftout"><summary>Left out because of time: ${R.left.length} site${R.left.length>1?"s":""}</summary>${R.left.map(id=>{const s=byId[id];return `<div class="lo"><div class="x"><b>${esc(s.n)}</b><small>${esc(s.tw)} · ${s.p===1?"must see":"priority "+s.p} · ≈ ${fmtMin(s.m)}</small></div><button type="button" data-add="${id}">+ Add</button></div>`}).join("")}<p class="small">Adding a site may push out a less important one if it no longer fits your time.</p></details>`:""}
+   <div class="navrow"><button type="button" class="btn l" id="r-edit">Change time or focus</button><button type="button" class="btn l" id="r-new">Start over</button></div>`;
+  const m=mkMap($("#r-map"),{cluster:false});const rs=R.route.map(id=>byId[id]);
+  let k=0;m.setMarkers(rs.map(s=>({id:s.id,la:s.la,lo:s.lo,label:++k,pri:1,cert:s.c,fill:VIS.has(s.id)?"#3d2b1f":"#fffdf7",tc:VIS.has(s.id)?"#fff":"#3d2b1f"})));
+  m.ov.line=(R.start?[[R.start[0],R.start[1]]]:[]).concat(rs.map(s=>[s.la,s.lo]));m.ov.dash=[];m.ov.lineColor="rgba(26,115,232,.75)";if(R.start)m.ov.me=[R.start[0],R.start[1]];
+  m.fit(m.ov.line.length?m.ov.line:[[40.4,-3.7]],36);PMAP=m;
+  $$("[data-drop]",box).forEach(b=>b.onclick=()=>planToggle(b.dataset.drop));
+  $$("[data-add]",box).forEach(b=>b.onclick=()=>{planToggle(b.dataset.add);toast("Added — your tour has been rebuilt.")});
+  $("#r-edit").onclick=()=>{PLAN.step=2;drawPlanner()};
+  $("#r-new").onclick=()=>{PLAN.res=null;PLAN.step=1;PLAN.forced=[];PLAN.dropped=[];savePlan();drawPlanner()}}
+/* ================= OFFLINE ================= */
+function offlineSave(btn){if(!("serviceWorker" in navigator)||!/^https?:$/.test(location.protocol)){toast("Saving for offline works once the guide is on the web.");return}
+  const lab=btn.querySelector("b");lab.textContent="Saving…";
+  navigator.serviceWorker.ready.then(reg=>{const ch=new MessageChannel();ch.port1.onmessage=e=>{if(e.data&&e.data.done){lab.textContent="Saved on this phone ✓";LS.set("offline",Date.now())}else if(e.data&&e.data.n)lab.textContent=`Saving… ${e.data.n}/${e.data.of}`};reg.active.postMessage({save:true},[ch.port2])}).catch(()=>{lab.textContent="Couldn't save — try again on Wi-Fi"})}
+/* ================= WELCOME ================= */
+function welcome(){let seen=false;try{seen=localStorage.getItem("scw-welcomed")==="1"}catch(e){}
+  const w=$("#welcome");if(seen){w.remove();return}w.hidden=false;document.body.style.overflow="hidden";const go=$("#wel-go");go.focus();
+  go.onclick=()=>{try{localStorage.setItem("scw-welcomed","1")}catch(e){}w.classList.add("bye");document.body.style.overflow="";setTimeout(()=>w.remove(),450)}}
+/* ================= INIT ================= */
+function init(){
+  $("#b-search").onclick=openSearch;$("#b-near").onclick=whereAmI;$("#b-weap").onclick=()=>show("weap");
+  $$("[data-act=near]").forEach(b=>b.onclick=whereAmI);
+  $$("[data-act=offline]").forEach(b=>b.onclick=()=>offlineSave(b));if(LS.get("offline",0))$$("[data-act=offline] b").forEach(b=>b.textContent="Saved on this phone ✓");
+  welcome();
+  const h=location.hash.slice(1);show(PAGES[h]?h:"home",false);try{history.replaceState({p:CUR},"","#"+CUR)}catch(e){}
+  if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol))navigator.serviceWorker.register("sw.js").catch(()=>{});
+}
+window.SCWAPP={show,openStop,byId};
+init();
+})();

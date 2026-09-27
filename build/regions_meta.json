@@ -1,0 +1,10 @@
+[
+ {"id":"madrid","name":"Madrid & the Centre","short":"Madrid","blurb":"The capital that held for 29 months: the University City front, the Jarama, Brunete and Guadalajara battlefields, the Alcázar of Toledo and the bunker lines of the Sierra."},
+ {"id":"aragon","name":"Aragon","short":"Aragon","blurb":"The long Aragon front: Orwell's trenches in the Sierra de Alcubierre, the ruins of Belchite, and frozen Teruel, taken and lost in the winter of 1937–38."},
+ {"id":"catalonia","name":"Catalonia & the Ebro","short":"Catalonia","blurb":"The Battle of the Ebro, the war's longest and bloodiest, with its trenches and the ruined Poble Vell of Corbera; bombed Barcelona and the road into exile in 1939."},
+ {"id":"north","name":"The North","short":"North","blurb":"Basque Country, Cantabria and Asturias: Gernika and Durango, Bilbao's Iron Belt, and the mountain fighting of 1937."},
+ {"id":"south","name":"Andalusia","short":"South","blurb":"Where the Army of Africa crossed in 1936: Seville, the Córdoba front, Lorca's Granada, the Málaga–Almería road and Almería's shelters."},
+ {"id":"levant","name":"Valencia, Murcia & the Balearics","short":"Levant","blurb":"The Republic's last territory: Valencia as capital, the XYZ Line, Alicante's port in March 1939, Cartagena's fleet base and the landing on Mallorca."},
+ {"id":"west","name":"Extremadura","short":"West","blurb":"The Army of Africa's march north in August 1936: Mérida and Badajoz, and the La Serena pocket of 1938."},
+ {"id":"castile","name":"Castile, León, Galicia, Navarre & La Rioja","short":"Castile","blurb":"The Nationalist rear: Franco's headquarters at Burgos and Salamanca, Mola's Pamplona, the prison camps and places of memory."}
+]

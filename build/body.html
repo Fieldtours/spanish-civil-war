@@ -1,0 +1,122 @@
+<div class="wel" id="welcome" role="dialog" aria-modal="true" aria-labelledby="wel-h" hidden>
+ <div class="in">
+  <div class="doc"><span>Parte de guerra</span><span>1936–1939</span></div>
+  <h1 id="wel-h">The Spanish<br>Civil War<span>1936–1939</span></h1>
+  <p>Walk the fronts, the ruined villages and the places of memory of the war that divided Spain — told fairly, from both sides.</p>
+  <button type="button" class="btn w" id="wel-go">Enter</button>
+ </div>
+ <span class="credit" id="wel-credit"></span>
+</div>
+<div class="app">
+<header class="top">
+ <button type="button" class="back" id="back" aria-label="Back" hidden>__BACK__</button>
+ <div class="tt"><small>DZ Charlie</small><b id="tt-b">The Spanish Civil War</b></div>
+ <button type="button" class="ib" id="b-weap" aria-label="Weapons and arms">__WEAP__<span>Weapons</span></button>
+ <button type="button" class="ib" id="b-search" aria-label="Search">__SEARCH__<span>Search</span></button>
+ <button type="button" class="ib" id="b-near" aria-label="Nearest sites to me">__NEAR__<span>Near me</span></button>
+</header>
+<main>
+<!-- HOME -->
+<section class="pgw" id="p-home">
+ <div class="cover" id="cover">
+  <div class="in">
+   <div class="doc"><span>Parte de guerra · field guide</span><span>1936–1939</span></div>
+   <h1>The Spanish<br>Civil War<span>1936–1939</span></h1>
+   <p class="sub">The fronts, the ruined villages, the shelters and the places of memory — across the whole of Spain.</p>
+   <span class="stampx">Free · works with no signal</span>
+   <div class="qa">
+    <button type="button" class="btn w big" data-go="tour">__TOUR__ Plan my tour</button>
+    <button type="button" class="btn o" data-act="near">__NEAR__ Where am I?</button>
+    <button type="button" class="btn o" data-go="brief">__BOOK__ Read the briefing</button>
+   </div>
+  </div>
+  <span class="credit" id="cover-credit"></span>
+ </div>
+ <div class="pg">
+  <div class="mapbox" style="height:360px"><div id="home-map" style="position:absolute;inset:0 0 22px 0"></div><span class="mtitle">All sites · tap a number</span><div class="mcap">Map: Natural Earth · numbers = sites, squares = museums · grey = places of remembrance</div></div>
+  <button type="button" class="offline" data-act="offline">__CLOUD__<span><b>Going where there's no signal?</b><span>Save this guide on your phone so it works offline. Do it on Wi-Fi before you travel.</span></span></button>
+  <div class="stats" id="home-stats"></div>
+  <h3>Orders — where to go from here</h3>
+  <button type="button" class="tile" data-go="tour"><span class="n">01</span><span class="x"><b>Tour planner</b><span>Choose your area and how much time you have; the guide builds the route, day by day, with Google Maps directions.</span></span></button>
+  <button type="button" class="tile" data-go="map"><span class="n">02</span><span class="x"><b>Map of every site</b><span>All the sites on one map of Spain. Filter by area or by kind of place.</span></span></button>
+  <button type="button" class="tile" data-go="sites"><span class="n">03</span><span class="x"><b>Sites by area</b><span>The eight areas of Spain and what there is to see in each, most important first.</span></span></button>
+  <button type="button" class="tile" data-go="time"><span class="n">04</span><span class="x"><b>Timeline</b><span>The war from the coup of July 1936 to the last days of March 1939, in date order, on the map.</span></span></button>
+  <button type="button" class="tile" data-go="bm"><span class="n">05</span><span class="x"><b>Battle maps</b><span>Six battles step by step: Madrid, Jarama, Guadalajara, Belchite, Teruel and the Ebro.</span></span></button>
+  <button type="button" class="tile" data-go="big"><span class="n">06</span><span class="x"><b>The big picture</b><span>Why the war went the way it did, and the coup hour by hour.</span></span></button>
+  <button type="button" class="tile" data-go="people"><span class="n">07</span><span class="x"><b>People</b><span>The leaders, soldiers, volunteers and witnesses of both sides.</span></span></button>
+  <button type="button" class="tile" data-go="weap"><span class="n">08</span><span class="x"><b>Weapons &amp; arms</b><span>The rifles, machine guns, tanks and aircraft of the war, from both sides.</span></span></button>
+  <div class="memo"><div class="hd">Download as PDF</div><p>Everything in this guide as a printable PDF, area by area — to read offline or print for the trip.</p><a class="btn d" style="width:100%" href="pdf/The-Spanish-Civil-War-field-guide.pdf" download>__DL__ The whole guide (PDF)</a></div>
+  <div class="respect"><b>REMEMBER · EXPLORE · RESPECT</b><p>Many trenches and battlefields are on private or protected land: keep to paths and view from the road. Cemeteries and mass-grave sites are places of mourning for families today — please visit quietly.</p></div>
+  <p class="foot">A free DZ Charlie field guide · <a href="https://dzcharlie.com/">More field guides at dzcharlie.com</a></p>
+ </div>
+</section>
+<!-- TOUR -->
+<section class="pgw" id="p-tour" hidden><div class="pg"><div id="tour-body"></div></div></section>
+<!-- TIMELINE -->
+<section class="pgw" id="p-time" hidden><div class="pg">
+ <h2 class="pt">From coup to surrender</h2>
+ <p class="lede">The main events of the war in date order. Numbers on the map follow the list; the dashed line joins them in time order, not the route anyone took.</p>
+ <div class="seg" id="time-seg" role="group" aria-label="Show a phase"></div>
+ <div class="mapbox" style="height:340px" id="time-map"></div>
+ <div id="time-list"></div>
+</div></section>
+<!-- MAP -->
+<section class="pgw" id="p-map" hidden><div class="pg">
+ <h2 class="pt">Every site on the map</h2>
+ <div class="seg" id="map-reg" role="group" aria-label="Area"></div>
+ <div class="seg" id="map-kind" role="group" aria-label="Kind of place"></div>
+ <div class="mapbox" style="height:58vh;min-height:340px" id="map-box"></div>
+ <div class="legend"><span><i style="background:#fffdf7"></i>site</span><span><i style="background:#fffdf7;border-radius:3px"></i>museum</span><span><i style="background:#eeeeea;border-color:#666"></i>place of remembrance</span><span><i style="background:#3d2b1f"></i>visited</span><span><i style="background:#3d2b1f;border-color:#3d2b1f;width:18px;height:18px"></i>group — tap to zoom</span></div>
+ <h3 id="map-count"></h3><div id="map-list"></div>
+</div></section>
+<!-- MORE -->
+<section class="pgw" id="p-more" hidden><div class="pg">
+ <p class="eb">Read</p>
+ <button type="button" class="tile" data-go="sites"><span class="n">__PIN__</span><span class="x"><b>Sites by area</b><span>The eight areas of Spain and their sites.</span></span></button>
+ <button type="button" class="tile" data-go="big"><span class="n">__FLAG__</span><span class="x"><b>The big picture</b><span>Seven things that decided the war, and the coup hour by hour.</span></span></button>
+ <button type="button" class="tile" data-go="bm"><span class="n">__BM__</span><span class="x"><b>Battle maps</b><span>Six battles, step by step.</span></span></button>
+ <button type="button" class="tile" data-go="people"><span class="n">__PEOPLE__</span><span class="x"><b>People</b><span>Leaders, soldiers, volunteers and witnesses of both sides.</span></span></button>
+ <button type="button" class="tile" data-go="weap"><span class="n">__WEAP__</span><span class="x"><b>Weapons &amp; arms</b><span>What both sides fought with, and where it came from.</span></span></button>
+ <button type="button" class="tile" data-go="orig"><span class="n">__STAR__</span><span class="x"><b>How it began</b><span>From the Republic of 1931 to the coup of July 1936.</span></span></button>
+ <button type="button" class="tile" data-go="brief"><span class="n">__BOOK__</span><span class="x"><b>Briefing</b><span>The war in brief, and how to use this guide.</span></span></button>
+ <button type="button" class="tile" data-go="gloss"><span class="n">__DOC__</span><span class="x"><b>Words to know</b><span>CNT, Falange, requetés, sacas, blocao… explained.</span></span></button>
+ <button type="button" class="tile" data-go="links"><span class="n">__MAP__</span><span class="x"><b>Find out more</b><span>Official museums, routes and visitor centres, area by area.</span></span></button>
+ <button type="button" class="tile" data-go="cred"><span class="n">__DOC__</span><span class="x"><b>Credits &amp; sources</b><span>Where the pictures, maps and facts come from.</span></span></button>
+ <p class="eb" style="margin-top:18px">Take it with you</p>
+ <button type="button" class="offline" data-act="offline">__CLOUD__<span><b>Save for offline</b><span>Keeps the whole guide on this phone, maps included.</span></span></button>
+ <div class="memo"><div class="hd">Put it on your home screen</div><p>Open this guide in Safari or Chrome, tap <b>Share</b> (or the ⋮ menu), then <b>Add to Home Screen</b>. It opens like an app.</p></div>
+ <div class="memo"><div class="hd">How sure are we?</div><p>Every site and event carries a rating for how sure we are of the exact spot: ${pill}</p></div>
+ <p class="eb" style="margin-top:18px">The other guides</p>
+ <a class="tile" href="https://dzcharlie.com/"><span class="n">DZ</span><span class="x"><b>DZ Charlie field guides</b><span>Easy Company from Normandy to the Alps, and more guides to come.</span></span></a>
+</div></section>
+<!-- SUB PAGES -->
+<section class="pgw" id="p-sites" hidden><div class="pg"><h2 class="pt">Sites by area</h2><div class="seg" id="sites-seg" role="group" aria-label="Area"></div><div id="sites-list"></div></div></section>
+<section class="pgw" id="p-big" hidden><div class="pg"><h2 class="pt">The big picture</h2><p class="lede">Seven things that decided how the war was fought — and lost and won.</p><div id="big-f"></div><h3>The coup, hour by hour</h3><p class="lede">17–20 July 1936: how a military rising that half-failed became a civil war.</p><div id="big-c"></div></div></section>
+<section class="pgw" id="p-brief" hidden><div class="pg"><h2 class="pt">Briefing</h2><div id="brief-t"></div>
+ <h3>How to use this guide</h3>
+ <div class="sec"><h4>Plan</h4><p>Open <b>Tour</b>, choose the part of Spain you will visit and how much time you have. The guide picks the most important sites that fit, puts them in driving order and splits them into days.</p></div>
+ <div class="sec"><h4>Go</h4><p>Every stop has a <b>Google Maps</b> button for directions. <b>Near me</b> at the top shows the closest sites wherever you are.</p></div>
+ <div class="sec"><h4>Read</h4><p>Each stop tells what happened there, what you can still see and how to plan the visit. Where historians disagree — about numbers killed, or who was responsible — a dashed box says so.</p></div>
+ <div class="sec"><h4>Accuracy</h4><p><button type="button" class="pill-c c-HIGH" data-cert="HIGH">HIGH</button> exact spot known · <button type="button" class="pill-c c-MEDIUM" data-cert="MEDIUM">MEDIUM</button> right area · <button type="button" class="pill-c c-LOW" data-cert="LOW">LOW</button> general area only. Tap any rating for more.</p></div>
+</div></section>
+<section class="pgw" id="p-orig" hidden><div class="pg"><h2 class="pt">How it began</h2><p class="lede">From the birth of the Second Republic in April 1931 to the military rising of July 1936.</p><div id="orig-t"></div></div></section>
+<section class="pgw" id="p-people" hidden><div class="pg"><h2 class="pt">People</h2><p class="lede">Leaders, commanders, volunteers and witnesses — from both sides and from abroad.</p><div class="seg" id="people-seg" role="group" aria-label="Side"></div><div id="people-l"></div></div></section>
+<section class="pgw" id="p-bm" hidden><div class="pg"><h2 class="pt">Battle maps</h2><p class="lede">Six battles drawn as simple step-by-step sketches: who was where, who attacked, and how it ended. Red boxes are Republican units, blue diamonds Nationalist units — the usual colours of historical maps of this war.</p><div id="bm-l"></div></div></section>
+<section class="pgw" id="p-weap" hidden><div class="pg"><h2 class="pt">Weapons &amp; arms</h2><p class="lede">Spain's own arsenals, Soviet aid to the Republic, and German and Italian aid to the Nationalists: the war was also a testing ground for the weapons of the Second World War.</p><div id="weap-l"></div></div></section>
+<section class="pgw" id="p-gloss" hidden><div class="pg"><h2 class="pt">Words to know</h2><div id="gloss-l"></div></div></section>
+<section class="pgw" id="p-links" hidden><div class="pg"><h2 class="pt">Find out more</h2><p class="lede">Official museums, visitor centres and routes. Check opening times before you go: many small centres open only at weekends or by appointment.</p><div id="links-l"></div></div></section>
+<section class="pgw" id="p-cred" hidden><div class="pg"><h2 class="pt">Credits &amp; sources</h2>
+ <div class="sec"><h4>Maps</h4><p>Base map drawn from Natural Earth (public domain). Positions of sites checked against Wikipedia, Wikidata, OpenStreetMap (© OpenStreetMap contributors), TracesOfWar, Mapcarta and official heritage and memory inventories. Each stop lists its own sources.</p></div>
+ <div class="sec"><h4>Words</h4><p>Written for this guide from published histories and official sources. The war is still debated in Spain; where figures or responsibility are disputed, the guide says so and gives the range.</p></div>
+ <div id="cred-l"></div>
+ <div class="sec"><h4>Fonts</h4><p>Big Shoulders Stencil, Special Elite and Courier Prime, all under the SIL Open Font License.</p></div>
+</div></section>
+</main>
+<nav class="bot" aria-label="Main">
+ <button type="button" data-go="home"><span class="pill">__HOME__</span>Home</button>
+ <button type="button" data-go="tour"><span class="pill">__TOUR__</span>Tour</button>
+ <button type="button" data-go="time"><span class="pill">__TIME__</span>Timeline</button>
+ <button type="button" data-go="map"><span class="pill">__MAP__</span>Map</button>
+ <button type="button" data-go="more"><span class="pill">__MORE__</span>More</button>
+</nav>
+</div>

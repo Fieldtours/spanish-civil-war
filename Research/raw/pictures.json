@@ -1,0 +1,338 @@
+[
+ {
+  "id": "pic-01",
+  "kind": "modern photo (wide landscape)",
+  "caption": "General view of the ruined old town of Belchite (Aragon), destroyed in the battle of August–September 1937 and left as a ruin. Modern photograph.",
+  "use": "cover",
+  "img": {
+   "file": "File:Belchite - Vista general01.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Belchite_-_Vista_general01.JPG",
+   "licence": "Probably CC BY-SA 3.0 (modern user photo) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Belchite_-_Vista_general01.JPG",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-02",
+  "kind": "modern photo (wide landscape)",
+  "caption": "Toledo and the Alcázar seen from the Mirador del Valle. The Alcázar, held by Nationalist defenders, was besieged from July to 27 September 1936 and rebuilt after the war. Modern photograph.",
+  "use": "cover",
+  "img": {
+   "file": "File:Alcazar Toledo Mirador Valle.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Alcazar_Toledo_Mirador_Valle.jpg",
+   "licence": "Probably CC BY-SA (modern user photo) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Alcazar_Toledo_Mirador_Valle.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-03",
+  "kind": "photo",
+  "caption": "Bombs exploding over Barcelona in 1938, photographed from an Italian bomber of the Aviazione Legionaria.",
+  "use": "region:catalonia",
+  "img": {
+   "file": "File:Barcelona bombing (1938).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Barcelona_bombing_(1938).jpg",
+   "licence": "Public domain (Italian air force photo; PD-Italy) - verify",
+   "author": "Aviazione Legionaria (Italian air force), unknown photographer",
+   "page": "https://commons.wikimedia.org/wiki/File:Barcelona_bombing_(1938).jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-04",
+  "kind": "photo",
+  "caption": "Ruins of Gernika (Guernica) after the bombing of 26 April 1937 by the Condor Legion and the Italian Aviazione Legionaria.",
+  "use": "region:north",
+  "img": {
+   "file": "File:Bundesarchiv Bild 183-H25224, Guernica, Ruinen.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Bundesarchiv_Bild_183-H25224,_Guernica,_Ruinen.jpg",
+   "licence": "CC BY-SA 3.0 DE (Bundesarchiv)",
+   "author": "Unknown author / Bundesarchiv",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-H25224,_Guernica,_Ruinen.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-05",
+  "kind": "photo",
+  "caption": "The town of Gernika in ruins after the bombing of 26 April 1937.",
+  "use": "stop:Gernika",
+  "img": {
+   "file": "File:El poblado de Guernica en ruinas tras el bombardeo.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/El_poblado_de_Guernica_en_ruinas_tras_el_bombardeo.jpg",
+   "licence": "Probably PD (1937 photo) - verify",
+   "author": "Unknown - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:El_poblado_de_Guernica_en_ruinas_tras_el_bombardeo.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-06",
+  "kind": "photo",
+  "caption": "Damage in Madrid after the air raid of 17 November 1936, during the Nationalist assault on the capital.",
+  "use": "region:madrid",
+  "img": {
+   "file": "File:Bombardeo del 17 de noviembre de 1936 sobre Madrid.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Bombardeo_del_17_de_noviembre_de_1936_sobre_Madrid.jpg",
+   "licence": "Probably PD-Spain (1936 photo) - verify",
+   "author": "Unknown - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Bombardeo_del_17_de_noviembre_de_1936_sobre_Madrid.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-07",
+  "kind": "photo",
+  "caption": "Members of the International Brigades in Spain, December 1936–January 1937.",
+  "use": "stop:Ciudad Universitaria",
+  "img": {
+   "file": "File:The International Brigade during the Spanish Civil War, December 1936 - January 1937 HU71509.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/The_International_Brigade_during_the_Spanish_Civil_War,_December_1936_-_January_1937_HU71509.jpg",
+   "licence": "Probably public domain (IWM HU collection, PD-UK-unknown) - verify",
+   "author": "Unknown photographer (Imperial War Museum HU 71509)",
+   "page": "https://commons.wikimedia.org/wiki/File:The_International_Brigade_during_the_Spanish_Civil_War,_December_1936_-_January_1937_HU71509.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-08",
+  "kind": "photo",
+  "caption": "The battle of Guadalajara, March 1937, in which Italian CTV divisions were defeated by the Republican army.",
+  "use": "stop:Brihuega",
+  "img": {
+   "file": "File:Bundesarchiv Bild 183-P0219-526, Spanien, Schlacht um Guadalajara.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Bundesarchiv_Bild_183-P0219-526,_Spanien,_Schlacht_um_Guadalajara.jpg",
+   "licence": "CC BY-SA 3.0 DE (Bundesarchiv)",
+   "author": "Unknown author / Bundesarchiv",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-P0219-526,_Spanien,_Schlacht_um_Guadalajara.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-09",
+  "kind": "photo",
+  "caption": "Colonel Ildefonso Puigdendolas at Alcalá de Henares on 21 July 1936, during the first days of the fighting around Madrid.",
+  "use": "stop:Alcalá de Henares",
+  "img": {
+   "file": "File:Ildefonso Puigdengolas (Albero y Segovia, 21-07-1936) en Alcalá de Henares (cropped).png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ildefonso_Puigdengolas_(Albero_y_Segovia,_21-07-1936)_en_Alcal%C3%A1_de_Henares_(cropped).png",
+   "licence": "Verify - Archivo Fotográfico de la Delegación de Propaganda y Prensa de Madrid (Comunidad de Madrid)",
+   "author": "Albero y Segovia (photographers)",
+   "page": "https://commons.wikimedia.org/wiki/File:Ildefonso_Puigdengolas_(Albero_y_Segovia,_21-07-1936)_en_Alcal%C3%A1_de_Henares_(cropped).png",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download. Photographers Albero y Segovia: check author death dates / archive licence before use."
+  }
+ },
+ {
+  "id": "pic-10",
+  "kind": "photo",
+  "caption": "A Republican militiawoman training with a pistol on a beach near Barcelona, August 1936.",
+  "use": "region:catalonia",
+  "img": {
+   "file": "File:RepublicanWoman1936GTaro.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/RepublicanWoman1936GTaro.jpg",
+   "licence": "Probably public domain (Gerda Taro died 1937) - verify",
+   "author": "Gerda Taro",
+   "page": "https://commons.wikimedia.org/wiki/File:RepublicanWoman1936GTaro.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download. Also usable for stop:Barcelona."
+  }
+ },
+ {
+  "id": "pic-11",
+  "kind": "photo",
+  "caption": "Spanish militiamen who fled to Hendaye, France, after the fall of Irún, September 1936.",
+  "use": "stop:Irún",
+  "img": {
+   "file": "File:La guerre civile espagnole, miliciens espagnols réfugiés à Hendaye, septembre 1936.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/La_guerre_civile_espagnole,_miliciens_espagnols_r%C3%A9fugi%C3%A9s_%C3%A0_Hendaye,_septembre_1936.jpg",
+   "licence": "Public domain (French press agency photo, Gallica/BnF) - verify",
+   "author": "Unknown (French press agency, probably Agence Meurisse)",
+   "page": "https://commons.wikimedia.org/wiki/File:La_guerre_civile_espagnole,_miliciens_espagnols_r%C3%A9fugi%C3%A9s_%C3%A0_Hendaye,_septembre_1936.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-12",
+  "kind": "photo",
+  "caption": "Generals Francisco Franco and Emilio Mola in Burgos, 1936, seat of the Nationalist Junta.",
+  "use": "region:castile",
+  "img": {
+   "file": "File:Franco y Mola (Burgos, 1936).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Franco_y_Mola_(Burgos,_1936).jpg",
+   "licence": "Probably PD-Spain (1936 photo) - verify",
+   "author": "Unknown - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Franco_y_Mola_(Burgos,_1936).jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-13",
+  "kind": "modern photo",
+  "caption": "Exhumation of a mass grave of people killed in the Nationalist rear at Estépar (Burgos).",
+  "use": "stop:Estépar",
+  "img": {
+   "file": "File:Spanish Civil War - Mass grave - Estépar, Burgos.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Spanish_Civil_War_-_Mass_grave_-_Est%C3%A9par,_Burgos.jpg",
+   "licence": "Probably CC BY-SA (modern photo) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Spanish_Civil_War_-_Mass_grave_-_Est%C3%A9par,_Burgos.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-14",
+  "kind": "poster (Nationalist)",
+  "caption": "Nationalist propaganda poster of Franco as 'El Generalísimo', 1937–38.",
+  "use": "region:castile",
+  "img": {
+   "file": "File:1937-1938 propaganda poster - El generalisimo.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/1937-1938_propaganda_poster_-_El_generalisimo.jpg",
+   "licence": "Probably PD (anonymous 1937–38 poster) - verify: anonymous Spanish works PD 80 yrs after publication; check URAA status",
+   "author": "Anonymous",
+   "page": "https://commons.wikimedia.org/wiki/File:1937-1938_propaganda_poster_-_El_generalisimo.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-15",
+  "kind": "poster (side unknown)",
+  "caption": "Spanish Civil War poster (details to be checked).",
+  "use": "cover",
+  "img": {
+   "file": "File:Spanish Civil War poster 07.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Spanish_Civil_War_poster_07.jpg",
+   "licence": "Verify - side, artist and licence unknown",
+   "author": "Unknown - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Spanish_Civil_War_poster_07.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download. Content not seen - check before use; drop if the artist died after 1945."
+  }
+ },
+ {
+  "id": "pic-16",
+  "kind": "period map",
+  "caption": "Plan of Teruel, 1937: the town that changed hands twice in the winter battle of December 1937–February 1938.",
+  "use": "stop:Teruel",
+  "img": {
+   "file": "File:Plano de Teruel (1937).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Plano_de_Teruel_(1937).jpg",
+   "licence": "Probably PD (1937 map) - verify",
+   "author": "Unknown - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Plano_de_Teruel_(1937).jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-17",
+  "kind": "modern photo",
+  "caption": "A street in the ruined old town of Belchite. Modern photograph.",
+  "use": "stop:Belchite",
+  "img": {
+   "file": "File:Calle de Belchite.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Calle_de_Belchite.jpg",
+   "licence": "Probably CC BY-SA (modern user photo) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Calle_de_Belchite.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-18",
+  "kind": "modern photo",
+  "caption": "The shattered church of San Agustín in old Belchite, fought over house by house in 1937. Modern photograph.",
+  "use": "region:aragon",
+  "img": {
+   "file": "File:Belchite - Iglesia de San Agustín - Fachada01.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Belchite_-_Iglesia_de_San_Agust%C3%ADn_-_Fachada01.JPG",
+   "licence": "Probably CC BY-SA 3.0 (modern user photo) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Belchite_-_Iglesia_de_San_Agust%C3%ADn_-_Fachada01.JPG",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-19",
+  "kind": "modern photo",
+  "caption": "A Civil War concrete bunker in the Casa de Campo, Madrid, on the front line from November 1936 to March 1939. Modern photograph.",
+  "use": "stop:Casa de Campo",
+  "img": {
+   "file": "File:Búnker Guerra Civil Casa Campo Madrid.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/B%C3%BAnker_Guerra_Civil_Casa_Campo_Madrid.jpg",
+   "licence": "Probably CC BY-SA (modern user photo) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:B%C3%BAnker_Guerra_Civil_Casa_Campo_Madrid.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-20",
+  "kind": "modern photo",
+  "caption": "Shrapnel scars from the wartime shelling of Madrid, still visible on the Paseo del Prado. Modern photograph.",
+  "use": "stop:Paseo del Prado",
+  "img": {
+   "file": "File:Vestigios de la Guerra Civil Española en el Paseo del Prado en Madrid 07.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Vestigios_de_la_Guerra_Civil_Espa%C3%B1ola_en_el_Paseo_del_Prado_en_Madrid_07.jpg",
+   "licence": "Probably CC BY-SA (modern user photo) - verify",
+   "author": "Commons user - see page",
+   "page": "https://commons.wikimedia.org/wiki/File:Vestigios_de_la_Guerra_Civil_Espa%C3%B1ola_en_el_Paseo_del_Prado_en_Madrid_07.jpg",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-21",
+  "kind": "map (modern, historical)",
+  "caption": "Map of Spain in September 1936: the Army of Africa's advance through Extremadura and the Tagus valley towards Madrid.",
+  "use": "region:west",
+  "img": {
+   "file": "File:Map of the Spanish Civil War in September 1936.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Map_of_the_Spanish_Civil_War_in_September_1936.png",
+   "licence": "Public domain (US Military Academy, Dept. of History - PD-USGov) - verify",
+   "author": "US Military Academy, Department of History",
+   "page": "https://commons.wikimedia.org/wiki/File:Map_of_the_Spanish_Civil_War_in_September_1936.png",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-22",
+  "kind": "map (modern, historical)",
+  "caption": "Map of Spain in March 1937, after the fall of Málaga (February 1937).",
+  "use": "region:south",
+  "img": {
+   "file": "File:Map of the Spanish Civil War in March 1937.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Map_of_the_Spanish_Civil_War_in_March_1937.png",
+   "licence": "Public domain (US Military Academy, Dept. of History - PD-USGov) - verify",
+   "author": "US Military Academy, Department of History",
+   "page": "https://commons.wikimedia.org/wiki/File:Map_of_the_Spanish_Civil_War_in_March_1937.png",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-23",
+  "kind": "map (modern, historical)",
+  "caption": "Map of Spain in July 1938: the Nationalist drive to the Mediterranean had cut the Republic in two and was pushing towards Valencia.",
+  "use": "region:levant",
+  "img": {
+   "file": "File:Map of the Spanish Civil War in July 1938.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Map_of_the_Spanish_Civil_War_in_July_1938.png",
+   "licence": "Public domain (US Military Academy, Dept. of History - PD-USGov) - verify",
+   "author": "US Military Academy, Department of History",
+   "page": "https://commons.wikimedia.org/wiki/File:Map_of_the_Spanish_Civil_War_in_July_1938.png",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ },
+ {
+  "id": "pic-24",
+  "kind": "map (modern, historical)",
+  "caption": "The battle of the Ebro (July–November 1938) and the fall of Catalonia (December 1938–February 1939).",
+  "use": "stop:Gandesa",
+  "img": {
+   "file": "File:Map of the Battle of Ebro and the Fall of Catalonia - 1938-1939 - Blank.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Map_of_the_Battle_of_Ebro_and_the_Fall_of_Catalonia_-_1938-1939_-_Blank.png",
+   "licence": "Public domain (derived from US Military Academy map) - verify",
+   "author": "Derived from US Military Academy, Department of History",
+   "page": "https://commons.wikimedia.org/wiki/File:Map_of_the_Battle_of_Ebro_and_the_Fall_of_Catalonia_-_1938-1939_-_Blank.png",
+   "check": "Filename confirmed on Commons via search; licence from collection convention, NOT read from file page (Commons unreachable) - verify at download."
+  }
+ }
+]

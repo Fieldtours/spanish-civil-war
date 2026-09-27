@@ -1,0 +1,49 @@
+THE SPANISH CIVIL WAR 1936-1939 - A DZ CHARLIE FIELD GUIDE
+Project started: 27 September 2026
+
+WHAT IT IS
+A free phone guide to 158 sites of the Spanish Civil War across the whole
+of Spain: battlefields, trenches, ruined villages, air-raid shelters,
+museums, cemeteries and memorials, in 8 areas. Visitors choose the area
+they want to tour and how much time they have (2 hours to 2 weeks), and
+the guide builds the route day by day with Google Maps directions.
+Also: timeline (60 events), 6 step-by-step battle maps, 26 people from
+both sides, 14 weapons, the coup hour by hour, words to know, a printable
+PDF (73 pages), and it works with no signal. In English.
+
+VERSION
+v1 - 27 September 2026 - first complete version
+
+WHERE IT LIVES
+- On dzcharlie.com: it is already inside the Easy Company upload folder
+  ("UPLOAD THIS TO NETLIFY - EasyCo2.0" > spanish-civil-war), and the
+  home page has a new card for it. Next time you drag that folder into
+  Netlify, it goes live at dzcharlie.com/spanish-civil-war/
+- On its own: the folder "UPLOAD THIS TO NETLIFY - The Spanish Civil War"
+  works as a separate website too (Netlify or Cloudflare Pages).
+
+HOW TO UPLOAD
+Drag "UPLOAD THIS TO NETLIFY - EasyCo2.0" into your dzcharlie Netlify site
+(this publishes the home page, Easy Company and the new guide together).
+
+TO CHECK
+Research > accuracy-check.md lists the disputed facts, the pins that only
+mark a town, and research notes to follow up.
+
+DESIGN
+Design > design-brief.md (colours, fonts, why), cover-prompt.txt (ready-made
+text for an image generator if you want a painted cover like Easy Company's).
+The design board is in Claude as "The Spanish Civil War - Design".
+
+FOLDERS
+Research  - every site with its sources, and the facts-to-check list
+Design    - the look, the source pictures and their licences, test pictures
+backups   - v1 delivery copy; a dated copy is saved here before every change
+Latest    - an exact spare copy of the upload folder
+
+TECHNICAL NOTES (for Claude)
+Single-file app (index.html) with its own offline map of Spain drawn from
+Natural Earth data (no map tiles needed), own sw.js (cache scw-core-*),
+localStorage keys prefixed scw-. Built from the Easy Company layout and
+battle-map engine. Pictures: public domain / Creative Commons from
+Wikimedia Commons, credited in the app (More > Credits).
