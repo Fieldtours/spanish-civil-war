@@ -53,7 +53,58 @@ document.addEventListener("click",e=>{const t=e.target.closest("[data-uxpick],[d
 def rep(s,o,n,c=1):
     assert s.count(o)==c,(o[:70],s.count(o));return s.replace(o,n)
 PDFINFO={'45 pages · 4.6 MB':'37 pages · 3.5 MB','56 pages · 10.2 MB':'38 pages · 4.2 MB','40 pages · 6.2 MB':'32 pages · 3.5 MB'}  # new-style printed guides (Sep 2026)
+MAPPREFIX={'ecn':'normandy','ech':'holland','ecg':'germany'}
+RASPICK=r'''
+/* pick the map pictures drawn for this zoom (Google-style road maps, several zoom levels; Sep 2026) */
+const RAS_PR=1.5;
+function rasPick(d,x0,x1,y0,y1,f){f=f||MY;const R=rasterUrls(),RES=r=>r.w/(r.b[2]-r.b[0]),fam={};
+  R.forEach(r=>{const F=fam[r.g]=fam[r.g]||{};if(!(r.lv in F))F[r.lv]=RES(r)});const pick={};
+  Object.keys(fam).forEach(g=>{const lv=Object.entries(fam[g]).map(([l,res])=>[+l,res]).filter(x=>x[0]>=0).sort((a,b)=>a[1]-b[1]);
+    let c=lv.find(x=>x[1]>=d*0.8)||lv[lv.length-1];if(+g!==0&&c[1]>d*4)c=null;
+    /* stretched far beyond its size: use the copy without place names, so no giant blurry names */
+    if(c&&c[1]<d*0.45&&(-1 in fam[g]))c=[-1,fam[g][-1]];pick[g]=c?c[0]:-9});
+  return R.filter(r=>pick[r.g]===r.lv&&r.b[2]>x0&&r.b[0]<x1&&f(r.b[3])>y0&&f(r.b[1])<y1).sort((a,b)=>RES(a)-RES(b))}
+'''
+def maps_patch(s,k):
+    import os,json,re
+    pre=MAPPREFIX[k];rf=f'/home/claude/gmap/tiles/{pre}/raster.json'
+    if not os.path.exists(rf): return s
+    R=json.load(open(rf))
+    s=re.sub(r'const RASTER=\[.*?\];','const RASTER='+json.dumps(R,separators=(',',':'))+';',s,count=1,flags=re.S)
+    s=rep(s,'let RASTER_URLS=null;','let RASTER_URLS=null;'+RASPICK)
+    # small maps (cards, day maps, cover map)
+    a=s.index('const ras=rasterUrls().filter(r=>r.b[2]>vw[0]');b=s.index('hasRaster=true});',a)+len('hasRaster=true});')
+    s=s[:a]+'''const ras=rasPick(sc*RAS_PR,vw[0],vw[1],vh[0],vh[1]);
+  let hasRaster=false;const RES=r=>r.w/(r.b[2]-r.b[0]);
+  ras.forEach(r=>{const x=X(r.b[0]),y=Y(r.b[3]),w=X(r.b[2])-x,h=Y(r.b[1])-y;
+    g+=`<image href="${r.url}" x="${x.toFixed(2)}" y="${y.toFixed(2)}" width="${(w+0.6).toFixed(2)}" height="${(h+0.6).toFixed(2)}" preserveAspectRatio="none"/>`;hasRaster=true});'''+s[b:]
+    # the pan/zoom area map
+    s=rep(s,'const want=RAS.filter(r=>(r.g===0||sc>=rr(r)*0.35)&&r.b[2]>lo0&&r.b[0]<lo1&&my(r.b[3])>y0&&my(r.b[1])<y1).sort((a,b)=>rr(a)-rr(b));','const want=rasPick(sc*RAS_PR,lo0,lo1,y0,y1,my);')
+    # the enlarge viewer: swap to the level that suits the zoom
+    a=s.index('function addSharp(svg){');b=s.index('\n}\n',a)+3
+    s=s[:a]+'''function addSharp(svg){
+  try{const pr=(svg.getAttribute("data-proj")||"").split(",").map(Number);if(pr.length<5||typeof RASTER==="undefined")return;
+    const [cx,cy,sc,W,H]=pr,X=lo=>W/2+(lo-cx)*sc,Y=la=>H/2-(MY(la)-cy)*sc;
+    const vw=[cx-(W/2)/sc,cx+(W/2)/sc],vh=[cy-(H/2)/sc,cy+(H/2)/sc];
+    const used=[...svg.querySelectorAll("image")];if(!used.length)return;
+    const z=typeof lbZoom==="number"?Math.max(1,lbZoom):2;const want=rasPick(sc*z*RAS_PR,vw[0],vw[1],vh[0],vh[1]);
+    const ns="http://www.w3.org/2000/svg",first=used[0];
+    want.forEach(r=>{const x=X(r.b[0]),y=Y(r.b[3]),w=X(r.b[2])-x,h=Y(r.b[1])-y;
+      const im=document.createElementNS(ns,"image");im.setAttribute("href",r.url);im.setAttribute("x",x.toFixed(2));im.setAttribute("y",y.toFixed(2));
+      im.setAttribute("width",(w+0.3).toFixed(2));im.setAttribute("height",(h+0.3).toFixed(2));im.setAttribute("preserveAspectRatio","none");
+      first.before(im)});
+    used.forEach(i=>i.remove());
+  }catch(e){}
+}
+'''+s[b:]
+    s=rep(s,'if(lbZoom>1.4&&!sharp){sharp=true;addSharp(svg)}','{const bd=Math.round(Math.log2(Math.max(lbZoom,1))*2);if(bd!==sharp){sharp=bd;addSharp(svg)}}')
+    # files to save for offline use
+    m=re.search(r'const FILES=\[(.*?)\];',s,re.S)
+    items=[x.strip() for x in m.group(1).split(',') if x.strip() and 'maps/' not in x]
+    s=s[:m.start()]+'const FILES=['+', '.join([json.dumps(r['src']) for r in R]+items)+'];'+s[m.end():]
+    return s
 def ux(s,k):
+    s=maps_patch(s,k)
     for a,b in PDFINFO.items(): s=s.replace(a,b)
     i=s.rindex('</style>'); s=s[:i]+CSS+s[i:]
     s=rep(s,'<h3 style="margin-top:14px">Orders — where to go from here</h3>','<h3 style="margin-top:14px">Explore the guide</h3>')

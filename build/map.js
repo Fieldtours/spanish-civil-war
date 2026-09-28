@@ -5,7 +5,8 @@ const R2D=180/Math.PI;
 function mx(lon){return lon}
 function my(lat){return Math.log(Math.tan(Math.PI/4+lat*Math.PI/360))*R2D}
 function ilat(y){return (2*Math.atan(Math.exp(y/R2D))-Math.PI/2)*R2D}
-const COL={sea:"#b7cdd2",land:"#e9dfc6",spain:"#f1e6c9",other:"#ddd6c3",prov:"rgba(95,70,40,.28)",reg:"rgba(95,60,30,.7)",river:"#5f8fa6",lake:"#9fc0ca",road:"rgba(168,50,31,.55)",road1:"rgba(168,50,31,.8)",mtn:"rgba(122,92,68,.13)",txt:"#3a2c20",halo:"rgba(247,241,226,.9)"};
+/* Google-style road-map colours (Sep 2026) */
+const COL={sea:"#aadaff",land:"#f5f3ee",spain:"#f5f3ee",other:"#e8e6e1",prov:"rgba(120,114,140,.45)",reg:"rgba(95,60,30,.55)",river:"#8cc4f0",lake:"#aadaff",road:"#fde293",roadC:"#e0b95a",road1:"#f9bf5a",road1C:"#d18f2b",mtn:"rgba(150,140,110,.07)",txt:"#202124",halo:"rgba(255,255,255,.92)"};
 function GeoMap(box,opt){
   opt=opt||{};this.opt=opt;this.box=box;
   const c=document.createElement("canvas");box.appendChild(c);this.c=c;this.ctx=c.getContext("2d");
@@ -58,7 +59,7 @@ GeoMap.prototype._draw=function(){
   ctx.strokeStyle=COL.river;ctx.lineCap="round";ctx.lineJoin="round";
   for(const r of G.rivers){if(r.r>7&&k<120)continue;if(r.r>5&&k<60)continue;ctx.lineWidth=r.r<=3?1.8:(r.r<=6?1.3:0.9);ctx.beginPath();for(const l of r.l)this._path(ctx,l);ctx.stroke()}
   // roads
-  if(k>=70){for(const r of G.roads){if(r.t!==1&&k<160)continue;ctx.strokeStyle=r.t===1?COL.road1:COL.road;ctx.lineWidth=r.t===1?1.6:1;ctx.beginPath();for(const l of r.l)this._path(ctx,l);ctx.stroke()}}
+  if(k>=18){for(const pass of [0,1])for(const t of [2,1])for(const r of G.roads){if(r.t!==t)continue;if(r.t!==1&&k<110)continue;const w=r.t===1?(k<40?1.1:k<90?2:3):(k<250?1.6:2.2);ctx.strokeStyle=pass?(r.t===1?COL.road1:COL.road):(r.t===1?COL.road1C:COL.roadC);ctx.lineWidth=pass?w:w+1.6;ctx.beginPath();for(const l of r.l)this._path(ctx,l);ctx.stroke()}}
   // provinces
   if(k>=55){ctx.strokeStyle=COL.prov;ctx.lineWidth=1;ctx.setLineDash([2,3]);ctx.beginPath();for(const p of G.prov)for(const l of p.b)this._path(ctx,l);ctx.stroke();ctx.setLineDash([])}
   // regions
@@ -76,7 +77,7 @@ GeoMap.prototype._draw=function(){
   const pl=G.places;const lim=k<45?1:(k<90?2:(k<250?3:4));
   for(const q of pl){if(q[4]>lim)continue;const p=this.px(q[1],q[2]);if(p[0]<-40||p[0]>this.w+40||p[1]<-20||p[1]>this.h+20)continue;
     ctx.fillStyle=COL.txt;ctx.beginPath();ctx.arc(p[0],p[1],q[4]<=2?3:2.2,0,7);ctx.fill();
-    ctx.textAlign="left";lab(q[0],p[0]+5+ctx.measureText(q[0]).width/2,p[1]-1,(q[4]<=2?"700 12.5px ":"600 11.5px ")+"system-ui,sans-serif");ctx.textAlign="center"}
+    ctx.textAlign="left";ctx.font=(q[4]<=2?"700 13.5px ":"500 12px ")+"system-ui,sans-serif";lab(q[0],p[0]+5+ctx.measureText(q[0]).width/2,p[1]-1,(q[4]<=2?"700 13.5px ":"500 12px ")+"system-ui,sans-serif",q[4]<=2?"#202124":"#3c4043");ctx.textAlign="center"}
   // overlays
   const ov=this.ov;
   if(ov.circle){const c=ov.circle;const p=this.px(c.la,c.lo);const r=c.km/111.32/Math.cos(c.la*Math.PI/180)*this.k*1; // approx in lon-deg units

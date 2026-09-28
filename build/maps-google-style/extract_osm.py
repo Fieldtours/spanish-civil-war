@@ -51,7 +51,8 @@ class H(osmium.SimpleHandler):
         except Exception: return
         if g.area < 2e-6 and k != 'water': return   # skip tiny patches
         if inside(g): L[k].append((g, {}))
-H().apply_file(pbf, locations=True, idx='flex_mem')
+for f in pbf.split(','):
+    H().apply_file(f, locations=True, idx='flex_mem')
 def dump(name, items, tol):
     fs = []
     for g, p in items:

@@ -49,10 +49,14 @@ const style={version:8,glyphs:location.origin+'/glyphs/{fontstack}/{range}.pbf',
   {id:'countries',type:'symbol',source:'extra',filter:['==',['get','kind'],'country'],layout:{'text-field':['upcase',['get','name']],'text-font':[FM],'text-size':15,'text-letter-spacing':0.3},paint:{'text-color':'#7b7394','text-halo-color':'#fff','text-halo-width':2}},
   {id:'towns',type:'symbol',source:'places',filter:['all',['match',['get','place'],['town','city'],true,false],['!',['in',['get','name'],['literal',(JOB.towns||[]).map(t=>t[0])]]]],layout:{'text-variable-anchor':['center','top','bottom','left','right','top-left','top-right','bottom-left','bottom-right'],'text-radial-offset':0.9,'text-field':['get','name'],'text-font':[FM],'text-size':['interpolate',['linear'],['zoom'],8,13,12,17],'symbol-sort-key':['-',0,['get','pop']]},paint:{'text-color':'#202124','text-halo-color':'#fff','text-halo-width':2}},
  ]};
+// app map tiles: larger text so names stay readable on a phone
+if(JOB.textScale){const k=JOB.textScale;style.layers.forEach(l=>{const t=l.layout&&l.layout['text-size'];if(t===undefined)return;
+ if(typeof t==='number')l.layout['text-size']=t*k;else if(Array.isArray(t)&&t[0]==='interpolate')l.layout['text-size']=t.map((v,i)=>i>=3&&i%2===0&&typeof v==='number'?v*k:v)})}
+if(JOB.bare)style.layers=style.layers.filter(l=>l.type!=='symbol');
 // symbol order: MapLibre places the LAST symbol layer first, so put the sites last
 style.layers.push({id:'keytowns',type:'symbol',source:'keytowns',layout:{'text-field':['get','name'],'text-font':[FM],'text-size':15,'text-variable-anchor':['top','bottom','right','left','top-right','top-left','bottom-right','bottom-left'],'text-radial-offset':1.7,'text-padding':1},paint:{'text-color':'#202124','text-halo-color':'#fff','text-halo-width':2.2}});
 const sites=style.layers.splice(style.layers.findIndex(l=>l.id==='sites'),1)[0];style.layers.push(sites);
-const map=new maplibregl.Map({container:'map',style,interactive:false,attributionControl:false,preserveDrawingBuffer:true,fadeDuration:0,pixelRatio:JOB.ratio||2});
+const map=new maplibregl.Map({container:'map',style,interactive:false,attributionControl:false,preserveDrawingBuffer:true,fadeDuration:0,maxCanvasSize:[8192,8192],pixelRatio:JOB.ratio||2});
 function img(w,h,draw){const c=document.createElement('canvas');c.width=w;c.height=h;const x=c.getContext('2d');draw(x);return x.getImageData(0,0,w,h)}
 map.on('load',()=>{
  const R=JOB.ratio||2;
@@ -60,7 +64,7 @@ map.on('load',()=>{
  const sh=(fill,stroke)=>img(20*R,20*R,x=>{x.scale(R,R);x.fillStyle=fill;x.strokeStyle=stroke;x.lineWidth=1.2;x.beginPath();x.roundRect(1,1,18,18,3);x.fill();x.stroke()});
  const st={pixelRatio:R,stretchX:[[4*R,16*R]],stretchY:[[4*R,16*R]],content:[4*R,4*R,16*R,16*R]};
  map.addImage('shieldR',sh('#c5221f','#8e1a17'),st);map.addImage('shieldY',sh('#fde293','#c9a13a'),st);map.addImage('shieldW',sh('#ffffff','#9aa0a6'),st);
- map.fitBounds(JOB.bounds,{padding:JOB.pad||70,duration:0,maxZoom:JOB.maxZoom||14});
+ if(JOB.center)map.jumpTo({center:JOB.center,zoom:JOB.zoom});else map.fitBounds(JOB.bounds,{padding:JOB.pad||70,duration:0,maxZoom:JOB.maxZoom||14});
  // spread out sites that sit on top of each other, with a thin line back to the true spot
  const P=JOB.sites.map(x=>{const p=map.project([x.lon,x.lat]);return {x:p.x,y:p.y,ox:p.x,oy:p.y}});
  for(let it=0;it<200;it++){let moved=false;for(let i=0;i<P.length;i++)for(let k=i+1;k<P.length;k++){const a=P[i],b=P[k];let dx=b.x-a.x,dy=b.y-a.y,d=Math.hypot(dx,dy);if(d<34){if(d<.01){dx=1;dy=0;d=1}const m=(34-d)/2;a.x-=dx/d*m;a.y-=dy/d*m;b.x+=dx/d*m;b.y+=dy/d*m;moved=true}}if(!moved)break}
