@@ -1,0 +1,374 @@
+{
+ "d1-1": {
+  "when": "7 MAR 1945",
+  "sort": "1945-03-07T00:00",
+  "ev": "The 9th Armored captures the railway bridge intact, putting the first Americans across the Rhine.",
+  "q": {
+   "t": "What happened to the Ludendorff Bridge ten days after its capture?",
+   "o": [
+    "It was blown by the Germans",
+    "It collapsed",
+    "It was renamed"
+   ],
+   "a": 1,
+   "x": "Captured intact on 7 March, it put the first Americans across the Rhine and collapsed ten days later; its towers now hold the Peace Museum."
+  },
+  "rem": "The surviving towers of the bridge that first put Americans across the Rhine now hold a Peace Museum.",
+  "solemn": false
+ },
+ "d1-2": {
+  "when": "APR 1945",
+  "sort": "1945-04-02T00:00",
+  "ev": "Men of the 506th visit the ruined city, its cathedral standing over the rubble.",
+  "q": {
+   "t": "What did 506th men see in Cologne in April 1945?",
+   "o": [
+    "A city untouched by bombing",
+    "The Hohenzollern bridge intact",
+    "The cathedral standing amid the rubble"
+   ],
+   "a": 2,
+   "x": "On passes, 506th men saw the cathedral standing over 90 % destruction and the Hohenzollern bridge in the river."
+  },
+  "rem": "For most of the men, Cologne was the first German city they saw and the first proof of what the bombing had done.",
+  "solemn": false
+ },
+ "d1-3": {
+  "when": "APR 1945",
+  "sort": "1945-04-02T00:00",
+  "ev": "The 506th keeps its outpost line on the Rhine dike north of the town.",
+  "q": {
+   "t": "How had the war left Zons?",
+   "o": [
+    "Untouched",
+    "Largely destroyed",
+    "Flooded"
+   ],
+   "a": 0,
+   "x": "The medieval customs town was untouched by the war; the dike path north of it was the regiment's April 1945 outpost line."
+  },
+  "rem": "Untouched by the war, Zons sits on the 506th's stretch of river; the dike path north was the regiment's outpost line.",
+  "solemn": false
+ },
+ "d1-4": {
+  "when": "2–18 APR 1945",
+  "sort": "1945-04-02T00:00",
+  "ev": "Easy mans outposts on the Rhine dike, facing the Ruhr pocket across the water.",
+  "q": {
+   "t": "How did Winters's patrols cross the Rhine here?",
+   "o": [
+    "By a pontoon bridge",
+    "By boat",
+    "By a captured rail bridge"
+   ],
+   "a": 1,
+   "x": "The 2nd Battalion HQ and Easy's outposts were here, facing the Ruhr pocket; patrols crossed the river by boat."
+  },
+  "rem": "Easy's first sight of Germany was a country of white flags.",
+  "solemn": false
+ },
+ "d2-1": {
+  "when": "30 APR 1945",
+  "sort": "1945-04-30T00:00",
+  "ev": "Easy is billeted in the town where Hitler wrote Mein Kampf, and hears of his death.",
+  "q": {
+   "t": "What did Hitler write in Landsberg's fortress prison?",
+   "o": [
+    "His last will",
+    "Nothing; he was never held there",
+    "Mein Kampf"
+   ],
+   "a": 2,
+   "x": "Hitler wrote Mein Kampf in the fortress prison in 1924; Easy was billeted in the town from 30 April 1945, when news came that he was dead."
+  },
+  "rem": "On 30 April, in the town where Hitler had written Mein Kampf, the company learned he was dead in Berlin.",
+  "solemn": false
+ },
+ "d2-2": {
+  "when": "29–30 APR 1945",
+  "sort": "1945-04-29T00:00",
+  "ev": "The Kaufering camps are revealed: of 30,000 Jews who passed through, 14,500 have died.",
+  "q": null,
+  "rem": "The only Kaufering camp that survives; its memorial stones honour the nations whose people died in the eleven camps.",
+  "solemn": true
+ },
+ "d2-3": {
+  "when": "28–29 APR 1945",
+  "sort": "1945-04-28T00:00",
+  "ev": "Easy Company enters a Kaufering sub-camp where the SS had burned the huts with the sick inside.",
+  "q": null,
+  "rem": "A memorial stone in the fields marks the camp usually identified as the one Easy Company entered in April 1945.",
+  "solemn": true
+ },
+ "d2-4": {
+  "when": "29 APR 1945",
+  "sort": "1945-04-29T00:00",
+  "ev": "The 42nd and 45th Divisions liberate Dachau, the first camp and the model for the others.",
+  "q": null,
+  "rem": "The first camp and the model for all the others; the Kaufering camps were its sub-camps.",
+  "solemn": true
+ },
+ "d3-1": {
+  "when": "3 MAY 1945",
+  "sort": "1945-05-03T00:00",
+  "ev": "The 506th convoy passes through Munich, the 'capital of the movement', now a shell.",
+  "q": {
+   "t": "What stood on the site of the Documentation Centre?",
+   "o": [
+    "Hitler's prison",
+    "The Brown House, the party's HQ",
+    "The Berchtesgadener Hof"
+   ],
+   "a": 1,
+   "x": "The centre stands on the site of the Brown House, the party's headquarters, and shows how Munich made the movement."
+  },
+  "rem": "On the site of the party's headquarters, the centre explains how Munich made the movement, context for the Obersalzberg.",
+  "solemn": false
+ },
+ "d3-2": {
+  "when": "5 MAY 1945",
+  "sort": "1945-05-05T15:00",
+  "ev": "The 506th arrives on Hitler's mountain, and its men go down into the bunkers.",
+  "q": {
+   "t": "How does the museum describe the Obersalzberg's role?",
+   "o": [
+    "Hitler's birthplace",
+    "A Luftwaffe airfield",
+    "A second seat of government"
+   ],
+   "a": 2,
+   "x": "The museum shows the Obersalzberg as the second seat of government, with a bunker system underneath, and the American arrival of May 1945."
+  },
+  "rem": "Hitler's mountain served as a second seat of government; the 506th men went down into its bunkers.",
+  "solemn": false
+ },
+ "d3-3": {
+  "when": "5–7 MAY 1945",
+  "sort": "1945-05-05T15:00",
+  "ev": "Easy men walk through the ruins of the Berghof and Göring's house.",
+  "q": {
+   "t": "What happened to most of the Obersalzberg's Nazi buildings?",
+   "o": [
+    "Demolished in 1952 and later",
+    "Turned into hotels",
+    "Preserved as they were"
+   ],
+   "a": 0,
+   "x": "Most were demolished in 1952 and the rest cleared later; the site is forested, with the Berghof terrace retaining wall still visible."
+  },
+  "rem": "Of Hitler's house only foundations and the terrace retaining wall remain, now among the trees.",
+  "solemn": false
+ },
+ "d3-4": {
+  "when": "5 MAY 1945",
+  "sort": "1945-05-05T14:00",
+  "ev": "The 506th enters Berchtesgaden and takes the Berchtesgadener Hof as regimental HQ.",
+  "q": {
+   "t": "Where did the 506th set up its headquarters in Berchtesgaden?",
+   "o": [
+    "The Eagle's Nest",
+    "The Berchtesgadener Hof hotel",
+    "The railway station"
+   ],
+   "a": 1,
+   "x": "Sink took the Berchtesgadener Hof, the Nazi Party's grand hotel, as regimental HQ; it stood until 2006 and the plot is now a park."
+  },
+  "rem": "VE Day, 8 May 1945, found the 506th here, where the war in Europe ended for Easy Company.",
+  "solemn": false
+ },
+ "d4-1": {
+  "when": "5–6 MAY 1945",
+  "sort": "1945-05-05T16:00",
+  "ev": "Winters, Nixon, Welsh and Easy men reportedly go up to the tea-house on the Kehlstein.",
+  "q": {
+   "t": "Why did the Kehlsteinhaus survive the war?",
+   "o": [
+    "The SS defended it",
+    "It was built after 1945",
+    "The RAF missed it"
+   ],
+   "a": 2,
+   "x": "The house survived because the RAF missed it; its terrace is traditionally identified as the setting of the famous Easy Company photograph, though this is disputed."
+  },
+  "rem": "The famous photograph of Easy men on a terrace, traditionally placed here, shows the end of the company's war in one frame.",
+  "solemn": false
+ },
+ "d4-2": {
+  "when": "MAY 1945",
+  "sort": "1945-05-05T00:00",
+  "ev": "Men of the 506th swim and boat on the lake below the Watzmann.",
+  "q": {
+   "t": "What did the 506th do at the Königssee in May 1945?",
+   "o": [
+    "Swam and boated",
+    "Fought a last battle",
+    "Guarded prisoners"
+   ],
+   "a": 0,
+   "x": "In May 1945 the 506th swam and boated on the fjord-like lake below the Watzmann."
+  },
+  "rem": "With the war ending, the lake below the Watzmann was where 506th men swam and boated.",
+  "solemn": false
+ },
+ "d4-3": {
+  "when": "4 MAY 1945",
+  "sort": "1945-05-04T00:00",
+  "ev": "The 506th's column waits at a blown bridge while others reach Berchtesgaden first.",
+  "q": {
+   "t": "Who reached Berchtesgaden first while the 506th waited here?",
+   "o": [
+    "The 82nd Airborne",
+    "The 3rd Infantry Division and the French",
+    "The British Guards"
+   ],
+   "a": 1,
+   "x": "The column was held up at a blown bridge on 4 May while the US 3rd Infantry Division and the French 2nd Armoured got into the town first."
+  },
+  "rem": "A demolished bridge here cost the 506th the race into Berchtesgaden; Sink was not pleased.",
+  "solemn": false
+ },
+ "d5-1": {
+  "when": "MAY–JUN 1945",
+  "sort": "1945-05-09T00:00",
+  "ev": "The 506th makes Zell am See its occupation capital for the summer.",
+  "q": {
+   "t": "What did the men sail on the lake at Zell am See?",
+   "o": [
+    "A captured patrol boat",
+    "A British landing craft",
+    "Göring's yacht"
+   ],
+   "a": 2,
+   "x": "Zell am See was the 506th's occupation capital in the summer of 1945; the men swam in the lake and sailed Göring's yacht."
+  },
+  "rem": "Men with 85 points went home from here, while the rest trained for the Pacific and waited.",
+  "solemn": false
+ },
+ "d5-2": {
+  "when": "MAY 1945",
+  "sort": "1945-05-09T00:00",
+  "ev": "Col. Sink sets up the regimental HQ in the Grand Hotel on the lake.",
+  "q": {
+   "t": "Whose headquarters was in the Grand Hotel?",
+   "o": [
+    "Col. Sink's regimental HQ",
+    "Göring's staff",
+    "The French 2nd Armoured"
+   ],
+   "a": 0,
+   "x": "Sink's regimental HQ was in the Grand Hotel on the lake; the ballroom and terrace remain as the regiment knew them."
+  },
+  "rem": "The ballroom and terrace are as the regiment knew them; that summer the whole valley was the regiment's.",
+  "solemn": false
+ },
+ "d5-3": {
+  "when": "MAY–JUN 1945",
+  "sort": "1945-05-09T00:00",
+  "ev": "Easy is billeted in the village on occupation duty with the 2nd Battalion HQ.",
+  "q": {
+   "t": "Where is Sgt. Grant's shooting usually placed?",
+   "o": [
+    "In Kaprun castle",
+    "At a road-block on the valley road",
+    "At the Grand Hotel"
+   ],
+   "a": 1,
+   "x": "The shooting is usually placed at a road-block on the valley road; the exact spot, like the company's billets, is not documented."
+  },
+  "rem": "Easy's billets and the 2nd Battalion HQ were here in May–June 1945, on occupation duty at the foot of the Glockner range.",
+  "solemn": false
+ },
+ "d5-4": {
+  "when": "MAY–JUN 1945",
+  "sort": "1945-05-09T00:00",
+  "ev": "The 506th guards the dam site, begun with forced and slave labour, and its DP camp.",
+  "q": {
+   "t": "Who was used to build the Kaprun dams from 1938?",
+   "o": [
+    "Volunteer Austrian workers",
+    "American engineers",
+    "Forced and slave labour from the camps"
+   ],
+   "a": 2,
+   "x": "The project was begun in 1938 with forced and slave labour from the camps; the 506th guarded the site and its DP camp in 1945."
+  },
+  "rem": "The dams were begun with forced and slave labour from the camps; a memorial at the dam remembers the forced labourers.",
+  "solemn": false
+ },
+ "d5-5": {
+  "when": "MAY 1945",
+  "sort": "1945-05-09T00:00",
+  "ev": "German units march into the valley to surrender their weapons to the 506th.",
+  "q": {
+   "t": "What happened to Sgt. Grant at Saalfelden?",
+   "o": [
+    "A German surgeon saved his life",
+    "He accepted a general's surrender",
+    "He was captured"
+   ],
+   "a": 0,
+   "x": "A German brain surgeon saved Sgt. Grant's life here, in the basin where German units came in to surrender."
+  },
+  "rem": "Tens of thousands of German soldiers passed through this basin, ordered to stack their weapons and go home.",
+  "solemn": false
+ },
+ "dd-0": {
+  "when": "25 APR 1945",
+  "sort": "1945-04-25T00:00",
+  "ev": "American and Soviet troops meet on the Elbe and cut Germany in two.",
+  "q": {
+   "t": "What happened at Torgau?",
+   "o": [
+    "Hitler died",
+    "US and Soviet troops met",
+    "The Ruhr pocket surrendered"
+   ],
+   "a": 1,
+   "x": "At Torgau, on 25 April 1945, American and Soviet troops met and cut Germany in two."
+  },
+  "rem": "The meeting at Torgau cut Germany in two.",
+  "solemn": false
+ },
+ "dd-1": {
+  "when": "30 APR 1945",
+  "sort": "1945-04-30T00:00",
+  "ev": "Hitler's end comes in Berlin as the Reich collapses.",
+  "q": {
+   "t": "What is on the Führerbunker site today?",
+   "o": [
+    "A museum inside the bunker",
+    "A memorial park",
+    "A car park with an information board"
+   ],
+   "a": 2,
+   "x": "The end of Hitler and of the Reich came here; the bunker site is now a car park with an information board."
+  },
+  "rem": "Hitler died in Berlin on 30 April; Easy heard the news that day in Landsberg.",
+  "solemn": false
+ },
+ "dd-2": {
+  "when": "1945–46",
+  "sort": "1945-01-01T00:00",
+  "ev": "The courtroom near the party's former rally ground hosts the trials of 1945–46.",
+  "q": {
+   "t": "Which two stories does Nuremberg tell?",
+   "o": [
+    "The party rallies and the trials",
+    "The Rhine crossing and Remagen",
+    "The Bulge and Bastogne"
+   ],
+   "a": 0,
+   "x": "Nuremberg holds the party's parade ground and the courtroom of the 1945–46 trials."
+  },
+  "rem": "The same city holds the party's rally ground and the courtroom where the 1945–46 trials took place.",
+  "solemn": false
+ },
+ "dd-3": {
+  "when": "5 MAY 1945",
+  "sort": "1945-05-05T00:00",
+  "ev": "The Austrian main camp is liberated the day Easy reaches Berchtesgaden.",
+  "q": null,
+  "rem": "The Austrian main camp was liberated on 5 May 1945, the day Easy reached Berchtesgaden.",
+  "solemn": true
+ }
+}

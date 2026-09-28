@@ -9,7 +9,7 @@ for k,v in {'BACK':IC['back'],'WEAP':IC['weap'],'SEARCH':IC['search'],'NEAR':IC[
   body=body.replace('__'+k+'__',v)
 body=body.replace('${pill}','<button type="button" class="pill-c c-HIGH" data-cert="HIGH">HIGH</button> <button type="button" class="pill-c c-MEDIUM" data-cert="MEDIUM">MEDIUM</button> <button type="button" class="pill-c c-LOW" data-cert="LOW">LOW</button>')
 assert '__' not in re.sub(r'__[a-z]','',body.replace('___','')), [m for m in re.findall(r'__\w+__',body)]
-css=open(B+'app.css').read()+'\n'+open(B+'bm.css').read()+'''
+css=open(B+'app.css').read()+'\n'+open(B+'bm.css').read()+'\n'+open(B+'aar-theme.css').read()+'\n'+open(B+'aar.css').read()+'''
 .bmbtn{display:flex;align-items:center;gap:12px;width:100%;margin:6px 0 12px;padding:10px 14px;min-height:56px;text-align:left;cursor:pointer;background:var(--surface);color:var(--ink);border:2px solid var(--red);border-radius:12px;font-family:var(--sans);font-size:inherit}
 .bmbtn svg{flex:0 0 34px;width:34px;height:34px}
 .bmbtn b{display:block;font-family:var(--disp);font-weight:800;font-size:18px;letter-spacing:.8px;text-transform:uppercase;color:var(--red)}
@@ -37,7 +37,7 @@ head='''<!doctype html>
 <link rel="manifest" href="site.webmanifest">
 <link rel="preload" href="fonts/bss-800.woff2" as="font" type="font/woff2" crossorigin>
 '''
-html=head+'<style>\n'+css+'\n</style>\n</head>\n<body>\n'+body+'\n<script>\n'+open(B+'data.js').read()+'\n</script>\n<script>\n'+open(B+'map.js').read()+'\n</script>\n<script>\n'+open(B+'bm.js').read()+'\n</script>\n<script>\n'+app+'\n</script>\n</body>\n</html>\n'
+html=head+'<style>\n'+css+'\n</style>\n</head>\n<body>\n'+body+'\n<script>\n'+open(B+'data.js').read()+'\n</script>\n<script>\n'+open(B+'map.js').read()+'\n</script>\n<script>\n'+open(B+'bm.js').read()+'\n</script>\n<script>\nwindow.AAR_DATA='+open('/home/claude/scw/research/aar_data.json').read()+';\n</script>\n<script>\n'+app+'\n</script>\n<script>\n'+open(B+'aar.js').read()+'\n</script>\n</body>\n</html>\n'
 os.makedirs(OUT+'fonts',exist_ok=True)
 for f in ['bss-800.woff2','bss-600.woff2','bsd-700.woff2','special-elite-400.woff2','courier-prime-400.woff2','courier-prime-700.woff2']:
   shutil.copy('/home/claude/scw/fonts/'+f,OUT+'fonts/'+f)

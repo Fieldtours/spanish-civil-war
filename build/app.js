@@ -348,6 +348,22 @@ function init(){
   const h=location.hash.slice(1);show(PAGES[h]?h:"home",false);try{history.replaceState({p:CUR},"","#"+CUR)}catch(e){}
   if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol))navigator.serviceWorker.register("sw.js").catch(()=>{});
 }
+/* ---- Diario de campaña (campaign diary): settings for the shared diary engine, loaded after this file ---- */
+const AARREG={madrid:"Madrid",aragon:"Aragon",catalonia:"Catalonia",north:"The North",south:"Andalusia",levant:"Valencia",west:"Extremadura",castile:"Castile"};
+window.AAR_CFG={key:"scw-aar",data:window.AAR_DATA||{},
+ docName:"DIARIO DE CAMPAÑA",docNameShort:"diary page",plural:"Diario de campaña",short:"diary",guide:"The Spanish Civil War",place:"SPAIN 1936–1939",
+ foot:"DZ CHARLIE · SPAIN 1936–39",stamp:"VISITADO",done:"COMPLETADO",coverTitle:"A JOURNEY THROUGH THE SPANISH CIVIL WAR",fileBase:"spanish-civil-war-diary",
+ intro:"Your campaign diary. At the end of each day, write a one-page entry: the places you saw, put in the order the events happened, one question to fix it in your memory, and a line in your own words. Keep the pages for your journal, or send them to family.",
+ hint:"The moment you want to remember",startLabel:"Start today's page",
+ theme:{paper:"#efe6cf",ink:"#1f1a14",ink2:"#4a3f33",faint:"#6f6150",title:"#3d2b1f",when:"#a8321f",rule:"#c28a2c",box:"#e4d7b8",stamp:"#a8321f",band:"#3d2b1f",bandInk:"#f7f1e2",
+  disp:"'Big Shoulders Stencil',Impact,sans-serif",dispW:800,mono:"'Courier Prime','Courier New',monospace",hand:"'Special Elite','Courier New',monospace",dispC:'"Big Shoulders Stencil", Impact, sans-serif',monoC:'"Courier Prime", "Courier New", monospace',handC:'"Special Elite", "Courier New", monospace',
+  cover:"#3d2b1f",coverInk:"#f7f1e2",coverRule:"#7a5c44",coverStamp:"#e07a63"},
+ visited:()=>[...VIS],
+ stop:id=>byId[id]?{name:byId[id].n,pri:byId[id].p}:null,
+ title:ids=>{const c={};ids.forEach(id=>{const s=byId[id];if(s)c[s.r]=(c[s.r]||0)+1});const r=Object.keys(c).sort((x,y)=>c[y]-c[x])[0];if(!r)return"";
+   const top=ids.map(id=>byId[id]).filter(s=>s&&s.r===r).sort((x,y)=>x.p-y.p)[0];const tw=top?String(top.tw).split(/[\/(,]/)[0].trim():"";return AARREG[r]+(tw?": "+tw:"")},
+ onChange:()=>{const as=$("#aar-slot");if(as&&window.AAR)as.innerHTML=AAR.card()}};
+ONSHOW.tour=(f=>()=>{f&&f();window.AAR_CFG.onChange()})(ONSHOW.tour);
 window.SCWAPP={show,openStop,byId};
 init();
 })();

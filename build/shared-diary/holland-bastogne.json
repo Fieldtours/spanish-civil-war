@@ -1,0 +1,728 @@
+{
+"d1-1": {
+"when": "17 SEP 1944 ~13:00",
+"sort": "1944-09-17T13:00",
+"ev": "The 101st lands in daylight beside the museum as Operation Market Garden opens.",
+"q": {
+"t": "Why start the tour at this museum?",
+"o": [
+"It was Easy's Bastogne HQ",
+"It explains the plan before you drive the road",
+"It marks a cemetery"
+],
+"a": 1,
+"x": "It sits almost on Drop Zone B and explains the corridor plan before you drive the road."
+},
+"rem": "The museum sits almost on Drop Zone B, the ground the 101st landed on.",
+"solemn": false
+},
+"d1-2": {
+"when": "17 SEP 1944 ~13:00",
+"sort": "1944-09-17T13:00",
+"ev": "The 506th jumps in daylight onto the heath in near-perfect order.",
+"q": {
+"t": "How did the 506th's drop into Holland compare with Normandy?",
+"o": [
+"On target, assembled within the hour",
+"Scattered widely at night",
+"Cancelled at the last minute"
+],
+"a": 0,
+"x": "In daylight, on target and with little flak, the company assembled within the hour, the best drop the regiment ever had."
+},
+"rem": "The best drop the regiment ever had: daylight, on target, and the company together within the hour.",
+"solemn": false
+},
+"d1-3": {
+"when": "17 SEP 1944",
+"sort": "1944-09-17T15:00",
+"ev": "The Germans blow the Wilhelmina Canal bridge as the 506th reaches it.",
+"q": {
+"t": "How did Easy cross the Wilhelmina Canal at Son?",
+"o": [
+"On the captured road bridge",
+"On an engineers' footbridge at night",
+"By boat under fire"
+],
+"a": 1,
+"x": "The Germans blew the bridge as the 506th arrived; engineers rigged a footbridge overnight and Easy crossed in the dark."
+},
+"rem": "The blown bridge at Son cost the whole corridor a day.",
+"solemn": false
+},
+"d1-4": {
+"when": "18 SEP 1944",
+"sort": "1944-09-18T00:00",
+"ev": "The 506th enters Eindhoven from the north along this road through Woensel.",
+"q": {
+"t": "Who placed the Airborne Memorial on Airbornelaan?",
+"o": [
+"The city, in 1944",
+"British Guards officers",
+"101st veterans, in 1969"
+],
+"a": 2,
+"x": "101st veterans placed it in 1969, on the road the 506th used to enter the city on 18 September."
+},
+"rem": "The link-up with the British Second Army happened a few streets from here.",
+"solemn": false
+},
+"d1-5": {
+"when": "18 SEP 1944",
+"sort": "1944-09-18T12:00",
+"ev": "Easy marches through cheering crowds; that night the Luftwaffe bombs the city.",
+"q": {
+"t": "How did Eindhoven's liberation-day celebrations end?",
+"o": [
+"With a German counterattack at dawn",
+"With a Luftwaffe bombing that night",
+"With the city flooded"
+],
+"a": 1,
+"x": "Easy marched through cheering crowds on 18 September; that night the Luftwaffe bombed the city and the celebrations ended."
+},
+"rem": "The square is named for liberation day, 18 September, a day of celebration that ended in bombing.",
+"solemn": false
+},
+"d1-6": {
+"when": "19–20 SEP 1944",
+"sort": "1944-09-19T00:00",
+"ev": "Riding British tanks toward Helmond, Easy runs into the 107th Panzer Brigade.",
+"q": null,
+"rem": "A plaque here names nine Easy Company men who fell in Holland between 19 September and 5 October.",
+"solemn": true
+},
+"d1-7": {
+"when": "SEP 1944",
+"sort": "1944-09-17T00:00",
+"ev": "The corridor road runs through the 502nd's town on Hell's Highway.",
+"q": {
+"t": "Whose town was Sint-Oedenrode on the corridor?",
+"o": [
+"The 502nd's",
+"The 504th's",
+"The British 1st Airborne's"
+],
+"a": 0,
+"x": "It was the 502nd's town; the highway through it is the original road and shows how narrow the operation was."
+},
+"rem": "One road, two ditches, flat fields either side: the whole operation depended on a road this narrow.",
+"solemn": false
+},
+"d1-8": {
+"when": "22 SEP 1944",
+"sort": "1944-09-22T00:00",
+"ev": "The Germans attack the canal bridges; the 101st fights for two days to keep the road open.",
+"q": {
+"t": "Why was Veghel the corridor's most vulnerable point?",
+"o": [
+"It had the only airfield",
+"It held the German HQ",
+"Four bridges over canal and river"
+],
+"a": 2,
+"x": "Four bridges over the canal and the river made Veghel vulnerable; the Germans attacked on 22 September."
+},
+"rem": "Every hour the road was shut here, the men at Arnhem were nearer defeat.",
+"solemn": false
+},
+"d1-9": {
+"when": "22 SEP 1944",
+"sort": "1944-09-22T00:00",
+"ev": "Cut off, Winters and a handful of Easy men bluff a defence of the town.",
+"q": {
+"t": "How did Winters's small group hold Uden?",
+"o": [
+"By bluffing strength they did not have",
+"With a British armoured regiment",
+"By blowing the bridges"
+],
+"a": 0,
+"x": "Cut off on 22 September, the group held the town for a day with a handful of men, bluffing strength they did not have."
+},
+"rem": "For a day a handful of Easy men held Uden by bluffing strength they did not have.",
+"solemn": false
+},
+"d1-10": {
+"when": "24–25 SEP 1944",
+"sort": "1944-09-24T00:00",
+"ev": "The Germans cut Hell's Highway for a day; burnt-out convoys line the road.",
+"q": {
+"t": "What was happening at Arnhem while the road here was cut?",
+"o": [
+"Arnhem had just been liberated",
+"Arnhem was falling",
+"The Poles were landing at Grave"
+],
+"a": 1,
+"x": "The last cut of Hell's Highway came on 24–25 September; burnt-out convoys lined the road here while Arnhem fell."
+},
+"rem": "The last cut of Hell's Highway: while the road was shut here, Arnhem fell.",
+"solemn": false
+},
+"d2-1": {
+"when": "17 SEP 1944",
+"sort": "1944-09-17T13:00",
+"ev": "The 504th takes the Maas bridge intact within minutes of landing.",
+"q": {
+"t": "What was special about the Grave bridge?",
+"o": [
+"It was blown before capture",
+"It is the Arnhem road bridge",
+"It was the first Market Garden bridge secured"
+],
+"a": 2,
+"x": "The 504th took it intact within minutes of landing on 17 September, the first Market Garden bridge secured."
+},
+"rem": "The 82nd's textbook success: the Maas bridge taken intact within minutes, in contrast to Son.",
+"solemn": false
+},
+"d2-2": {
+"when": "20 SEP 1944",
+"sort": "1944-09-20T15:00",
+"ev": "The 504th crosses the Waal in canvas boats under fire as the Guards' tanks rush the bridge.",
+"q": {
+"t": "How did the 504th cross the Waal on 20 September?",
+"o": [
+"In canvas boats under fire",
+"Over the intact rail bridge",
+"By parachute on the north bank"
+],
+"a": 0,
+"x": "The 504th crossed in canvas boats under fire and lost half of them, while the Guards' tanks rushed the road bridge, which fell at 19:00."
+},
+"rem": "The width of the river is the story: half the boats were lost crossing it.",
+"solemn": false
+},
+"d2-3": {
+"when": "SEP 1944",
+"sort": "1944-09-17T00:00",
+"ev": "The Market Garden and Rhineland story is told on the 82nd's landing ground.",
+"q": {
+"t": "Where does the Freedom Museum stand?",
+"o": [
+"On the Bastogne perimeter",
+"On the 82nd's landing ground",
+"At Son bridge"
+],
+"a": 1,
+"x": "It stands on the 82nd's landing ground above Nijmegen and tells the whole Market Garden and Rhineland story."
+},
+"rem": "The corridor map here places Easy's stretch of road inside the whole Market Garden plan.",
+"solemn": false
+},
+"d2-4": {
+"when": "21 SEP 1944",
+"sort": "1944-09-21T00:00",
+"ev": "Sosabowski's Poles land and try to reach the trapped British across the river.",
+"q": {
+"t": "What were the Polish paratroopers trying to do at Driel?",
+"o": [
+"Capture the Son bridge",
+"Relieve Bastogne",
+"Reach the trapped British across the river"
+],
+"a": 2,
+"x": "Sosabowski's Poles landed on 21 September and tried to reach the trapped British across the river."
+},
+"rem": "The Island begins here, looking north across the Rhine to Oosterbeek, where the British were trapped.",
+"solemn": false
+},
+"d2-5": {
+"when": "5 OCT 1944, DAWN",
+"sort": "1944-10-05T06:00",
+"ev": "Winters's bayonet-led attack at first light breaks a larger SS force at the junction.",
+"q": null,
+"rem": "This was Winters's last fight as company commander; the memorial names Pvt. William Dukeman, Easy's one man killed.",
+"solemn": false
+},
+"d2-6": {
+"when": "NIGHT 22–23 OCT 1944",
+"sort": "1944-10-23T00:30",
+"ev": "About 138 Allied evaders, mostly British, are rowed across the Neder-Rijn with Easy covering.",
+"q": {
+"t": "What was Easy's role in Operation Pegasus?",
+"o": [
+"Assaulting the Arnhem bridge",
+"Covering force on the south bank",
+"Guarding prisoners in Nijmegen"
+],
+"a": 1,
+"x": "Easy covered the south bank while the 506th brought about 138 evaders across in boats; Lt. Heyliger led the crossing party."
+},
+"rem": "About 138 Allied evaders from Arnhem, mostly British, came back across this river in a single night.",
+"solemn": false
+},
+"d2-7": {
+"when": "21 SEP 1944",
+"sort": "1944-09-21T00:00",
+"ev": "Frost's 700 men, after holding the north end for four days, are overrun.",
+"q": {
+"t": "How long did Frost's men hold the north end of the bridge?",
+"o": [
+"One day",
+"Four days",
+"Two weeks"
+],
+"a": 1,
+"x": "Frost's 700 men held the north end for four days and were overrun on 21 September. The rebuilt bridge carries his name."
+},
+"rem": "A bridge too far: the rebuilt bridge carries the name of the commander whose men held it for four days.",
+"solemn": false
+},
+"d2-8": {
+"when": "SEP 1944",
+"sort": "1944-09-17T00:00",
+"ev": "Urquhart's HQ holds a perimeter for nine days before Operation Berlin's night evacuation.",
+"q": {
+"t": "What was the Hartenstein hotel during the battle?",
+"o": [
+"A German field hospital",
+"The 506th's billet",
+"Urquhart's headquarters"
+],
+"a": 2,
+"x": "It was Urquhart's headquarters; after nine days in the perimeter came Operation Berlin, the night evacuation to the river."
+},
+"rem": "The evacuation ran south to the same river Easy watched from the other side a month later.",
+"solemn": false
+},
+"d2-9": {
+"when": "SEP 1944",
+"sort": "1944-09-17T00:00",
+"ev": "The dead of the 1st Airborne Division's battle at Arnhem are buried here.",
+"q": null,
+"rem": "1,700 graves, mostly of the 1st Airborne Division; local schoolchildren lay flowers here every September.",
+"solemn": true
+},
+"d3-1": {
+"when": "DEC 1944–JAN 1945",
+"sort": "1944-12-19T00:00",
+"ev": "The 101st holds encircled Bastogne through the siege of the Battle of the Bulge.",
+"q": {
+"t": "What lies on the skyline north-east of the Mardasson?",
+"o": [
+"The Bois Jacques",
+"The Moder valley",
+"Houffalize castle"
+],
+"a": 0,
+"x": "From the Mardasson the Bois Jacques is the dark line on the north-east skyline, where Easy held its line."
+},
+"rem": "The best single museum of the Bulge stands beside the star-shaped American memorial; it gives the siege its shape.",
+"solemn": false
+},
+"d3-2": {
+"when": "DEC 1944",
+"sort": "1944-12-19T00:00",
+"ev": "The 506th holds its right-hand village on the road to the Easy positions.",
+"q": {
+"t": "What runs from Bizory to Foy?",
+"o": [
+"A railway line",
+"The road through Easy's positions",
+"A canal"
+],
+"a": 1,
+"x": "Bizory was the 506th's right-hand village; the road from here to Foy runs straight through the Easy Company positions."
+},
+"rem": "The road north from here to Foy runs straight through the Easy Company positions.",
+"solemn": false
+},
+"d3-3": {
+"when": "18 DEC 1944–13 JAN 1945",
+"sort": "1944-12-18T00:00",
+"ev": "Fourteen Easy men are killed in these woods between 18 December and 13 January.",
+"q": null,
+"rem": "Fourteen names of Easy men killed here are listed beside a text about −28 °C nights with little food and ammunition.",
+"solemn": true
+},
+"d3-4": {
+"when": "19 DEC 1944–2 JAN 1945",
+"sort": "1944-12-19T00:00",
+"ev": "Encircled, Easy holds its foxhole line on the edge of the Bois Jacques above Foy.",
+"q": {
+"t": "What made the shelling in these woods so deadly?",
+"o": [
+"Flooding of the foxholes",
+"Mines on the road",
+"Shells bursting in the trees"
+],
+"a": 2,
+"x": "Tree bursts made the wood itself the weapon; on 3 January Joe Toye and Bill Guarnere each lost a leg."
+},
+"rem": "Easy held this line encircled, without winter gear or enough ammunition, through fog, snow and shelling.",
+"solemn": false
+},
+"d3-5": {
+"when": "13 JAN 1945",
+"sort": "1945-01-13T00:00",
+"ev": "Easy attacks across open snow; Speirs relieves Dike and runs through the village.",
+"q": {
+"t": "Whom did Winters send to take over the attack on Foy?",
+"o": [
+"Harry Welsh",
+"Norman Dike",
+"Ronald Speirs"
+],
+"a": 2,
+"x": "When Lt. Dike's advance stopped in the open, Winters sent Ronald Speirs, who ran through the village to link up with I Company and back."
+},
+"rem": "From the church, look back to the wood-line: 250 m of open snow that Easy crossed to take Foy.",
+"solemn": false
+},
+"d3-6": {
+"when": "14–15 JAN 1945",
+"sort": "1945-01-14T00:00",
+"ev": "The 506th pushes north from Foy, and Easy takes Noville on 15 January.",
+"q": {
+"t": "Who held Noville on 19–20 December?",
+"o": [
+"Team Desobry",
+"Easy Company",
+"Kampfgruppe Peiper"
+],
+"a": 0,
+"x": "Team Desobry of the 10th Armored held Noville on 19–20 December; the 506th took it on 14–15 January."
+},
+"rem": "Noville saw two stands a month apart: Team Desobry's in December and the 506th's attack in January.",
+"solemn": false
+},
+"d3-7": {
+"when": "16 JAN 1945",
+"sort": "1945-01-16T00:00",
+"ev": "Easy takes its last Ardennes objective and spends the night in the church.",
+"q": {
+"t": "What happened in the Rachamps church after Easy's last attack?",
+"o": [
+"A counterattack drove them out",
+"The schoolgirls sang for them",
+"They handed over to the British"
+],
+"a": 1,
+"x": "The company slept in the church, where the village schoolgirls sang for them; the 101st was relieved the next day."
+},
+"rem": "Bastogne cost Easy fourteen killed, about 32 wounded and 21 evacuated for cold-weather injuries; its memorial stands beside this church.",
+"solemn": false
+},
+"d3-8": {
+"when": "DEC 1944–JAN 1945",
+"sort": "1944-12-16T00:00",
+"ev": "German dead of the Bulge are buried a kilometre from Foy.",
+"q": null,
+"rem": "6,800 German dead from the Bulge rest here, the men on the other side of the snowfield.",
+"solemn": true
+},
+"d4-1": {
+"when": "DEC 1944",
+"sort": "1944-12-19T00:00",
+"ev": "The siege of Bastogne is told through a strong 101st collection in the old officers' mess.",
+"q": {
+"t": "What building houses the 101st Airborne Museum?",
+"o": [
+"McAuliffe's cellar HQ",
+"The town church",
+"The former officers' mess"
+],
+"a": 2,
+"x": "The museum is in the former officers' mess, with uniforms, a bomb-shelter experience and a strong 101st collection."
+},
+"rem": "Its bomb-shelter experience conveys the human scale of the siege.",
+"solemn": false
+},
+"d4-2": {
+"when": "22 DEC 1944",
+"sort": "1944-12-22T00:00",
+"ev": "McAuliffe's staff answer the German surrender demand with 'Nuts!'.",
+"q": {
+"t": "How was the German surrender demand answered on 22 December?",
+"o": [
+"With 'Nuts!'",
+"With a request for terms",
+"With silence"
+],
+"a": 0,
+"x": "In these barracks, where General McAuliffe's staff worked in the cellars, the German surrender demand was answered with 'Nuts!' on 22 December."
+},
+"rem": "The cellars where McAuliffe's staff worked, and where the demand was answered with 'Nuts!', are the real thing.",
+"solemn": false
+},
+"d4-3": {
+"when": "DEC 1944",
+"sort": "1944-12-19T00:00",
+"ev": "Seven roads meet at this square, the reason the 101st is sent to Bastogne.",
+"q": {
+"t": "Why was the 101st sent to Bastogne?",
+"o": [
+"It had a large airfield",
+"Seven roads meet there",
+"It stood on the Rhine"
+],
+"a": 1,
+"x": "The square sits at the centre of the seven roads, the reason the 101st was sent here."
+},
+"rem": "Count the roads: seven meet here, and that is why the 101st was sent to Bastogne.",
+"solemn": false
+},
+"d4-4": {
+"when": "16 JAN 1945",
+"sort": "1945-01-16T00:00",
+"ev": "The US 1st and 3rd Armies meet here to close the Bulge.",
+"q": {
+"t": "What happened at Houffalize on 16 January?",
+"o": [
+"Easy took the town",
+"Nordwind began",
+"The US 1st and 3rd Armies met"
+],
+"a": 2,
+"x": "The US 1st and 3rd Armies met here on 16 January to close the Bulge, the same day Easy took Rachamps."
+},
+"rem": "The Bulge was closed here on the same day Easy took Rachamps, 10 km to the south.",
+"solemn": false
+},
+"d4-5": {
+"when": "DEC 1944",
+"sort": "1944-12-17T00:00",
+"ev": "Kampfgruppe Peiper reaches its high-water mark on the northern shoulder.",
+"q": {
+"t": "What tank stands outside the December 44 Museum?",
+"o": [
+"A King Tiger",
+"A Sherman",
+"A Cromwell"
+],
+"a": 0,
+"x": "A King Tiger stands outside, at the high-water mark of Kampfgruppe Peiper on the northern shoulder."
+},
+"rem": "This is the German side of the offensive: the furthest point Kampfgruppe Peiper reached.",
+"solemn": false
+},
+"d4-6": {
+"when": "17 DEC 1944",
+"sort": "1944-12-17T00:00",
+"ev": "84 American prisoners are shot at the Baugnez crossroads.",
+"q": null,
+"rem": "84 American prisoners were shot here; the memorial wall and the field remain open as a place of remembrance.",
+"solemn": true
+},
+"d5-1": {
+"when": "JAN–FEB 1945",
+"sort": "1945-01-20T00:00",
+"ev": "The 506th holds the Moder line in deep snow as Operation Nordwind ends.",
+"q": {
+"t": "What was the 506th's task along the Moder?",
+"o": [
+"Crossing the Rhine by boat",
+"Holding the line in deep snow",
+"Jumping behind German lines"
+],
+"a": 1,
+"x": "The 506th held sectors of the Moder valley west of Haguenau in deep snow, mostly patrolling and being shelled, as Nordwind ended."
+},
+"rem": "Nordwind was the last German offensive in the west; the 506th held this line in deep snow as it ended.",
+"solemn": false
+},
+"d5-2": {
+"when": "NIGHT 15 FEB 1945",
+"sort": "1945-02-15T22:00",
+"ev": "Lt. Jones's patrol crosses the Moder and brings back two prisoners from a German outpost.",
+"q": {
+"t": "How far apart were Easy and the Germans in Haguenau?",
+"o": [
+"About a kilometre",
+"Several kilometres",
+"The width of a street"
+],
+"a": 2,
+"x": "Easy held the south bank inside the town with the Germans a street away; the 15 February patrol crossed somewhere here."
+},
+"rem": "Eugene Jackson was mortally wounded on the 15 February patrol; Haguenau was the company's last combat.",
+"solemn": false
+},
+"d5-3": {
+"when": "16 MAR 1945",
+"sort": "1945-03-16T00:00",
+"ev": "American tanks cross the Moder canal for Haguenau's final liberation.",
+"q": {
+"t": "When did Haguenau's final liberation come, relative to Easy's stay?",
+"o": [
+"Three weeks after Easy left",
+"The day Easy arrived",
+"Before Easy arrived"
+],
+"a": 0,
+"x": "American tanks crossed the Moder canal on 16 March 1945, three weeks after Easy left the town."
+},
+"rem": "The town's final liberation came on 16 March 1945, three weeks after Easy left.",
+"solemn": false
+},
+"d5-4": {
+"when": "FEB 1945",
+"sort": "1945-02-05T00:00",
+"ev": "Easy holds a half-ruined front-line town, with the Germans across the river.",
+"q": {
+"t": "How did Easy know Haguenau?",
+"o": [
+"As a quiet rest town",
+"As a half-ruined front line",
+"As a drop zone"
+],
+"a": 1,
+"x": "Easy knew the old Alsatian town as a half-ruined front line; the museum covers its two liberations of 1944–45."
+},
+"rem": "The intact streets today stand in contrast to the shelled town Easy knew in February 1945.",
+"solemn": false
+},
+"d5-5": {
+"when": "WINTER 1945",
+"sort": "1945-01-20T00:00",
+"ev": "The 1945 winter fighting runs along the fortified border this Maginot fort guarded.",
+"q": {
+"t": "What is Fort de Schoenenbourg?",
+"o": [
+"A German bunker line",
+"Easy's HQ in Haguenau",
+"The largest visitable Maginot fort in Alsace"
+],
+"a": 2,
+"x": "It is the largest visitable Maginot fort in Alsace, with kilometres of galleries and turrets, 20 km north of Haguenau."
+},
+"rem": "Its kilometres of galleries and turrets show the fortified border on which the 1945 winter fighting sat.",
+"solemn": false
+},
+"x-jm": {
+"when": "19 SEP 1944",
+"sort": "1944-09-19T00:00",
+"ev": "Pvt. Joe Mann of the 502nd throws himself on a grenade in the Best bridge fight.",
+"q": {
+"t": "What did Pvt. Joe Mann do at Best?",
+"o": [
+"Threw himself on a grenade",
+"Captured the bridge alone",
+"Led the Son footbridge crossing"
+],
+"a": 0,
+"x": "Joe Mann of the 502nd threw himself on a grenade at the Best bridge fight on 19 September and received the Medal of Honor."
+},
+"rem": "Pvt. Joe Mann received the Medal of Honor for throwing himself on a grenade in the woods where the 502nd fought.",
+"solemn": false
+},
+"x-elst": {
+"when": "OCT–NOV 1944",
+"sort": "1944-10-02T00:00",
+"ev": "The 506th holds Elst and its sector of the Island through the autumn.",
+"q": {
+"t": "Where is Elst?",
+"o": [
+"In the Bastogne perimeter",
+"On the Island",
+"On the Moder"
+],
+"a": 1,
+"x": "Elst is on the Island, the town the 506th held in October and November 1944."
+},
+"rem": "The 506th held this town on the Island through October and November 1944.",
+"solemn": false
+},
+"x-mou": {
+"when": "28 NOV–17 DEC 1944",
+"sort": "1944-11-28T00:00",
+"ev": "The 101st refits here until the Ardennes offensive alerts it on 17 December.",
+"q": {
+"t": "What interrupted the 101st's refit at Mourmelon?",
+"o": [
+"The end of the war",
+"A move back to Holland",
+"The German offensive in the Ardennes"
+],
+"a": 2,
+"x": "The division refitted here between Holland and Bastogne; on 17 December the German offensive in the Ardennes changed everything."
+},
+"rem": "The garrison town where the 101st refitted between Holland and Bastogne, and where Easy returned after Haguenau.",
+"solemn": false
+},
+"dd-0": {
+"when": "OCT 1944",
+"sort": "1944-10-01T00:00",
+"ev": "A tank battle is fought here, east of the Market Garden corridor.",
+"q": {
+"t": "What happened at Overloon in October 1944?",
+"o": [
+"An airborne drop",
+"A tank battle",
+"A river evacuation"
+],
+"a": 1,
+"x": "Overloon was the site of the October 1944 tank battle east of the corridor; the museum has one of Europe's largest vehicle collections."
+},
+"rem": "One of the largest vehicle collections in Europe stands on the ground of the October 1944 tank battle.",
+"solemn": false
+},
+"dd-1": {
+"when": "1944–1945",
+"sort": "1944-09-17T00:00",
+"ev": "American dead of Holland, the Bulge and the Rhineland are buried here.",
+"q": null,
+"rem": "Among the 8,300 graves are 101st men who fell in Holland, the Bulge and the Rhineland.",
+"solemn": true
+},
+"dd-2": {
+"when": "1944–1945",
+"sort": "1944-12-16T00:00",
+"ev": "American dead of the Bulge and the Rhineland are buried north of Liège.",
+"q": null,
+"rem": "7,900 graves hold American dead of the Bulge and the Rhineland.",
+"solemn": true
+},
+"dd-3": {
+"when": "DEC 1944",
+"sort": "1944-12-16T00:00",
+"ev": "The 2nd and 99th Divisions stop the 6th Panzer Army on the northern shoulder.",
+"q": {
+"t": "Which divisions held Elsenborn Ridge?",
+"o": [
+"The 101st and 82nd",
+"The 10th Armored",
+"The 2nd and 99th"
+],
+"a": 2,
+"x": "The 2nd and 99th Divisions stopped the 6th Panzer Army here, the shoulder that held."
+},
+"rem": "The northern shoulder of the Bulge held here, stopping the 6th Panzer Army.",
+"solemn": false
+},
+"dd-4": {
+"when": "16–18 DEC 1944",
+"sort": "1944-12-16T00:00",
+"ev": "The 110th Infantry holds the castle for two days, delaying Panzer Lehr.",
+"q": {
+"t": "Why did the stand at Clervaux matter to Bastogne?",
+"o": [
+"It delayed Panzer Lehr on the road there",
+"It supplied the 101st by air",
+"It was the 101st's HQ"
+],
+"a": 0,
+"x": "The 110th Infantry held the castle for two days, 16–18 December, delaying Panzer Lehr on the road to Bastogne."
+},
+"rem": "Two days held at Clervaux bought time on the road to Bastogne.",
+"solemn": false
+},
+"dd-5": {
+"when": "DEC 1944–JAN 1945",
+"sort": "1944-12-16T00:00",
+"ev": "The Third Army's dead of the Bulge are buried here with their general.",
+"q": null,
+"rem": "The Third Army's dead of the Bulge lie here, 5,000 graves, with General Patton among them.",
+"solemn": true
+},
+"dd-6": {
+"when": "NOV 1944",
+"sort": "1944-11-01T00:00",
+"ev": "The only Nazi camp on French soil is liberated.",
+"q": null,
+"rem": "The only Nazi camp on French soil, liberated in November 1944, is now a memorial site in the Vosges.",
+"solemn": true
+}
+}
