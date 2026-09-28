@@ -350,7 +350,7 @@ function init(){
 }
 /* ---- Diario de campaña (campaign diary): settings for the shared diary engine, loaded after this file ---- */
 const AARREG={madrid:"Madrid",aragon:"Aragon",catalonia:"Catalonia",north:"The North",south:"Andalusia",levant:"Valencia",west:"Extremadura",castile:"Castile"};
-window.AAR_CFG={key:"scw-aar",data:window.AAR_DATA||{},
+window.AAR_CFG={key:"scw-aar",tourCard:false,data:window.AAR_DATA||{},
  docName:"DIARIO DE CAMPAÑA",docNameShort:"diary page",plural:"Diario de campaña",short:"diary",guide:"The Spanish Civil War",place:"SPAIN 1936–1939",
  foot:"DZ CHARLIE · SPAIN 1936–39",stamp:"VISITADO",done:"COMPLETADO",coverTitle:"A JOURNEY THROUGH THE SPANISH CIVIL WAR",fileBase:"spanish-civil-war-diary",
  intro:"Your campaign diary. At the end of each day, write a one-page entry: the places you saw, put in the order the events happened, one question to fix it in your memory, and a line in your own words. Keep the pages for your journal, or send them to family.",

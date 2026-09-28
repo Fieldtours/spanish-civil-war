@@ -27,17 +27,16 @@ for name,a in APPS.items():
     # 2. css
     i=s.rindex('</style>'); s=s[:i]+UI+CSS+s[i:]
     # 3. slot at the top of the Tour page
-    s=rep(s,'<h2>Plan your tour</h2>\n      <div class="memo" id="apbox"','<h2>Plan your tour</h2>\n      <div id="aar-slot"></div>\n      <div class="memo" id="apbox"')
     s=rep(s,'function renderTour(){\n  apRenderPanel();\n','function renderTour(){\n  apRenderPanel();\n  {const as=document.getElementById("aar-slot");if(as&&window.AAR)as.innerHTML=AAR.card()}\n')
     # 4. home tile after the tour planner tile, and a row in More
     t0='<button type="button" class="tile" data-go="tab-tour"><span class="k">01</span><b>Tour planner</b>'
     i=s.index(t0); j=s.index('</button>',i)+len('</button>')
-    s=s[:j]+'<button type="button" class="tile" data-aar="open"><span class="k">AAR</span><b>After Action Reports</b><span>At the end of each day, a one-page report of what you saw, for your journal or to send home.</span><em>Your journal · stays on your phone</em></button>'+s[j:]
+    s=s[:j]+'<button type="button" class="tile" data-aar="open"><span class="k">AAR</span><b>After Action Reports</b><span>Optional: save or share your route. A page for each day of your tour, for your journal or to send to family.</span><em>Your journal · stays on your phone</em></button>'+s[j:]
     m0='<div class="rdsec">Use it without internet</div>'
-    s=rep(s,m0,'<div class="rdsec">Your journal</div><div class="rdlist"><button type="button" class="rdrow" data-aar="open"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5"/><path d="M9 13h7M9 17h5"/></svg></span><b>After Action Reports</b><small>A page about each day of your tour, to keep or send to family.</small></button></div>'+m0)
+    if False: s=rep(s,m0,'<div class="rdsec">Your journal</div><div class="rdlist"><button type="button" class="rdrow" data-aar="open"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5"/><path d="M9 13h7M9 17h5"/></svg></span><b>After Action Reports</b><small>A page about each day of your tour, to keep or send to family.</small></button></div>'+m0)
     # 5. the module: config + engine, before "MY ROUTE"
     cfg='''window.AAR_CFG={key:"%(k)s-aar",data:%(data)s,
- docName:"AFTER ACTION REPORT",docNameShort:"After Action Report",plural:"After Action Reports",short:"reports",guide:"%(guide)s",place:"%(place)s",
+ tourCard:false,docName:"AFTER ACTION REPORT",docNameShort:"After Action Report",plural:"After Action Reports",short:"reports",guide:"%(guide)s",place:"%(place)s",
  foot:"DZ CHARLIE · EASY COMPANY",stamp:"VISITED",done:"COMPLETED",coverTitle:"IN THE FOOTSTEPS OF EASY COMPANY",fileBase:"%(file)s",
  intro:"At the end of each day, write a one-page report: the places you saw, put in the order the events happened, one question to fix it in your memory, and a line in your own words. Keep the pages for your journal, or send them to family.",
  hint:"The moment you want to remember",

@@ -142,7 +142,7 @@ function draw(){const el=root(),all=days(),total=all.filter(d=>d.n).length;let h
     ${all.length?`<div class="aar-list">${all.map(d=>{const r=REP[d.date];return `<button type="button" class="aar-row" data-aar="write" data-date="${d.date}"><span class="aar-k">${d.n||"·"}</span><span class="aar-x"><b>${d.n?"Day "+d.n+" · ":""}${ESC(dayTitle(d))}</b><small>${ESC(longDate(d.date))} · ${d.ids.length} site${d.ids.length===1?"":"s"} visited</small></span><span class="aar-st${r?" ok":""}">${r?"Written":"Write"}</span></button>`}).join("")}</div>`
       :`<div class="aar-empty"><b>No visits yet</b><p>Tick <b>Visited</b> on each site as you see it. In the evening, come back here and write the day's page.</p></div>`}
     ${wrote.length?`<button type="button" class="aar-btn" data-aar="booklet">Make my trip booklet (${wrote.length} page${wrote.length===1?"":"s"})</button><p class="aar-note">Opens the print window: choose "Save as PDF" to keep it, or print it for your journal.</p>`:""}
-    <label class="aar-sw"><input type="checkbox" data-aar="remind"${SET.remind?" checked":""}><span><b>Remind me on the Tour page</b><small>Shows "Write today's ${ESC(C.docNameShort)}" after you visit sites.</small></span></label>
+    ${C.tourCard===false?"":`<label class="aar-sw"><input type="checkbox" data-aar="remind"${SET.remind?" checked":""}><span><b>Remind me on the Tour page</b><small>Shows "Write today's ${ESC(C.docNameShort)}" after you visit sites.</small></span></label>`}
     <p class="aar-note">Your pages stay on this phone. Nothing is sent anywhere unless you choose to share it.</p></div>`}
   else{const dy=dayByDate(S.date);if(!dy){S.view="list";return draw()}const q=pickQ(dy),hasQ=!!q,SEQ=hasQ?[1,2,3]:[2,3],steps=SEQ.length,cur=SEQ.indexOf(S.step)+1;
     const prog=S.step<4?`<div class="aar-prog">${Array.from({length:steps},(_,i)=>`<i class="${i<cur?"on":""}"></i>`).join("")}</div>`:"";
@@ -201,7 +201,7 @@ document.addEventListener("click",e=>{const t=e.target.closest("[data-aar]");
 document.addEventListener("change",e=>{if(e.target.dataset&&e.target.dataset.aar==="remind"){SET.remind=e.target.checked;LS.set("set",SET);if(C.onChange)C.onChange()}});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!root().hidden){close()}});
 /* ---- the card on the Tour page ---- */
-function card(){if(!SET.remind)return"";sync();const all=days(),t=all.find(d=>d.date===today());
+function card(){if(!SET.remind||C.tourCard===false)return"";sync();const all=days(),t=all.find(d=>d.date===today());
   if(t&&!REP[t.date]&&SNOOZE!==today())return `<div class="aar-cardin"><div class="aar-ch"><span class="aar-ico"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5"/><path d="M9 13h7M9 17h5"/></svg></span><span><small>${t.ids.length} SITE${t.ids.length===1?"":"S"} VISITED TODAY</small><b>Write today's ${ESC(C.docNameShort)}</b></span></div>
     <p>Two minutes. What you saw, put in the order it happened, one question, and a line of your own. You get a page for your journal.</p>
     <button type="button" class="aar-btn" data-aar="today">${ESC(C.startLabel||"Start my report")}</button><button type="button" class="aar-link" data-aar="snooze">Not tonight</button></div>`;
