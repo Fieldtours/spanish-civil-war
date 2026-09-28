@@ -1,4 +1,5 @@
 import json
+from ux_ec import ux
 SRC='/home/claude/ecp/out/'; OUT='/home/claude/aar/ec-out/'
 JS=open('/home/claude/aar/aar.js').read(); CSS=open('/home/claude/aar/aar.css').read()
 APPS={
@@ -49,4 +50,5 @@ for name,a in APPS.items():
  onChange:()=>{const as=document.getElementById("aar-slot");if(as&&window.AAR)as.innerHTML=AAR.card()}};
 '''%dict(k=a['k'],data=json.dumps(data,ensure_ascii=False),guide=a['guide'],place=a['place'],file=a['file'])
     s=rep(s,'/* ---------- MY ROUTE: add / remove from any tab, route buttons ---------- */',cfg+JS+'\n/* ---------- MY ROUTE: add / remove from any tab, route buttons ---------- */')
+    s=ux(s,a['k'])
     open(OUT+name+'.html','w',encoding='utf-8').write(s); print(name,len(s))

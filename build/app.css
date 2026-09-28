@@ -279,3 +279,11 @@ input[type=range]{width:100%;accent-color:var(--red);height:36px}
 .gl{grid-template-columns:minmax(70px,30%) 1fr}
 .gl dt{word-break:break-word}
 .stop .m .pill-c{cursor:inherit}
+
+/* ease-of-use pass, Sep 2026 */
+details.uxmore>summary{list-style:none}
+details.uxmore>summary::-webkit-details-marker{display:none}
+details.uxmore>summary:after{transform:rotate(135deg)}
+details.uxmore[open]>summary:after{transform:rotate(-45deg)}
+details.uxmore[open]>summary .n{background:var(--ink2)}
+h2[tabindex="-1"]:focus,h2[tabindex="-1"]:focus-visible{outline:none}
