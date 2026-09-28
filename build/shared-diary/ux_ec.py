@@ -52,7 +52,7 @@ document.addEventListener("click",e=>{const t=e.target.closest("[data-uxpick],[d
 """
 def rep(s,o,n,c=1):
     assert s.count(o)==c,(o[:70],s.count(o));return s.replace(o,n)
-PDFINFO={'45 pages · 4.6 MB':'37 pages · 2.6 MB','56 pages · 10.2 MB':'38 pages · 3.0 MB','40 pages · 6.2 MB':'32 pages · 2.7 MB'}  # new-style printed guides (Sep 2026)
+PDFINFO={'45 pages · 4.6 MB':'37 pages · 3.5 MB','56 pages · 10.2 MB':'38 pages · 4.2 MB','40 pages · 6.2 MB':'32 pages · 3.5 MB'}  # new-style printed guides (Sep 2026)
 def ux(s,k):
     for a,b in PDFINFO.items(): s=s.replace(a,b)
     i=s.rindex('</style>'); s=s[:i]+CSS+s[i:]

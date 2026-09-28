@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="node_modules/maplibre-gl/dist/maplibre-gl.css">
+<style>html,body{margin:0}#map{width:1100px;height:700px}</style>
+<script src="node_modules/maplibre-gl/dist/maplibre-gl.js"></script></head><body><div id="map"></div>
+<script>
+// Google-style road map drawn from OpenStreetMap data, with the guide's numbered sites on top.
+const Q=new URLSearchParams(location.search);const JOB=JSON.parse(decodeURIComponent(Q.get('job')));
+document.getElementById('map').style.width=JOB.w+'px';document.getElementById('map').style.height=JOB.h+'px';
+const D='data/'+JOB.area+'/';const src=n=>({type:'geojson',data:D+n+'.geojson',tolerance:0.3});
+const F='Noto Sans Regular',FM='Noto Sans Medium',FI='Noto Sans Italic';
+const roadW=(c,base,e=0)=>['interpolate',['exponential',1.6],['zoom'],8,base*.35+e*.5,11,base*.8+e,13,base*1.6+e,15,base*3.2+e];
+const style={version:8,glyphs:location.origin+'/glyphs/{fontstack}/{range}.pbf',
+ sources:{sea:src('sea'),water:src('water'),wood:src('wood'),wetland:src('wetland'),urban:src('urban'),roads:src('roads'),rail:src('rail'),rivers:src('rivers'),places:src('places'),borders:src('borders'),
+  sites:{type:'geojson',data:{type:'FeatureCollection',features:JOB.sites.map(s=>({type:'Feature',geometry:{type:'Point',coordinates:[s.lon,s.lat]},properties:{n:String(s.n)}}))}},
+  extra:{type:'geojson',data:{type:'FeatureCollection',features:(JOB.labels||[]).map(l=>({type:'Feature',geometry:{type:'Point',coordinates:[l.lon,l.lat]},properties:{name:l.name,kind:l.kind||'sea'}}))}},
+  keytowns:{type:'geojson',data:{type:'FeatureCollection',features:(JOB.towns||[]).map(t=>({type:'Feature',geometry:{type:'Point',coordinates:[t[2],t[1]]},properties:{name:t[0]}}))}},
+  leaders:{type:'geojson',data:{type:'FeatureCollection',features:[]}},
+  route:{type:'geojson',data:{type:'Feature',geometry:{type:'LineString',coordinates:JOB.route?JOB.sites.map(s=>[s.lon,s.lat]):[]}}}},
+ layers:[
+  {id:'bg',type:'background',paint:{'background-color':'#f5f3ee'}},
+  {id:'urban',type:'fill',source:'urban',paint:{'fill-color':'#ebe7df'}},
+  {id:'wood',type:'fill',source:'wood',paint:{'fill-color':'#cfe6c4'}},
+  {id:'wetland',type:'fill',source:'wetland',paint:{'fill-color':'#dcebd9'}},
+  {id:'sea',type:'fill',source:'sea',paint:{'fill-color':'#aadaff'}},
+  {id:'water',type:'fill',source:'water',paint:{'fill-color':'#aadaff'}},
+  {id:'rivers',type:'line',source:'rivers',paint:{'line-color':'#aadaff','line-width':['interpolate',['linear'],['zoom'],9,1,13,3]}},
+  {id:'borders',type:'line',source:'borders',paint:{'line-color':'#8c86a3','line-width':1.6,'line-dasharray':[3,1.5]}},
+  {id:'rail',type:'line',source:'rail',minzoom:10,paint:{'line-color':'#bdbdbd','line-width':1.2,'line-dasharray':[3,2]}},
+  // road casings then fills, minor first
+  ...[[6,'#ffffff','#d6d3cc',1.1,12.5],[5,'#ffffff','#d6d3cc',1.3,11],[4,'#ffffff','#cfcac0',1.9,9.5],[3,'#fdf2c4','#e3cf8a',2.4,8],[2,'#fde293','#e0b95a',2.9,7],[1,'#fcd26b','#d9a43a',3.3,6],[0,'#f9bf5a','#d18f2b',3.6,5]].flatMap(([c,fill,cas,w,mz])=>[
+   {id:'rc'+c,type:'line',source:'roads',minzoom:mz,filter:['==',['get','c'],c],layout:{'line-cap':'round','line-join':'round'},paint:{'line-color':cas,'line-width':roadW(c,w,1.6)}},
+  ]),
+  ...[[6,'#ffffff',1.1,12.5],[5,'#ffffff',1.3,11],[4,'#ffffff',1.9,9.5],[3,'#fdf2c4',2.4,8],[2,'#fde293',2.9,7],[1,'#fcd26b',3.3,6],[0,'#f9bf5a',3.6,5]].map(([c,fill,w,mz])=>
+   ({id:'rf'+c,type:'line',source:'roads',minzoom:mz,filter:['==',['get','c'],c],layout:{'line-cap':'round','line-join':'round'},paint:{'line-color':fill,'line-width':roadW(c,w)}})),
+  {id:'lead',type:'line',source:'leaders',paint:{'line-color':'#3a4118','line-width':1.5}},
+  {id:'lead-dot',type:'circle',source:'leaders',filter:['==',['geometry-type'],'Point'],paint:{'circle-radius':3.5,'circle-color':'#a3261e','circle-stroke-color':'#fff','circle-stroke-width':1}},
+  {id:'route-h',type:'line',source:'route',paint:{'line-color':'#ffffff','line-width':6,'line-opacity':.8}},
+  {id:'route',type:'line',source:'route',paint:{'line-color':'#a3261e','line-width':3,'line-dasharray':[2,1.4]}},
+  // our sites first among symbols, so every other label keeps clear of them
+  {id:'sites',type:'symbol',source:'sites',layout:{'icon-image':'pin','icon-allow-overlap':true,'text-allow-overlap':true,'text-field':['get','n'],'text-font':[FM],'text-size':14,'icon-size':1},paint:{'text-color':'#ffffff'}},
+  {id:'river-names',type:'symbol',source:'rivers',minzoom:10,filter:['==',['get','w'],'river'],layout:{'symbol-placement':'line','text-field':['get','name'],'text-font':[FI],'text-size':12,'symbol-spacing':400},paint:{'text-color':'#4a86b8','text-halo-color':'#fff','text-halo-width':1.5}},
+  {id:'street-names',type:'symbol',source:'roads',minzoom:13.5,filter:['all',['>=',['get','c'],3],['!=',['get','name'],'']],layout:{'symbol-placement':'line','text-field':['get','name'],'text-font':[F],'text-size':11},paint:{'text-color':'#5f6368','text-halo-color':'#fff','text-halo-width':1.5}},
+  {id:'hamlets',type:'symbol',source:'places',minzoom:12,filter:['==',['get','place'],'hamlet'],layout:{'text-field':['get','name'],'text-font':[F],'text-size':11},paint:{'text-color':'#70757a','text-halo-color':'#fff','text-halo-width':1.5}},
+  {id:'villages',type:'symbol',source:'places',minzoom:10.3,filter:['match',['get','place'],['village','suburb'],true,false],layout:{'text-variable-anchor':['center','top','bottom','left','right','top-left','top-right','bottom-left','bottom-right'],'text-radial-offset':0.9,'text-field':['get','name'],'text-font':[F],'text-size':['interpolate',['linear'],['zoom'],10,11,13,14],'symbol-sort-key':['-',0,['get','pop']]},paint:{'text-color':'#3c4043','text-halo-color':'#fff','text-halo-width':1.8}},
+  {id:'villages-big',type:'symbol',source:'places',minzoom:8.5,maxzoom:10.3,filter:['all',['match',['get','place'],['village','suburb'],true,false],['>=',['get','pop'],1800]],layout:{'text-variable-anchor':['center','top','bottom','left','right','top-left','top-right','bottom-left','bottom-right'],'text-radial-offset':0.9,'text-field':['get','name'],'text-font':[F],'text-size':['interpolate',['linear'],['zoom'],10,11,13,14],'symbol-sort-key':['-',0,['get','pop']]},paint:{'text-color':'#3c4043','text-halo-color':'#fff','text-halo-width':1.8}},
+  {id:'shields2',minzoom:10.5,type:'symbol',source:'roads',filter:['all',['all',['>=',['get','c'],3],['<=',['get','c'],4]],['!=',['get','ref'],'']],layout:{'symbol-placement':'line','symbol-spacing':260,'text-field':['slice',['get','ref'],0,8],'text-font':[FM],'text-size':11,'text-rotation-alignment':'viewport','icon-image':['case',['<=',['get','c'],1],'shieldR',['<=',['get','c'],2],'shieldY','shieldW'],'icon-text-fit':'both','icon-text-fit-padding':[2,4,2,4],'icon-rotation-alignment':'viewport'},paint:{'text-color':['case',['<=',['get','c'],1],'#ffffff','#3c4043']}},
+  {id:'shields',type:'symbol',source:'roads',filter:['all',['<=',['get','c'],2],['!=',['get','ref'],'']],layout:{'symbol-placement':'line','symbol-spacing':['interpolate',['linear'],['zoom'],5,700,8,500,10,320],'text-field':['slice',['get','ref'],0,8],'text-font':[FM],'text-size':11,'text-rotation-alignment':'viewport','icon-image':['case',['<=',['get','c'],1],'shieldR',['<=',['get','c'],2],'shieldY','shieldW'],'icon-text-fit':'both','icon-text-fit-padding':[2,4,2,4],'icon-rotation-alignment':'viewport'},paint:{'text-color':['case',['<=',['get','c'],1],'#ffffff','#3c4043']}},
+  {id:'extra',type:'symbol',source:'extra',filter:['==',['get','kind'],'sea'],layout:{'text-field':['get','name'],'text-font':[FI],'text-size':14,'text-letter-spacing':0.12,'text-allow-overlap':true},paint:{'text-color':'#1a5f8f','text-halo-color':'#e8f4ff','text-halo-width':2}},
+  {id:'countries',type:'symbol',source:'extra',filter:['==',['get','kind'],'country'],layout:{'text-field':['upcase',['get','name']],'text-font':[FM],'text-size':15,'text-letter-spacing':0.3},paint:{'text-color':'#7b7394','text-halo-color':'#fff','text-halo-width':2}},
+  {id:'towns',type:'symbol',source:'places',filter:['all',['match',['get','place'],['town','city'],true,false],['!',['in',['get','name'],['literal',(JOB.towns||[]).map(t=>t[0])]]]],layout:{'text-variable-anchor':['center','top','bottom','left','right','top-left','top-right','bottom-left','bottom-right'],'text-radial-offset':0.9,'text-field':['get','name'],'text-font':[FM],'text-size':['interpolate',['linear'],['zoom'],8,13,12,17],'symbol-sort-key':['-',0,['get','pop']]},paint:{'text-color':'#202124','text-halo-color':'#fff','text-halo-width':2}},
+ ]};
+// symbol order: MapLibre places the LAST symbol layer first, so put the sites last
+style.layers.push({id:'keytowns',type:'symbol',source:'keytowns',layout:{'text-field':['get','name'],'text-font':[FM],'text-size':15,'text-variable-anchor':['top','bottom','right','left','top-right','top-left','bottom-right','bottom-left'],'text-radial-offset':1.7,'text-padding':1},paint:{'text-color':'#202124','text-halo-color':'#fff','text-halo-width':2.2}});
+const sites=style.layers.splice(style.layers.findIndex(l=>l.id==='sites'),1)[0];style.layers.push(sites);
+const map=new maplibregl.Map({container:'map',style,interactive:false,attributionControl:false,preserveDrawingBuffer:true,fadeDuration:0,pixelRatio:JOB.ratio||2});
+function img(w,h,draw){const c=document.createElement('canvas');c.width=w;c.height=h;const x=c.getContext('2d');draw(x);return x.getImageData(0,0,w,h)}
+map.on('load',()=>{
+ const R=JOB.ratio||2;
+ map.addImage('pin',img(34*R,34*R,x=>{x.scale(R,R);x.beginPath();x.arc(17,17,14,0,7);x.fillStyle='#3a4118';x.fill();x.lineWidth=3;x.strokeStyle='#fff';x.stroke()}),{pixelRatio:R});
+ const sh=(fill,stroke)=>img(20*R,20*R,x=>{x.scale(R,R);x.fillStyle=fill;x.strokeStyle=stroke;x.lineWidth=1.2;x.beginPath();x.roundRect(1,1,18,18,3);x.fill();x.stroke()});
+ const st={pixelRatio:R,stretchX:[[4*R,16*R]],stretchY:[[4*R,16*R]],content:[4*R,4*R,16*R,16*R]};
+ map.addImage('shieldR',sh('#c5221f','#8e1a17'),st);map.addImage('shieldY',sh('#fde293','#c9a13a'),st);map.addImage('shieldW',sh('#ffffff','#9aa0a6'),st);
+ map.fitBounds(JOB.bounds,{padding:JOB.pad||70,duration:0,maxZoom:JOB.maxZoom||14});
+ // spread out sites that sit on top of each other, with a thin line back to the true spot
+ const P=JOB.sites.map(x=>{const p=map.project([x.lon,x.lat]);return {x:p.x,y:p.y,ox:p.x,oy:p.y}});
+ for(let it=0;it<200;it++){let moved=false;for(let i=0;i<P.length;i++)for(let k=i+1;k<P.length;k++){const a=P[i],b=P[k];let dx=b.x-a.x,dy=b.y-a.y,d=Math.hypot(dx,dy);if(d<34){if(d<.01){dx=1;dy=0;d=1}const m=(34-d)/2;a.x-=dx/d*m;a.y-=dy/d*m;b.x+=dx/d*m;b.y+=dy/d*m;moved=true}}if(!moved)break}
+ const LL=P.map(p=>map.unproject([p.x,p.y]));
+ map.getSource('sites').setData({type:'FeatureCollection',features:JOB.sites.map((s,i)=>({type:'Feature',geometry:{type:'Point',coordinates:[LL[i].lng,LL[i].lat]},properties:{n:String(s.n)}}))});
+ const lf=[];P.forEach((p,i)=>{if(Math.hypot(p.x-p.ox,p.y-p.oy)>6){lf.push({type:'Feature',geometry:{type:'LineString',coordinates:[[JOB.sites[i].lon,JOB.sites[i].lat],[LL[i].lng,LL[i].lat]]}});lf.push({type:'Feature',geometry:{type:'Point',coordinates:[JOB.sites[i].lon,JOB.sites[i].lat]}})}});
+ map.getSource('leaders').setData({type:'FeatureCollection',features:lf});
+ map.once('idle',()=>{document.title='READY '+map.getZoom().toFixed(2)});
+});
+map.on('error',e=>console.log('maperr',e.error&&e.error.message));
+</script></body></html>

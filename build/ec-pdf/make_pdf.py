@@ -32,6 +32,17 @@ def stop(no, name, meta, text, look=None, plan=None, priv=False, lat=None, lon=N
             + (f'<p class="gps">GPS {lat:.5f}, {lon:.5f}</p>' if lat is not None else '')
             + links(L) + '</div>')
 
+GM = '/home/claude/ecpdf/gmaps/'
+def mapblock(key, name, items):
+    import os, json as _j
+    f = f'{key}-{name}.jpg'
+    if os.path.exists(GM + f):
+        shutil.copy(GM + f, BUILD + 'maps/g-' + f)
+        off = _j.load(open(GM + f'{key}-off.json')).get(f, []) if os.path.exists(GM + f'{key}-off.json') else []
+        keyl = ''.join(f'<span><b>{n}</b>{E(t)}</span>' for n, t in items if n not in off)
+        note = ''.join(f'<span class="offm"><b>{n}</b>{E(t)} — off this map</span>' for n, t in items if n in off)
+        return f'<img class="rimg" src="maps/g-{f}"><div class="mkey">{keyl}{note}</div><p class="cap">Map data © OpenStreetMap contributors</p>'
+    return f'<img class="rimg" src="maps/{key}-{name}.jpg">'
 def build(key):
     G = GUIDES[key]; D = json.load(open(f'/home/claude/ecpdf/{key}.json'))
     nstops = sum(len(d['stops']) for d in D['days']) + len(D['extra'])
@@ -54,7 +65,7 @@ def build(key):
     P.append('</section>')
     # ---- the tour, day by day
     for d in D['days']:
-        P.append(f'<section class="reg"><h2>Day {d["n"]} — {E(d["title"])}</h2><img class="rimg" src="maps/{key}-day{d["n"]}.jpg"><p class="cap">{E(d["route"])}</p><p class="lede">{E(d["q"])}</p>')
+        P.append(f'<section class="reg"><h2>Day {d["n"]} — {E(d["title"])}</h2>{mapblock(key, "day%d" % d["n"], [(i+1, s["name"]) for i, s in enumerate(d["stops"])])}<p class="cap">{E(d["route"])}</p><p class="lede">{E(d["q"])}</p>')
         for i, s in enumerate(d['stops']):
             meta = f'{pill(s["cert"])} {E(s["cat"])} · ≈{s["min"]} min' + (' · ★ must see' if s['pri'] == 1 else '')
             P.append(stop(i + 1, s['name'], meta, s['text'], s['look'], s['plan'], s['priv'], s['lat'], s['lon'], s['links']))
@@ -62,17 +73,17 @@ def build(key):
         if n: P.append(f'<div class="night"><b>End of day {d["n"]} — overnight: {E(n.get("base"))}</b><br>{E(n.get("name"))} · {E(n.get("addr"))}<br><small>{E(n.get("info"))} · GPS {n["lat"]:.5f}, {n["lon"]:.5f}</small></div>')
         P.append('</section>')
     if D['extra']:
-        P.append(f'<section class="reg"><h2>Worth a detour</h2><img class="rimg" src="maps/{key}-extra.jpg"><p class="lede">Extra sites on the Easy Company story, added to the tour when you have more days.</p>')
+        P.append(f'<section class="reg"><h2>Worth a detour</h2>{mapblock(key, "extra", [(i+1, s["name"]) for i, s in enumerate(D["extra"])])}<p class="lede">Extra sites on the Easy Company story, added to the tour when you have more days.</p>')
         for i, s in enumerate(D['extra']):
             P.append(stop(i + 1, s['name'], f'{pill(s["cert"])} {E(s["cat"])} · ≈{s["min"]} min', s['text'], s['look'], s['plan'], s['priv'], s['lat'], s['lon'], s['links']))
         P.append('</section>')
     # ---- timeline
-    P.append(f'<section class="reg"><h2>The timeline</h2><img class="rimg" src="maps/{key}-tl.jpg"><p class="lede">{len(D["tl"])} historical positions in date order: what happened, where and when. The numbers follow the company&#8217;s movement.</p>')
+    P.append(f'<section class="reg"><h2>The timeline</h2>{mapblock(key, "tl", [(t["n"], t["name"]) for t in D["tl"]])}<p class="lede">{len(D["tl"])} historical positions in date order: what happened, where and when. The numbers follow the company&#8217;s movement.</p>')
     for t in D['tl']:
         P.append(stop(t['n'], t['name'], f'{pill(t["cert"])} {E(t["when"])}' + (f' · {E(t["phase"])}' if t['phase'] else ''), t['text'], t['look'], None, False, t['lat'], t['lon'], t['links'], 'On the ground'))
     P.append('</section>')
     # ---- the wider war
-    P.append(f'<section class="reg"><h2>{E(D["ddTitle"])}</h2><img class="rimg" src="maps/{key}-dd.jpg"><h3>{E(D["ddHeads"][0] if D["ddHeads"] else "The decisive factors")}</h3>')
+    P.append(f'<section class="reg"><h2>{E(D["ddTitle"])}</h2>{mapblock(key, "dd", [(i+1, s["name"]) for i, s in enumerate(D["dd"])])}<h3>{E(D["ddHeads"][0] if D["ddHeads"] else "The decisive factors")}</h3>')
     for f in D['factors']:
         P.append(f'<p class="tl"><b>{E(f[0])}.</b> {E(f[1])}' + (f' <span class="stat">{E(f[2])}</span>' if len(f) > 2 and f[2] else '') + '</p>')
     P.append(f'<h3>{E(D["ddHeads"][-1] if D["ddHeads"] else "Key sites")}</h3>')
@@ -80,7 +91,7 @@ def build(key):
         P.append(stop(i + 1, s['name'], f'{pill(s["cert"])} {E(s["cat"])}', s['text'], s['look'], None, False, s['lat'], s['lon'], s['links']))
     P.append('</section>')
     # ---- museums
-    P.append(f'<section class="reg"><h2>Museums</h2><img class="rimg" src="maps/{key}-mus.jpg"><p class="lede">The museums worth your time on this part of the route. Check opening days before you travel.</p>')
+    P.append(f'<section class="reg"><h2>Museums</h2>{mapblock(key, "mus", [(i+1, s["name"]) for i, s in enumerate(D["mus"])])}<p class="lede">The museums worth your time on this part of the route. Check opening days before you travel.</p>')
     for i, m in enumerate(D['mus']):
         P.append(stop(i + 1, m['name'], f'{E(m["place"])} · {E(m["day"])} · {E(m["tip"])}', m['text'], None, None, False, m['lat'], m['lon'], m['links']))
     P.append('</section>')
@@ -123,7 +134,8 @@ section.cover{page-break-before:auto;box-sizing:border-box;height:258mm;backgrou
 .cover .stamp{display:inline-block;border:3px solid #e0877d;color:#e0877d;font-family:SS;font-weight:700;font-size:14pt;padding:2px 10px;transform:rotate(-3deg);margin:4px 0 0}
 .cover .note{position:absolute;bottom:12mm;left:14mm;right:14mm;font-size:9pt;background:rgba(20,22,10,.75);padding:6px;margin:0}
 .toc li{font-size:13pt;margin:4px 0}.toc span{color:#6f6a58;font-size:10pt}
-.rimg{width:100%;max-height:115mm;object-fit:contain;border:1px solid #8b8a4e}
+.rimg{width:100%;max-height:118mm;object-fit:contain;border:1px solid #8b8a4e;display:block}
+.mkey{columns:3;column-gap:10px;font-family:Helvetica,Arial,sans-serif;font-size:7.6pt;line-height:1.25;margin:5px 0 0;color:#1c1a15}.mkey span{display:block;break-inside:avoid;margin:0 0 2px}.mkey b{display:inline-block;min-width:14px;height:14px;border-radius:7px;background:#3a4118;color:#fff;text-align:center;font-size:7pt;line-height:14px;margin-right:4px;padding:0 1px}.mkey .offm{color:#6f6a58}
 .cap{font-size:8.5pt;color:#6f6a58;margin:2px 0 8px}
 .lede{font-style:italic}
 .leg{font-size:9pt}
