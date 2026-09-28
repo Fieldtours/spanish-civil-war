@@ -130,4 +130,6 @@ def ux(s,k):
     s=rep(s,'<div class="memo" id="apbox" aria-live="polite"></div>','<div class="memo" id="uxpick" hidden></div>\n      <div class="memo" id="apbox" aria-live="polite"></div>')
     s=rep(s,'function renderTour(){\n  apRenderPanel();\n','function renderTour(){\n  apRenderPanel();uxTourGate();\n')
     s=rep(s,'/* ---------- MY ROUTE: add / remove from any tab, route buttons ---------- */',JS%{'k':k}+'/* ---------- MY ROUTE: add / remove from any tab, route buttons ---------- */')
+    import myroute_ec
+    s=myroute_ec.patch(s,k)
     return s
