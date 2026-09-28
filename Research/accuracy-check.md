@@ -201,3 +201,13 @@ Written 27 September 2026. Everything below is also marked in the app where a vi
 ## 7. How the pins were checked
 
 All 158 pins were checked by computer against OpenStreetMap (to confirm each one sits in the right town) and against Wikipedia coordinates where an article exists. 10 pins were corrected (section 3). HIGH means a museum, memorial, ruin or trench with a published position.
+## Corrections applied 28 Sep 2026 (v1.1)
+A reviewer's patch list (32 rows) was checked against official and scholarly sources before anything was changed. The full list of edits is in research/corrections_2026-09-28.json (build/ in GitHub).
+- Fixed errors: Guernica photos now allowed (ban lifted Sept 2023); Guernica was in MoMA's care and handed over in Sept 1981 (Casón del Buen Retiro, Reina Sofía from 1992); Millán-Astray founded the Legion, Franco was his second-in-command (glossary + Franco profile); Ley 20/2022 changed the official name to Valle de Cuelgamuros (briefing + stop 5); CEDA's role in 1936 described more precisely; San Pedro de Cardeña dates Dec 1936–Nov 1939.
+- Numbers removed or attributed ("estimates vary"): Belchite, Codo, Oviedo, Sollube, San Marcos. Belchite prices removed (check belchite.es).
+- New verified figures: Valdenoceda 153 deaths (154 with Félix Torres), 114 exhumed from 2007; La Barranca 407 people in three graves (BOE-A-2022-799); Camp de la Bota 1,686 (Generalitat, with the older 1,734 and 1,717 counts noted).
+- Pins moved: La Barranca to the BOE heritage coordinates (now HIGH); La Vajol to the Monument a l'Exili (42.40319, 2.80326).
+- Honest labels: San Marcial, La Granja, Berango, Viver, Miranda de Ebro, Barcelona Cathedral and Codo now say what the pin marks and what is not confirmed.
+- Visitor info updated: Cuelgamuros funicular closed indefinitely; Barbastro museum address; Bielsa museum name; Móra castle = Centre d'Interpretació de les Guerres Carlines; Els Monjos shelter via CIARGA; Miranda interpretation centre address; Simancas monument legal status (Sept 2026, time-sensitive).
+- Home page PDF text now says what the PDF contains.
+- Not done yet (bigger change, planned): separate ratings for location certainty and historical-source strength on every stop, and casualty figures stored as ranges with sources.

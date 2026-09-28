@@ -13,6 +13,19 @@ FIX=json.load(open('research/coord_fixes.json'))
 FX={f[0]:f for f in FIX}
 for s in stops:
   if s['id'] in FX: f=FX[s['id']];s['lat'],s['lon'],s['certainty']=f[5],f[6],f[7]
+# ---- reviewed corrections (each one must match exactly, so nothing is changed by accident)
+COR=json.load(open('research/corrections_2026-09-28.json'))
+SB={s['id']:s for s in stops}
+for c in COR['stops']:
+  s=SB[c['id']];f=c['f']
+  if 'set' in c: s[f]=c['set']
+  else:
+    assert s[f].count(c['old'])==1,(c['id'],f,c['old'][:60]);s[f]=s[f].replace(c['old'],c['new'])
+_cs=json.dumps(ctx,ensure_ascii=False)
+for c in COR['context']:
+  o=json.dumps(c['old'],ensure_ascii=False)[1:-1];n=json.dumps(c['new'],ensure_ascii=False)[1:-1]
+  assert _cs.count(o)==1,c['old'][:60];_cs=_cs.replace(o,n)
+ctx=json.loads(_cs)
 order={r['id']:i for i,r in enumerate(regmeta)}
 stops.sort(key=lambda s:(order[s['region']],s['pri'],s['id']))
 RNOTES=[]
