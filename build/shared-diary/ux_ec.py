@@ -21,6 +21,8 @@ details.uxpdf[open]>summary{margin-bottom:8px}
 #uxpick .uxsw{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 12px}
 #uxpick .uxsw span{font-size:15px;font-weight:600;color:var(--ink)}
 .rd .hdr .hbtn .hl{font-size:11.5px!important}
+.rd .hero .qa .cta.wide{background:#a3261e!important;color:#fff!important;border-color:#e0877d!important;font-size:19px!important;min-height:60px;box-shadow:0 4px 12px rgba(0,0,0,.45)!important}
+.rd .hero .qa .cta.wide:active{transform:translateY(1px)}
 """
 JS=r"""
 /* ---------- TOUR PAGE: one question first (ease-of-use pass, Sep 2026) ---------- */

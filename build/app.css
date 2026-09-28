@@ -287,3 +287,5 @@ details.uxmore>summary:after{transform:rotate(135deg)}
 details.uxmore[open]>summary:after{transform:rotate(-45deg)}
 details.uxmore[open]>summary .n{background:var(--ink2)}
 h2[tabindex="-1"]:focus,h2[tabindex="-1"]:focus-visible{outline:none}
+.qa .btn.w.big{background:var(--red);color:#fff;border-color:#e39a86;font-size:19px;min-height:60px;box-shadow:0 4px 12px rgba(0,0,0,.45)}
+.qa .btn.w.big svg{color:#fff}
