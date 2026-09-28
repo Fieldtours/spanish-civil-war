@@ -13,7 +13,7 @@ def rep(s,o,n,c=1):
     assert s.count(o)==c,(o[:70],s.count(o));return s.replace(o,n)
 for name,a in APPS.items():
     s=open(SRC+name+'.html',encoding='utf-8').read()
-    data=json.load(open('/home/claude/aar/out/'+name+'.json'))
+    data=json.load(open('/home/claude/aar/out/'+name+'-full.json'))
     # 1. each guide keeps its own ticks and plan (they were shared between the three guides on dzcharlie.com)
     if a['k']!='ecn':
         k=a['k']

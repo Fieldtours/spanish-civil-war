@@ -32,29 +32,49 @@ function events(dy,max){let L=dy.ids.filter(id=>D[id]).map(id=>({id,s:C.stop(id)
   if(L.length>max){L=L.slice().sort((a,b)=>(a.s.pri||3)-(b.s.pri||3)).slice(0,max)}
   const key=e=>/T00:00$/.test(e.d.sort)?e.d.sort.slice(0,11)+"12:00":e.d.sort;return L.sort((a,b)=>key(a).localeCompare(key(b)))}
 function solemnIds(dy){return dy.ids.filter(id=>D[id]&&D[id].solemn)}
-/* ---- the journal page (A5), used for the preview, printing and the booklet ---- */
-function pageHTML(dy,total){const T=C.theme,r=REP[dy.date]||{},q=pickQ(dy),ev=events(dy,5),sol=solemnIds(dy);
-  const lab=`font-family:${T.mono};font-weight:700;font-size:10.5px;letter-spacing:1.8px;color:${T.faint}`;
-  const row=(w,t,last)=>`<div style="display:grid;grid-template-columns:118px minmax(0,1fr);column-gap:12px;padding:6px 0;${last?"":`border-bottom:1px dashed ${T.rule};`}font-size:12.5px;line-height:1.45"><span style="font-weight:700;color:${T.when}">${ESC(w)}</span><span>${ESC(t)}</span></div>`;
-  const head=T.band?`<div style="background:${T.band};color:${T.bandInk};padding:18px 24px 14px;display:flex;flex-direction:column;gap:6px;margin:-22px -24px 0">
+/* ---- the journal pages (A5): one or more pages per day, used for the preview, printing and the booklet ---- */
+function pageHTML(dy,total){const T=C.theme,r=REP[dy.date]||{},q=pickQ(dy),sol=solemnIds(dy);
+  const all=dy.ids.filter(id=>D[id]).map(id=>({id,s:C.stop(id),d:D[id]}));
+  const key=e=>/T00:00$/.test(e.d.sort)?e.d.sort.slice(0,11)+"12:00":e.d.sort;all.sort((a,b)=>key(a).localeCompare(key(b)));
+  const lab=`font-family:${T.mono};font-weight:700;font-size:10px;letter-spacing:1.6px;color:${T.faint}`;
+  const HEADF=(title,ts)=>T.band?`<div style="background:${T.band};color:${T.bandInk};padding:18px 24px 14px;display:flex;flex-direction:column;gap:6px;margin:-22px -24px 0">
       <div style="display:flex;justify-content:space-between;font-weight:700;font-size:10.5px;letter-spacing:2px;opacity:.85"><span>${ESC(C.docName)}</span><span>DAY ${dy.n||"–"}${total?" OF "+total:""}</span></div>
-      <span style="font-family:${T.disp};font-weight:${T.dispW};font-size:${dayTitle(dy).length>26?26:32}px;line-height:1.02;letter-spacing:.5px">${ESC(dayTitle(dy).toUpperCase())}</span>
+      <span style="font-family:${T.disp};font-weight:${T.dispW};font-size:${ts}px;line-height:1.02;letter-spacing:.5px">${ESC(title)}</span>
       <span style="font-size:11px;letter-spacing:1px;opacity:.85">${ESC(longDate(dy.date).toUpperCase())} · ${ESC(C.place)}</span></div>`
     :`<div style="display:flex;justify-content:space-between;font-weight:700;font-size:10.5px;letter-spacing:1.8px;color:${T.ink2}"><span>${ESC(C.docName)}</span><span>DAY ${dy.n||"–"}${total?" OF "+total:""}</span></div>
       <div style="border-top:3px solid ${T.ink};border-bottom:1px solid ${T.ink};padding:10px 0 8px;display:flex;flex-direction:column;gap:4px">
-      <span style="font-family:${T.disp};font-weight:${T.dispW};font-size:${dayTitle(dy).length>26?26:32}px;line-height:1.02;color:${T.title};letter-spacing:.5px">${ESC(dayTitle(dy).toUpperCase())}</span>
+      <span style="font-family:${T.disp};font-weight:${T.dispW};font-size:${ts}px;line-height:1.02;color:${T.title};letter-spacing:.5px">${ESC(title)}</span>
       <span style="font-size:11px;letter-spacing:1px;color:${T.ink2}">${ESC(longDate(dy.date).toUpperCase())} · ${ESC(C.place)}</span></div>`;
-  return `<div class="aar-page" style="width:559px;height:794px;box-sizing:border-box;background:${T.paper};color:${T.ink};padding:26px;font-family:${T.mono}">
-  <div style="width:100%;height:100%;box-sizing:border-box;border:1.5px solid ${T.ink2};padding:22px 24px 18px;display:flex;flex-direction:column;gap:13px;position:relative;overflow:hidden">
-  ${head}
-  <div style="display:flex;flex-direction:column"><span style="${lab};margin-bottom:4px">WHAT YOU SAW, IN THE ORDER IT HAPPENED</span>${ev.map((e,i)=>row(e.d.when,e.d.ev,i===ev.length-1)).join("")}</div>
-  ${r.line?`<div style="display:flex;flex-direction:column;gap:6px"><span style="${lab}">WHAT STAYED WITH ME</span><p style="margin:0;font-family:${T.hand};font-size:19px;line-height:1.5">${ESC(r.line)}</p></div>`:""}
-  <div style="display:flex;flex-direction:column;gap:5px;background:${T.box};padding:10px 12px"><span style="${lab}">ONE THING TO REMEMBER</span><p style="margin:0;font-size:12.5px;line-height:1.5">${ESC(remFor(dy,q))}</p></div>
-  ${sol.length?`<div style="font-size:11.5px;line-height:1.5;color:${T.ink2}"><span style="${lab}">IN REMEMBRANCE · </span>${sol.slice(0,3).map(id=>ESC(short(C.stop(id).name))).join(" · ")}</div>`:""}
+  const HEADM=title=>`<div style="display:flex;justify-content:space-between;font-weight:700;font-size:10.5px;letter-spacing:1.8px;color:${T.ink2};border-bottom:1px solid ${T.ink2};padding-bottom:8px"><span>${ESC(C.docName)} · ${ESC(title)}</span><span style="white-space:nowrap;padding-left:10px">CONTINUED</span></div>`;
+  const ENTRY=(e,last)=>`<div style="padding:7px 0 8px;${last?"":`border-bottom:1px dashed ${T.rule};`}">
+      <div style="font-size:11px;line-height:1.4;margin-bottom:2px"><span style="font-weight:700;color:${T.when};letter-spacing:.5px">${ESC(e.d.when)}</span><span style="color:${T.faint}"> · </span><b style="color:${T.ink}">${ESC(e.s.name)}</b></div>
+      <p style="margin:0;font-size:11px;line-height:1.42;color:${T.ink}">${ESC(e.d.st||e.d.ev)}</p></div>`;
+  const ENDB=()=>`${r.line?`<div style="display:flex;flex-direction:column;gap:5px"><span style="${lab}">WHAT STAYED WITH ME</span><p style="margin:0;font-family:${T.hand};font-size:18px;line-height:1.45">${ESC(r.line)}</p></div>`:""}
+    <div style="display:flex;flex-direction:column;gap:5px;background:${T.box};padding:10px 12px"><span style="${lab}">ONE THING TO REMEMBER</span><p style="margin:0;font-size:12px;line-height:1.5">${ESC(remFor(dy,q))}</p></div>
+    ${sol.length?`<div style="font-size:11.5px;line-height:1.5;color:${T.ink2}"><span style="${lab}">IN REMEMBRANCE · </span>${sol.slice(0,4).map(id=>ESC(short(C.stop(id).name))).join(" · ")}</div>`:""}`;
+  const title0=dayTitle(dy).toUpperCase(),ts0=dayTitle(dy).length>26?26:32;
+  /* measure real heights off-screen (fonts are loaded by now), then fill the pages */
+  let M=document.getElementById("aar-measure");if(!M){M=document.createElement("div");M.id="aar-measure";M.setAttribute("aria-hidden","true");M.style.cssText="position:absolute;left:-10000px;top:0;width:456px;visibility:hidden;pointer-events:none";document.body.appendChild(M)}
+  M.style.fontFamily=T.mono;const hOf=h=>{M.innerHTML=h;return M.firstElementChild?M.firstElementChild.offsetHeight:0};
+  const entryH=e=>hOf(ENTRY(e,false));
+  const endH=hOf(`<div style="display:flex;flex-direction:column;gap:12px">${ENDB()}</div>`);
+  const headH=hOf(`<div>${HEADF(title0,ts0)}</div>`),miniH=hOf(`<div>${HEADM(title0)}</div>`);
+  const INNER=700,FOOT=24,LAB=17,GAP=12,SAFE=4;
+  const P=[[]];let room=INNER-headH-FOOT-LAB-GAP*3-SAFE;
+  all.forEach(e=>{const h=entryH(e);if(h>room&&P[P.length-1].length){P.push([]);room=INNER-miniH-FOOT-LAB-GAP*3-SAFE}P[P.length-1].push(e);room-=h});
+  if(endH+GAP>room)P.push([]);
+  M.innerHTML="";
+  const n=P.length,title=dayTitle(dy).toUpperCase(),ts=dayTitle(dy).length>26?26:32;
+  return P.map((list,pi)=>{const last=pi===n-1;
+    return `<div class="aar-page" style="width:559px;height:794px;box-sizing:border-box;background:${T.paper};color:${T.ink};padding:26px;font-family:${T.mono}">
+  <div style="width:100%;height:100%;box-sizing:border-box;border:1.5px solid ${T.ink2};padding:22px 24px 18px;display:flex;flex-direction:column;gap:12px;position:relative;overflow:hidden">
+  ${pi===0?HEADF(title,ts):HEADM(title)}
+  ${list.length?`<div style="display:flex;flex-direction:column"><span style="${lab};margin-bottom:2px">${pi===0?"WHAT YOU SAW, IN THE ORDER IT HAPPENED":"WHAT YOU SAW, CONTINUED"}</span>${list.map((e,i)=>ENTRY(e,i===list.length-1)).join("")}</div>`:""}
+  ${last?ENDB():""}
   <div style="flex-grow:1"></div>
-  <div style="display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid ${T.ink2};padding-top:8px;font-size:9.5px;letter-spacing:1.3px;color:${T.ink2}"><span>${dy.ids.length} SITE${dy.ids.length===1?"":"S"} · REMEMBER · EXPLORE · RESPECT</span><span style="font-weight:700">DZ CHARLIE</span></div>
-  <div style="position:absolute;right:30px;bottom:44px;transform:rotate(-8deg);border:2.5px solid ${T.stamp};color:${T.stamp};font-family:${T.disp};font-weight:${T.dispW};font-size:14px;letter-spacing:2px;padding:3px 10px;opacity:.85">${ESC(C.stamp)}</div>
-  </div></div>`}
+  <div style="display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid ${T.ink2};padding-top:8px;font-size:9.5px;letter-spacing:1.3px;color:${T.ink2}"><span>${dy.ids.length} SITE${dy.ids.length===1?"":"S"} · REMEMBER · EXPLORE · RESPECT</span><span style="font-weight:700">${n>1?`PAGE ${pi+1} OF ${n} · `:""}DZ CHARLIE</span></div>
+  ${last?`<div style="position:absolute;right:30px;bottom:44px;transform:rotate(-8deg);border:2.5px solid ${T.stamp};color:${T.stamp};font-family:${T.disp};font-weight:${T.dispW};font-size:14px;letter-spacing:2px;padding:3px 10px;opacity:.85;background:${T.paper}">${ESC(C.stamp)}</div>`:""}
+  </div></div>`}).join("")}
 function coverHTML(list){const T=C.theme,f=list[0],l=list[list.length-1],n=list.reduce((s,d)=>s+d.ids.length,0);
   const range=f.date==="earlier"||l.date==="earlier"?"":(f.date===l.date?longDate(f.date):`${longDate(f.date)} – ${longDate(l.date)}`);
   return `<div class="aar-page" style="width:559px;height:794px;box-sizing:border-box;background:${T.cover};color:${T.coverInk};padding:26px;font-family:${T.mono}">
@@ -97,6 +117,7 @@ async function picture(dy){const T=C.theme,r=REP[dy.date]||{},W=1080,H=1350,cv=d
   x.fillStyle=T.ink;x.fillRect(80,H-110,W-160,3);x.font=`400 22px ${M}`;x.fillStyle=T.ink2;x.fillText(`${dy.ids.length} SITES · REMEMBER · EXPLORE · RESPECT`,80,H-68);
   x.font=`700 22px ${M}`;const ft="DZCHARLIE.COM";x.fillText(ft,W-80-x.measureText(ft).width,H-68);
   return new Promise(ok=>cv.toBlob(b=>ok(b),"image/png"))}
+function fontsReady(){const T=C.theme;try{return Promise.all([`${T.dispW} 30px ${T.dispC}`,`700 12px ${T.monoC}`,`400 12px ${T.monoC}`,`400 18px ${T.handC}`].map(f=>document.fonts.load(f))).catch(()=>{})}catch(e){return Promise.resolve()}}
 function fileName(dy){return `${C.fileBase}-day-${dy.n||"earlier"}.png`}
 async function savePic(dy){const b=await picture(dy);const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=fileName(dy);document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},4000);msg("Picture saved to your downloads")}
 async function send(dy){const r=REP[dy.date]||{};const text=`${C.docName} · Day ${dy.n||""}: ${dayTitle(dy)}${r.line?"\n\n“"+r.line+"”":""}\n\n${C.guide} · dzcharlie.com`;
@@ -137,14 +158,14 @@ function draw(){const el=root(),all=days(),total=all.filter(d=>d.n).length;let h
       <span class="aar-count" id="aar-cnt">${S.draft.length} of 200 letters</span>
       <div class="aar-tip">Stuck? Think of ${ESC(dy.ids.slice(0,3).map(id=>short(C.stop(id).name)).join(", "))}.</div>
       <div class="aar-grow"></div><button type="button" class="aar-btn" data-aar="make">Make my page</button><button type="button" class="aar-link" data-aar="skipline">Skip this, make the page anyway</button></div>`}
-    else{h=bar(C.docName,sub,"list")+`<div class="aar-in"><div class="aar-prev"><div class="aar-sc">${pageHTML(dy,total)}</div></div>
+    else{h=bar(C.docName,sub,"list")+`<div class="aar-in">${(()=>{const pg=pageHTML(dy,total).split('<div class="aar-page"').slice(1).map(x=>'<div class="aar-page"'+x);return pg.map((x,i)=>`<div class="aar-prev"><div class="aar-sc">${x}</div></div>`).join("")+(pg.length>1?`<p class="aar-note">${pg.length} pages for this day. Scroll to see them all.</p>`:"")})()}
       <div class="aar-g2"><button type="button" class="aar-btn" data-aar="pic">Save picture</button><button type="button" class="aar-btn" data-aar="send">Send to family</button>
       <button type="button" class="aar-btn ghost" data-aar="print">Print page</button><button type="button" class="aar-btn ghost" data-aar="edit">Edit my line</button></div>
       <p class="aar-note">Saved in your ${ESC(C.short)}. When the trip is over, make the whole booklet from ${ESC(C.plural)}.</p>
       <button type="button" class="aar-link" data-aar="list">See all days</button></div>`}}
   el.innerHTML=h;
   const ta=el.querySelector("#aar-line");if(ta)ta.addEventListener("input",()=>{S.draft=ta.value;const c=el.querySelector("#aar-cnt");if(c)c.textContent=ta.value.length+" of 200 letters"});
-  const sc=el.querySelector(".aar-sc");if(sc){const fit=()=>{const w=Math.min(300,el.clientWidth-60);sc.style.transform=`scale(${w/559})`;sc.parentNode.style.width=w+"px";sc.parentNode.style.height=(794*w/559)+"px"};fit()}
+  el.querySelectorAll(".aar-sc").forEach(sc=>{const w=Math.min(320,el.clientWidth-60);sc.style.transform=`scale(${w/559})`;sc.parentNode.style.width=w+"px";sc.parentNode.style.height=(794*w/559)+"px"});
 }
 function save(line){REP[S.date]={line:(line||"").trim(),ans:S.ans,made:Date.now()};LS.set("rep",REP)}
 document.addEventListener("click",e=>{const t=e.target.closest("[data-aar]");
@@ -155,18 +176,18 @@ document.addEventListener("click",e=>{const t=e.target.closest("[data-aar]");
   if(a==="snooze"){SNOOZE=today();LS.set("snooze",SNOOZE);if(C.onChange)C.onChange();return}
   if(a==="close"){close();return}
   if(a==="list"){S.view="list";draw();return}
-  if(a==="write"){open("write",t.dataset.date);const r=REP[t.dataset.date];if(r){S.step=3;draw()}return}
+  if(a==="write"){open("write",t.dataset.date);const r=REP[t.dataset.date];if(r){fontsReady().then(()=>{S.step=3;draw()})}return}
   if(a==="ans"){if(S.ans===null){S.ans=+t.dataset.i;draw()}return}
   if(a==="q"){S.step=1;draw();return}
   if(a==="next"){if(t.getAttribute("aria-disabled")==="true")return;S.step=2;draw();const ta=root().querySelector("#aar-line");if(ta)ta.focus();return}
-  if(a==="make"){save(S.draft);S.step=3;draw();if(C.onChange)C.onChange();return}
-  if(a==="skipline"){save("");S.step=3;draw();if(C.onChange)C.onChange();return}
+  if(a==="make"){save(S.draft);fontsReady().then(()=>{S.step=3;draw();if(C.onChange)C.onChange()});return}
+  if(a==="skipline"){save("");fontsReady().then(()=>{S.step=3;draw();if(C.onChange)C.onChange()});return}
   if(a==="edit"){S.step=2;S.draft=(REP[S.date]||{}).line||"";draw();return}
   const dy=S.date&&dayByDate(S.date);
   if(a==="pic"&&dy){savePic(dy);return}
   if(a==="send"&&dy){send(dy);return}
-  if(a==="print"&&dy){const tot=days().filter(d=>d.n).length;printPages(pageHTML(dy,tot));return}
-  if(a==="booklet"){const w=days().filter(d=>REP[d.date]),tot=days().filter(d=>d.n).length;if(w.length)printPages(coverHTML(w)+w.map(d=>pageHTML(d,tot)).join(""));return}
+  if(a==="print"&&dy){fontsReady().then(()=>{const tot=days().filter(d=>d.n).length;printPages(pageHTML(dy,tot))});return}
+  if(a==="booklet"){fontsReady().then(()=>{const w=days().filter(d=>REP[d.date]),tot=days().filter(d=>d.n).length;if(w.length)printPages(coverHTML(w)+w.map(d=>pageHTML(d,tot)).join(""))});return}
 });
 document.addEventListener("change",e=>{if(e.target.dataset&&e.target.dataset.aar==="remind"){SET.remind=e.target.checked;LS.set("set",SET);if(C.onChange)C.onChange()}});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!root().hidden){close()}});
