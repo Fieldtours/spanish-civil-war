@@ -47,3 +47,8 @@ Natural Earth data (no map tiles needed), own sw.js (cache scw-core-*),
 localStorage keys prefixed scw-. Built from the Easy Company layout and
 battle-map engine. Pictures: public domain / Creative Commons from
 Wikimedia Commons, credited in the app (More > Credits).
+
+
+VERSION 1.3 - 30 September 2026 - NEW MAPS
+Google-style road maps from OpenStreetMap at several levels of detail (Easy Company standard): Spain overview,
+42 middle areas and 75 close-ups around every site; 526 tiles (26 MB) in app/maps/. Tools: build/maps-google-style/scw/.

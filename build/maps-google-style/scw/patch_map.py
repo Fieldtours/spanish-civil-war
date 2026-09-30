@@ -13,8 +13,8 @@ const TOP={};Object.keys(FAM).forEach(g=>TOP[g]=Math.max(...Object.values(FAM[g]
 function rasPick(d,x0,x1,y0,y1){const pick={},best=[0,0,0];
   Object.keys(FAM).sort((a,b)=>TIER(a)-TIER(b)||a-b).forEach(g=>{const t=TIER(g);const lv=Object.entries(FAM[g]).map(([l,res])=>[+l,res]).filter(x=>x[0]>=0).sort((a,b)=>a[1]-b[1]);
     let c=lv.find(x=>x[1]>=d*0.8)||lv[lv.length-1];
-    /* a middle area or close-up shows only where it adds detail to the tiers under it, and is never shrunk more than 4x */
-    if(t>0&&(c[1]>d*4||c[1]<Math.max(best[0],t>1?best[1]:0)*1.5))c=null;
+    /* a middle area or close-up shows only where it adds detail to the tiers under it, and is never shrunk more than 2x */
+    if(t>0&&(c[1]>d*2||c[1]<Math.max(best[0],t>1?best[1]:0)*1.5))c=null;
     if(c)best[t]=Math.max(best[t],c[1]);
     if(c&&c[1]<d*0.45&&(-1 in FAM[g]))c=[-1,FAM[g][-1]];pick[g]=c?c[0]:-9});
   return RASTER.filter(r=>pick[r.g]===r.lv&&r.b[2]>x0&&r.b[0]<x1&&my(r.b[3])>y0&&my(r.b[1])<y1).sort((a,b)=>TIER(a.g)-TIER(b.g)||RES(a)-RES(b))}
