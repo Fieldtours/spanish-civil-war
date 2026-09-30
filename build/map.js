@@ -1,6 +1,24 @@
 /* ===== GeoMap: offline vector map of Spain drawn on a canvas (no internet needed) ===== */
 (function(){
 const G=window.SCW.geo;
+/* Google-style road-map pictures at several levels of detail, like the Easy Company maps (Sep 2026):
+   a Spain overview plus close-ups around every group of sites. The sharpest level that suits the zoom is drawn,
+   so village names and small roads appear as you zoom in. The drawn vector map stays underneath as a fallback. */
+const RASTER=window.SCW_RASTER||[],RAS_PR=1.5,IMG=new Map(),ALLMAPS=new Set();
+const RES=r=>r.w/(r.b[2]-r.b[0]);const FAM={};RASTER.forEach(r=>{const F=FAM[r.g]=FAM[r.g]||{};if(!(r.lv in F))F[r.lv]=RES(r)});
+const LV0=Object.keys(FAM[0]||{}).map(Number).filter(l=>l>=0);const BASELV=LV0.length?Math.max(...LV0):null;
+/* three tiers: 0 = Spain overview, middle areas (~1,400 px/degree), close-ups around the sites (~4,550 px/degree) */
+const TOP={};Object.keys(FAM).forEach(g=>TOP[g]=Math.max(...Object.values(FAM[g])));const TIER=g=>+g===0?0:(TOP[g]<3000?1:2);
+function rasPick(d,x0,x1,y0,y1){const pick={},best=[0,0,0];
+  Object.keys(FAM).sort((a,b)=>TIER(a)-TIER(b)||a-b).forEach(g=>{const t=TIER(g);const lv=Object.entries(FAM[g]).map(([l,res])=>[+l,res]).filter(x=>x[0]>=0).sort((a,b)=>a[1]-b[1]);
+    let c=lv.find(x=>x[1]>=d*0.8)||lv[lv.length-1];
+    /* a middle area or close-up shows only where it adds detail to the tiers under it, and is never shrunk more than 4x */
+    if(t>0&&(c[1]>d*4||c[1]<Math.max(best[0],t>1?best[1]:0)*1.5))c=null;
+    if(c)best[t]=Math.max(best[t],c[1]);
+    if(c&&c[1]<d*0.45&&(-1 in FAM[g]))c=[-1,FAM[g][-1]];pick[g]=c?c[0]:-9});
+  return RASTER.filter(r=>pick[r.g]===r.lv&&r.b[2]>x0&&r.b[0]<x1&&my(r.b[3])>y0&&my(r.b[1])<y1).sort((a,b)=>TIER(a.g)-TIER(b.g)||RES(a)-RES(b))}
+function rasImg(r){let o=IMG.get(r.src);if(!o){const im=new Image();o={im,ok:false};IMG.set(r.src,o);im.decoding="async";
+  im.onload=()=>{o.ok=true;ALLMAPS.forEach(m=>m.draw())};im.onerror=()=>{o.bad=true};im.src=r.src}return o}
 const R2D=180/Math.PI;
 function mx(lon){return lon}
 function my(lat){return Math.log(Math.tan(Math.PI/4+lat*Math.PI/360))*R2D}
@@ -13,7 +31,7 @@ function GeoMap(box,opt){
   this.markers=[];this.ov={};this.sel=null;this.hl=null;
   this.cx=mx(-3.7);this.cy=my(40.2);this.k=40; // px per degree
   this.minK=18;this.maxK=9000;
-  this._ptr=new Map();this._raf=0;
+  this._ptr=new Map();this._raf=0;ALLMAPS.add(this);
   const ro=new ResizeObserver(()=>this.resize());ro.observe(box);this.resize();
   this._bind();
 }
@@ -47,19 +65,26 @@ GeoMap.prototype._draw=function(){
   // land & countries
   ctx.fillStyle=COL.other;ctx.beginPath();this._polys(ctx,G.land);ctx.fill();
   ctx.fillStyle=COL.spain;ctx.beginPath();this._polys(ctx,G.countries.Spain||[]);ctx.fill();
+  // road-map pictures (sharpest level for this zoom); while they load, the small overview picture shows underneath
+  let ras=false,bare=false,close=false;
+  if(RASTER.length){const bb=this.bounds();const want=rasPick(k*RAS_PR,bb.w,bb.e,my(bb.s),my(bb.n));
+    if(want.length){ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality="high";
+      const put=r=>{const o=rasImg(r);if(!o.ok)return false;const a=this.px(r.b[3],r.b[0]),b=this.px(r.b[1],r.b[2]);ctx.drawImage(o.im,a[0],a[1],b[0]-a[0]+.6,b[1]-a[1]+.6);return true};
+      if(want.some(r=>!rasImg(r).ok)&&BASELV!==null)RASTER.filter(r=>r.g===0&&r.lv===BASELV&&r.b[2]>bb.w&&r.b[0]<bb.e).forEach(put);
+      want.forEach(put);ras=true;bare=want.some(r=>r.g===0&&r.lv<0);close=want.some(r=>r.g>0)}}
   // mountains
-  ctx.fillStyle=COL.mtn;ctx.beginPath();G.mtns.forEach(m=>this._polys(ctx,m.p));ctx.fill();
+  if(!ras){ctx.fillStyle=COL.mtn;ctx.beginPath();G.mtns.forEach(m=>this._polys(ctx,m.p));ctx.fill()}
   // region highlight
   const sel=this.sel;
   if(sel&&sel.size){ctx.fillStyle="rgba(168,50,31,.16)";ctx.beginPath();window.SCW.regions.forEach(r=>{if(sel.has(r.id))this._polys(ctx,r.poly)});ctx.fill()}
   if(this.hl){ctx.fillStyle="rgba(194,138,44,.18)";ctx.beginPath();window.SCW.regions.forEach(r=>{if(r.id===this.hl)this._polys(ctx,r.poly)});ctx.fill()}
   // lakes
-  ctx.fillStyle=COL.lake;ctx.beginPath();this._polys(ctx,G.lakes);ctx.fill();
+  if(!ras){ctx.fillStyle=COL.lake;ctx.beginPath();this._polys(ctx,G.lakes);ctx.fill()}
   // rivers
   ctx.strokeStyle=COL.river;ctx.lineCap="round";ctx.lineJoin="round";
-  for(const r of G.rivers){if(r.r>7&&k<120)continue;if(r.r>5&&k<60)continue;ctx.lineWidth=r.r<=3?1.8:(r.r<=6?1.3:0.9);ctx.beginPath();for(const l of r.l)this._path(ctx,l);ctx.stroke()}
+  if(!ras)for(const r of G.rivers){if(r.r>7&&k<120)continue;if(r.r>5&&k<60)continue;ctx.lineWidth=r.r<=3?1.8:(r.r<=6?1.3:0.9);ctx.beginPath();for(const l of r.l)this._path(ctx,l);ctx.stroke()}
   // roads
-  if(k>=18){for(const pass of [0,1])for(const t of [2,1])for(const r of G.roads){if(r.t!==t)continue;if(r.t!==1&&k<110)continue;const w=r.t===1?(k<40?1.1:k<90?2:3):(k<250?1.6:2.2);ctx.strokeStyle=pass?(r.t===1?COL.road1:COL.road):(r.t===1?COL.road1C:COL.roadC);ctx.lineWidth=pass?w:w+1.6;ctx.beginPath();for(const l of r.l)this._path(ctx,l);ctx.stroke()}}
+  if(k>=18&&!ras){for(const pass of [0,1])for(const t of [2,1])for(const r of G.roads){if(r.t!==t)continue;if(r.t!==1&&k<110)continue;const w=r.t===1?(k<40?1.1:k<90?2:3):(k<250?1.6:2.2);ctx.strokeStyle=pass?(r.t===1?COL.road1:COL.road):(r.t===1?COL.road1C:COL.roadC);ctx.lineWidth=pass?w:w+1.6;ctx.beginPath();for(const l of r.l)this._path(ctx,l);ctx.stroke()}}
   // provinces
   if(k>=55){ctx.strokeStyle=COL.prov;ctx.lineWidth=1;ctx.setLineDash([2,3]);ctx.beginPath();for(const p of G.prov)for(const l of p.b)this._path(ctx,l);ctx.stroke();ctx.setLineDash([])}
   // regions
@@ -72,10 +97,10 @@ GeoMap.prototype._draw=function(){
   const mk=this._layoutMarkers();
   mk.forEach(m=>taken.push([m.x-m.r,m.y-m.r,2*m.r,2*m.r]));
   if(this.opt.regionLabels!==false&&k<140){window.SCW.regions.forEach(r=>{const p=this.px(r.lab[0],r.lab[1]);lab(r.short.toUpperCase(),p[0],p[1],"800 13px "+getComputedStyle(document.body).getPropertyValue("--disp"),"rgba(90,64,48,.8)","rgba(241,230,201,.7)")})}
-  if(k>=40){for(const m of G.mtns){const p=this.px(m.c[0],m.c[1]);if(p[0]<-50||p[0]>this.w+50||p[1]<-20||p[1]>this.h+20)continue;lab(m.n,p[0],p[1],"italic 600 11px Georgia,serif","rgba(110,80,50,.85)")}}
+  if(k>=40&&!ras){for(const m of G.mtns){const p=this.px(m.c[0],m.c[1]);if(p[0]<-50||p[0]>this.w+50||p[1]<-20||p[1]>this.h+20)continue;lab(m.n,p[0],p[1],"italic 600 11px Georgia,serif","rgba(110,80,50,.85)")}}
   // places
   const pl=G.places;const lim=k<45?1:(k<90?2:(k<250?3:4));
-  for(const q of pl){if(q[4]>lim)continue;const p=this.px(q[1],q[2]);if(p[0]<-40||p[0]>this.w+40||p[1]<-20||p[1]>this.h+20)continue;
+  if(!ras||(bare&&!close))for(const q of pl){if(q[4]>lim)continue;const p=this.px(q[1],q[2]);if(p[0]<-40||p[0]>this.w+40||p[1]<-20||p[1]>this.h+20)continue;
     ctx.fillStyle=COL.txt;ctx.beginPath();ctx.arc(p[0],p[1],q[4]<=2?3:2.2,0,7);ctx.fill();
     ctx.textAlign="left";ctx.font=(q[4]<=2?"700 13.5px ":"500 12px ")+"system-ui,sans-serif";lab(q[0],p[0]+5+ctx.measureText(q[0]).width/2,p[1]-1,(q[4]<=2?"700 13.5px ":"500 12px ")+"system-ui,sans-serif",q[4]<=2?"#202124":"#3c4043");ctx.textAlign="center"}
   // overlays
@@ -98,6 +123,7 @@ GeoMap.prototype._draw=function(){
   // scale bar
   const kmpx=111.32*Math.cos(this.ll(this.w/2,this.h/2)[0]*Math.PI/180)/this.k;let km=[1,2,5,10,20,50,100,200,500].find(v=>v/kmpx>60)||500;const L=km/kmpx;
   const x0=10,y0=this.h-(this.opt.capH||0)-12;ctx.fillStyle="rgba(255,253,247,.85)";ctx.fillRect(x0-4,y0-16,L+40,22);ctx.strokeStyle=COL.txt;ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(x0,y0-4);ctx.lineTo(x0,y0);ctx.lineTo(x0+L,y0);ctx.lineTo(x0+L,y0-4);ctx.stroke();ctx.fillStyle=COL.txt;ctx.font="700 11px system-ui";ctx.textAlign="left";ctx.fillText(km+" km",x0+L+5,y0-4);
+  if(ras){ctx.font="600 10px system-ui,sans-serif";ctx.textAlign="right";ctx.textBaseline="alphabetic";const t="© OpenStreetMap",tw=ctx.measureText(t).width,ya=this.h-(this.opt.capH||0)-4;ctx.fillStyle="rgba(255,253,247,.8)";ctx.fillRect(this.w-tw-10,ya-11,tw+8,14);ctx.fillStyle="#3c4043";ctx.fillText(t,this.w-6,ya)}
   this._mk=mk;
 };
 GeoMap.prototype._layoutMarkers=function(){
@@ -136,5 +162,5 @@ GeoMap.prototype._bind=function(){
 };
 GeoMap.prototype.regionAt=function(lat,lon){const x=lon,y=lat;const inRing=(ring)=>{let ins=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const xi=ring[i][0],yi=ring[i][1],xj=ring[j][0],yj=ring[j][1];if(((yi>y)!==(yj>y))&&(x<(xj-xi)*(y-yi)/(yj-yi)+xi))ins=!ins}return ins};
   for(const r of window.SCW.regions){for(const pl of r.poly){if(inRing(pl[0]))return r.id}}return null};
-window.GeoMap=GeoMap;
+GeoMap.all=ALLMAPS;window.GeoMap=GeoMap;
 })();
