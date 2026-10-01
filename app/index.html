@@ -4,7 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>The Spanish Civil War 1936–1939 — DZ Charlie field guide</title>
-<meta name="description" content="A free, offline phone guide to the battlefields, trenches, ruined villages, shelters, museums and memorials of the Spanish Civil War across the whole of Spain. Choose your area and your time; the guide builds the tour.">
+<meta name="description" content="Explore 158 Spanish Civil War sites across Spain with a free self-guided field guide covering battlefields, trenches, shelters, museums and memorials.">
+<link rel="canonical" href="https://dzcharlie.com/spanish-civil-war/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dzcharlie.com/spanish-civil-war/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"TravelApplication","name":"The Spanish Civil War 1936–1939 — DZ Charlie field guide","url":"https://dzcharlie.com/spanish-civil-war/","applicationCategory":"TravelApplication","operatingSystem":"Web","description":"A free self-guided field guide to 158 Spanish Civil War sites across Spain.","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}
+</script>
 <meta name="theme-color" content="#3d2b1f">
 <meta property="og:title" content="The Spanish Civil War 1936–1939 — a DZ Charlie field guide">
 <meta property="og:description" content="Free phone guide to the sites of the Spanish Civil War, told fairly from both sides. Works with no signal.">
@@ -283,8 +289,8 @@ input[type=range]{width:100%;accent-color:var(--red);height:36px}
 .wel:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,13,7,.25),rgba(20,13,7,.6) 45%,rgba(20,13,7,.95))}
 .wel .in{position:relative;padding:20px 20px calc(env(safe-area-inset-bottom,0px) + 22px);max-width:640px;margin:0 auto;width:100%}
 .wel .doc{font-family:var(--mono);font-size:11.5px;letter-spacing:2.5px;text-transform:uppercase;color:#e9dcc0;border-top:1px dashed rgba(255,255,255,.4);border-bottom:1px dashed rgba(255,255,255,.4);padding:6px 0;display:flex;justify-content:space-between;gap:8px}
-.wel h1{color:#fff;font-size:clamp(48px,15vw,84px);line-height:.86;margin:14px 0 10px}
-.wel h1 span{display:block;color:#f0c46b}
+.wel .wel-title{color:#fff;font-size:clamp(48px,15vw,84px);line-height:.86;margin:14px 0 10px}
+.wel .wel-title span{display:block;color:#f0c46b}
 .wel p{font-family:var(--type);font-size:15.5px;color:#efe3c8;margin:0 0 16px}
 .wel .btn{width:100%;font-family:var(--disp);font-size:24px;letter-spacing:5px;text-transform:uppercase;min-height:60px}
 .wel.bye{opacity:0;pointer-events:none}
@@ -480,7 +486,7 @@ html.aar-open,html.aar-open body{overflow:hidden}
 <div class="wel" id="welcome" role="dialog" aria-modal="true" aria-labelledby="wel-h" hidden>
  <div class="in">
   <div class="doc"><span>Parte de guerra</span><span>1936–1939</span></div>
-  <h1 id="wel-h">The Spanish<br>Civil War<span>1936–1939</span></h1>
+  <div id="wel-h" class="wel-title" role="heading" aria-level="2">The Spanish<br>Civil War<span>1936–1939</span></div>
   <p>Walk the fronts, the ruined villages and the places of memory of the war that divided Spain — told fairly, from both sides.</p>
   <button type="button" class="btn w" id="wel-go">Enter</button>
  </div>
