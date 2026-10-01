@@ -1,0 +1,82 @@
+[
+ {
+  "key": "north-12",
+  "name": "San Marcial hermitage & the Battle of Irun",
+  "conf": "MEDIUM",
+  "marker": [
+   43.32778,
+   -1.76139
+  ],
+  "should_be": [
+   43.33118,
+   -1.766544
+  ],
+  "off_m": 563,
+  "what": "Text says the pin marks the San Marcial hermitage, but the marker is on the lower slope ~560 m SE of the hermitage (over MEDIUM 500 m tolerance)",
+  "source": "OSM: Ermita San Marcial"
+ },
+ {
+  "key": "levant-05",
+  "name": "Port of Alicante – Stanbrook and the last refugees",
+  "conf": "MEDIUM",
+  "marker": [
+   38.33422,
+   -0.4958
+  ],
+  "should_be": [
+   38.343558,
+   -0.480412
+  ],
+  "off_m": 1697,
+  "what": "Marker is in the commercial docks south-west of the Explanada with nothing nearby; the Stanbrook monolith and Capt. Archibald Dickson bust are on the Muelle de Levante near the Escalinatas de la Reina",
+  "source": "OSM: Archibald Dickson (memorial); https://memoriarepressiofranquista.blogspot.com/2018/04/homenaje-al-capitan-del-buque-stanbrook.html"
+ },
+ {
+  "key": "south-09",
+  "name": "Panteón de la Memoria, Cementerio de San Rafael, Málaga",
+  "conf": "LOW",
+  "marker": [
+   36.7135,
+   -4.4445
+  ],
+  "should_be": [
+   36.706506,
+   -4.452171
+  ],
+  "off_m": 1036,
+  "what": "Marker is ~1 km NE of the former San Rafael cemetery, next to the old Provincial Prison memory site; the Panteón de la Memoria is in the Parque de la Memoria / Parque Antiguo de San Rafael",
+  "source": "OSM: Parque de la Memoria / Parque Antiguo de San Rafael"
+ },
+ {
+  "key": "time-8",
+  "name": "Republican landing on Mallorca — Porto Cristo, Mallorca",
+  "conf": "HIGH",
+  "marker": [
+   39.5406,
+   3.3342
+  ],
+  "should_be": [
+   39.542325,
+   3.334431
+  ],
+  "off_m": 193,
+  "what": "Marker lies on the axis of the Porto Cristo harbour inlet (same latitude as the es Pontet bridge and the moll de trànsit local pier, with hotels on the north bank 90 m away) - in the water; move onto the shore/town",
+  "source": "OSM: Portocristo (village), es Pontet (bridge), moll de trànsit local (pier)"
+ },
+ {
+  "key": "time-28",
+  "name": "Fall of Santa María de la Cabeza — Santuario de la Virgen de la Cabeza",
+  "conf": "HIGH",
+  "marker": [
+   38.1789,
+   -4.0386
+  ],
+  "should_be": [
+   38.179355,
+   -4.03492
+  ],
+  "off_m": 326,
+  "what": "Timeline entry about the sanctuary building, but the marker is ~320 m west of the sanctuary church on the hillside (stop south-06 has the correct position)",
+  "source": "OSM: Santuario de la Virgen de la Cabeza"
+ }
+]

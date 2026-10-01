@@ -1,0 +1,702 @@
+[
+ {
+  "id": "madrid-10",
+  "name": "Parque del Oeste bunkers",
+  "old": [
+   40.4434,
+   -3.7278
+  ],
+  "new": [
+   40.43502,
+   -3.7286
+  ],
+  "conf": null,
+  "why": "Civil War fortins in the Parque del Oeste (OSM)"
+ },
+ {
+  "id": "madrid-13",
+  "name": "Posición Jaca bunker, El Capricho park",
+  "old": [
+   40.4559,
+   -3.5995
+  ],
+  "new": [
+   40.45694,
+   -3.5955
+  ],
+  "conf": null,
+  "why": "Bunker de Miaja / Posición Jaca, El Capricho (OSM)"
+ },
+ {
+  "id": "madrid-14",
+  "name": "Museo de la Batalla del Jarama, Morata",
+  "old": [
+   40.227,
+   -3.434
+  ],
+  "new": [
+   40.22567,
+   -3.43785
+  ],
+  "conf": null,
+  "why": "Museo de la Guerra y Posguerra, Morata de Tajuña (OSM)"
+ },
+ {
+  "id": "madrid-16",
+  "name": "Brunete",
+  "old": [
+   40.4,
+   -3.9936
+  ],
+  "new": [
+   40.40505,
+   -3.99799
+  ],
+  "conf": null,
+  "why": "Centre of Brunete (OSM)"
+ },
+ {
+  "id": "madrid-18",
+  "name": "Frente del Agua, Paredes de Buitrago",
+  "old": [
+   40.996,
+   -3.528
+  ],
+  "new": [
+   41.00518,
+   -3.5614
+  ],
+  "conf": null,
+  "why": "Paredes de Buitrago village, where the route starts (OSM)"
+ },
+ {
+  "id": "madrid-19",
+  "name": "Alto del León (south side), Guadarrama",
+  "old": [
+   40.7131,
+   -4.1337
+  ],
+  "new": [
+   40.70915,
+   -4.14032
+  ],
+  "conf": null,
+  "why": "Civil War bunker at the Alto del León (OSM)"
+ },
+ {
+  "id": "madrid-20",
+  "name": "Cementerio Civil & Almudena execution wall",
+  "old": [
+   40.4232,
+   -3.6487
+  ],
+  "new": [
+   40.42165,
+   -3.63549
+  ],
+  "conf": null,
+  "why": "Cementerio Civil (OSM)"
+ },
+ {
+  "id": "madrid-26",
+  "name": "Cerro de los Ángeles",
+  "old": [
+   40.3097,
+   -3.6887
+  ],
+  "new": [
+   40.30783,
+   -3.68431
+  ],
+  "conf": null,
+  "why": "Sagrado Corazón monument, Cerro de los Ángeles (OSM)"
+ },
+ {
+  "id": "madrid-27",
+  "name": "Arco de la Victoria (Moncloa)",
+  "old": [
+   40.4351,
+   -3.7196
+  ],
+  "new": [
+   40.43591,
+   -3.7202
+  ],
+  "conf": null,
+  "why": "Arco de la Victoria (OSM)"
+ },
+ {
+  "id": "madrid-28",
+  "name": "Fresnedillas de la Oliva bunkers",
+  "old": [
+   40.4859,
+   -4.1533
+  ],
+  "new": [
+   40.5014,
+   -4.1382
+  ],
+  "conf": null,
+  "why": "The group of fortins north of Fresnedillas (OSM)"
+ },
+ {
+  "id": "madrid-29",
+  "name": "Los Yesares positions, Pinto",
+  "old": [
+   40.2415,
+   -3.6999
+  ],
+  "new": [
+   40.27735,
+   -3.67192
+  ],
+  "conf": null,
+  "why": "Los Yesares site, Cañada Real Galiana (OSM / Comunidad de Madrid)"
+ },
+ {
+  "id": "madrid-30",
+  "name": "Bustarviejo penal labour camp",
+  "old": [
+   40.857,
+   -3.708
+  ],
+  "new": [
+   40.8437,
+   -3.69267
+  ],
+  "conf": null,
+  "why": "Destacamento penal de Bustarviejo (OSM)"
+ },
+ {
+  "id": "aragon-03",
+  "name": "Ruta Orwell – Monte Irazo & Las Tres Huegas (Sierra de Alcubierre)",
+  "old": [
+   41.82656,
+   -0.51967
+  ],
+  "new": [
+   41.81845,
+   -0.50918
+  ],
+  "conf": null,
+  "why": "Trincheras Orwell (OSM)"
+ },
+ {
+  "id": "aragon-05",
+  "name": "El Muletón (Tortajada)",
+  "old": [
+   40.39586,
+   -1.11256
+  ],
+  "new": [
+   40.39245,
+   -1.10492
+  ],
+  "conf": null,
+  "why": "El Muletón (OSM + Nominatim)"
+ },
+ {
+  "id": "aragon-06",
+  "name": "Battle of the Alfambra interpretation centre (Villarquemado)",
+  "old": [
+   40.517,
+   -1.267
+  ],
+  "new": [
+   40.51911,
+   -1.26827
+  ],
+  "conf": null,
+  "why": "Calle la Virgen, Villarquemado (official address)"
+ },
+ {
+  "id": "aragon-07",
+  "name": "Civil War in Aragon interpretation centre (Robres)",
+  "old": [
+   41.867,
+   -0.467
+  ],
+  "new": [
+   41.86686,
+   -0.46073
+  ],
+  "conf": null,
+  "why": "Centre of Robres, the old schools (official description)"
+ },
+ {
+  "id": "aragon-08",
+  "name": "Quinto – Purburel / Cabezo de la Nariz trenches",
+  "old": [
+   41.41049,
+   -0.48898
+  ],
+  "new": [
+   41.40379,
+   -0.48868
+  ],
+  "conf": null,
+  "why": "El Purburell hill (OSM)"
+ },
+ {
+  "id": "aragon-11",
+  "name": "Alcañiz air-raid shelter",
+  "old": [
+   41.05111,
+   -0.13361
+  ],
+  "new": [
+   41.0519,
+   -0.13428
+  ],
+  "conf": null,
+  "why": "Calle Teniente Moore, Alcañiz (official description)"
+ },
+ {
+  "id": "aragon-14",
+  "name": "Quinto – El Piquete church",
+  "old": [
+   41.4258,
+   -0.49705
+  ],
+  "new": [
+   41.42383,
+   -0.4983
+  ],
+  "conf": null,
+  "why": "Church of the Asunción, El Piquete (OSM)"
+ },
+ {
+  "id": "aragon-17",
+  "name": "Alto de la Torana bunker (Corbalán)",
+  "old": [
+   40.38994,
+   -1.03475
+  ],
+  "new": [
+   40.38849,
+   -1.03633
+  ],
+  "conf": null,
+  "why": "Alto de la Torana bunker (OSM)"
+ },
+ {
+  "id": "aragon-18",
+  "name": "Bielsa museum – the Bielsa Pocket",
+  "old": [
+   42.63333,
+   0.21667
+  ],
+  "new": [
+   42.63373,
+   0.21871
+  ],
+  "conf": null,
+  "why": "Museo de Bielsa (OSM + Nominatim)"
+ },
+ {
+  "id": "aragon-23",
+  "name": "Las Viñas bunker (Teruel)",
+  "old": [
+   40.3494,
+   -1.11689
+  ],
+  "new": null,
+  "conf": [
+   "HIGH",
+   "MEDIUM"
+  ],
+  "why": "Exact spot could not be confirmed; label lowered to MEDIUM"
+ },
+ {
+  "id": "catalonia-13",
+  "name": "Quatre Camins – Cota 427 cross, Vilalba dels Arcs",
+  "old": [
+   41.10973,
+   0.4221
+  ],
+  "new": [
+   41.1095,
+   0.41983
+  ],
+  "conf": null,
+  "why": "Creu dels Quatre Camins (OSM + Nominatim)"
+ },
+ {
+  "id": "catalonia-25",
+  "name": "Mont de Conques – Pallars front strongholds",
+  "old": [
+   42.12199,
+   1.01489
+  ],
+  "new": [
+   42.13043,
+   1.01664
+  ],
+  "conf": null,
+  "why": "Mont de Conques (OSM + Nominatim)"
+ },
+ {
+  "id": "north-11",
+  "name": "Otxandio – Andikona bombing memorial",
+  "old": [
+   43.03333,
+   -2.65
+  ],
+  "new": [
+   43.04164,
+   -2.65514
+  ],
+  "conf": null,
+  "why": "Andikona square, Otxandio (OSM)"
+ },
+ {
+  "id": "north-13",
+  "name": "Puerto del Escudo – Italian memorial",
+  "old": [
+   43.0423,
+   -3.8783
+  ],
+  "new": [
+   43.04008,
+   -3.87813
+  ],
+  "conf": null,
+  "why": "Italian mausoleum, Puerto del Escudo (OSM)"
+ },
+ {
+  "id": "north-16",
+  "name": "Monte Sollube battlefield",
+  "old": [
+   43.36667,
+   -2.76667
+  ],
+  "new": [
+   43.37098,
+   -2.76377
+  ],
+  "conf": null,
+  "why": "Sollube summit (OSM)"
+ },
+ {
+  "id": "north-20",
+  "name": "Astra factory air-raid shelter, Gernika",
+  "old": [
+   43.31106,
+   -2.67597
+  ],
+  "new": [
+   43.31207,
+   -2.67622
+  ],
+  "conf": null,
+  "why": "Astra air-raid shelter (OSM)"
+ },
+ {
+  "id": "north-21",
+  "name": "Iron Belt Interpretation Centre, Berango",
+  "old": [
+   43.365,
+   -2.99583
+  ],
+  "new": [
+   43.36429,
+   -2.99587
+  ],
+  "conf": null,
+  "why": "Iron Belt memorial museum, Berango (OSM)"
+ },
+ {
+  "id": "south-06",
+  "name": "Santuario de la Virgen de la Cabeza (1936–37 siege), Andújar",
+  "old": [
+   38.17889,
+   -4.03861
+  ],
+  "new": [
+   38.17936,
+   -4.03492
+  ],
+  "conf": null,
+  "why": "Santuario de la Virgen de la Cabeza (OSM + Nominatim)"
+ },
+ {
+  "id": "south-08",
+  "name": "Parque de la Memoria 'Málaga 1937', Torre del Mar",
+  "old": [
+   36.742,
+   -4.094
+  ],
+  "new": [
+   36.74035,
+   -4.09895
+  ],
+  "conf": null,
+  "why": "Next to the Torre del Mar bus station (official description + Nominatim)"
+ },
+ {
+  "id": "south-10",
+  "name": "Cementerio de San Fernando — Pico Reja mass grave, Seville",
+  "old": [
+   37.4125,
+   -5.9795
+  ],
+  "new": [
+   37.41885,
+   -5.98084
+  ],
+  "conf": null,
+  "why": "Cementerio de San Fernando (OSM)"
+ },
+ {
+  "id": "south-12",
+  "name": "Espejo — site of Capa's 'Falling Soldier'",
+  "old": [
+   37.683,
+   -4.55
+  ],
+  "new": [
+   37.67903,
+   -4.54862
+  ],
+  "conf": null,
+  "why": "Robert Capa plaque, Espejo (OSM)"
+ },
+ {
+  "id": "south-13",
+  "name": "Puente Viejo de Maro (Desbandá crossing), Nerja",
+  "old": [
+   36.7575,
+   -3.8465
+  ],
+  "new": [
+   36.75956,
+   -3.85015
+  ],
+  "conf": null,
+  "why": "Old road crossing of the Barranco de Maro (OSM)"
+ },
+ {
+  "id": "south-15",
+  "name": "Fuerte de Carchuna and the Motril front, Granada coast",
+  "old": [
+   36.699,
+   -3.443
+  ],
+  "new": [
+   36.69604,
+   -3.43541
+  ],
+  "conf": null,
+  "why": "Castillo / Fuerte de Carchuna (OSM)"
+ },
+ {
+  "id": "levant-08",
+  "name": "Línea XYZ – La Muela & La Vegatilla trenches, Jérica",
+  "old": [
+   39.9117,
+   -0.5719
+  ],
+  "new": [
+   39.91212,
+   -0.57844
+  ],
+  "conf": null,
+  "why": "Civil War trenches, Jérica (OSM)"
+ },
+ {
+  "id": "levant-10",
+  "name": "Sierra de Espadán – Las Tetas & La Ràpita positions",
+  "old": [
+   39.9158,
+   -0.3548
+  ],
+  "new": [
+   39.92004,
+   -0.39126
+  ],
+  "conf": null,
+  "why": "Las dos Tetas, Sierra de Espadán (OSM)"
+ },
+ {
+  "id": "west-01",
+  "name": "Puerta de la Trinidad, Badajoz",
+  "old": [
+   38.879,
+   -6.964
+  ],
+  "new": [
+   38.87807,
+   -6.96434
+  ],
+  "conf": null,
+  "why": "Puerta de Trinidad (OSM)"
+ },
+ {
+  "id": "castile-03",
+  "name": "Centro Documental de la Memoria Histórica, Salamanca",
+  "old": [
+   40.9612,
+   -5.6648
+  ],
+  "new": [
+   40.95975,
+   -5.6673
+  ],
+  "conf": null,
+  "why": "CDMH, C/ Gibraltar 2 (official tourism site + OSM)"
+ },
+ {
+  "id": "time-30",
+  "name": "Death of Mola (Alcocero de Mola)",
+  "old": [
+   42.61,
+   -3.526
+  ],
+  "new": [
+   42.47259,
+   -3.35817
+  ],
+  "conf": null,
+  "why": "Alcocero de Mola village (OSM + Nominatim); old pin was about 20 km away"
+ },
+ {
+  "id": "time-35",
+  "name": "Fall of Gijón (Gijón)",
+  "old": [
+   43.5322,
+   -5.6611
+  ],
+  "new": [
+   43.54494,
+   -5.66275
+  ],
+  "conf": null,
+  "why": "Centre of Gijón (OSM)"
+ },
+ {
+  "id": "time-44",
+  "name": "Fall of Castellón (Castellón de la Plana)",
+  "old": [
+   39.9864,
+   -0.0513
+  ],
+  "new": [
+   39.98604,
+   -0.03774
+  ],
+  "conf": null,
+  "why": "Centre of Castellón (OSM)"
+ },
+ {
+  "id": "time-52",
+  "name": "Last Cortes at Figueres (Figueres, Castell de Sant Ferran)",
+  "old": [
+   42.269,
+   2.957
+  ],
+  "new": [
+   42.27361,
+   2.94639
+  ],
+  "conf": null,
+  "why": "Castell de Sant Ferran, as on the stop card (OSM)"
+ },
+ {
+  "id": "time-55",
+  "name": "Last war communiqué (Burgos, Palacio de la Isla)",
+  "old": [
+   42.3398,
+   -3.7108
+  ],
+  "new": [
+   42.33884,
+   -3.70975
+  ],
+  "conf": null,
+  "why": "Palacio de la Isla, as on the stop card (OSM)"
+ },
+ {
+  "id": "time-33",
+  "name": "Belchite (Belchite, Pueblo Viejo)",
+  "old": [
+   41.3033,
+   -0.7536
+  ],
+  "new": [
+   41.30084,
+   -0.74746
+  ],
+  "conf": null,
+  "why": "Pueblo Viejo ruins, as on the stop card (OSM)"
+ },
+ {
+  "id": "north-12",
+  "name": "San Marcial hermitage & the Battle of Irun",
+  "old": [
+   43.32778,
+   -1.76139
+  ],
+  "new": [
+   43.33118,
+   -1.76654
+  ],
+  "conf": null,
+  "why": "Ermita de San Marcial, as the text says the pin marks the hermitage (OSM)"
+ },
+ {
+  "id": "levant-05",
+  "name": "Port of Alicante – Stanbrook and the last refugees",
+  "old": [
+   38.33422,
+   -0.4958
+  ],
+  "new": [
+   38.34356,
+   -0.48041
+  ],
+  "conf": null,
+  "why": "Stanbrook / Captain Dickson memorial, Muelle de Levante (OSM)"
+ },
+ {
+  "id": "south-09",
+  "name": "Panteón de la Memoria, Cementerio de San Rafael, Málaga",
+  "old": [
+   36.7135,
+   -4.4445
+  ],
+  "new": [
+   36.70651,
+   -4.45217
+  ],
+  "conf": null,
+  "why": "Parque de la Memoria in the former San Rafael cemetery (OSM)"
+ },
+ {
+  "id": "time-8",
+  "name": "Republican landing on Mallorca (Porto Cristo, Mallorca)",
+  "old": [
+   39.5406,
+   3.3342
+  ],
+  "new": [
+   39.54233,
+   3.33443
+  ],
+  "conf": null,
+  "why": "On the shore at Porto Cristo; the old pin was in the harbour water"
+ },
+ {
+  "id": "time-28",
+  "name": "Fall of Santa María de la Cabeza (Santuario de la Virgen de la Cabeza)",
+  "old": [
+   38.1789,
+   -4.0386
+  ],
+  "new": [
+   38.17936,
+   -4.03492
+  ],
+  "conf": null,
+  "why": "At the sanctuary church (OSM)"
+ }
+]
