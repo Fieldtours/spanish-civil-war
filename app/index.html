@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
+<script>/* Language: remember English/Español; save the choice when a language link is used */
+(function(){var P="en";try{if(localStorage.getItem("scw-lang")==="es"&&!/[?&]lang=en/.test(location.search)){location.replace("es.html"+location.hash);return}}catch(e){}
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("[data-lang]");if(a){try{localStorage.setItem("scw-lang",a.getAttribute("data-lang"));localStorage.setItem("scw-welcomed","1")}catch(x){}}},true)})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>The Spanish Civil War 1936–1939 — DZ Charlie field guide</title>
@@ -494,7 +497,8 @@ html.aar-open,html.aar-open body{overflow:hidden}
   <div class="doc"><span>Parte de guerra</span><span>1936–1939</span></div>
   <div id="wel-h" class="wel-title" role="heading" aria-level="2">The Spanish<br>Civil War<span>1936–1939</span></div>
   <p>Walk the fronts, the ruined villages and the places of memory of the war that divided Spain — told fairly, from both sides.</p>
-  <button type="button" class="btn w" id="wel-go">Enter</button>
+  <p style="margin:0 0 8px;font-size:13px;letter-spacing:2px;text-transform:uppercase">Choose your language · <span lang="es">Elige idioma</span></p>
+  <div style="display:flex;gap:10px"><button type="button" class="btn w" id="wel-go" data-lang="en">English</button><a class="btn w" href="es.html" data-lang="es" lang="es" hreflang="es">Español</a></div>
  </div>
  <span class="credit" id="wel-credit"></span>
 </div>
@@ -566,7 +570,7 @@ html.aar-open,html.aar-open body{overflow:hidden}
 <!-- MORE -->
 <section class="pgw" id="p-more" hidden><div class="pg">
  <p class="eb">Language</p>
-<a class="tile" href="es.html" hreflang="es" id="lang-switch"><span class="n">ES</span><span class="x"><b lang="es">Español</b><span lang="es">Esta guía en español.</span></span></a>
+<a class="tile" href="es.html" hreflang="es" id="lang-switch" data-lang="es"><span class="n">ES</span><span class="x"><b lang="es">Español</b><span lang="es">Esta guía en español.</span></span></a>
 <p class="eb" style="margin-top:18px">Read</p>
  <button type="button" class="tile" data-go="sites"><span class="n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span><span class="x"><b>Sites by area</b><span>The eight areas of Spain and their sites.</span></span></button>
  <button type="button" class="tile" data-go="big"><span class="n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 21V4M5 4h12l-2 4 2 4H5"/></svg></span><span class="x"><b>The big picture</b><span>Seven things that decided the war, and the coup hour by hour.</span></span></button>
