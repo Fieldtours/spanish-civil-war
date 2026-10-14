@@ -1,0 +1,29 @@
+{
+ "slug": "miranda-de-ebro-concentration-camp-historic-site",
+ "name": "Campo de concentración de Miranda de Ebro (lugar histórico)",
+ "when": "1937–13 ene. 1947",
+ "story": "Abierto en 1937 junto al nudo ferroviario, el de Miranda de Ebro fue el campo de concentración franquista que más tiempo funcionó: no cerró hasta enero de 1947. Unos 65.000 prisioneros republicanos pasaron por él durante la guerra y después, entre ellos brigadistas internacionales capturados. Durante la Segunda Guerra Mundial se convirtió en el principal campo de internamiento para los extranjeros que cruzaban los Pirineos —militares aliados evadidos, polacos, belgas, checos, franceses huidos y refugiados judíos—, con más de 3500 internos a la vez en un campo construido para 1500.",
+ "see": "Algunos restos (un depósito de agua, tramos de muro, las ruinas de los lavaderos y una garita) y una placa en el antiguo emplazamiento, hoy entre naves industriales; un centro de interpretación con un barracón reconstruido y fichas de prisioneros en el centro cívico de la ciudad, y monumentos conmemorativos en el parque Alcalde Emiliano Bajo.",
+ "plan": "El marcador señala el antiguo emplazamiento del campo, hoy entre naves industriales, donde se conservan algunos restos; no indica cada una de las estructuras que quedan. El centro de interpretación, con un barracón reconstruido, está en el Centro Cívico Raimundo Porres, Avenida República Argentina 93, en el casco urbano; conviene consultar su horario en la oficina de turismo de Miranda.",
+ "vis": [
+  {
+   "label": "Open",
+   "text": "Centro: lun.–sáb. 09:00–15:00 y 17:00–21:00; del 15 jun. al 15 sept., lun.–vie. 08:00–15:00"
+  },
+  {
+   "label": "Booking",
+   "text": "Visita guiada gratuita «Ruta de la Memoria» (1 h 30 min) miér. y jue. a las 18:00 y sáb. a las 12:00; reservas por internet en mirandamemoria.es"
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "private",
+   "text": "verlo solo desde la carretera o el camino público."
+  },
+  {
+   "kind": "disagree",
+   "text": "El número total de prisioneros es una estimación."
+  }
+ ],
+ "desc": "Campo de concentración franquista de Miranda de Ebro (1937–1947): historia, restos que se conservan, centro de interpretación y visitas guiadas."
+}

@@ -10,5 +10,8 @@ Visitors choose the area they want to tour and how much time they have; the guid
 - `build/` — source: `app.js`, `map.js` (offline map of Spain), `bm.js` (battle maps), styles, data builder
   (`make_data.py`), page assembler (`assemble.py`), PDF maker (`make_pdf.py`) and map data (`geo/`)
 - `PROJECT NOTES.txt` — version history in plain English
+- `app/es.html` — the same guide in Spanish (Castilian), added 14 October 2026. It was made from the finished
+  `index.html`, not from `build/`, so rebuilding with `build/assemble.py` does not recreate it or the "Español"
+  link; see `Research/Spanish translation (14 Oct 2026)/README.txt`
 
 Version: v1 · 27 September 2026

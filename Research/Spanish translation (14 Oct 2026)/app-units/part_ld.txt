@@ -1,0 +1,2 @@
+
+{"@context":"https://schema.org","@type":"TravelApplication","name":"The Spanish Civil War 1936–1939 — DZ Charlie field guide","url":"https://dzcharlie.com/spanish-civil-war/","applicationCategory":"TravelApplication","operatingSystem":"Web","description":"A free self-guided field guide to 158 Spanish Civil War sites across Spain.","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}

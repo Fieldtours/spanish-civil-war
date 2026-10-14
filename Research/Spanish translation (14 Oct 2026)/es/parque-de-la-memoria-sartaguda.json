@@ -1,0 +1,21 @@
+{
+ "slug": "parque-de-la-memoria-sartaguda",
+ "name": "Parque de la Memoria de Sartaguda",
+ "when": "Otoño de 1936; parque inaugurado el 10 may. 2008",
+ "story": "Navarra nunca fue frente de guerra, pero la represión en la retaguardia en 1936 fue durísima. En Sartaguda, un pequeño pueblo de la Ribera, mataron al menos a 86 personas, entre ellas el alcalde socialista y varios concejales; 45 hombres fueron fusilados entre el 2 y el 4 de octubre tras ser llamados como «voluntarios». Pasó a conocerse como «el pueblo de las viudas». El Parque de la Memoria, inaugurado en 2008 con el apoyo de la mayoría de los partidos, es el principal memorial de Navarra a las víctimas de la represión franquista: un muro de 7 metros recoge los nombres de 3431 navarros asesinados en sus pueblos, en Ezkaba, en Mauthausen o en trabajos forzados.",
+ "see": "Un parque ajardinado de 6000 m² con el largo muro de los nombres, esculturas de artistas vascos y placas.",
+ "plan": "Al aire libre, gratuito y accesible a cualquier hora; está a las afueras del pueblo, junto a las piscinas.",
+ "vis": [
+  {
+   "label": "Booking",
+   "text": "Visitas guiadas a través de la Asociación Pueblo de las Viudas, tel. 634 219 000"
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "Las cifras totales de la represión en Navarra (por lo general, más de 3000) proceden de investigaciones de asociaciones memorialistas; los números exactos varían."
+  }
+ ],
+ "desc": "Parque de la Memoria de Sartaguda, «el pueblo de las viudas», principal memorial navarro a las víctimas de la represión franquista. Historia y visita."
+}

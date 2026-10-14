@@ -1,0 +1,25 @@
+{
+ "slug": "cementerio-civil-almudena-execution-wall-madrid-ciudad-lineal",
+ "name": "Cementerio Civil y tapia de fusilamientos de la Almudena",
+ "when": "1939–1944",
+ "story": "Tras la caída de Madrid en marzo de 1939, la tapia este del Cementerio del Este (Almudena) se convirtió en el principal lugar de ejecuciones de la ciudad: según las investigaciones de los historiadores, cerca de 3000 personas fueron fusiladas allí entre 1939 y 1944, entre ellas las «Trece Rosas», trece jóvenes ejecutadas el 5 de agosto de 1939. El Cementerio Civil contiguo, destinado a quienes se enterraban fuera de la Iglesia católica, alberga las tumbas de dirigentes republicanos como Francisco Largo Caballero, Dolores Ibárruri, «Pasionaria», y Pablo Iglesias, así como placas en memoria de las Trece Rosas.",
+ "see": "Tumbas y memoriales en el Cementerio Civil; la tapia del cementerio de la Almudena, con un memorial a las víctimas.",
+ "plan": "Gratis; abierto todos los días en horario del cementerio. Al Cementerio Civil se entra por la calle Carmen Martín Gaite; metro La Elipa.",
+ "vis": [
+  {
+   "label": "Open",
+   "text": "Todos los días; mar.–oct. 8:00–19:30; nov.–feb. 8:00–18:30"
+  },
+  {
+   "label": "Access",
+   "text": "Paseos principales accesibles; los senderos estrechos entre tumbas son difíciles"
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "El memorial con los nombres de los ejecutados, encargado en 2018, fue modificado por el ayuntamiento en 2019 tras las polémicas por errores en las listas; el número de ejecutados (unas 2900–3000) se basa en los registros del cementerio."
+  }
+ ],
+ "desc": "Cementerio Civil de Madrid y tapia de la Almudena, donde fueron fusiladas las Trece Rosas y cerca de 3000 personas. Historia, qué ver y cómo llegar."
+}

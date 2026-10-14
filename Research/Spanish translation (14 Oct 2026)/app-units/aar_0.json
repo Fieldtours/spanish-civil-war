@@ -1,0 +1,596 @@
+{
+ "madrid-01": {
+  "when": "NOV 1936–MAR 1939",
+  "sort": "1936-11-15T00:00",
+  "ev": "Nationalist columns break into University City and meet Republican defenders fighting building by building.",
+  "q": {
+   "t": "Which building became a Nationalist bastion in the University City?",
+   "o": [
+    "The Faculty of Philosophy",
+    "The Hospital Clínico",
+    "The Telefónica building"
+   ],
+   "a": 1,
+   "x": "The Hospital Clínico became a Nationalist bastion while the Faculty of Philosophy was a Republican strongpoint. The line then froze until March 1939."
+  },
+  "rem": "This salient marks the closest Franco's army came to taking Madrid by storm; the front here stayed frozen for over two years.",
+  "solemn": false,
+  "st": "In mid-November 1936 Nationalist columns under Varela and Asensio, led by Moroccan Regulares and the Legion, crossed the Manzanares into the half-built University City. The XI and XII International Brigades and the Durruti column fought them building by building; Durruti was mortally wounded here, though how he was shot is still debated. The line then froze until Madrid surrendered in March 1939. Today the rebuilt campus shows a few repaired façades and a 2011 International Brigades memorial."
+ },
+ "madrid-05": {
+  "when": "1940–1959",
+  "sort": "1940-01-01T00:00",
+  "ev": "Franco's basilica and cross are cut into the Guadarrama granite, partly by political prisoners.",
+  "q": null,
+  "rem": "Dead of both sides lie here, many Republicans moved from mass graves without their families' consent; exhumations in the crypts continue.",
+  "solemn": true,
+  "st": "Franco ordered this basilica cut into the granite of the Guadarrama as a monument to his victory. Built from 1940 to 1959, partly by political prisoners, it received the remains of dead from both sides, many Republicans moved from mass graves without their families' consent. Franco was exhumed in 2019 and José Antonio Primo de Rivera in 2023; the Democratic Memory Law renamed the valley, and forensic exhumations continue. Today visitors see the esplanade, the rock-cut basilica and the great cross."
+ },
+ "madrid-09": {
+  "when": "13 NOV 1936",
+  "sort": "1936-11-13T00:00",
+  "ev": "Varela's troops take Garabitas hill and hold it for the rest of the war.",
+  "q": {
+   "t": "What did the Nationalist batteries on Garabitas shell from December 1936?",
+   "o": [
+    "The Valencia road bridges",
+    "Madrid's city centre and the Telefónica",
+    "The Jarama valley"
+   ],
+   "a": 1,
+   "x": "From December 1936 the batteries on Garabitas shelled the city centre, the Gran Vía and the Telefónica building."
+  },
+  "rem": "The front across the Casa de Campo stayed almost static until March 1939, and bunkers of both sides survive in the woods.",
+  "solemn": false,
+  "st": "Garabitas is one of the highest points of the Casa de Campo, the former royal hunting estate through which Nationalist columns attacked Madrid in November 1936. Varela's troops took the hill on 13 November and held it for the rest of the war despite Republican counter-attacks, including by the XI International Brigade. Their batteries here shelled the city centre and the Telefónica building. Today the summit offers a panoramic view over Madrid, with bunkers scattered through the park."
+ },
+ "madrid-13": {
+  "when": "1937–1939",
+  "sort": "1937-08-01T00:00",
+  "ev": "Republican engineers dig 'Posición Jaca', the command bunker of Miaja's Army of the Centre.",
+  "q": {
+   "t": "Whose command bunker was Posición Jaca?",
+   "o": [
+    "General Varela's",
+    "The XV International Brigade's",
+    "General Miaja's Army of the Centre"
+   ],
+   "a": 2,
+   "x": "It was the command bunker of General Miaja's Army of the Centre and his chief of staff Vicente Rojo, completed in August 1937."
+  },
+  "rem": "Some 15 m underground, it is one of the best-preserved Civil War command posts in Spain.",
+  "solemn": false,
+  "st": "Beneath the 18th-century garden of the Dukes of Osuna, Republican engineers dug 'Posición Jaca', the command bunker of General Miaja's Army of the Centre and his chief of staff Vicente Rojo, completed in August 1937. Its central gallery had rooms for about 200 people, generators and gas-proof doors. It is one of Spain's best-preserved Civil War command posts and shows how the defence of Madrid was run. Today visitors walk its restored galleries beneath El Capricho."
+ },
+ "madrid-17": {
+  "when": "8–23 MAR 1937",
+  "sort": "1937-03-08T00:00",
+  "ev": "Republican forces rout Mussolini's Corpo Truppe Volontarie advancing on Guadalajara.",
+  "q": {
+   "t": "Who fought the Italian Blackshirts at the Palacio de Ibarra?",
+   "o": [
+    "Moroccan Regulares",
+    "The British Battalion",
+    "The Italian anti-fascist Garibaldi Battalion"
+   ],
+   "a": 2,
+   "x": "The Garibaldi Battalion of the XII International Brigade fought Italian Blackshirts on 13–14 March: Italians against Italians."
+  },
+  "rem": "Rain grounded the Italian aircraft on muddy airfields while Republican planes flew from paved runways.",
+  "solemn": false,
+  "st": "In March 1937 Mussolini's Corpo Truppe Volontarie under General Roatta drove towards Guadalajara to encircle Madrid, while rain grounded its aircraft. At the Palacio de Ibarra the Italian anti-fascist Garibaldi Battalion of the XII International Brigade fought Italian Blackshirts, Italians against Italians. On 18 March Republican divisions under Líster, Mera and others retook Brihuega. It became the Republic's most celebrated victory, magnified by its propaganda. Today Brihuega's walled old town stands above the Tajuña, with the palace ruins on private land nearby."
+ },
+ "madrid-21": {
+  "when": "11 FEB 1937",
+  "sort": "1937-02-11T00:00",
+  "ev": "Moroccan Regulares seize the Pindoque bridge at night, opening the Nationalist way across the Jarama.",
+  "q": {
+   "t": "What happened when Republicans tried to blow the Pindoque bridge?",
+   "o": [
+    "It collapsed into the river",
+    "The charges were never set",
+    "The bridge survived the explosion"
+   ],
+   "a": 2,
+   "x": "A Republican attempt to blow the bridge failed and it survived the explosion, opening the way to Pingarrón and Suicide Hill."
+  },
+  "rem": "These crossings began the Jarama battle; restored Republican trenches from 1938 lie nearby on the Cerro del Melero.",
+  "solemn": false,
+  "st": "The Nationalist offensive of February 1937 needed to cross the Jarama. On the night of 11 February Moroccan Regulares crept up to the Pindoque railway bridge and silently killed the International Brigade sentries; a Republican attempt to blow the bridge failed. Further south, Barrón's cavalry seized the Arganda road bridge, opening the way to Pingarrón and Suicide Hill. Today both bridges cross the river in the Parque Regional del Sureste, with restored Republican trenches on the Cerro del Melero."
+ },
+ "madrid-25": {
+  "when": "SEP–OCT 1936",
+  "sort": "1936-09-01T00:00",
+  "ev": "The last Republican militiamen and civilians shelter in the cathedral under bombardment before surrendering.",
+  "q": {
+   "t": "What was added to the cathedral during its 1940s restoration?",
+   "o": [
+    "A new lantern tower over the crossing",
+    "A second bell tower",
+    "A new 18th-century organ"
+   ],
+   "a": 0,
+   "x": "The damaged cathedral was restored in the 1940s, when a new lantern tower was added over the crossing."
+  },
+  "rem": "The cathedral's roofs, crossing and organ were destroyed while besieged defenders sheltered inside.",
+  "solemn": false,
+  "st": "In the autumn of 1936 Nationalist columns advancing from Aragon and Soria besieged Sigüenza. The last Republican militiamen, with civilians, took refuge in the cathedral and held out for several days under artillery and air bombardment before surrendering in mid-October. The cathedral was badly damaged: roofs and the crossing collapsed, sculpture was shattered and the 18th-century organ destroyed. It was restored in the 1940s. Today the fortress-like Romanesque–Gothic cathedral shows its post-war repairs and the new lantern tower over the crossing."
+ },
+ "madrid-28": {
+  "when": "NOV 1936–1939",
+  "sort": "1936-11-05T00:00",
+  "ev": "Nationalist troops take the village and later fortify the heights along the western front.",
+  "q": {
+   "t": "On which river did the front halt near Fresnedillas?",
+   "o": [
+    "The Ebro",
+    "The Perales",
+    "The Jarama"
+   ],
+   "a": 1,
+   "x": "After the Nationalists took the village on 5 November 1936, the front halted on the Perales river."
+  },
+  "rem": "Machine-gun nests, trenches and vaulted shelters here formed part of Madrid's western front.",
+  "solemn": false,
+  "st": "Nationalist troops took Fresnedillas de la Oliva on 5 November 1936 during the advance on Madrid. The front then halted on the Perales river and saw heavy fighting in December. In 1937 the Nationalists fortified the heights around the village with machine-gun nests, trenches and catenary-vaulted shelters, forming part of the western front of Madrid. Several of these positions, including those of Cota 960, lie along local paths. Today concrete machine-gun posts, connecting trenches and vaulted storage shelters can be visited around the village."
+ },
+ "aragon-03": {
+  "when": "JAN–16 FEB 1937",
+  "sort": "1937-01-01T00:00",
+  "ev": "George Orwell serves with the POUM militia on the static Sierra de Alcubierre front.",
+  "q": {
+   "t": "In which book did Orwell describe this front?",
+   "o": [
+    "For Whom the Bell Tolls",
+    "Animal Farm",
+    "Homage to Catalonia"
+   ],
+   "a": 2,
+   "x": "Orwell described the cold, the lice and the stalemate in Homage to Catalonia (1938)."
+  },
+  "rem": "The Aragon front here hardly moved for more than a year until the Nationalist offensive of March 1938.",
+  "solemn": false,
+  "st": "From late 1936 the Aragon front ran across the bare Sierra de Alcubierre, where anarchist and POUM militias faced Nationalist positions such as San Simón and the line hardly moved for more than a year. George Orwell served here with the POUM militia until 16 February 1937 and described the cold, the lice and the stalemate in Homage to Catalonia. The front broke in March 1938. Today rebuilt Republican trenches, shelters and a bivouac line on Monte Irazo can be walked."
+ },
+ "aragon-07": {
+  "when": "1936–1938",
+  "sort": "1936-07-01T00:00",
+  "ev": "Robres lies just behind the Republican Sierra de Alcubierre front held by militia columns.",
+  "q": {
+   "t": "Which nearby trench route pairs naturally with the Robres centre?",
+   "o": [
+    "The Frente del Agua",
+    "The Atrinchérate route",
+    "The Ruta Orwell"
+   ],
+   "a": 2,
+   "x": "The centre covers the militia war and the static front, and pairs naturally with the Ruta Orwell trenches in the nearby hills."
+  },
+  "rem": "The centre also covers the collectives and social revolution in the Republican rear.",
+  "solemn": false,
+  "st": "Robres lay just behind the Republican side of the Sierra de Alcubierre front, held from 1936 to 1938 by anarchist CNT-FAI and POUM militia columns and later by the Popular Army. The village's centre covers the militia war and the static front, the collectives and social revolution in the Republican rear, and the Nationalist breakthrough of March 1938. Today its rooms display panels, photographs, weapons and everyday objects from the front, alongside a documentation centre."
+ },
+ "aragon-11": {
+  "when": "3 MAR 1938",
+  "sort": "1938-03-03T16:10",
+  "ev": "Italian bombers flying for the Nationalists strike Alcañiz's town centre and market area.",
+  "q": null,
+  "rem": "The raid struck a town more than 70 km from the front; the shelter now remembers its victims.",
+  "solemn": true,
+  "st": "Alcañiz council built this shelter in 1937 for about 230 residents of the Almudines quarter. On 3 March 1938 bombers of the Italian Aviazione Legionaria, flying for the Nationalists, attacked the town centre and market area, far from the front. It was one of the deadliest raids on a town in Aragon, and the number of dead and missing remains uncertain. Days later the Nationalist Aragon offensive swept through the region. Today the underground gallery holds an exhibition on the raid and its victims."
+ },
+ "aragon-15": {
+  "when": "LATE 1936–1938",
+  "sort": "1936-10-01T00:00",
+  "ev": "Republican forces build a machine-gun bunker to control the Huesca–Barbastro road.",
+  "q": null,
+  "rem": "The siege lines around Nationalist-held Huesca lasted until March 1938.",
+  "solemn": false,
+  "st": "After July 1936 Nationalist-held Huesca was almost surrounded by Republican columns, and the siege lines lasted until March 1938. In late 1936 Republican forces under Colonel Villalba built this machine-gun bunker to control the Huesca–Barbastro road. The front saw costly Republican attacks, above all the June 1937 offensive in which General Lukács of the XII International Brigade was killed; George Orwell was wounded here in May 1937. Today the well-preserved bunker stands beside the old road."
+ },
+ "aragon-19": {
+  "when": "15–17 MAR 1938",
+  "sort": "1938-03-15T00:00",
+  "ev": "International Brigades defend Caspe against Yagüe's divisions until the town falls on 17 March.",
+  "q": {
+   "t": "What body had its seat in Caspe from 1936?",
+   "o": [
+    "The Republican Cortes",
+    "The Nationalist Army of the North",
+    "The Regional Defence Council of Aragon"
+   ],
+   "a": 2,
+   "x": "Caspe was the seat of the anarchist-led Regional Defence Council of Aragon, dissolved by the Republican government in August 1937."
+  },
+  "rem": "After its fall Caspe became a Nationalist corps headquarters for the Ebro front.",
+  "solemn": false,
+  "st": "From 1936 Caspe was the seat of the anarchist-led Regional Defence Council of Aragon, dissolved by force by the Republican government in August 1937. During the Aragon offensive three divisions of Yagüe's Moroccan Army Corps reached Caspe on 15 March 1938. International Brigades defended the town, the XV Brigade most stubbornly, until it fell on 17 March and became a Nationalist headquarters for the Ebro front. Today the historic centre and surrounding hills hold scattered, mostly unmarked traces."
+ },
+ "aragon-23": {
+  "when": "1936–1938",
+  "sort": "1936-07-01T00:00",
+  "ev": "A defence line on the ridge above the prison watches the Turia riverbed below Teruel.",
+  "q": {
+   "t": "Which area was the Las Viñas sector around?",
+   "o": [
+    "Teruel cemetery",
+    "Teruel cathedral",
+    "The Bank of Spain"
+   ],
+   "a": 0,
+   "x": "The Las Viñas sector around Teruel cemetery was contested from the very start of the war."
+  },
+  "rem": "This concrete fort served as observatory, rifle post and bunker on the edge of Teruel.",
+  "solemn": false,
+  "st": "The Las Viñas sector around Teruel cemetery was contested from the very start of the war. A defence line on the ridge above the prison watched the Turia riverbed and the old Zaragoza road below the city. This concrete observation fort and bunker, on the edge of Teruel itself, is one of the surviving pieces of that line. Today the thick-walled fort, which served as an observatory, a rifle post and a bunker, can still be seen."
+ },
+ "catalonia-03": {
+  "when": "25 JUL–16 NOV 1938",
+  "sort": "1938-07-25T00:00",
+  "ev": "Republican units reach Gandesa's outskirts but never take the town, the pivot of the battle.",
+  "q": {
+   "t": "What was the museum building used for in 1938?",
+   "o": [
+    "A Nationalist headquarters",
+    "A blood hospital",
+    "A prison"
+   ],
+   "a": 1,
+   "x": "The museum is housed in a former school that served as a blood hospital in 1938."
+  },
+  "rem": "Gandesa was the prize the Republican offensive never took.",
+  "solemn": false,
+  "st": "Gandesa was the prize the Republican offensive never took. After crossing the Ebro on 25 July 1938, Republican units reached the outskirts within days but were stopped by Nationalist reinforcements, and the town became the pivot of the whole battle. The museum occupies a former school that served as a blood hospital in 1938 and gives the best overview before visiting the field. Today its exhibition shows weapons, uniforms, models, a reconstructed trench and a field-hospital ward."
+ },
+ "catalonia-07": {
+  "when": "30 JAN 1938",
+  "sort": "1938-01-30T00:00",
+  "ev": "Italian aircraft bomb the square; a second bomb strikes as rescuers dig out survivors.",
+  "q": null,
+  "rem": "Forty-two people died here, most of them children; the shrapnel scars on the church remain.",
+  "solemn": true,
+  "st": "On 30 January 1938 Italian aircraft from Mallorca bombed the old city of Barcelona. One bomb fell on this small square, where the church crypt served as a shelter for the neighbouring school and for children evacuated from Madrid. As rescuers dug survivors from the rubble, a second bomb struck. Forty-two people were killed, most of them children. For decades the damage was said to come from executions. Today the façade is still pitted with shrapnel scars, and a plaque remembers the victims."
+ },
+ "catalonia-11": {
+  "when": "JUL–NOV 1938",
+  "sort": "1938-07-25T00:00",
+  "ev": "The Camposines crossroads is fought over in the final weeks of the Ebro battle.",
+  "q": null,
+  "rem": "The ossuary receives remains of soldiers of both armies still being found across the battlefield, most of them unknown.",
+  "solemn": true,
+  "st": "The Camposines crossroads, on the road from the Ebro crossings towards Gandesa, was a key junction behind the Republican front and was fought over in the battle's final weeks. In 2009 the Generalitat built a memorial here over the line of an old trench. It serves as an ossuary for the remains of soldiers of both armies still being found across the battlefield, most of them unidentified. Today the memorial stands beside the hermitage of Sant Bartomeu, looking towards the Ebro valley."
+ },
+ "catalonia-16": {
+  "when": "25 JUL 1938",
+  "sort": "1938-07-25T00:00",
+  "ev": "The Army of the Ebro crosses the river below the castle by boat and footbridge.",
+  "q": {
+   "t": "What was one Republican aim of the Ebro crossing?",
+   "o": [
+    "To relieve pressure on Valencia",
+    "To retake Madrid",
+    "To reach the French border"
+   ],
+   "a": 0,
+   "x": "The Republic aimed to relieve pressure on Valencia and restore the link with the central zone."
+  },
+  "rem": "The crossing took the Nationalists by surprise in the early hours of 25 July 1938.",
+  "solemn": false,
+  "st": "The Templar castle of Miravet stands above one of the stretches where the Army of the Ebro crossed the river by boat and footbridge in the early hours of 25 July 1938, taking the Nationalists by surprise. The Republican aim was to relieve pressure on Valencia and restore the link with the central zone. The castle shows well how the river shaped the fighting. Today it houses a permanent exhibition on the battle, with views over the river and the village."
+ },
+ "catalonia-13": {
+  "when": "19 AUG 1938",
+  "sort": "1938-08-19T00:00",
+  "ev": "Catalan Carlist volunteers attack towards Punta Targa from the Quatre Camins crossroads.",
+  "q": null,
+  "rem": "This small site is a reminder that Catalans fought on both sides of the battle.",
+  "solemn": true,
+  "st": "At the Quatre Camins crossroads south of Vilalba, the Catalan Carlist volunteers of the Tercio de Requetés de Nuestra Señora de Montserrat held a Nationalist position facing the Republican 31st Mixed Brigade on Punta Targa, only about 250 m away. On 19 August 1938 the requetés attacked and, by the unit's own figures, lost 58 killed and 174 wounded; Republican losses are not recorded. The site recalls that Catalans fought on both sides. Today a memorial cross stands at the crossroads."
+ },
+ "catalonia-22": {
+  "when": "JUL–DEC 1936",
+  "sort": "1936-07-19T00:00",
+  "ev": "Revolutionary violence strikes priests, religious and Catholic laypeople; many churches burn.",
+  "q": null,
+  "rem": "The cathedral is a place to reflect on the violence against the Church in Barcelona in 1936.",
+  "solemn": true,
+  "st": "In the first months after the military rising was defeated in Barcelona in July 1936, a wave of revolutionary violence swept the Republican zone. Priests, monks, nuns and Catholic laypeople were among its main victims, and many churches were burned. Most killings were carried out by militia patrols and 'control committees' outside any legal process, until the authorities gradually reined them in. Some clergy killed then have since been beatified. Today the Gothic cathedral and its cloister offer a place for quiet reflection."
+ },
+ "catalonia-27": {
+  "when": "1937–1938",
+  "sort": "1937-01-01T00:00",
+  "ev": "The dead of a Catalan Carlist unit that fought for the Nationalists are laid to rest here.",
+  "q": null,
+  "rem": "The crypt is a quiet reminder that Catalan society itself was divided by the war.",
+  "solemn": true,
+  "st": "The Tercio de Requetés de Nuestra Señora de Montserrat was a unit of Catalan Carlist volunteers who fought for the Nationalists, many of them having escaped from Republican Catalonia. It suffered heavy losses at Codo in August 1937 and in the Battle of the Ebro, and its dead were brought to a crypt at Montserrat, Catalonia's national shrine. The crypt recalls how deeply the war divided Catalan society. Today a mausoleum within the monastery complex records the names of the unit's dead."
+ },
+ "north-02": {
+  "when": "26 APR 1937",
+  "sort": "1937-04-26T00:00",
+  "ev": "The Assembly House and the oak of Gernika survive the bombing on the hill above the burning town.",
+  "q": {
+   "t": "Who posted a guard at the Tree of Gernika after the Nationalists took the town?",
+   "o": [
+    "Carlist requetés of the Tercio de Begoña",
+    "Italian airmen of the Aviazione Legionaria",
+    "Basque militia returning from Bilbao"
+   ],
+   "a": 0,
+   "x": "After the Nationalists took Gernika on 29 April 1937, Biscayan Carlist requetés of the Tercio de Begoña guarded the tree to stop it being damaged."
+  },
+  "rem": "The oak symbolises Basque self-government, which is one reason the town's destruction caused such outrage.",
+  "solemn": false,
+  "st": "The Assembly House and the oak of Gernika were the historic symbols of Basque self-government, which deepened the outrage at the town's destruction in April 1937. Both survived the bombing on the hill above the burning centre. After the Nationalists took Gernika on 29 April, Carlist requetés of the Tercio de Begoña, themselves Biscayans, posted a guard to protect the tree. Today the preserved old trunk stands under a colonnade beside the living oak."
+ },
+ "north-06": {
+  "when": "1937",
+  "sort": "1937-01-01T00:00",
+  "ev": "Beneath the Plaza del Príncipe, a shelter is dug for commanders and officials as raids hit Santander.",
+  "q": {
+   "t": "How was this shelter rediscovered?",
+   "o": [
+    "It was exposed by the great fire of 1941",
+    "By Italian troops searching the city in 1937",
+    "During works on the Plaza Porticada in 2006"
+   ],
+   "a": 2,
+   "x": "Abandoned after the war and buried in the rebuilding after the 1941 fire, the shelter was rediscovered in 2006 and opened as a museum in 2014."
+  },
+  "rem": "Over a hundred shelters were dug beneath Republican Santander during the bombing of 1937.",
+  "solemn": false,
+  "st": "Santander, then in the Republican zone, was bombed repeatedly during 1937, and over a hundred shelters were dug beneath the city. This one, under the Plaza del Príncipe, was built in spring 1937 for about 70 people, mainly military commanders and city officials. Buried after the great fire of 1941, it was rediscovered in 2006 and opened as a museum in 2014. Today restored galleries display period photographs, an airman's equipment and a bomb."
+ },
+ "north-10": {
+  "when": "11–13 JUN 1937",
+  "sort": "1937-06-11T00:00",
+  "ev": "Fighting spreads along the ridge above Zamudio as Nationalists cross the Iron Belt and descend.",
+  "q": {
+   "t": "What can walkers see along the Zamudio memory trail?",
+   "o": [
+    "Surviving trenches and machine-gun nests",
+    "A rebuilt castle and war museum",
+    "Only modern replica fortifications"
+   ],
+   "a": 0,
+   "x": "The waymarked trail climbs to the Berreaga–Gaztelumendi ridge past original trenches and concrete machine-gun posts."
+  },
+  "rem": "Here you can see what the Iron Belt looked like on the ground, and why it failed against massed artillery and aircraft.",
+  "solemn": false,
+  "st": "Zamudio lies directly below the stretch of the Iron Belt where the Nationalists broke through. The fighting of 11–13 June 1937 spread along the Berreaga–Urrusti–Gaztelumendi ridge, and on 12 June the attackers crossed the line and came down into the village. The ridge shows clearly what the Iron Belt looked like on the ground and why it failed against massed artillery and aircraft. Today a signposted memory trail climbs past original trenches and concrete machine-gun posts, with explanatory panels along the way."
+ },
+ "north-14": {
+  "when": "JUL 1936–FEB 1937",
+  "sort": "1936-07-19T00:00",
+  "ev": "Colonel Aranda holds Oviedo for the rising while Asturian miners' militias besiege the city.",
+  "q": {
+   "t": "How did Colonel Aranda secure Oviedo for the rising?",
+   "o": [
+    "He had persuaded Republican leaders he was loyal",
+    "He arrived by sea with Galician troops",
+    "He negotiated a truce with the miners"
+   ],
+   "a": 0,
+   "x": "Aranda had persuaded Republican leaders of his loyalty, then declared for the rising on 19 July 1936 and held the city through a long siege."
+  },
+  "rem": "Oviedo survived months of siege until a column from Galicia opened a corridor in October 1936; its old centre was heavily damaged.",
+  "solemn": false,
+  "st": "On 19 July 1936 Colonel Antonio Aranda, who had persuaded Republican leaders he was loyal, declared for the rising and held Oviedo with soldiers, Civil Guards and Falangist volunteers. Surrounded by Asturian miners' militias, the city endured months of siege and street fighting until a Nationalist column from Galicia opened a corridor in October 1936. Today the town hall on Plaza de la Constitución faces San Isidoro church in an old quarter largely rebuilt after the siege."
+ },
+ "north-18": {
+  "when": "19 JUL–16 AUG 1936",
+  "sort": "1936-07-19T00:00",
+  "ev": "Colonel Pinilla's garrison holds the Simancas barracks under siege until militias storm it in August.",
+  "q": {
+   "t": "What did Colonel Pinilla do as the barracks were stormed?",
+   "o": [
+    "He surrendered to the Asturian militias",
+    "He escaped by sea to the cruiser",
+    "He radioed the cruiser to fire on his own position"
+   ],
+   "a": 2,
+   "x": "As the militias stormed the barracks in mid-August 1936, Pinilla radioed the Almirante Cervera to fire on his position. Almost the entire garrison died."
+  },
+  "rem": "The Franco regime made the siege a heroic legend; its memorial is now a contested symbol under democratic memory law.",
+  "solemn": false,
+  "st": "When the coup failed in Gijón, Colonel Antonio Pinilla and about 600 soldiers of the Simancas regiment shut themselves into the Simancas barracks. Asturian militias besieged them, and when the building was stormed in mid-August 1936, Pinilla radioed the cruiser Almirante Cervera to fire on his own position; almost the entire garrison died. The Franco regime turned the siege into a heroic legend. Today the 1958 Francoist monument on the site faces removal orders and may be gone or covered."
+ },
+ "south-01": {
+  "when": "1936–1938",
+  "sort": "1936-01-01T00:00",
+  "ev": "Almería digs more than 4 km of shelter galleries to protect civilians from repeated air and sea attacks.",
+  "q": {
+   "t": "What was the worst single attack on Almería?",
+   "o": [
+    "A Condor Legion raid on the harbour in 1938",
+    "A German naval bombardment at dawn on 31 May 1937",
+    "An air raid during the arrival of Málaga's refugees"
+   ],
+   "a": 1,
+   "x": "The cruiser Admiral Scheer and four destroyers shelled the city in reprisal for a Republican air attack on the cruiser Deutschland off Ibiza."
+  },
+  "rem": "The galleries, with their own operating theatre, form one of Europe's largest civilian shelter networks.",
+  "solemn": false,
+  "st": "Almería, the Republic's main port on the south-east coast, was bombed repeatedly from the air and the sea. At dawn on 31 May 1937 the German cruiser Admiral Scheer and four destroyers shelled the city in reprisal for a Republican air attack on the Deutschland off Ibiza, killing civilians. The city dug one of Europe's largest civilian shelter networks, more than 4 km of galleries. Today about 1 km of restored galleries includes an underground operating theatre."
+ },
+ "south-05": {
+  "when": "7–12 FEB 1937",
+  "sort": "1937-02-07T00:00",
+  "ev": "Civilians and militiamen fleeing Málaga set out along the coast road towards Almería under attack.",
+  "q": null,
+  "rem": "This walk honours those who fled, and Norman Bethune and the Canadian aid that carried the weakest to safety.",
+  "solemn": true,
+  "st": "When Nationalist and Italian CTV forces took Málaga on 8 February 1937, a huge column of civilians and militiamen fled east along the coast road towards Almería. They were shelled from the sea and attacked from the air, and many died of exhaustion or drowned at river crossings; the death toll is unknown. The Canadian surgeon Norman Bethune and his companions ferried the weakest to Almería. Today a seafront walk at the Peñón del Cuervo cove carries a plaque to Bethune."
+ },
+ "south-09": {
+  "when": "1937–1950s",
+  "sort": "1937-02-01T00:00",
+  "ev": "Republican supporters killed by military courts and summary shootings are buried in mass graves here.",
+  "q": null,
+  "rem": "The recovered remains now rest in the memorial pantheon; Málaga's two waves of killing should be understood together.",
+  "solemn": true,
+  "st": "After Málaga fell in February 1937, military courts and summary shootings killed many Republican supporters, often against the wall of the old San Rafael cemetery, and their bodies were placed in mass graves. Between 2006 and 2009 archaeologists exhumed 2,840 bodies here. Málaga had also seen heavy repression in the Republican zone before the city fell, and the two waves should be understood together. Today a park holds the Panteón de la Memoria, with the recovered remains, and walls of names."
+ },
+ "south-13": {
+  "when": "FEB 1937",
+  "sort": "1937-02-01T00:00",
+  "ev": "Refugees fleeing Málaga cross this bridge as the coast road nearby is shelled from the sea.",
+  "q": null,
+  "rem": "Many were killed on this stretch of road; the bridge is now a Place of Democratic Memory.",
+  "solemn": true,
+  "st": "The old bridge over the Barranco de Maro, east of Nerja, carried the coast road used by refugees fleeing Málaga in February 1937. Nearby the road was shelled from the sea, many were killed at the Río de la Miel crossing, and in Nerja evacuation buses carrying children were bombed. How many died on this stretch is unknown. Today the old stone bridge still spans the ravine on the old coast road, with a memorial plaque."
+ },
+ "levant-01": {
+  "when": "NOV 1936–MAR 1939",
+  "sort": "1936-11-25T00:00",
+  "ev": "After a four-hour Condor Legion raid, Cartagena begins tunnelling shelters like this one into its hills.",
+  "q": {
+   "t": "Why was Cartagena one of the most heavily bombed cities of the war?",
+   "o": [
+    "It was the Republic's main naval base",
+    "It was the seat of the Republican government",
+    "It was the Nationalists' main supply port"
+   ],
+   "a": 0,
+   "x": "As home of the Republican fleet, Cartagena was bombed heavily. This gallery, for more than 5,000 people, was unfinished when the city fell in 1939."
+  },
+  "rem": "The museum shows daily life under the bombs and how the city defended itself against air attack.",
+  "solemn": false,
+  "st": "Cartagena, the Republic's main naval base, was one of the most heavily bombed cities of the war. After a four-hour Condor Legion raid on 25 November 1936, the city began tunnelling shelters into its hills; this gallery in the Cerro de la Concepción, designed for more than 5,000 people, was still unfinished when Cartagena fell on 31 March 1939. Today the tunnel holds exhibition rooms, photographs, sirens and audiovisuals, with a panoramic lift rising to the castle."
+ },
+ "levant-08": {
+  "when": "18–24 JUL 1938",
+  "sort": "1938-07-18T00:00",
+  "ev": "Nationalist and Italian forces attack the Línea XYZ and break against it short of Valencia.",
+  "q": {
+   "t": "Who held the Línea XYZ against the July 1938 attacks?",
+   "o": [
+    "The Italian CTV",
+    "The Republican Ejército de Levante",
+    "The Navarrese brigades"
+   ],
+   "a": 1,
+   "x": "Under General Menéndez, the Ejército de Levante held the line less than 40 km from Valencia. Days later the Republic launched the Ebro offensive."
+  },
+  "rem": "The trenches of La Muela and La Vegatilla, part of the rear line, are among the best-preserved of the Línea XYZ.",
+  "solemn": false,
+  "st": "After reaching the sea at Vinaròs in April 1938, Franco turned south towards Valencia, and the Republic dug the Línea XYZ, a system of trenches, shelters and bunkers about 150 km long. In July 1938 the forces of Varela, García Valiño, Solchaga and the Italian CTV attacked it and broke against it less than 40 km from Valencia, as the Ejército de Levante held. Today well-preserved trenches, parapets and machine-gun nests survive around La Muela and the Alto de Sayas."
+ },
+ "levant-07": {
+  "when": "1937–1939",
+  "sort": "1937-01-01T00:00",
+  "ev": "Alicante shelters its people beneath its squares as Italian aircraft from Mallorca bomb the city.",
+  "q": {
+   "t": "Which other Alicante shelter does the city open alongside Plaza Séneca?",
+   "o": [
+    "Plaza Balmis",
+    "The castle tunnels",
+    "The market cellars"
+   ],
+   "a": 0,
+   "x": "Plaza Séneca and Plaza Balmis are the two shelters Alicante opens as memory sites, with soundscapes recreating a raid."
+  },
+  "rem": "The deadliest raid on Alicante came on 25 May 1938; this shelter lets visitors imagine the sirens and the bombs.",
+  "solemn": false,
+  "st": "Alicante, a Republican port and supply base, was bombed repeatedly by Italian aircraft from Mallorca, most deadly on 25 May 1938. The city responded with public shelters under its squares, and the Plaza Séneca shelter is one of two that the city now opens as a memory site. A linked exhibition tells the story of the city's war and its end in the port. Today restored underground galleries host a sound-and-light installation recreating an air raid."
+ },
+ "levant-14": {
+  "when": "1937–1938",
+  "sort": "1937-01-01T00:00",
+  "ev": "Castelló builds a public shelter under Plaza Tetuán as raids increase before the city falls.",
+  "q": {
+   "t": "When did Castelló fall to Nationalist troops?",
+   "o": [
+    "In November 1936",
+    "In March 1939",
+    "In June 1938"
+   ],
+   "a": 2,
+   "x": "Castelló was bombed as the front approached in spring 1938 and fell to Nationalist troops in June 1938 during the drive towards Valencia."
+  },
+  "rem": "The shelter tells the war as civilians lived it, in a city that changed hands in the middle of the war.",
+  "solemn": false,
+  "st": "Castelló was bombed by Nationalist and Italian aircraft as the front approached in spring 1938, and it fell to Nationalist troops in June 1938 during the drive towards Valencia. This public shelter under Plaza Tetuán was built in 1937–38 to protect the townspeople. Now part of the city museum, it presents the war as civilians lived it. Today the restored shelter offers exhibits, multimedia and audioguides in Spanish, Valencian, English and French."
+ },
+ "levant-17": {
+  "when": "JUN 1937",
+  "sort": "1937-06-22T00:00",
+  "ev": "Work begins on a concrete shelter for about 400 people beside the Torres de Serranos.",
+  "q": {
+   "t": "What has become an emblem of Valencia's wartime design?",
+   "o": [
+    "The red air-raid sirens",
+    "The shelters' Art Deco 'REFUGIO' lettering",
+    "The painted Town Hall ceilings"
+   ],
+   "a": 1,
+   "x": "The Art Deco 'REFUGIO' lettering on Valencia's shelters has become an emblem of the city's wartime design."
+  },
+  "rem": "This is one of more than 50 public shelters Valencia built against raids by Italian bombers based in Mallorca.",
+  "solemn": false,
+  "st": "Valencia built more than 50 public shelters against the raids carried out by Italian bombers based in Mallorca from 1937 to 1939. This one, very probably the shelter begun on 22 June 1937 at Calle Serranos 25, held about 400 people in three reinforced-concrete chambers under a roof more than 1.5 m thick. Its Art Deco 'REFUGIO' lettering has become an emblem of wartime Valencia. Today the three chambers keep original features, with interpretation panels."
+ },
+ "west-03": {
+  "when": "10–11 AUG 1936",
+  "sort": "1936-08-10T00:00",
+  "ev": "Legion troops rush the mined Roman bridge over the Guadiana and break into Mérida.",
+  "q": {
+   "t": "What happened to the demolition charges on the Roman bridge?",
+   "o": [
+    "They destroyed the bridge's central arches",
+    "They were never fired",
+    "They exploded under the attackers"
+   ],
+   "a": 1,
+   "x": "The defenders had mined the bridge, but the charges were not fired; Nationalist accounts credit Alarcón de la Lastra with disarming them."
+  },
+  "rem": "Mérida's capture linked Seville with the northern zone; mass detentions and executions followed in the town.",
+  "solemn": false,
+  "st": "Mérida was the key road and rail junction between the Nationalist south and north. On 10 August 1936 the Legion's 5th Bandera rushed the Roman bridge, which the defenders had mined; the charges were not fired, and the troops broke into the city, linking Seville with Mola's northern zone. Mass detentions and executions at the cemetery wall followed. Today the Roman bridge over the Guadiana is pedestrian, and a cemetery memorial remembers the victims of the repression."
+ },
+ "west-08": {
+  "when": "1937–JUL 1938",
+  "sort": "1937-01-01T00:00",
+  "ev": "Republican engineers and local masons build machine-gun posts and zigzag trenches along the Guadámez valley.",
+  "q": {
+   "t": "What inscription does one of the Republican machine-gun posts carry?",
+   "o": [
+    "'MADRID 1936'",
+    "'LA SERENA 1938'",
+    "'AÑO 1937'"
+   ],
+   "a": 2,
+   "x": "One of the concrete-and-brick posts carries 'AÑO 1937'. In July 1938 Queipo de Llano's Army of the South cut off much of the pocket."
+  },
+  "rem": "Unlike the famous fronts, the works of the La Serena pocket survive almost untouched and little visited.",
+  "solemn": false,
+  "st": "From late 1936 the Republic held a large salient in eastern Badajoz, the 'La Serena pocket'. Along the Guadámez valley Republican engineers and local masons built concrete-and-brick machine-gun posts linked by zigzag trenches, one inscribed 'AÑO 1937'. In July 1938 Queipo de Llano's Army of the South attacked, taking Castuera, Campanario and Villanueva de la Serena. Today small fortines and stretches of trench survive, almost untouched, at Cañada Honda and Los Palancares."
+ },
+ "castile-05": {
+  "when": "22 MAY 1938",
+  "sort": "1938-05-22T00:00",
+  "ev": "Republican prisoners overpower guards and escape from the fort in the largest prison break of the war.",
+  "q": null,
+  "rem": "Few escapers reached safety; many who died here lie in the nearby 'bottle cemetery', their names once placed in bottles on the graves.",
+  "solemn": true,
+  "st": "This 19th-century fort on Mount Ezkaba, above Pamplona, served as a political prison where about 2,500 Republican prisoners were held in damp, overcrowded casemates. On 22 May 1938 some 795 escaped in the largest prison break of the war; hunted through the hills of Navarre, around 200 were killed, most were recaptured and only three reached France. Scores more died of disease in the fort. Today its moats and casemates remain, and nearby lies the 'bottle cemetery'."
+ },
+ "castile-09": {
+  "when": "JUL 1936–1940",
+  "sort": "1936-07-01T00:00",
+  "ev": "The monastery of San Marcos becomes one of Spain's largest prison camps after León falls to the rebels.",
+  "q": null,
+  "rem": "Behind the famous façade thousands of men and women were held; survivors' associations still seek recognition of its prison past.",
+  "solemn": true,
+  "st": "León fell to the rebels in the first days of the war, and the vast Renaissance monastery of San Marcos became one of the largest prison camps in Spain. Men from León, Asturias and the Northern front, and women in a separate section, were crowded into its halls and stables, and many were executed or died of disease. Survivors' associations have long sought recognition of its prison past. Today the Plateresque façade, church and cloister can be seen; the hotel interior is not a memorial."
+ },
+ "castile-13": {
+  "when": "10 SEP–15 DEC 1936",
+  "sort": "1936-09-10T00:00",
+  "ev": "People killed in the rearguard repression in La Rioja are buried here in three mass graves.",
+  "q": null,
+  "rem": "Relatives turned this execution and burial site into a memorial cemetery, the main place of remembrance for victims of repression in La Rioja.",
+  "solemn": true,
+  "st": "La Rioja fell to the rebels without a fight in July 1936, yet around two thousand people were killed in the rearguard repression of the following months. La Barranca, near Logroño, was one of the main execution and burial sites: the official heritage declaration records 407 people buried here in three mass graves, killed between 10 September and 15 December 1936. The relatives' association turned it into a memorial cemetery. Today small walls enclose name plaques and flowers left by relatives."
+ }
+}

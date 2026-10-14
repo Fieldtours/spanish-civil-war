@@ -1,0 +1,33 @@
+{
+ "slug": "refugio-museo-de-la-guerra-civil-cartagena",
+ "name": "Refugio-Museo de la Guerra Civil (Cartagena)",
+ "when": "nov. 1936–mar. 1939",
+ "story": "Cartagena era la principal base naval de la República y el puerto de su flota, lo que la convirtió en una de las ciudades más bombardeadas de la guerra. Tras un ataque de cuatro horas de la Legión Cóndor el 25 de noviembre de 1936, la ciudad empezó a excavar refugios en sus cerros. Esta galería, abierta en el cerro de la Concepción, se diseñó para más de 5000 personas y aún estaba sin terminar cuando Cartagena cayó el 31 de marzo de 1939. Las estimaciones del número de bombardeos que sufrió la ciudad varían mucho, de unos 40 a 117. Abierto como museo en 2004, trata la vida cotidiana bajo las bombas, la defensa antiaérea pasiva y activa (DECA) y los daños sufridos por la ciudad. Es la mejor introducción a la guerra en el sureste.",
+ "see": "Un largo túnel en la ladera con salas de exposición, fotografías, sirenas antiaéreas y audiovisuales; junto a él, un ascensor panorámico sube 45 m hasta el Castillo de la Concepción.",
+ "plan": "Lo gestiona Cartagena Puerto de Culturas; la entrada es de pago, y hay una entrada combinada con otros museos de la ciudad. El acceso está en la calle Gisbert, en el centro, a 10 minutos a pie del puerto.",
+ "vis": [
+  {
+   "label": "Open",
+   "text": "1 jul.–15 sept.: todos los días, 10:00–20:00; 16 sept.–1 nov. y 15 mar.–30 jun.: mar.–dom., 10:00–19:00; 2 nov.–14 mar.: mar.–dom., 10:00–17:30"
+  },
+  {
+   "label": "Price",
+   "text": "4 € adultos; 3 € reducida; menores de 3 años, gratis"
+  },
+  {
+   "label": "Access",
+   "text": "Ascensor y aseos adaptados"
+  },
+  {
+   "label": "Notice",
+   "text": "Cerrado 1 y 6 ene. y 25 dic.; el 5 ene., 24 y 31 dic., solo por la tarde"
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "El número de bombardeos sobre Cartagena oscila entre 40 y 117, según la fuente y la forma de contarlos."
+  }
+ ],
+ "desc": "Refugio-Museo de la Guerra Civil de Cartagena, excavado en el cerro de la Concepción. Historia de los bombardeos, qué ver, horarios y precios."
+}

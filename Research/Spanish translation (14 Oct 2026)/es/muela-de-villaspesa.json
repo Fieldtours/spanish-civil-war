@@ -1,0 +1,16 @@
+{
+ "slug": "muela-de-villaspesa",
+ "name": "Muela de Villaspesa",
+ "when": "1937–1938",
+ "story": "La Muela de Villaspesa era un punto fortificado intermedio al sur de Teruel que dominaba las posiciones republicanas de Aldehuela y el valle del Turia. Sus defensores excavaron un túnel desde la línea de trincheras hasta la parte trasera del cerro para poder moverse sin ser vistos ni alcanzados desde las posiciones republicanas de Las Cañadas.",
+ "see": "Trincheras y puestos de observación en la ladera que mira a Aldehuela, y el túnel, cuya entrada trasera está hoy tapiada.",
+ "plan": "Está cerca de Villaspesa, a unos 8 km al sur de Teruel. Es monte abierto, así que conviene llevar botas. Se puede combinar con el búnker de Aldehuela, enfrente.",
+ "vis": [],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "TracesOfWar no indica qué bando ocupaba la Muela. La disposición de las posiciones apunta a los sublevados, pero no está confirmado."
+  }
+ ],
+ "desc": "Muela de Villaspesa, punto fortificado al sur de Teruel con trincheras, observatorios y un túnel de la Guerra Civil. Historia, qué ver y cómo llegar."
+}

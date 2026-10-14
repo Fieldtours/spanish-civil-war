@@ -1,0 +1,17 @@
+
+.vz{display:flex;flex-wrap:wrap;align-items:flex-start;gap:4px 12px}
+.vz>details{flex:1 1 200px;min-width:0}
+.vz summary{cursor:pointer;font-weight:700;list-style:none;padding:2px 0}
+.vz summary::-webkit-details-marker{display:none}
+.vz summary::before{content:"\25B8";display:inline-block;width:1.1em;transition:transform .15s}
+.vz details[open] summary::before{transform:rotate(90deg)}
+.vz summary .vz-flag{font-weight:600;font-size:.85em;margin-left:6px}
+.vz-rows{margin:6px 0 2px}
+.vz-r{display:grid;grid-template-columns:5.4em 1fr;gap:8px;font-size:14px;line-height:1.4;margin:5px 0}
+.vz-r b{font-weight:700}
+.vz-r.vz-n span{font-weight:600}
+.vz-none{font-size:14px;margin:6px 0 2px}
+.vz-src{font-size:12px;opacity:.8;margin-top:6px;overflow-wrap:anywhere}
+.vz-src a{color:inherit}
+.vz-rep{font-size:13px;color:inherit;text-decoration:underline;white-space:nowrap;padding:3px 0;margin-left:auto;opacity:.85}
+.vz-rep:hover{opacity:1}

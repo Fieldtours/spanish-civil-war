@@ -1,0 +1,29 @@
+{
+ "slug": "basilica-del-pilar-the-unexploded-bombs-zaragoza",
+ "name": "Basílica del Pilar: las bombas que no estallaron (Zaragoza)",
+ "when": "3 ago. 1936",
+ "story": "Al comienzo de la guerra, un avión republicano atacó Zaragoza, en manos de los sublevados, y lanzó bombas sobre la basílica de Nuestra Señora del Pilar, el gran santuario mariano de España. Las bombas cayeron sobre el templo y la plaza contigua, y ninguna estalló. La propaganda del bando sublevado lo presentó como un milagro, y el episodio se convirtió en un poderoso símbolo del sentido religioso que el bando de Franco dio a su guerra. Dos de las bombas siguen expuestas en el interior de la basílica.",
+ "see": "Dos bombas desactivadas cuelgan de un pilar en el interior de la basílica. También se aprecia la huella de los daños en las bóvedas.",
+ "plan": "La basílica abre todos los días y la entrada es gratuita; conviene visitarla fuera del horario de misa. Las bombas están cerca de la Santa Capilla del Pilar.",
+ "vis": [
+  {
+   "label": "Open",
+   "text": "Todos los días 8:30–13:30 y 16:30–20:30"
+  },
+  {
+   "label": "Price",
+   "text": "Gratuita"
+  },
+  {
+   "label": "Notice",
+   "text": "El ascensor de la torre figura como cerrado temporalmente"
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "La fecha, 3 de agosto de 1936, sigue el estudio de referencia sobre el ataque (J. Pujol Bertran, El bombardeo del templo del Pilar, 2023). Los relatos difieren en el número de bombas que cayeron, por lo general tres o cuatro."
+  }
+ ],
+ "desc": "Las bombas que no estallaron en la basílica del Pilar de Zaragoza en 1936: la historia del «milagro», dónde verlas hoy, horarios y visita."
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "durango-bombing-santa-maria-de-uribarri",
+ "name": "Bombardeo de Durango: Santa María de Uribarri",
+ "when": "31 mar. 1937",
+ "story": "El 31 de marzo de 1937, primer día de la ofensiva del general Mola contra Vizcaya, bombarderos italianos Savoia-Marchetti S.81, escoltados por cazas alemanes e italianos, atacaron Durango, un nudo de carreteras y ferrocarril situado a retaguardia del frente. La primera oleada llegó hacia las 8:00, durante la misa de la mañana. La iglesia de los jesuitas y el convento de Santa Susana fueron alcanzados, y murieron sacerdotes, monjas y fieles; Santa María de Uribarri también sufrió daños. Ese mismo día hubo más ataques. Durango fue bombardeada casi cuatro semanas antes que Gernika y a menudo se la llama su precedente olvidado. La ruta del bombardeo de la villa une las iglesias dañadas y las placas conmemorativas.",
+ "see": "La basílica de Uribarri, con su gran pórtico de madera, y las placas y paneles de la ruta del bombardeo (Bonbardaketaren ibilbidea) que señalan los lugares alcanzados.",
+ "plan": "El folleto de la ruta del bombardeo se recoge en la oficina de turismo de Durango; el centro es pequeño y se recorre fácilmente a pie en una hora, más o menos.",
+ "vis": [
+  {
+   "label": "Booking",
+   "text": "La oficina de turismo de Durango ofrece el folleto «Aztarnak» sobre el bombardeo (descargable) y una ruta con audioguía; reservas a través de la oficina"
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "La mayoría de los relatos hablan de unos 250 muertos; los estudios en castellano dan una horquilla de 248 a 336."
+  }
+ ],
+ "desc": "Durango, bombardeada el 31 de marzo de 1937, casi un mes antes que Gernika. Historia del ataque, la ruta del bombardeo y cómo visitarla."
+}

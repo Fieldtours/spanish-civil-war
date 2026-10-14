@@ -1,0 +1,15 @@
+/* DZ Charlie visitor counter: counts real visits, app installs and PDF downloads. No cookies, nothing personal is stored. Add ?me=1 to any address to stop counting your own visits on that device. */
+(function(){try{var q=location.search,s=window.localStorage;if(/[?&]me=1/.test(q))s.setItem('dz_me','1');if(/[?&]me=0/.test(q))s.removeItem('dz_me');if(s.getItem('dz_me'))return}catch(e){}
+if(navigator.webdriver||!/(^|\.)dzcharlie\.com$|\.netlify\.app$/.test(location.hostname))return;
+var p=location.pathname,u=navigator.userAgent,w=Math.min(screen.width,screen.height),d=/Mobi|Android|iPhone/i.test(u)?(w>=600?'tablet':'phone'):(/Macintosh/.test(u)&&navigator.maxTouchPoints>1?'tablet':'computer');
+if(p.indexOf('/spanish-civil-war')!==0)p='/spanish-civil-war'+p;
+var app=false;try{app=navigator.standalone===true||['standalone','fullscreen','minimal-ui'].some(function(m){return matchMedia('(display-mode: '+m+')').matches})}catch(e){}
+var dv=d+(app?'-app':''),B='https://yltrecaajqaioduovlio.supabase.co/rest/v1/rpc/',H={'apikey':'sb_publishable_m7a_N2Q1OHS0zqcu4QDHXg_2iA6ZIBd','Content-Type':'application/json'};
+function send(f,o){try{fetch(B+f,{method:'POST',keepalive:true,headers:H,body:JSON.stringify(o)}).catch(function(){})}catch(e){}}
+send('record_visit',{p_path:p,p_ref:document.referrer||null,p_device:dv});
+/* someone added the guide to their home screen (Android and computers report this; iPhones do not) */
+addEventListener('appinstalled',function(){send('record_event',{p_kind:'install',p_path:p,p_device:d})});
+/* someone tapped one of the guide's own PDFs */
+document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;var x;try{x=new URL(a.getAttribute('href'),location.href)}catch(r){return}
+if(x.origin===location.origin&&/\/pdf\/.*\.pdf$/i.test(x.pathname))send('record_event',{p_kind:'pdf',p_path:x.pathname,p_file:x.pathname,p_device:dv})},true);
+})();

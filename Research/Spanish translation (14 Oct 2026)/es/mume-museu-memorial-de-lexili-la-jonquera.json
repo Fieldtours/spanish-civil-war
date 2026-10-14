@@ -1,0 +1,25 @@
+{
+ "slug": "mume-museu-memorial-de-lexili-la-jonquera",
+ "name": "MUME – Museu Memorial de l'Exili (La Jonquera)",
+ "when": "ene.–feb. 1939",
+ "story": "Mientras las tropas sublevadas ocupaban Cataluña tras la caída de Barcelona el 26 de enero de 1939, una enorme masa de civiles y soldados derrotados huyó hacia el norte, hacia la frontera francesa: la Retirada. Cruzaron por Le Perthus/La Jonquera, Portbou, el Coll d'Ares y los pasos de montaña, en pleno invierno y bajo los ataques aéreos. Francia retuvo a muchos de ellos en campos improvisados en playas como las de Argelès y Saint-Cyprien. El MUME, inaugurado en 2008 en la localidad fronteriza de La Jonquera, cuenta la historia de este éxodo y del exilio republicano: los campos, el regreso, la deportación a los campos nazis y la vida en el extranjero.",
+ "see": "Exposición permanente sobre la Retirada, los campos franceses y el exilio, con fotografías, objetos y testimonios; exposiciones temporales y un centro de documentación.",
+ "plan": "Carrer Major 43–47, La Jonquera; abre de lunes a sábado y los domingos por la mañana; horarios y precios en museuexili.cat. En el museo informan sobre las rutas a pie del exilio por los pasos cercanos.",
+ "vis": [
+  {
+   "label": "Open",
+   "text": "16 sept.–30 jun.: lun.–sáb. 10:00–18:00, dom. y festivos 10:00–14:00; 1 jul.–15 sept.: lun.–vie. 10:00–19:00, sáb. 10:00–14:30 y 16:00–19:00, dom. 10:00–14:00; cerrado 25 y 26 dic., 1 y 6 ene."
+  },
+  {
+   "label": "Price",
+   "text": "4 € adultos (3 € estudiantes/pensionistas, 2 € mayores de 65 años); menores de 18 años, gratis"
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "Las estimaciones de quienes cruzaron a Francia a principios de 1939 van de unas 450.000 a 500.000 personas."
+  }
+ ],
+ "desc": "MUME, museo del exilio en La Jonquera: la Retirada de 1939, los campos franceses y el exilio republicano. Historia, horarios y precios."
+}

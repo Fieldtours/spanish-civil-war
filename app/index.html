@@ -6,6 +6,9 @@
 <title>The Spanish Civil War 1936–1939 — DZ Charlie field guide</title>
 <meta name="description" content="Explore 158 Spanish Civil War sites across Spain with a free self-guided field guide covering battlefields, trenches, shelters, museums and memorials.">
 <link rel="canonical" href="https://dzcharlie.com/spanish-civil-war/">
+<link rel="alternate" hreflang="en" href="https://dzcharlie.com/spanish-civil-war/">
+<link rel="alternate" hreflang="es" href="https://dzcharlie.com/spanish-civil-war/es.html">
+<link rel="alternate" hreflang="x-default" href="https://dzcharlie.com/spanish-civil-war/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://dzcharlie.com/spanish-civil-war/">
 <script type="application/ld+json">
@@ -14,7 +17,10 @@
 <meta name="theme-color" content="#3d2b1f">
 <meta property="og:title" content="The Spanish Civil War 1936–1939 — a DZ Charlie field guide">
 <meta property="og:description" content="Free phone guide to the sites of the Spanish Civil War, told fairly from both sides. Works with no signal.">
-<meta property="og:image" content="welcome-wide.jpg">
+<meta property="og:image" content="https://dzcharlie.com/spanish-civil-war/welcome-wide.jpg">
+<meta property="og:site_name" content="DZ Charlie">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://dzcharlie.com/spanish-civil-war/welcome-wide.jpg">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
@@ -559,7 +565,9 @@ html.aar-open,html.aar-open body{overflow:hidden}
 </div></section>
 <!-- MORE -->
 <section class="pgw" id="p-more" hidden><div class="pg">
- <p class="eb">Read</p>
+ <p class="eb">Language</p>
+<a class="tile" href="es.html" hreflang="es" id="lang-switch"><span class="n">ES</span><span class="x"><b lang="es">Español</b><span lang="es">Esta guía en español.</span></span></a>
+<p class="eb" style="margin-top:18px">Read</p>
  <button type="button" class="tile" data-go="sites"><span class="n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span><span class="x"><b>Sites by area</b><span>The eight areas of Spain and their sites.</span></span></button>
  <button type="button" class="tile" data-go="big"><span class="n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 21V4M5 4h12l-2 4 2 4H5"/></svg></span><span class="x"><b>The big picture</b><span>Seven things that decided the war, and the coup hour by hour.</span></span></button>
  <button type="button" class="tile" data-go="bm"><span class="n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 18l6-7 4 4 6-8"/><path d="M16 7h4v4"/></svg></span><span class="x"><b>Battle maps</b><span>Six battles, step by step.</span></span></button>
@@ -1516,6 +1524,22 @@ var run=KIND==="scw"?decoSCW:decoEC,q=false;
 function sched(){if(q)return;q=true;(window.requestAnimationFrame||setTimeout)(function(){q=false;try{run()}catch(x){}})}
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",sched);else sched();
 new MutationObserver(sched).observe(document.documentElement,{childList:true,subtree:true});
+})();
+</script>
+<script>/* DZ Charlie visitor counter: counts real visits, app installs and PDF downloads. No cookies, nothing personal is stored. Add ?me=1 to any address to stop counting your own visits on that device. */
+(function(){try{var q=location.search,s=window.localStorage;if(/[?&]me=1/.test(q))s.setItem('dz_me','1');if(/[?&]me=0/.test(q))s.removeItem('dz_me');if(s.getItem('dz_me'))return}catch(e){}
+if(navigator.webdriver||!/(^|\.)dzcharlie\.com$|\.netlify\.app$/.test(location.hostname))return;
+var p=location.pathname,u=navigator.userAgent,w=Math.min(screen.width,screen.height),d=/Mobi|Android|iPhone/i.test(u)?(w>=600?'tablet':'phone'):(/Macintosh/.test(u)&&navigator.maxTouchPoints>1?'tablet':'computer');
+if(p.indexOf('/spanish-civil-war')!==0)p='/spanish-civil-war'+p;
+var app=false;try{app=navigator.standalone===true||['standalone','fullscreen','minimal-ui'].some(function(m){return matchMedia('(display-mode: '+m+')').matches})}catch(e){}
+var dv=d+(app?'-app':''),B='https://yltrecaajqaioduovlio.supabase.co/rest/v1/rpc/',H={'apikey':'sb_publishable_m7a_N2Q1OHS0zqcu4QDHXg_2iA6ZIBd','Content-Type':'application/json'};
+function send(f,o){try{fetch(B+f,{method:'POST',keepalive:true,headers:H,body:JSON.stringify(o)}).catch(function(){})}catch(e){}}
+send('record_visit',{p_path:p,p_ref:document.referrer||null,p_device:dv});
+/* someone added the guide to their home screen (Android and computers report this; iPhones do not) */
+addEventListener('appinstalled',function(){send('record_event',{p_kind:'install',p_path:p,p_device:d})});
+/* someone tapped one of the guide's own PDFs */
+document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;var x;try{x=new URL(a.getAttribute('href'),location.href)}catch(r){return}
+if(x.origin===location.origin&&/\/pdf\/.*\.pdf$/i.test(x.pathname))send('record_event',{p_kind:'pdf',p_path:x.pathname,p_file:x.pathname,p_device:dv})},true);
 })();
 </script>
 </body>

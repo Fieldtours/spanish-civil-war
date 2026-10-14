@@ -1,0 +1,25 @@
+{
+ "slug": "isla-de-san-simon-concentration-camp-ria-de-vigo-redondela",
+ "name": "Isla de San Simón (campo de concentración), ría de Vigo",
+ "when": "1936–1943",
+ "story": "Galicia cayó en manos de los sublevados en pocos días en julio de 1936, y la represión en la retaguardia fue dura. La pequeña isla de San Simón, antiguo lazareto en la ría de Vigo, se convirtió en campo de concentración y colonia penitenciaria para presos políticos: primero de Vigo y Pontevedra y, más tarde, de toda España, entre ellos muchos presos de edad avanzada. El hacinamiento, el hambre y las enfermedades causaron cientos de muertes (unas 250 solo en 1941), y algunos reclusos fueron sacados de la isla y fusilados. Declarada Bien de Interés Cultural en 1999, la isla es hoy un centro cultural dedicado en parte a la memoria.",
+ "see": "Los edificios restaurados de la isla, el puente al islote de San Antón y la ruta memorial y literaria; las visitas guiadas explican la etapa del campo.",
+ "plan": "Visitas mediante solicitud por escrito a la Xunta de Galicia; los grupos deben organizar su propio barco. Unas 2 horas.",
+ "vis": [
+  {
+   "label": "Price",
+   "text": "Entrada a la isla gratuita (transporte aparte)"
+  },
+  {
+   "label": "Booking",
+   "text": "Visitas mediante solicitud por escrito a illadesansimon.cultura@xunta.gal"
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "El total de muertes es una estimación."
+  }
+ ],
+ "desc": "Isla de San Simón, en la ría de Vigo: campo de concentración para presos políticos entre 1936 y 1943. Historia, qué ver y cómo solicitar la visita."
+}

@@ -1,0 +1,33 @@
+{
+ "slug": "alcaniz-air-raid-shelter",
+ "name": "Refugio antiaéreo de Alcañiz",
+ "when": "3 mar. 1938",
+ "story": "El Ayuntamiento de Alcañiz construyó este refugio en 1937 para unos 230 vecinos del barrio de los Almudines. El 3 de marzo de 1938, a las 16:10, bombarderos de la Aviazione Legionaria italiana, que actuaban a favor de los sublevados, atacaron el centro del pueblo y la zona del mercado, aunque el frente estaba a más de 70 km. Fue uno de los bombardeos más mortíferos sobre una población de Aragón. Se produjo pocos días antes de que la ofensiva de Aragón de los sublevados arrasara el Bajo Aragón. Hoy el refugio alberga una exposición permanente sobre el bombardeo y sus víctimas.",
+ "see": "Una galería subterránea original del refugio con una exposición permanente sobre el bombardeo de 1938.",
+ "plan": "El refugio está entre la C/ Teniente Moore y la C/ Santo Domingo, en el casco antiguo. Se visita dentro de la visita guiada de 1 h por el casco antiguo que organiza la oficina de turismo de Alcañiz (tel. 978 831 213), con reserva previa, y no por separado.",
+ "vis": [
+  {
+   "label": "Open",
+   "text": "Visita guiada lun., miér., vie. y dom. a las 11:00, dentro de la visita al Casco Histórico"
+  },
+  {
+   "label": "Price",
+   "text": "5 € adultos; 3,50 € jubilados y estudiantes"
+  },
+  {
+   "label": "Booking",
+   "text": "Reserva previa obligatoria en la oficina de turismo, tel. 978 831 213"
+  },
+  {
+   "label": "Notice",
+   "text": "La oficina de turismo está provisionalmente en la plaza del Mercado 1 durante las obras del ayuntamiento"
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "El número de víctimas es incierto: las fuentes hablan de entre unos 300 y más de 500 muertos y desaparecidos."
+  }
+ ],
+ "desc": "Refugio antiaéreo de Alcañiz y el bombardeo italiano del 3 de marzo de 1938. Historia, qué ver y cómo reservar la visita guiada por el casco antiguo."
+}

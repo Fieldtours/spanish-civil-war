@@ -1,0 +1,21 @@
+{
+ "slug": "cementerio-de-san-fernando-pico-reja-mass-grave-seville",
+ "name": "Cementerio de San Fernando: fosa común de Pico Reja (Sevilla)",
+ "when": "Desde jul. 1936",
+ "story": "El general Gonzalo Queipo de Llano se hizo con Sevilla el 18 de julio de 1936, aplastó la resistencia obrera en Triana y La Macarena y emitía cada noche desde Unión Radio charlas en las que amenazaba de muerte a sus adversarios. La represión que siguió causó miles de muertos en la ciudad. Muchos fueron enterrados en Pico Reja, una fosa común del cementerio municipal de San Fernando. Entre ellos está probablemente Blas Infante, el «padre del andalucismo», fusilado el 11 de agosto de 1936 en el km 4 de la carretera de Carmona. Las excavaciones iniciadas en 2020 son de las mayores de España.",
+ "see": "El cementerio municipal, con la zona excavada de Pico Reja y señales conmemorativas; el área de exhumación puede estar vallada.",
+ "plan": "Cementerio abierto todos los días; hay que preguntar en la entrada por la zona de Pico Reja. En cuanto a Infante, su casa de Coria del Río es hoy el Museo de la Autonomía de Andalucía.",
+ "vis": [
+  {
+   "label": "Open",
+   "text": "Cementerio abierto todos los días 8:00–16:00"
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "El número de muertos en Pico Reja y el del conjunto de la represión en Sevilla son objeto de debate; la identificación de los restos de Infante no se había confirmado en el momento de redactar este texto."
+  }
+ ],
+ "desc": "Fosa común de Pico Reja, en el cementerio de San Fernando de Sevilla, símbolo de la represión de Queipo de Llano. Historia, qué ver y cómo visitarla."
+}

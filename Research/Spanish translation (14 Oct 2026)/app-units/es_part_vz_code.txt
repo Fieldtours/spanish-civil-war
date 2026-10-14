@@ -1,0 +1,53 @@
+,K={},G="La Guerra Civil española",MAIL="jj28@posteo.uk",CK="sept. 2026",KIND="scw";
+var L={open:"Horario",price:"Precio",booking:"Reservas",parking:"Aparcamiento",access:"Acceso",notice:"Aviso"};
+function e(s){return String(s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function host(u){return u.replace(/^https?:\/\/(www\.)?/,"").split("/")[0]}
+function mail(name){
+  var s="DZ Charlie – problema en: "+name+" ("+G+")";
+  var b="Guía: "+G+"\nParada: "+name+"\nPágina: "+location.origin+location.pathname+"\n\nQué falla (cerrado, trasladado, horario erróneo, camino cortado...):\n\n";
+  return "mailto:"+MAIL+"?subject="+encodeURIComponent(s)+"&body="+encodeURIComponent(b);
+}
+function block(id,name){
+  var r=V[id],h,flag="";
+  if(r&&r.f){
+    h='<div class="vz-rows">';
+    ["open","price","booking","parking","access","notice"].forEach(function(k){
+      if(r.f[k])h+='<div class="vz-r'+(k==="notice"?" vz-n":"")+'"><b>'+(k==="notice"?"⚠︎ ":"")+L[k]+'</b><span>'+e(r.f[k])+'</span></div>';
+    });
+    h+='</div><div class="vz-src">Comprobado en '+CK+' en fuentes oficiales'+(r.s&&r.s.length?': '+r.s.map(function(u){return '<a href="'+e(u)+'" target="_blank" rel="noopener">'+e(host(u))+'</a>'}).join(", "):"")+'. Las cosas cambian, así que compruébalo antes de viajar.</div>';
+    if(r.f.notice)flag='<span class="vz-flag">⚠︎ ver aviso</span>';
+  }else{
+    h='<div class="vz-none">No hay datos de visita confirmados para este lugar. Infórmate en la zona antes de ir.</div>';
+  }
+  return '<div class="plan vz" data-vz="'+e(id||"")+'"><details><summary>Visita'+flag+'</summary>'+h+'</details><a class="vz-rep" href="'+mail(name)+'">Informar de un problema</a></div>';
+}
+function decoEC(){
+  var cs=document.querySelectorAll("article.card[data-key][data-ll]");
+  for(var i=0;i<cs.length;i++){var c=cs[i];
+    if(c.querySelector(".vz"))continue;
+    var b=c.querySelector(".body");if(!b)continue;
+    var t=c.querySelector(".ttl b");var name=t?t.textContent.trim():c.getAttribute("data-key");
+    var id=K[c.getAttribute("data-key")]||"";
+    var at=b.querySelector(".coords");
+    var d=document.createElement("div");d.innerHTML=block(id,name);d=d.firstChild;
+    if(at)b.insertBefore(d,at);else b.appendChild(d);
+  }
+}
+var BYNAME=null;
+function decoSCW(){
+  if(!window.SCW||!SCW.stops)return;
+  if(!BYNAME){BYNAME={};SCW.stops.forEach(function(s){BYNAME[s.n]=s.id});}
+  var ps=document.querySelectorAll(".plan:not(.vz)");
+  for(var i=0;i<ps.length;i++){var p=ps[i];
+    var n=p.nextElementSibling;if(n&&n.classList&&n.classList.contains("vz"))continue;
+    var root=p.parentElement;var h=null;
+    while(root&&!(h=root.querySelector("h2")))root=root.parentElement;
+    if(!h)continue;var name=h.textContent.trim();var id=BYNAME[name];if(!id)continue;
+    var d=document.createElement("div");d.innerHTML=block(id,name);p.parentNode.insertBefore(d.firstChild,p.nextSibling);
+  }
+}
+var run=KIND==="scw"?decoSCW:decoEC,q=false;
+function sched(){if(q)return;q=true;(window.requestAnimationFrame||setTimeout)(function(){q=false;try{run()}catch(x){}})}
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",sched);else sched();
+new MutationObserver(sched).observe(document.documentElement,{childList:true,subtree:true});
+})();

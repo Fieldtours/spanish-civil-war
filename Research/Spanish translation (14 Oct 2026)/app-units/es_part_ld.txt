@@ -1,0 +1,2 @@
+
+{"@context":"https://schema.org","@type":"TravelApplication","name":"La Guerra Civil española 1936–1939 — guía de campo de DZ Charlie","url":"https://dzcharlie.com/spanish-civil-war/es.html","inLanguage":"es","applicationCategory":"TravelApplication","operatingSystem":"Web","description":"Guía de campo gratuita y autoguiada de 158 lugares de la Guerra Civil española en toda España.","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}

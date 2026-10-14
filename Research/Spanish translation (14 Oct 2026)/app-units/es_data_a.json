@@ -1,0 +1,1154 @@
+{
+ "regions": [
+  {
+   "id": "madrid",
+   "name": "Madrid y el Centro",
+   "short": "Madrid",
+   "blurb": "La capital que resistió 29 meses: el frente de la Ciudad Universitaria, los campos de batalla del Jarama, Brunete y Guadalajara, el Alcázar de Toledo y las líneas de búnkeres de la Sierra.",
+   "cap": "Madrid tras el bombardeo aéreo del 17 de noviembre de 1936. Dominio público."
+  },
+  {
+   "id": "aragon",
+   "name": "Aragón",
+   "short": "Aragón",
+   "blurb": "El largo frente de Aragón: las trincheras de Orwell en la sierra de Alcubierre, las ruinas de Belchite y Teruel helado, ganado y perdido en el invierno de 1937-1938.",
+   "cap": "Soldados republicanos en la batalla de Teruel, invierno de 1937-1938. Dominio público (Google Art Project)."
+  },
+  {
+   "id": "catalonia",
+   "name": "Cataluña y el Ebro",
+   "short": "Cataluña",
+   "blurb": "La batalla del Ebro, la más larga y sangrienta de la guerra, con sus trincheras y el Poble Vell de Corbera en ruinas; la Barcelona bombardeada y el camino del exilio en 1939.",
+   "cap": "Fuerzas republicanas cruzando el Ebro, julio de 1938. Dominio público (Google Art Project)."
+  },
+  {
+   "id": "north",
+   "name": "El Norte",
+   "short": "Norte",
+   "blurb": "País Vasco, Cantabria y Asturias: Gernika y Durango, el Cinturón de Hierro de Bilbao y los combates de montaña de 1937.",
+   "cap": "Gernika en ruinas tras el bombardeo del 26 de abril de 1937. Dominio público."
+  },
+  {
+   "id": "south",
+   "name": "Andalucía",
+   "short": "Sur",
+   "blurb": "Donde cruzó el Ejército de África en 1936: Sevilla, el frente de Córdoba, la Granada de Lorca, la carretera Málaga-Almería y los refugios de Almería.",
+   "cap": "Interior de los refugios de la Guerra Civil de Almería. Foto: Shadowgate, CC BY 2.0."
+  },
+  {
+   "id": "levant",
+   "name": "Valencia, Murcia y Baleares",
+   "short": "Levante",
+   "blurb": "El último territorio de la República: Valencia como capital, la Línea XYZ, el puerto de Alicante en marzo de 1939, la base naval de Cartagena y el desembarco en Mallorca.",
+   "cap": "Refugio antiaéreo de la Guerra Civil bajo el Col·legi Balmes, Valencia. Foto: Fernando Mafé, CC BY-SA 4.0."
+  },
+  {
+   "id": "west",
+   "name": "Extremadura",
+   "short": "Oeste",
+   "blurb": "La marcha del Ejército de África hacia el norte en agosto de 1936: Mérida y Badajoz, y la bolsa de La Serena de 1938.",
+   "cap": "La plaza de toros de Badajoz, agosto de 1936. Dominio público."
+  },
+  {
+   "id": "castile",
+   "name": "Castilla, León, Galicia, Navarra y La Rioja",
+   "short": "Castilla",
+   "blurb": "La retaguardia sublevada: los cuarteles generales de Franco en Burgos y Salamanca, la Pamplona de Mola, los campos de prisioneros y los lugares de memoria.",
+   "cap": "Los generales Franco y Mola en Burgos, 1936. Dominio público."
+  }
+ ],
+ "phases": [
+  {
+   "id": "P1",
+   "name": "Golpe y primer verano",
+   "when": "jul.–oct. 1936"
+  },
+  {
+   "id": "P2",
+   "name": "Batalla de Madrid",
+   "when": "nov. 1936–mar. 1937"
+  },
+  {
+   "id": "P3",
+   "name": "La guerra en el Norte",
+   "when": "mar.–oct. 1937"
+  },
+  {
+   "id": "P4",
+   "name": "Belchite y Teruel",
+   "when": "ago. 1937–feb. 1938"
+  },
+  {
+   "id": "P5",
+   "name": "Avance hacia el mar",
+   "when": "mar.–jun. 1938"
+  },
+  {
+   "id": "P6",
+   "name": "Batalla del Ebro",
+   "when": "jul.–nov. 1938"
+  },
+  {
+   "id": "P7",
+   "name": "Caída de Cataluña y final",
+   "when": "dic. 1938–abr. 1939"
+  },
+  {
+   "id": "P8",
+   "name": "Posguerra y memoria",
+   "when": "1939–hoy"
+  }
+ ],
+ "time": [
+  {
+   "date": "17 jul. 1936",
+   "title": "Sublevación en Melilla",
+   "t": "Avisados de que la conspiración se había descubierto, los oficiales de Melilla se sublevan la tarde del 17 de julio, un día antes de lo previsto. Ceuta y Tetuán les siguen durante la noche; se fusila a oficiales leales y sindicalistas. El Marruecos español, base del Ejército de África, queda asegurado para los sublevados.",
+   "place": "Melilla"
+  },
+  {
+   "date": "18 jul. 1936",
+   "title": "Queipo de Llano toma Sevilla",
+   "t": "Queipo de Llano detiene al jefe de la división hacia mediodía y, con unos pocos cientos de soldados y mucho farol, se hace con el centro de Sevilla. El gobernador civil se rinde esa tarde; barrios obreros como Triana resisten hasta el 20-22 de julio, cuando son aplastados con refuerzos de la Legión.",
+   "place": "Sevilla"
+  },
+  {
+   "date": "19 jul. 1936",
+   "title": "El golpe fracasa en Barcelona",
+   "t": "Las tropas salen de los cuarteles antes del amanecer, pero las frenan militantes de la CNT, guardias de asalto y, de forma decisiva, la Guardia Civil. El general Goded, llegado en avión desde Mallorca, es capturado y pide por radio que cesen los combates. Los últimos cuarteles sublevados se rinden el 20 de julio.",
+   "place": "Barcelona, Plaça de Catalunya"
+  },
+  {
+   "date": "19 jul. 1936",
+   "title": "Mola declara el estado de guerra en Pamplona",
+   "t": "El general Mola declara el estado de guerra en Navarra, donde miles de requetés carlistas con boina roja se movilizan junto al ejército y los falangistas. En pocos días salen columnas de Pamplona hacia los puertos del Guadarrama, Aragón y Gipuzkoa, y empiezan en toda la provincia los asesinatos de partidarios de la República.",
+   "place": "Pamplona"
+  },
+  {
+   "date": "20 jul. 1936",
+   "title": "Asalto al Cuartel de la Montaña",
+   "t": "Milicianos, guardias de asalto y tropas leales asedian y asaltan el Cuartel de la Montaña de Madrid, donde el general Fanjul había reunido a oficiales sublevados y falangistas. Muchos defensores mueren tras la rendición. El golpe se hunde en Madrid. Hoy ocupa el lugar el Templo de Debod.",
+   "place": "Madrid, Parque del Oeste"
+  },
+  {
+   "date": "finales jul. 1936",
+   "title": "Puente aéreo sobre el Estrecho",
+   "t": "Desde el 19-20 de julio se trasladan tropas del Ejército de África a Sevilla por aire, y desde principios de agosto en Ju 52 alemanes y SM.81 italianos: el primer gran puente aéreo militar. El 5 de agosto un convoy cruza por mar pese a la flota republicana.",
+   "place": "Tetuán–Sevilla (Tablada)"
+  },
+  {
+   "date": "22–25 jul. 1936",
+   "title": "Combates por los puertos del Guadarrama",
+   "t": "Las columnas de Mola y las milicias republicanas de Madrid se disputan los puertos del Alto del León y Somosierra. Los sublevados conservan los puertos, pero no logran abrirse paso; la Sierra se convierte en un frente estabilizado durante el resto de la guerra.",
+   "place": "Alto del León (puerto de Guadarrama)"
+  },
+  {
+   "date": "14 ago. 1936",
+   "title": "Caída de Badajoz",
+   "t": "La Legión y los Regulares de Yagüe asaltan Badajoz y unen las zonas sublevadas del sur y del norte. Siguen ejecuciones masivas, muchas, según los testimonios, en la plaza de toros. Las estimaciones van de varios centenares a unas 4000; Francisco Espinosa documentó como mínimo 1341 nombres.",
+   "place": "Badajoz"
+  },
+  {
+   "date": "16 ago. 1936",
+   "title": "Desembarco republicano en Mallorca",
+   "t": "El capitán Alberto Bayo desembarca a varios miles de milicianos catalanes y valencianos cerca de Porto Cristo y Sa Coma. Aviones y refuerzos italianos apoyan a los defensores, la cabeza de puente se estanca y la expedición se retira el 3-4 de septiembre. Mallorca sigue en manos sublevadas y se convierte en base aérea italiana para atacar la costa.",
+   "place": "Porto Cristo, Mallorca"
+  },
+  {
+   "date": "h. 18 ago. 1936",
+   "title": "Asesinato de Federico García Lorca",
+   "t": "El poeta más conocido de España es fusilado por fuerzas del bando sublevado en el barranco entre Víznar y Alfacar, cerca de Granada; es uno de los miles de asesinados en la provincia de Granada en los primeros meses de la guerra. La fecha exacta y el lugar de enterramiento siguen sin conocerse; varias búsquedas no han dado resultado.",
+   "place": "Víznar–Alfacar, Granada"
+  },
+  {
+   "date": "4 sept. 1936",
+   "title": "Gobierno de Largo Caballero",
+   "t": "Francisco Largo Caballero, líder de la UGT, forma un gobierno de socialistas, republicanos y comunistas, al que se suman ministros vascos y catalanes y, en noviembre, cuatro anarquistas de la CNT. Empieza a convertir las milicias de partidos y sindicatos en un Ejército Popular regular, con brigadas mixtas y comisarios políticos.",
+   "place": "Madrid"
+  },
+  {
+   "date": "5–13 sept. 1936",
+   "title": "Caen Irun y San Sebastián",
+   "t": "Las columnas de Mola, con voluntarios carlistas y apoyo aéreo, toman Irun el 5 de septiembre tras duros combates; sus defensores incendian parte de la ciudad al retirarse. La zona republicana del norte pierde su frontera terrestre con Francia. San Sebastián es ocupada sin lucha el 13 de septiembre.",
+   "place": "Irun"
+  },
+  {
+   "date": "27 sept. 1936",
+   "title": "Liberación del Alcázar de Toledo",
+   "t": "Tras un asedio de unos 70 días, las columnas de Varela liberan a la guarnición de Moscardó en el Alcázar en ruinas; siguen en la ciudad matanzas de milicianos y heridos. La decisión de Franco de desviarse hacia Toledo aumentó su prestigio dentro y fuera de España, pero dio tiempo a Madrid para preparar su defensa.",
+   "place": "Toledo, Alcázar"
+  },
+  {
+   "date": "1 oct. 1936",
+   "title": "Franco, Generalísimo y jefe del Estado",
+   "t": "Reunidos cerca de Salamanca a finales de septiembre, los generales sublevados nombran a Franco jefe supremo militar; el decreto le hace también jefe del «Gobierno del Estado Español». Es investido formalmente en Burgos el 1 de octubre de 1936 y desde entonces gobierna la zona sublevada como una dictadura personal.",
+   "place": "Burgos"
+  },
+  {
+   "date": "7 oct. 1936",
+   "title": "Jura del Gobierno vasco en Gernika",
+   "t": "Días después de que las Cortes aprueben el Estatuto de Autonomía vasco, José Antonio Aguirre, del PNV, jura como primer lehendakari bajo el Árbol de Gernika. Su gobierno, una coalición de nacionalistas vascos y partidos del Frente Popular, administra Bizkaia hasta junio de 1937.",
+   "place": "Gernika, Casa de Juntas"
+  },
+  {
+   "date": "17 oct. 1936",
+   "title": "Fin del cerco de Oviedo",
+   "t": "Una columna llegada de Galicia rompe el cerco de la guarnición del coronel Aranda, que se había sumado a los sublevados el 19 de julio y había resistido el asedio de las milicias de mineros asturianos durante el verano y el otoño. Oviedo queda como un estrecho saliente sublevado bajo fuego constante hasta la caída de Asturias en octubre de 1937.",
+   "place": "Oviedo"
+  },
+  {
+   "date": "25 oct. 1936",
+   "title": "El oro sale de Cartagena hacia Moscú",
+   "t": "La mayor parte de la reserva de oro del Banco de España se envía desde Cartagena a la URSS como pago de armamento. Los carros y aviones soviéticos que aparecen en Madrid ese otoño son la primera contrapartida.",
+   "place": "Cartagena"
+  },
+  {
+   "date": "6 nov. 1936",
+   "title": "El Gobierno abandona Madrid",
+   "t": "Con las columnas sublevadas en el borde suroeste de la ciudad, el gobierno de Largo Caballero se marcha a Valencia la noche del 6 de noviembre y deja al general Miaja y a una Junta de Defensa al frente de Madrid. Muchos lo vieron como una huida; la defensa de la ciudad se convirtió en una causa popular en todo el mundo.",
+   "place": "Valencia"
+  },
+  {
+   "date": "7 nov.–4 dic. 1936",
+   "title": "Matanzas de Paracuellos",
+   "t": "Presos sacados de las cárceles de Madrid en «sacas» son fusilados en Paracuellos del Jarama y Torrejón. Muchos historiadores sitúan los muertos en torno a 2000-3000, aunque algunas cifras son mucho más altas. Las responsabilidades (los responsables de orden público de la Junta, entre ellos Santiago Carrillo, cuadros comunistas, asesores soviéticos, milicias) siguen en discusión.",
+   "place": "Cementerio de Paracuellos de Jarama"
+  },
+  {
+   "date": "8 nov. 1936",
+   "title": "Asalto a Madrid",
+   "t": "Las columnas de Varela atacan por la Casa de Campo y Carabanchel. Ese mismo día llega la XI Brigada Internacional. Desde el 15 de noviembre los combates se extienden a la Ciudad Universitaria, donde Durruti cae herido de muerte el 19 de noviembre. Hacia el 23 de noviembre Franco renuncia al asalto frontal.",
+   "place": "Madrid, Casa de Campo / Ciudad Universitaria"
+  },
+  {
+   "date": "20 nov. 1936",
+   "title": "Ejecución de José Antonio en Alicante",
+   "t": "José Antonio Primo de Rivera, fundador de la Falange, preso desde antes de la guerra, es juzgado por conspiración y rebelión militar por un tribunal popular republicano y fusilado en la cárcel de Alicante. La zona sublevada silenció oficialmente su muerte durante un tiempo; más tarde se convirtió en el gran mártir del régimen.",
+   "place": "Alicante"
+  },
+  {
+   "date": "27–28 dic. 1936",
+   "title": "Lopera",
+   "t": "Un ataque republicano en el frente de Córdoba cerca de Lopera, con la XIV Brigada Internacional y su compañía británica, fracasa ante las posiciones sublevadas con grandes pérdidas. El joven poeta británico John Cornford y el escritor Ralph Fox están entre los voluntarios muertos por esas fechas.",
+   "place": "Lopera"
+  },
+  {
+   "date": "6–27 feb. 1937",
+   "title": "Batalla del Jarama",
+   "t": "Los sublevados cruzan el Jarama para cortar la carretera Madrid-Valencia. La XV Brigada Internacional, con voluntarios británicos y estadounidenses, sufre grandes pérdidas en la «Colina del Suicidio» y el Pingarrón. La carretera sigue abierta.",
+   "place": "Morata de Tajuña"
+  },
+  {
+   "date": "7–12 feb. 1937",
+   "title": "Caída de Málaga y la «Desbandá»",
+   "t": "Fuerzas sublevadas e italianas toman Málaga el 8 de febrero. Decenas de miles de personas huyen por la carretera de la costa hacia Almería y son cañoneadas desde el mar y atacadas desde el aire. El número de muertos es incierto; a menudo se citan unos 3000. En Málaga siguen ejecuciones masivas.",
+   "place": "Carretera Málaga–Almería (N-340)"
+  },
+  {
+   "date": "8–23 mar. 1937",
+   "title": "Batalla de Guadalajara",
+   "t": "Las divisiones motorizadas italianas del CTV avanzan por la carretera de Zaragoza, quedan atascadas por la lluvia y el barro y son derrotadas por un contraataque republicano en torno a Brihuega, con antifascistas italianos del Batallón Garibaldi en el bando republicano.",
+   "place": "Brihuega"
+  },
+  {
+   "date": "31 mar. 1937",
+   "title": "Bombardeo de Durango",
+   "t": "Aviones italianos y sublevados bombardean Durango al comenzar la ofensiva de Mola sobre Bizkaia y matan a unos 250 civiles o más (las estimaciones varían), entre ellos un sacerdote y fieles que oían misa en las iglesias. El ataque, cuatro semanas antes que el de Gernika, marcó una nueva etapa en el bombardeo de poblaciones indefensas.",
+   "place": "Durango"
+  },
+  {
+   "date": "19 abr. 1937",
+   "title": "Decreto de Unificación",
+   "t": "En Salamanca, Franco fusiona la Falange fascista y la Comunión Tradicionalista carlista en un solo partido, FET y de las JONS, bajo su propio mando. El líder falangista Manuel Hedilla, que se resistió, es detenido y condenado a muerte, pena luego conmutada. Se disuelven todos los demás partidos de la zona sublevada.",
+   "place": "Salamanca"
+  },
+  {
+   "date": "26 abr. 1937",
+   "title": "Bombardeo de Gernika",
+   "t": "Bombarderos de la Legión Cóndor e italianos atacan Gernika un lunes de mercado, de 16:30 a 19:30. El Gobierno vasco informó de 1654 muertos; la investigación actual habla de unos 150-300. El cuadro de Picasso lo convirtió en el emblema del bombardeo de civiles.",
+   "place": "Gernika"
+  },
+  {
+   "date": "1 may. 1937",
+   "title": "Caída de Santa María de la Cabeza",
+   "t": "Guardias civiles, sus familias y civiles de derechas, unas 1200 personas, sitiados desde septiembre de 1936 en el santuario de montaña cerca de Andújar, se rinden tras un último asalto republicano. Su jefe, el capitán Santiago Cortés, muere de sus heridas. El asedio se convirtió en una leyenda del bando sublevado, como el del Alcázar.",
+   "place": "Santuario de la Virgen de la Cabeza"
+  },
+  {
+   "date": "3–8 may. 1937",
+   "title": "Sucesos de Mayo en Barcelona",
+   "t": "Estallan los combates cuando los guardias de asalto intentan tomar la Telefónica, en manos de la CNT. Anarquistas y el POUM se enfrentan a los comunistas y a la policía del Gobierno. Mueren varios centenares de personas; después se ilegaliza el POUM y su líder, Andreu Nin, es asesinado.",
+   "place": "Barcelona, Telefónica"
+  },
+  {
+   "date": "3 jun. 1937",
+   "title": "Muerte de Mola",
+   "t": "El general Mola, jefe del Ejército del Norte y artífice de la conspiración de 1936, muere al estrellarse su avión con mal tiempo cerca de Alcocero, al norte de Burgos, durante la campaña de Bizkaia. Se refuerza la posición de Franco como líder único. El pueblo pasó a llamarse Alcocero de Mola.",
+   "place": "Alcocero de Mola"
+  },
+  {
+   "date": "19 jun. 1937",
+   "title": "Caída de Bilbao",
+   "t": "Después de que se pasara al enemigo un ingeniero que conocía sus planos y de que el Cinturón de Hierro fuera roto por su punto más débil el 12 de junio, las fuerzas vascas se retiran hacia el oeste. Las tropas sublevadas entran en Bilbao el 19 de junio sin grandes destrozos, ya que las unidades vascas habían impedido la voladura de fábricas y puentes.",
+   "place": "Bilbao"
+  },
+  {
+   "date": "6–25 jul. 1937",
+   "title": "Batalla de Brunete",
+   "t": "La primera gran ofensiva del Ejército Popular, al oeste de Madrid, toma Brunete pero se estanca con un calor extremo ante las reservas sublevadas y la aviación alemana. Las pérdidas son grandes en ambos bandos; muere Gerda Taro.",
+   "place": "Brunete"
+  },
+  {
+   "date": "24 ago.–6 sept. 1937",
+   "title": "Belchite",
+   "t": "La ofensiva republicana sobre Zaragoza toma Quinto y Codo y después el pueblo fortificado de Belchite, tras dos semanas de lucha casa por casa con el calor del verano. Nunca se llega a Zaragoza y la campaña del norte no se desvía. Más tarde se deja en pie el pueblo viejo en ruinas como memorial de guerra.",
+   "place": "Belchite, Pueblo Viejo"
+  },
+  {
+   "date": "26 ago. 1937",
+   "title": "Caída de Santander",
+   "t": "Fuerzas sublevadas e italianas toman Santander tras una rápida ofensiva. Las unidades vascas que se habían replegado a Cantabria se rinden al CTV italiano en Santoña con un acuerdo que debía garantizarles la vida; Franco no lo respetó, y muchos fueron encarcelados o fusilados.",
+   "place": "Santander"
+  },
+  {
+   "date": "21 oct. 1937",
+   "title": "Caída de Gijón",
+   "t": "Las columnas sublevadas entran en Gijón, lo que pone fin a la guerra en el Norte y da a Franco su carbón, su acero y su industria armamentística. Miles de soldados y militantes asturianos se echan al monte, donde algunos mantienen la resistencia guerrillera durante años; muchos otros son asesinados o encarcelados.",
+   "place": "Gijón"
+  },
+  {
+   "date": "31 oct. 1937",
+   "title": "El Gobierno se traslada a Barcelona",
+   "t": "El gobierno de Negrín deja Valencia por Barcelona, donde ya está el presidente, con el objetivo de poner la industria de guerra catalana bajo control central. Las relaciones con la Generalitat de Companys se tensan a medida que la autonomía catalana se recorta sin cesar durante el último año y medio de guerra.",
+   "place": "Barcelona"
+  },
+  {
+   "date": "15 dic. 1937",
+   "title": "Los republicanos atacan Teruel",
+   "t": "Con nieve y un frío terrible, sin preparación artillera, el Ejército Popular cerca Teruel y entra en la ciudad combatiendo. La guarnición del coronel Rey d'Harcourt resiste en el Seminario, el Banco de España y otros edificios hasta rendirse el 8 de enero de 1938.",
+   "place": "Teruel"
+  },
+  {
+   "date": "5–7 feb. 1938",
+   "title": "Ruptura del Alfambra",
+   "t": "Una ofensiva sublevada al norte de Teruel, encabezada por la división de caballería de Monasterio en una de las últimas grandes cargas de caballería de la historia militar europea, rompe el frente republicano a lo largo del río Alfambra y hace miles de prisioneros. El hundimiento deja Teruel expuesto al cerco.",
+   "place": "Alfambra"
+  },
+  {
+   "date": "22 feb. 1938",
+   "title": "Los sublevados recuperan Teruel",
+   "t": "Casi cercadas, las fuerzas republicanas se retiran hacia el sur a lo largo del Turia, y Teruel, reducida a ruinas, vuelve a manos sublevadas. Las pérdidas de ambos bandos en los dos meses de batalla fueron enormes, con muchísimos casos de congelación; las reservas del Ejército Popular quedan agotadas.",
+   "place": "Teruel"
+  },
+  {
+   "date": "7 mar. 1938",
+   "title": "Comienza la ofensiva de Aragón",
+   "t": "Una enorme ofensiva sublevada, con fuerte apoyo aéreo y blindado, rompe el frente republicano al sur del Ebro, debilitado por las pérdidas de Teruel. Belchite se recupera el 10 de marzo y Caspe poco después; las unidades de las Brigadas Internacionales quedan destrozadas en la retirada y el avance rueda hacia Cataluña y el mar.",
+   "place": "Belchite"
+  },
+  {
+   "date": "16–18 mar. 1938",
+   "title": "Bombardeo de Barcelona",
+   "t": "Bombarderos italianos de la Aviazione Legionaria que despegan de Mallorca atacan Barcelona en oleadas cada pocas horas durante tres días, del 16 al 18 de marzo. Mueren entre 1000 y 1300 civiles y al menos 2000 resultan heridos. Hay protestas internacionales; la red de refugios de la ciudad se amplía.",
+   "place": "Barcelona"
+  },
+  {
+   "date": "3 abr. 1938",
+   "title": "Caída de Lleida",
+   "t": "Las tropas sublevadas toman Lleida tras combates en las calles, donde la división de El Campesino defiende la ciudad; el frente de Cataluña se estabiliza a lo largo del río Segre. Pronto se pierden las centrales hidroeléctricas catalanas del Pirineo, lo que agrava las dificultades industriales de la República.",
+   "place": "Lleida"
+  },
+  {
+   "date": "15 abr. 1938",
+   "title": "Los sublevados llegan al mar en Vinaròs",
+   "t": "Tropas navarras al mando de Camilo Alonso Vega alcanzan la costa mediterránea en Vinaròs el Viernes Santo, 15 de abril. La zona republicana queda partida en dos: Cataluña al norte y la zona centro-sur, mayor, con Madrid y Valencia. Muchos esperaban que la guerra terminara en semanas.",
+   "place": "Vinaròs"
+  },
+  {
+   "date": "14 jun. 1938",
+   "title": "Caída de Castellón",
+   "t": "Franco gira hacia el sur, hacia Valencia, en lugar de entrar en Cataluña. Castellón cae el 14 de junio, pero en julio el avance se detiene ante la Línea XYZ, una profunda red de trincheras y búnkeres en las montañas al norte de Valencia, con un alto coste para los atacantes.",
+   "place": "Castellón de la Plana"
+  },
+  {
+   "date": "25 jul. 1938",
+   "title": "Paso del Ebro",
+   "t": "Poco después de medianoche, el Ejército del Ebro cruza el río en barcas, pasarelas y pontones por una docena de puntos entre Mequinenza y Miravet, con una maniobra de distracción en Amposta. En pocos días avanza hasta 20 km y llega a las afueras de Gandesa.",
+   "place": "Móra d'Ebre"
+  },
+  {
+   "date": "ago.–oct. 1938",
+   "title": "Pàndols y Cavalls",
+   "t": "Sucesivas contraofensivas sublevadas, apoyadas por una superioridad aérea y artillera abrumadora, machacan las posiciones republicanas en las crestas rocosas y peladas de la Serra de Pàndols y la Serra de Cavalls. Las pérdidas de ambos bandos están entre las más altas de la guerra.",
+   "place": "Serra de Pàndols"
+  },
+  {
+   "date": "28 oct. 1938",
+   "title": "Despedida de las Brigadas Internacionales",
+   "t": "Retiradas en virtud de un plan de no intervención que Negrín anunció en la Sociedad de Naciones, las Brigadas Internacionales desfilan por Barcelona entre los vítores de la multitud. Muchos voluntarios procedentes de dictaduras no tienen adónde volver; algunos regresan al combate en las últimas semanas.",
+   "place": "Barcelona, Avinguda Diagonal"
+  },
+  {
+   "date": "16 nov. 1938",
+   "title": "Fin de la batalla del Ebro",
+   "t": "Las últimas tropas republicanas repasan el Ebro por Flix el 16 de noviembre, tras una última ruptura sublevada en la Serra de Cavalls. Las bajas estimadas van de 50.000 a más de 100.000; el mejor ejército de la República queda deshecho y Cataluña, abierta.",
+   "place": "Flix / Riba-roja d'Ebre"
+  },
+  {
+   "date": "23 dic. 1938",
+   "title": "Ofensiva de Cataluña",
+   "t": "Los ejércitos sublevados, con una fuerte participación italiana, atacan en los frentes del Segre y del Ebro el 23 de diciembre. La agotada defensa republicana se derrumba por etapas; Tarragona cae el 15 de enero de 1939 y las columnas convergen sobre Barcelona mientras los refugiados abarrotan las carreteras hacia el norte.",
+   "place": "Tarragona"
+  },
+  {
+   "date": "26 ene. 1939",
+   "title": "Caída de Barcelona",
+   "t": "Las tropas sublevadas entran en Barcelona casi sin resistencia; el Gobierno ya se ha marchado a Girona y Figueres. Decenas de miles de civiles y soldados se dirigen ya hacia la frontera francesa; en la ciudad siguen detenciones y consejos de guerra.",
+   "place": "Barcelona"
+  },
+  {
+   "date": "28 ene.–10 feb. 1939",
+   "title": "La Retirada",
+   "t": "Cerca de medio millón de refugiados y soldados pasan a Francia por La Jonquera, Portbou y los pasos de montaña y son internados en campos como el de Argelès. Las tropas sublevadas llegan a la frontera el 10 de febrero.",
+   "place": "La Jonquera"
+  },
+  {
+   "date": "1 feb. 1939",
+   "title": "Últimas Cortes en Figueres",
+   "t": "Las Cortes republicanas se reúnen por última vez en suelo español en las caballerizas subterráneas del castillo de Sant Ferran, en Figueres. Negrín expone unas condiciones mínimas de paz (independencia, libre elección del gobierno por el pueblo español y ausencia de represalias), que Franco ignora.",
+   "place": "Figueres, Castell de Sant Ferran"
+  },
+  {
+   "date": "5 mar. 1939",
+   "title": "Golpe de Casado",
+   "t": "El coronel Segismundo Casado, con el socialista Julián Besteiro y el apoyo anarquista, forma en Madrid un Consejo Nacional de Defensa contra el gobierno de Negrín con la esperanza de negociar una paz. Siguen combates con unidades comunistas en Madrid. En Cartagena, una sublevación lleva a la flota republicana a zarpar hacia Bizerta.",
+   "place": "Madrid"
+  },
+  {
+   "date": "28 mar. 1939",
+   "title": "Rendición de Madrid",
+   "t": "Las tropas sublevadas entran en Madrid. En Alicante zarpa el barco británico Stanbrook con unos 2600 refugiados; miles más, que se quedan en el muelle, son internados, muchos en el Campo de los Almendros.",
+   "place": "Madrid"
+  },
+  {
+   "date": "1 abr. 1939",
+   "title": "Último parte de guerra",
+   "t": "Franco firma el último parte de guerra en el Palacio de la Isla de Burgos: el Ejército Rojo cautivo y desarmado, «la guerra ha terminado». Estados Unidos reconoce su gobierno ese mismo día. La represión, los campos de prisioneros y las ejecuciones continúan durante años.",
+   "place": "Burgos, Palacio de la Isla"
+  },
+  {
+   "date": "1940–1959",
+   "title": "Construcción del Valle de los Caídos",
+   "t": "La basílica y la gigantesca cruz de Cuelgamuros se construyen desde 1940, en parte con el trabajo de presos políticos, y se inauguran en 1959. Allí se trasladan restos de más de 33.000 muertos de ambos bandos, muchos republicanos sin el consentimiento de sus familias; en 2023 comenzaron las exhumaciones para su identificación.",
+   "place": "Valle de Cuelgamuros"
+  },
+  {
+   "date": "26 dic. 2007",
+   "title": "Ley de Memoria Histórica",
+   "t": "La Ley 52/2007, aprobada con el presidente del Gobierno Rodríguez Zapatero, reconoce a las víctimas de la persecución y la violencia de ambos bandos, apoya la localización y exhumación de fosas comunes y ordena retirar los símbolos franquistas de edificios y calles públicos. Sus críticos de la derecha la vieron como una forma de reabrir viejas heridas.",
+   "place": "Madrid"
+  },
+  {
+   "date": "24 oct. 2019",
+   "title": "Exhumación de Franco",
+   "t": "Tras una larga batalla judicial con su familia, los restos de Franco salen en helicóptero de la basílica de Cuelgamuros y se vuelven a enterrar junto a los de su esposa en el cementerio de Mingorrubio, en El Pardo, al norte de Madrid. El traslado se vio en general como un hito en la forma en que España afronta la dictadura.",
+   "place": "Valle de Cuelgamuros"
+  },
+  {
+   "date": "21 oct. 2022",
+   "title": "Entra en vigor la Ley de Memoria Democrática",
+   "t": "La Ley 20/2022 sustituye a la de 2007. Hace al Estado responsable de buscar y exhumar a los desaparecidos, crea un banco de ADN, declara nulas las sentencias de los tribunales franquistas, disuelve la fundación Franco y cambia el nombre del valle por el de Cuelgamuros. Sigue siendo objeto de controversia política.",
+   "place": "Madrid"
+  }
+ ],
+ "people": [
+  {
+   "name": "Manuel Azaña",
+   "role": "Presidente del Gobierno en 1931-1933 y 1936; presidente de la República en 1936-1939",
+   "dates": "1880–1940",
+   "t": "Escritor e intelectual de la izquierda republicana, Azaña encarnó la República reformista de 1931: reforma del ejército, enseñanza laica y autonomía catalana. Tras la victoria del Frente Popular fue presidente del Gobierno y, en mayo de 1936, presidente de la República. Durante la guerra tuvo poco poder real y se volvió pesimista; su discurso de 1937 en Barcelona terminó con la petición de «paz, piedad y perdón». Pasó a Francia durante la Retirada, dimitió el 27 de febrero de 1939, después de que el Reino Unido y Francia reconocieran a Franco, y murió en el exilio en Montauban en noviembre de 1940."
+  },
+  {
+   "name": "Francisco Largo Caballero",
+   "role": "Líder de la UGT y el PSOE; presidente del Gobierno y ministro de la Guerra, sept. 1936–may. 1937",
+   "dates": "1869–1946",
+   "t": "Estuquista convertido en dirigente sindical, jefe de la UGT y del ala izquierda del PSOE, sus admiradores lo apodaron «el Lenin español». Fue presidente del Gobierno desde el 4 de septiembre de 1936 en un gabinete que incorporó a socialistas, comunistas y, desde noviembre, a cuatro ministros anarquistas. Trasladó el Gobierno a Valencia en noviembre de 1936 y empezó a crear el Ejército Popular. Los choques con los comunistas y las consecuencias de los Sucesos de Mayo de Barcelona le obligaron a dimitir en mayo de 1937. En el exilio en Francia fue detenido y recluido en Sachsenhausen; murió en París en 1946."
+  },
+  {
+   "name": "Juan Negrín",
+   "role": "Ministro de Hacienda en 1936-1937; presidente del Gobierno, may. 1937–mar. 1939",
+   "dates": "1892–1956",
+   "t": "Fisiólogo y socialista, Negrín organizó como ministro de Hacienda el traslado a Moscú de la mayor parte de la reserva de oro del Banco de España en octubre y noviembre de 1936 para pagar las armas soviéticas, una decisión que sigue siendo polémica. Como presidente del Gobierno desde mayo de 1937 centralizó el esfuerzo de guerra, colaboró estrechamente con los comunistas y defendió que «resistir es vencer», con la esperanza de que una guerra europea general salvara a la República. Sus Trece Puntos (abril de 1938) fijaban unas condiciones de paz. Derribado por el golpe de Casado en marzo de 1939, murió en el exilio en París."
+  },
+  {
+   "name": "Dolores Ibárruri, «la Pasionaria»",
+   "role": "Diputada comunista y dirigente del PCE; oradora",
+   "dates": "1895–1989",
+   "t": "Hija de un minero de Gallarta (Bizkaia), Ibárruri fue la voz más conocida del Partido Comunista de España. Su discurso radiofónico del 19 de julio de 1936, que terminaba con «¡No pasarán!», se convirtió en el lema de la defensa de Madrid. Recorrió frentes y mítines durante toda la guerra y pronunció el discurso de despedida de las Brigadas Internacionales en otoño de 1938. Pasó casi cuatro décadas en el exilio, sobre todo en la URSS, donde su hijo murió en Stalingrado, y volvió a España en 1977, cuando fue elegida de nuevo diputada a Cortes por Asturias."
+  },
+  {
+   "name": "Buenaventura Durruti",
+   "role": "Militante anarquista (CNT-FAI); jefe de la Columna Durruti",
+   "dates": "1896–1936",
+   "t": "Metalúrgico leonés y veterano activista anarquista, Durruti contribuyó a derrotar la sublevación militar en Barcelona en julio de 1936 y después llevó una columna de varios miles de milicianos al frente de Aragón, donde la colectivización avanzó a su paso. En noviembre de 1936 trasladó parte de la columna a Madrid y combatió en la Ciudad Universitaria. Fue herido de muerte cerca del Hospital Clínico el 19 de noviembre y murió al día siguiente. Todavía se discute si le alcanzó el fuego enemigo, un disparo perdido o un accidente. Cientos de miles de personas asistieron a su entierro en Barcelona."
+  },
+  {
+   "name": "José Miaja",
+   "role": "General; presidente de la Junta de Defensa de Madrid",
+   "dates": "1878–1958",
+   "t": "Militar de carrera sin especial relieve, Miaja quedó al frente de Madrid cuando el Gobierno se marchó a Valencia el 6 de noviembre de 1936, y presidió la Junta de Defensa con Vicente Rojo como jefe de Estado Mayor. La ciudad resistió y Miaja se convirtió en un héroe popular de la defensa. Más tarde mandó el Ejército del Centro y asumió la dirección en el Jarama. En marzo de 1939 apoyó el consejo del coronel Casado contra Negrín, lo que llevó a la rendición de Madrid. Se exilió a México y murió allí."
+  },
+  {
+   "name": "Vicente Rojo",
+   "role": "Jefe de Estado Mayor de la defensa de Madrid y, después, del Ejército Popular",
+   "dates": "1894–1966",
+   "t": "Militar profesional católico y profesor de la Escuela Superior de Guerra que se mantuvo leal a la República, Rojo organizó la defensa de Madrid en noviembre de 1936 y en 1937 pasó a jefe del Estado Mayor Central. Planeó las grandes ofensivas de la República (Brunete, Belchite, Teruel y el Ebro), que lograron la sorpresa inicial pero no pudieron sostenerse frente a las reservas y la aviación sublevadas. Se exilió en Argentina y Bolivia, volvió a España en 1957, fue juzgado por un tribunal militar y condenado, luego indultado, y murió en Madrid."
+  },
+  {
+   "name": "Enrique Líster",
+   "role": "Mando comunista: 5.º Regimiento, 11.ª División, V Cuerpo de Ejército",
+   "dates": "1907–1994",
+   "t": "Cantero gallego y comunista formado en Moscú, Líster pasó de jefe de milicias del 5.º Regimiento comunista a ser uno de los mandos más conocidos del Ejército Popular. Sus unidades combatieron en Madrid, el Jarama, Guadalajara, Brunete y Teruel, donde su división entró en la ciudad en diciembre de 1937, y su V Cuerpo encabezó el paso del Ebro en julio de 1938. Era muy duro en la disciplina, y la disolución del Consejo de Aragón anarquista por sus tropas en agosto de 1937 sigue siendo polémica. Vivió exiliado en la URSS y otros países y volvió a España en 1977."
+  },
+  {
+   "name": "Juan Modesto",
+   "role": "Mando comunista del Ejército del Ebro",
+   "dates": "1906–1969",
+   "t": "Antiguo obrero de aserradero andaluz que había sido cabo en la Legión, Modesto se convirtió en jefe de milicias comunista en 1936 y ascendió en el Ejército Popular hasta mandar el V Cuerpo y, en 1938, el Ejército del Ebro. Dirigió la mayor operación de la República, el paso del Ebro el 25 de julio de 1938, y la larga batalla defensiva que siguió. Tras la guerra se exilió en la Unión Soviética y Europa del Este, y murió en Praga en 1969."
+  },
+  {
+   "name": "Lluís Companys",
+   "role": "Presidente de la Generalitat de Catalunya, 1934-1940",
+   "dates": "1882–1940",
+   "t": "Abogado y líder de Esquerra Republicana de Catalunya, Companys proclamó el Estado catalán en octubre de 1934 y estuvo encarcelado hasta 1936. Cuando fracasó el golpe en Barcelona se reunió con los anarquistas vencedores y aceptó su Comité Central de Milicias Antifascistas junto a la Generalitat. Las tensiones con el Gobierno central y entre anarquistas y comunistas culminaron en los Sucesos de Mayo de 1937. Huyó a Francia en 1939, fue detenido por la Gestapo en 1940, entregado a Franco y fusilado en el castillo de Montjuïc el 15 de octubre de 1940."
+  },
+  {
+   "name": "José Antonio Aguirre",
+   "role": "Primer lehendakari (presidente) del Gobierno vasco",
+   "dates": "1904–1960",
+   "t": "Abogado católico y líder del Partido Nacionalista Vasco (PNV), Aguirre juró su cargo bajo el roble de Gernika el 7 de octubre de 1936, después de que las Cortes aprobaran el Estatuto vasco. Su gobierno administró Bizkaia como un Estado en gran medida autónomo, organizó su propio ejército (Eusko Gudarostea) y protegió a la Iglesia. Tras la caída de Bilbao en junio de 1937, las unidades vascas se rindieron a los italianos en Santoña en agosto con un acuerdo que no se respetó. Aguirre presidió el Gobierno vasco en el exilio hasta su muerte en París en 1960."
+  },
+  {
+   "name": "Federico García Lorca",
+   "role": "Poeta y dramaturgo; asesinado por los sublevados",
+   "dates": "1898–1936",
+   "t": "El poeta y dramaturgo español más célebre de su época, Lorca simpatizaba con la República pero no militaba en ningún partido. Estaba en Granada cuando la ciudad cayó en manos sublevadas en julio de 1936. Detenido en casa de la familia falangista Rosales, fue llevado a Víznar y fusilado en el barranco entre Víznar y Alfacar hacia el 18 de agosto de 1936, junto a un maestro y dos banderilleros anarquistas. Sus restos nunca se han encontrado pese a varias búsquedas. Su asesinato se convirtió en símbolo de la represión en la zona sublevada."
+  },
+  {
+   "name": "Francisco Franco",
+   "role": "Jefe del Ejército de África; Generalísimo y jefe del Estado",
+   "dates": "1892–1975",
+   "t": "El general más joven de España, veterano de las guerras de Marruecos y segundo de Millán-Astray en la Legión, Franco estaba destinado en Canarias en 1936 y se unió tarde a la conspiración. Llegado en avión a Marruecos el 19 de julio, consiguió aviones alemanes e italianos para trasladar el Ejército de África a la Península. El 1 de octubre de 1936 se convirtió en Generalísimo y jefe del Estado, y dirigió la guerra desde Salamanca y Burgos con una prudencia metódica y de desgaste. Gobernó como dictador hasta su muerte en 1975. Fue enterrado en Cuelgamuros; sus restos se trasladaron al cementerio de Mingorrubio en 2019."
+  },
+  {
+   "name": "Emilio Mola",
+   "role": "«El Director» de la conspiración de 1936; jefe del Ejército del Norte",
+   "dates": "1887–1937",
+   "t": "Gobernador militar de Pamplona, Mola organizó la conspiración con el nombre en clave de «el Director» y se aseguró el apoyo de los carlistas. Sus instrucciones exigían una violencia extrema contra los adversarios. Cuando el golpe no logró tomar Madrid, sus columnas del norte quedaron frenadas en los puertos del Guadarrama. Dirigió la campaña de 1937 contra el País Vasco, incluidos los bombardeos de Durango y Gernika. Murió al estrellarse su avión cerca de Alcocero (Burgos) el 3 de junio de 1937; el pueblo pasó a llamarse Alcocero de Mola."
+  },
+  {
+   "name": "Gonzalo Queipo de Llano",
+   "role": "General; jefe de la sublevación en Sevilla y amo de Andalucía occidental",
+   "dates": "1875–1951",
+   "t": "General al que en su día se tuvo por republicano, Queipo se hizo con Sevilla el 18 de julio de 1936 con pocas fuerzas, mucho farol y gran crueldad. Desde Radio Sevilla emitía cada noche charlas que mezclaban propaganda, amenazas y burdas intimidaciones sexuales a las mujeres republicanas. La Andalucía occidental bajo su mando sufrió una de las represiones más duras de la guerra, con muchos miles de fusilados. Dirigió el ejército del sur que tomó Málaga en febrero de 1937. Enterrado en la basílica de la Macarena, sus restos fueron retirados en noviembre de 2022 en aplicación de la Ley de Memoria Democrática."
+  },
+  {
+   "name": "Juan Yagüe",
+   "role": "Jefe de las columnas del Ejército de África; después, del Cuerpo de Ejército Marroquí",
+   "dates": "1891–1952",
+   "t": "Oficial de la Legión simpatizante de la Falange que había combatido en Asturias en 1934, Yagüe dirigió en agosto de 1936 las columnas del Ejército de África hacia el norte desde Sevilla, pasando por Mérida y Badajoz, donde cientos o miles de prisioneros fueron fusilados tras la toma de la ciudad (las cifras se discuten). A un periodista estadounidense le dijo que, por supuesto, los habían fusilado. Relevado en Toledo, volvió en 1938 al mando del Cuerpo de Ejército Marroquí en Aragón y en el Ebro. Fue ministro del Aire en 1939-1940."
+  },
+  {
+   "name": "José Enrique Varela",
+   "role": "General; asalto a Madrid y contraofensiva de Teruel",
+   "dates": "1891–1951",
+   "t": "Veterano de Marruecos con dos Laureadas de San Fernando y simpatías carlistas, Varela aseguró Cádiz para los sublevados en julio de 1936 y después dirigió las columnas que liberaron el Alcázar de Toledo el 27 de septiembre y atacaron Madrid en noviembre de 1936. Mandó en el Jarama en febrero de 1937 y dirigió uno de los cuerpos que recuperaron Teruel en 1938. Como ministro del Ejército tras la guerra chocó con la Falange."
+  },
+  {
+   "name": "José Moscardó",
+   "role": "Coronel; jefe del Alcázar de Toledo durante el asedio",
+   "dates": "1878–1956",
+   "t": "Gobernador militar de Toledo, Moscardó defendió la fortaleza del Alcázar con unos mil guardias civiles, soldados, falangistas y sus familias, además de rehenes civiles, del 21 de julio al 27 de septiembre de 1936. La historia más conocida, una llamada telefónica en la que pidió a su hijo Luis, prisionero, que muriera con valor, se convirtió en un pilar de la leyenda franquista; Luis fue fusilado semanas después, aunque los detalles de la llamada se han puesto en duda. Liberado por Varela, Moscardó se convirtió en un héroe del bando sublevado y más tarde fue general."
+  },
+  {
+   "name": "José Antonio Primo de Rivera",
+   "role": "Fundador y jefe de la Falange",
+   "dates": "1903–1936",
+   "t": "Hijo del dictador de los años veinte Miguel Primo de Rivera, José Antonio fundó la fascista Falange Española en 1933. Detenido en marzo de 1936, estaba preso en Alicante cuando empezó la guerra. Un tribunal republicano lo juzgó por conspiración y fue fusilado el 20 de noviembre de 1936, el mismo día en que murió Durruti. El régimen de Franco lo convirtió en mártir («el Ausente»); sus restos se trasladaron al Valle de los Caídos en 1959 y fueron exhumados en abril de 2023 para enterrarlos en un cementerio de Madrid."
+  },
+  {
+   "name": "Wolfram von Richthofen",
+   "role": "Jefe de Estado Mayor y luego jefe de la Legión Cóndor alemana",
+   "dates": "1895–1945",
+   "t": "Piloto de la Primera Guerra Mundial e ingeniero, primo del «Barón Rojo», Richthofen fue jefe de Estado Mayor de la Legión Cóndor desde enero de 1937 y desarrolló con el ejército sublevado tácticas de apoyo aéreo cercano en la campaña del País Vasco. Dirigía las operaciones aéreas cuando se bombardeó Gernika el 26 de abril de 1937. Mandó la Legión desde finales de 1938 hasta el fin de la guerra. En la Segunda Guerra Mundial llegó a mariscal de campo de la Luftwaffe; murió en 1945."
+  },
+  {
+   "name": "Mario Roatta",
+   "role": "Jefe del Corpo Truppe Volontarie (CTV) italiano",
+   "dates": "1887–1968",
+   "t": "General italiano y antiguo jefe de la inteligencia militar, Roatta dirigió a las tropas italianas en la rápida toma de Málaga en febrero de 1937. Un mes después sus divisiones motorizadas del CTV atacaron hacia Guadalajara, pero el barro, la aviación republicana, los carros soviéticos y un contraataque en el que combatieron contra ellos antifascistas italianos convirtieron la batalla en una derrota muy difundida como una humillación para Mussolini. Fue relevado y más tarde fue jefe del Estado Mayor del ejército; se le acusó de crímenes de guerra en Yugoslavia."
+  },
+  {
+   "name": "Las Brigadas Internacionales",
+   "role": "Voluntarios extranjeros en el ejército republicano, 1936-1938",
+   "dates": "oct. 1936 – oct. 1938",
+   "t": "Reclutados sobre todo a través de los partidos comunistas y con base en Albacete, voluntarios de decenas de países formaron las Brigadas XI a XV y otras unidades. Las estimaciones del total varían; suelen rondar los 32.000-35.000, y algunos recuentos son mayores. Combatieron en Madrid, el Jarama, Guadalajara, Brunete, Belchite, Teruel y el Ebro, a menudo como tropas de choque y con grandes pérdidas. La disciplina podía ser dura y el control político, estricto. Se retiraron en otoño de 1938 y desfilaron por Barcelona el 28 de octubre de 1938."
+  },
+  {
+   "name": "George Orwell",
+   "role": "Escritor británico; miliciano del POUM",
+   "dates": "1903–1950",
+   "t": "Eric Blair llegó a Barcelona en diciembre de 1936 y se alistó en las milicias del POUM, con las que sirvió en el tranquilo frente de Aragón, en la sierra de Alcubierre y cerca de Huesca. De permiso en Barcelona, presenció los Sucesos de Mayo de 1937. De vuelta en el frente, un disparo le atravesó el cuello el 20 de mayo de 1937. Cuando el POUM fue ilegalizado y sus dirigentes detenidos, huyó a Francia. Su relato, Homenaje a Cataluña (1938), es uno de los libros clásicos sobre la guerra."
+  },
+  {
+   "name": "Norman Bethune",
+   "role": "Cirujano canadiense; pionero de las transfusiones de sangre móviles",
+   "dates": "1890–1939",
+   "t": "Cirujano torácico canadiense y comunista, Bethune creó a finales de 1936 en Madrid un servicio móvil de transfusión de sangre que llevaba sangre conservada a los heridos de primera línea. En febrero de 1937 él y su equipo recorrieron la carretera Málaga-Almería trasladando a refugiados que huían de la caída de Málaga, y documentaron los ataques que sufrían. Dejó España en 1937, marchó a China para servir con el Octavo Ejército de Ruta comunista y murió allí de una septicemia en 1939."
+  },
+  {
+   "name": "Ernest Hemingway",
+   "role": "Escritor y corresponsal de guerra estadounidense",
+   "dates": "1899–1961",
+   "t": "Hemingway cubrió la guerra para la North American Newspaper Alliance en 1937-1938; se alojaba en el Hotel Florida del Madrid sitiado y visitó los frentes del Jarama, Guadalajara, Teruel y el Ebro. Colaboró con Joris Ivens en el documental Tierra de España (The Spanish Earth, 1937) y escribió la obra de teatro La quinta columna. Su novela Por quién doblan las campanas (1940), ambientada entre guerrilleros de la sierra de Guadarrama, marcó cómo imaginaban la guerra los lectores de habla inglesa."
+  },
+  {
+   "name": "Robert Capa y Gerda Taro",
+   "role": "Fotoperiodistas",
+   "dates": "Capa 1913–1954; Taro 1910–1937",
+   "t": "El húngaro Endre Friedmann y la alemana Gerta Pohorylle crearon juntos en París el nombre de «Robert Capa». Sus fotografías desde la zona republicana sentaron las bases de la fotografía de guerra moderna. «Muerte de un miliciano» de Capa (septiembre de 1936, frente de Córdoba) es célebre y muy discutida: se debate si fue escenificada y dónde se tomó. Taro sufrió heridas mortales el 25 de julio de 1937 cuando un carro de combate chocó con el coche en el que viajaba, cerca de Brunete, y murió al día siguiente. Capa murió en Indochina en 1954."
+  }
+ ],
+ "brief": [
+  {
+   "h": "Una guerra dentro de España, observada por el mundo",
+   "t": "La Guerra Civil española comenzó con un golpe militar contra el gobierno elegido de la Segunda República el 17 y 18 de julio de 1936 y terminó con la victoria incondicional del general Francisco Franco el 1 de abril de 1939. El golpe fracasó en Madrid, Barcelona, Valencia, Bilbao y gran parte del norte y el este industriales, pero triunfó en el Marruecos español, Canarias, la mayor parte de Baleares, Galicia, Castilla la Vieja, Navarra y algunos focos de Andalucía occidental. Lo que debía ser una rápida toma del poder se convirtió en una guerra de casi tres años. Fue a la vez una guerra de clases, un choque en torno a la religión y la Iglesia, una lucha entre el centralismo y la autonomía regional (Cataluña, el País Vasco) y uno de los primeros campos de batalla del enfrentamiento europeo más amplio entre fascismo, comunismo y democracia liberal."
+  },
+  {
+   "h": "La República y sus defensores",
+   "t": "El bando republicano (leal) era una coalición: el gobierno de la República, presidido sucesivamente por José Giral, Francisco Largo Caballero y Juan Negrín; los republicanos de izquierda del presidente Manuel Azaña; los socialistas (PSOE) y su sindicato, la UGT; los comunistas (PCE), cuya influencia creció con la ayuda soviética; la CNT-FAI anarcosindicalista; el POUM, marxista y antiestalinista, y los gobiernos autónomos de Cataluña y el País Vasco. En el verano de 1936 las milicias de partidos y sindicatos llevaron el peso de los combates; desde finales de 1936 se integraron en el Ejército Popular. Los voluntarios extranjeros de las Brigadas Internacionales y los carros, aviones y asesores soviéticos, pagados con la reserva de oro del Banco de España, fueron el principal apoyo exterior de la República. México también envió armas."
+  },
+  {
+   "h": "Los sublevados: «nacionales» o «sublevados»",
+   "t": "Los sublevados se llamaban a sí mismos nacionales; los republicanos los llamaban facciosos o rebeldes, y los historiadores suelen hablar de sublevados. Su núcleo era el ejército, sobre todo el profesional Ejército de África (la Legión y los Regulares marroquíes), al mando de Franco, mientras el general Emilio Mola dirigía la conspiración desde Pamplona. Entre sus apoyos civiles estaban la Falange fascista, los requetés carlistas de Navarra, los monárquicos y personas y redes de la derecha católica. La propia CEDA se estaba desintegrando en 1936: su líder, Gil Robles, y otros apoyaron a los conspiradores, mientras muchos de sus miembros más jóvenes se pasaban a la Falange. En abril de 1937 Franco fusionó Falange y carlistas en un partido único, FET y de las JONS. La Alemania nazi envió la Legión Cóndor (aviación y blindados, con tripulaciones que se iban relevando) y la Italia fascista el Corpo Truppe Volontarie (CTV) y la Aviazione Legionaria; Portugal aportó apoyo logístico y voluntarios."
+  },
+  {
+   "h": "Cómo se desarrolló la guerra",
+   "t": "En el primer verano las columnas sublevadas del sur remontaron el Tajo hacia Madrid mientras las fuerzas de Mola en el norte se disputaban los puertos del Guadarrama. Madrid resistió en noviembre de 1936, y las batallas a su alrededor (el Jarama, Guadalajara, Brunete) no rompieron el punto muerto. Franco se volvió hacia el norte: Bilbao cayó en junio de 1937, Santander en agosto y Asturias en octubre, lo que dio a los sublevados el norte industrial. Las ofensivas republicanas de Belchite y Teruel ganaron terreno, pero no pudieron conservarlo. En la primavera de 1938 los sublevados llegaron al Mediterráneo en Vinaròs y partieron en dos la República. La última gran ofensiva republicana, a través del Ebro (julio-noviembre de 1938), desangró a su ejército. Cataluña cayó en enero y febrero de 1939."
+  },
+  {
+   "h": "Cómo terminó",
+   "t": "Tras la caída de Barcelona el 26 de enero de 1939, cerca de medio millón de personas huyeron a Francia por los Pirineos en la Retirada. El Reino Unido y Francia reconocieron el gobierno de Franco el 27 de febrero y el presidente Azaña dimitió en el exilio. En la zona centro que quedaba, el presidente del Gobierno, Negrín, quería resistir con la esperanza de que una guerra europea cambiara la balanza, pero el 5 de marzo el coronel Segismundo Casado tomó el poder en Madrid para negociar una rendición, lo que provocó enfrentamientos entre republicanos. Franco solo aceptó la rendición incondicional. Sus tropas entraron en Madrid el 28 de marzo; miles de republicanos esperaron en vano los barcos en Alicante. El último parte de guerra de Franco se firmó en Burgos el 1 de abril de 1939. Terminó la guerra formal; la represión, los campos de prisioneros y el exilio, no."
+  },
+  {
+   "h": "El coste",
+   "t": "El número total de muertos sigue en debate; una cifra global que se cita a menudo es de alrededor de medio millón, pero las estimaciones de los historiadores varían mucho. Además de los muertos en combate, ambas zonas vivieron matanzas masivas en la retaguardia. Para la zona sublevada durante la guerra, las estimaciones van de menos de 50.000 a 200.000 (Casanova, unos 100.000; Thomas, 75.000), con decenas de miles más de ejecutados después de 1939. Para la zona republicana, la mayoría de los historiadores sitúan la cifra en torno a 38.000-55.000 (Beevor, 38.000; Payne y Juliá, 50.000; Thomas y Preston, 55.000), incluidos 6832 religiosos. Ciudades como Madrid, Barcelona, Gernika, Valencia y Almería fueron bombardeadas desde el aire. Cientos de miles de personas marcharon al exilio; muchas nunca volvieron."
+  },
+  {
+   "h": "Memoria: silencio, pacto y ley",
+   "t": "Con Franco (hasta 1975) solo se honró a los muertos de los vencedores; el Valle de los Caídos (hoy Valle de Cuelgamuros) se convirtió en el gran monumento del régimen. La Transición a la democracia se apoyó en una amnistía (1977) y en un «pacto del olvido» informal. Desde 2000, asociaciones civiles empezaron a exhumar fosas comunes. La Ley de Memoria Histórica (Ley 52/2007, de 26 de diciembre de 2007) reconoció a las víctimas de ambos bandos, apoyó las exhumaciones y ordenó retirar los símbolos franquistas. Los restos de Franco salieron de Cuelgamuros el 24 de octubre de 2019. La Ley de Memoria Democrática (Ley 20/2022, en vigor desde el 21 de octubre de 2022) sustituyó a la anterior: el Estado asume las exhumaciones y un banco de ADN, se declaran nulas las sentencias de los tribunales franquistas y el nombre oficial del Valle de los Caídos pasó a ser Valle de Cuelgamuros, hoy lugar de memoria democrática. El tema sigue dividiendo políticamente, y varias comunidades autónomas tienen sus propias leyes de memoria."
+  },
+  {
+   "h": "Visitar hoy",
+   "t": "Gran parte del paisaje de la guerra se conserva: líneas de trincheras en la sierra de Guadarrama, el Jarama y Aragón; pueblos en ruinas conservados como memoriales en Belchite y Corbera d'Ebre; búnkeres del Cinturón de Hierro de Bilbao; refugios antiaéreos en Barcelona, Valencia, Cartagena y Almería, y memoriales de fosas comunes en todas las regiones. Muchos lugares están en monte abierto o en tierras de cultivo: hay que respetar la propiedad privada, no excavar ni recoger metal (es ilegal y todavía aparecen artefactos sin explotar) y recordar que muchos de estos lugares son tumbas. Esta guía intenta presentar los muertos y los crímenes de ambos bandos con claridad y sin glorificación."
+  }
+ ],
+ "orig": [
+  {
+   "h": "14 de abril de 1931: la Segunda República",
+   "t": "Tras unas elecciones municipales en las que los candidatos republicanos arrasaron en las ciudades, el rey Alfonso XIII abandonó España y el 14 de abril de 1931 se proclamó la Segunda República. Las nuevas Cortes, dominadas por republicanos y socialistas, aprobaron en diciembre de 1931 una constitución democrática que separaba la Iglesia del Estado, daba el voto a las mujeres y permitía la autonomía regional; Cataluña obtuvo su Estatuto en 1932. Con Manuel Azaña como presidente del Gobierno se intentaron la reforma del ejército, la reforma agraria en los latifundios del sur, la escuela laica y la limitación de las órdenes religiosas. Las reformas despertaron enormes esperanzas entre jornaleros y obreros, y una profunda alarma entre los terratenientes, buena parte de la oficialidad y la España católica."
+  },
+  {
+   "h": "1932-1933: presión desde ambos flancos",
+   "t": "La República recibió ataques desde la derecha y desde la izquierda. En agosto de 1932 el intento de golpe del general José Sanjurjo en Sevilla (la Sanjurjada) se hundió en un día. En 1932 y 1933 estallaron insurrecciones anarquistas; en Casas Viejas (Cádiz), en enero de 1933, guardias de asalto mataron a vecinos tras un levantamiento, lo que dañó al gobierno de Azaña. La derecha católica se organizó en el gran partido CEDA, dirigido por José María Gil Robles, mientras José Antonio Primo de Rivera fundaba la Falange en octubre de 1933. En las elecciones de noviembre de 1933, las primeras en que votaron las mujeres, ganó el centro-derecha, y un gobierno del Partido Radical de Alejandro Lerroux, que dependía de los votos de la CEDA, empezó a frenar o revertir las reformas."
+  },
+  {
+   "h": "Octubre de 1934: Asturias y Cataluña",
+   "t": "Cuando tres ministros de la CEDA entraron en el Gobierno en octubre de 1934, la izquierda convocó una huelga general revolucionaria. Fracasó en la mayor parte de España, pero en Cataluña el presidente Lluís Companys proclamó el 6 de octubre el «Estado catalán dentro de la República Federal Española», que duró unas diez horas. En Asturias, mineros de la UGT, la CNT y los comunistas se hicieron con gran parte de la región durante dos semanas (del 5 al 19 de octubre). El Gobierno, con el general Franco coordinando desde Madrid, envió a la Legión y a los Regulares marroquíes. Hugh Thomas calculó unos 2000 muertos, incluidos los de la represión, y entre 15.000 y 30.000 detenidos. Cada bando sacó su propia lección: para la izquierda, el fascismo estaba a las puertas; para la derecha, la revolución."
+  },
+  {
+   "h": "Febrero de 1936: el Frente Popular",
+   "t": "Los escándalos derribaron a los gobiernos radical-cedistas y se convocaron elecciones para el 16 de febrero de 1936. La izquierda se unió en el Frente Popular (republicanos, socialistas, comunistas y POUM, con buena parte de los votantes anarquistas acudiendo a las urnas) frente a una coalición de derechas. El Frente Popular obtuvo 267 escaños frente a 132 de la derecha con un estrecho margen en voto popular; los historiadores aún discuten la limpieza del recuento en algunas provincias (Villa García y Álvarez Tardío, 2017, frente a sus críticos). Azaña formó gobierno, amnistió a los presos de 1934 y restableció la autonomía catalana; en mayo pasó a ser presidente de la República y Santiago Casares Quiroga, presidente del Gobierno. Siguieron ocupaciones de tierras, huelgas, quemas de iglesias y asesinatos callejeros entre militantes de izquierda y de derecha."
+  },
+  {
+   "h": "Primavera de 1936: la conspiración",
+   "t": "Los militares habían empezado a conspirar poco después de las elecciones. El Gobierno alejó de Madrid a los generales sospechosos (Franco a Canarias, Mola a Pamplona, Goded a Baleares), lo que en la práctica les permitió tejer redes en provincias. Mola, como «el Director», redactó unas instrucciones que exigían una violencia extrema para aplastar cualquier resistencia. Sanjurjo, exiliado en Portugal, debía encabezar el nuevo régimen. Dirigentes monárquicos y carlistas prometieron su apoyo; los carlistas ofrecieron miles de requetés armados en Navarra. La Falange, ilegalizada y con su líder José Antonio encarcelado desde marzo, se sumó a la conspiración. Franco dudó hasta el último momento; en Londres se fletó un avión con matrícula británica, el Dragon Rapide, para llevarlo de Canarias a Marruecos."
+  },
+  {
+   "h": "12-13 de julio de 1936: dos asesinatos",
+   "t": "El 12 de julio de 1936, pistoleros de derechas mataron en Madrid al teniente José Castillo, de la Guardia de Asalto, conocido socialista. En represalia, en la madrugada del 13 de julio un grupo de guardias de asalto y militantes socialistas sacó de su casa al líder monárquico José Calvo Sotelo y lo asesinó; su cadáver fue abandonado en el Cementerio del Este. Que hombres vinculados a la propia policía del Estado hubieran matado a un destacado diputado de la oposición conmocionó a la España conservadora y despejó las últimas dudas de algunos conspiradores. Mola fijó la fecha de la sublevación para el 17 y 18 de julio."
+  },
+  {
+   "h": "17-18 de julio de 1936: el golpe",
+   "t": "Avisada de que la conspiración se había descubierto, la guarnición de Melilla se sublevó la tarde del 17 de julio; Ceuta y Tetuán la siguieron y a la mañana siguiente el Marruecos español estaba en manos sublevadas. El 18 de julio Franco declaró el estado de guerra en Las Palmas y voló a Marruecos; Queipo de Llano se hizo con Sevilla y hubo sublevaciones en toda la Península. Casares Quiroga se negó a armar a los sindicatos y dimitió; un gobierno de conciliación de Martínez Barrio duró unas horas; el 19 de julio el gobierno de José Giral repartió armas entre las organizaciones obreras. Donde los guardias de asalto y civiles leales se unieron a los obreros armados (Madrid, Barcelona, Valencia), el golpe fracasó. Donde el ejército y la Guardia Civil se mantuvieron unidos, triunfó. España quedó partida en dos."
+  }
+ ],
+ "factors": [
+  {
+   "h": "No intervención",
+   "t": "Por miedo a una guerra europea general, el Reino Unido y Francia promovieron en agosto de 1936 un Acuerdo de No Intervención, supervisado desde septiembre por un comité en Londres. Alemania, Italia y la URSS lo firmaron y lo incumplieron. En la práctica negó al gobierno legal de España el derecho a comprar armas abiertamente, mientras Alemania e Italia abastecían a gran escala a los sublevados. Francia mantuvo cerrada su frontera durante buena parte de la guerra. Los historiadores coinciden en líneas generales en que la no intervención perjudicó a la República, que se vio empujada a depender de la Unión Soviética."
+  },
+  {
+   "h": "Ayuda extranjera a ambos bandos",
+   "t": "Los sublevados recibieron aviones, carros, artillería alemanes y la Legión Cóndor (por ella pasaron unos 16.000 alemanes en total), y tropas, aviones y armas italianos a mayor escala (el CTV italiano llegó a sumar unos 50.000 hombres a la vez), además de ayuda y voluntarios portugueses. El principal proveedor de la República fue la URSS, que envió aviones, carros T-26, artillería y unos 3000 asesores y técnicos, pagados con la reserva de oro española; México envió fusiles. Los voluntarios de las Brigadas Internacionales aportaron decenas de miles de combatientes. La ayuda del Eje fue más constante y más fácil de hacer llegar que los envíos soviéticos a través del Mediterráneo."
+  },
+  {
+   "h": "El Ejército de África y el puente aéreo",
+   "t": "Las mejores tropas de los sublevados, la Legión y los Regulares marroquíes, estaban bloqueadas en Marruecos porque la flota republicana, cuyas tripulaciones se habían amotinado en gran parte contra sus oficiales, cerraba el Estrecho. Desde finales de julio de 1936, Junkers Ju 52 alemanes y Savoia-Marchetti SM.81 italianos trasladaron a miles de hombres a Sevilla en el primer gran puente aéreo militar. Estos soldados profesionales avanzaron hacia el norte por Extremadura hasta las afueras de Madrid en tres meses, derrotando a las milicias en campo abierto y cometiendo matanzas masivas por el camino."
+  },
+  {
+   "h": "Divisiones dentro de la República",
+   "t": "La República combinaba un gobierno democrático liberal con una revolución social que estalló en julio de 1936 en Cataluña, Aragón y otros lugares: tierras y fábricas colectivizadas, poder de las milicias y violencia anticlerical. Los anarquistas y el POUM querían llevar adelante la revolución; comunistas, socialistas y republicanos querían primero un Estado y un ejército centralizados. El conflicto estalló en los Sucesos de Mayo de 1937 en Barcelona y terminó con la ilegalización del POUM, y volvió a estallar con el golpe de Casado contra Negrín en marzo de 1939. Los sublevados, en cambio, estaban unidos bajo un solo mando y un solo partido desde 1937."
+  },
+  {
+   "h": "La aviación y el bombardeo de ciudades",
+   "t": "España fue un campo de pruebas para la guerra aérea. Aviones alemanes e italianos y, en 1936-1937, cazas y bombarderos soviéticos en el bando republicano lucharon por la superioridad aérea, que los sublevados mantuvieron desde 1938. Madrid sufrió bombardeos aéreos y de artillería desde noviembre de 1936; Durango y Gernika fueron destruidas en 1937; los aviones italianos de Mallorca atacaron Barcelona, Valencia, Alicante y otras ciudades costeras. La aviación republicana también bombardeó ciudades en manos sublevadas como Córdoba, Valladolid y Palma. La respuesta, cientos de refugios antiaéreos públicos construidos por ayuntamientos y vecinos, es uno de los legados de la guerra que mejor se pueden visitar."
+  },
+  {
+   "h": "La resistencia de Madrid y el problema de la logística",
+   "t": "El fracaso ante Madrid en noviembre de 1936 convirtió un golpe en una guerra larga. Los carros y aviones soviéticos, las Brigadas Internacionales, unas milicias disciplinadas dirigidas por los comunistas y la movilización masiva de la ciudad frenaron el asalto; los sublevados se atrincheraron en la Ciudad Universitaria y la Casa de Campo durante más de dos años. Las ofensivas republicanas desde 1937 lograban la sorpresa, pero fracasaban por los suministros, las reservas y el mando: la República no podía reponer las pérdidas de material, mientras los sublevados dominaban el interior productor de alimentos, la industria del norte desde 1937 y un suministro exterior más regular."
+  },
+  {
+   "h": "Represión, refugiados y exilio",
+   "t": "Ambas zonas vivieron matanzas masivas de supuestos enemigos, sobre todo en los primeros meses: en la zona republicana, religiosos, terratenientes, políticos de derechas y sospechosos de apoyar la sublevación; en la zona sublevada, activistas de izquierda, sindicalistas, cargos públicos y maestros, a menudo mediante órdenes militares sistemáticas. Tras la victoria, el régimen de Franco mantuvo durante años las ejecuciones, los campos y el trabajo forzoso de los presos. Los éxodos de refugiados marcaron la guerra: la Desbandá desde Málaga en 1937 y la Retirada de cerca de medio millón de personas a Francia en 1939. Muchos exiliados se quedaron en Francia, México, la URSS y América Latina; algunos acabaron en campos nazis."
+  }
+ ],
+ "clock": [
+  [
+   "17 DE JULIO — TARDE Y NOCHE"
+  ],
+  [
+   "h. 17:00",
+   "Avisados de que sus planes se habían descubierto, los oficiales de Melilla se adelantan, se hacen con la guarnición y detienen al comandante leal, el general Romerales.",
+   "Melilla",
+   "HIGH"
+  ],
+  [
+   "Anochecer",
+   "La sublevación se extiende a Ceuta y Tetuán; se fusila a oficiales leales y sindicalistas. A la mañana siguiente el Marruecos español está en manos rebeldes.",
+   "Ceuta / Tetuán",
+   "HIGH"
+  ],
+  [
+   "18 DE JULIO"
+  ],
+  [
+   "Primera hora",
+   "Franco acude a la comandancia militar de Las Palmas y declara el estado de guerra; se difunde por radio su manifiesto.",
+   "Las Palmas de Gran Canaria",
+   "MEDIUM"
+  ],
+  [
+   "Mañana",
+   "El Gobierno anuncia en Madrid que la sublevación se limita a Marruecos. El presidente del Consejo, Casares Quiroga, se niega a armar a la UGT y la CNT.",
+   "Madrid",
+   "HIGH"
+  ],
+  [
+   "h. 13:15",
+   "Queipo de Llano entra en la capitanía de la división en Sevilla y detiene al general Villa-Abrille.",
+   "Sevilla",
+   "MEDIUM"
+  ],
+  [
+   "h. 14:30",
+   "El Dragon Rapide despega de Gando con Franco a bordo, rumbo a Marruecos con escalas en Agadir y Casablanca.",
+   "Gando, Gran Canaria",
+   "MEDIUM"
+  ],
+  [
+   "h. 20:00",
+   "El gobernador civil de Sevilla se rinde a Queipo, que esa noche habla por Radio Sevilla. También hay sublevaciones en Cádiz y Córdoba.",
+   "Sevilla",
+   "MEDIUM"
+  ],
+  [
+   "Noche 18–19",
+   "Dimite Casares Quiroga. Diego Martínez Barrio intenta formar un gobierno de conciliación; Mola lo rechaza por teléfono.",
+   "Madrid",
+   "HIGH"
+  ],
+  [
+   "19 DE JULIO"
+  ],
+  [
+   "h. 04:00",
+   "Las tropas salen de los cuarteles en Barcelona y les hacen frente militantes de la CNT, guardias de asalto y, más tarde, la Guardia Civil.",
+   "Barcelona",
+   "MEDIUM"
+  ],
+  [
+   "Amanecer",
+   "Mola declara el estado de guerra en Pamplona; se movilizan los requetés carlistas.",
+   "Pamplona",
+   "HIGH"
+  ],
+  [
+   "07:30",
+   "Franco aterriza en Tetuán y asume el mando del Ejército de África.",
+   "Tetuán",
+   "MEDIUM"
+  ],
+  [
+   "Mañana",
+   "José Giral forma un gobierno que disuelve las unidades sublevadas y entrega armas a las organizaciones obreras.",
+   "Madrid",
+   "HIGH"
+  ],
+  [
+   "Anochecer",
+   "Goded, llegado en avión desde Mallorca hacia mediodía, es capturado y pide por radio que se depongan las armas. Las primeras tropas del Ejército de África llegan por aire a Sevilla.",
+   "Barcelona / Tetuán–Sevilla",
+   "MEDIUM"
+  ],
+  [
+   "20 DE JULIO"
+  ],
+  [
+   "Mañana–mediodía",
+   "Milicianos y fuerzas leales asaltan el Cuartel de la Montaña en Madrid; se rinde el cuartel de Atarazanas en Barcelona. Sanjurjo muere en un accidente de avión en Estoril. España queda dividida.",
+   "Madrid / Barcelona / Estoril",
+   "HIGH"
+  ]
+ ],
+ "gloss": [
+  [
+   "CNT",
+   "Confederación Nacional del Trabajo: el sindicato anarcosindicalista, más fuerte en Cataluña, Aragón y Andalucía."
+  ],
+  [
+   "FAI",
+   "Federación Anarquista Ibérica: la federación anarquista militante, muy unida a la CNT (CNT-FAI)."
+  ],
+  [
+   "UGT",
+   "Unión General de Trabajadores: el sindicato socialista, dirigido por Largo Caballero."
+  ],
+  [
+   "PSOE",
+   "Partido Socialista Obrero Español: dividido entre moderados (Prieto) y un ala izquierda revolucionaria (Largo Caballero)."
+  ],
+  [
+   "PCE",
+   "Partido Comunista de España: pequeño en 1936, creció con rapidez durante la guerra gracias a la ayuda soviética y a su disciplina."
+  ],
+  [
+   "PSUC",
+   "Partit Socialista Unificat de Catalunya: el partido catalán próximo a los comunistas, fundado en julio de 1936."
+  ],
+  [
+   "POUM",
+   "Partido Obrero de Unificación Marxista: partido marxista antiestalinista, más fuerte en Cataluña; ilegalizado tras mayo de 1937. Orwell combatió en sus milicias."
+  ],
+  [
+   "ERC",
+   "Esquerra Republicana de Catalunya: el partido republicano de izquierdas catalán de Companys."
+  ],
+  [
+   "PNV",
+   "Partido Nacionalista Vasco: el partido nacionalista vasco y católico de Aguirre."
+  ],
+  [
+   "CEDA",
+   "Confederación Española de Derechas Autónomas: el gran partido católico de derechas de Gil Robles."
+  ],
+  [
+   "Falange",
+   "Falange Española (de las JONS): el partido fascista fundado por José Antonio Primo de Rivera en 1933; sus milicias crecieron enormemente tras julio de 1936."
+  ],
+  [
+   "FET y de las JONS",
+   "El partido único creado por el decreto de unificación de Franco de abril de 1937, que fusionó a falangistas y carlistas."
+  ],
+  [
+   "Carlistas",
+   "Monárquicos tradicionalistas, más fuertes en Navarra, fieles a una rama rival de los Borbones; fervientes católicos."
+  ],
+  [
+   "Requetés",
+   "La milicia carlista, reconocible por sus boinas rojas; una fuerza clave de los sublevados en 1936."
+  ],
+  [
+   "Regulares",
+   "Unidades de infantería y caballería marroquíes del ejército español, con oficiales españoles, integradas en el Ejército de África."
+  ],
+  [
+   "Legión",
+   "El Tercio de Extranjeros, creado en 1920: tropas de choque del Ejército de África. Lo fundó José Millán-Astray; Franco fue su segundo y mandó su 1.ª Bandera."
+  ],
+  [
+   "Guardia Civil",
+   "La policía militarizada rural; se dividió en 1936, y su postura a menudo decidió quién se quedaba con cada población."
+  ],
+  [
+   "Guardia de Asalto",
+   "La policía urbana de la República, creada en 1931; leal en su mayoría en julio de 1936."
+  ],
+  [
+   "Checa",
+   "Centro no oficial de detención e interrogatorio gestionado por partidos, sindicatos o policías en la zona republicana, sobre todo en 1936."
+  ],
+  [
+   "Paseo",
+   "«Dar el paseo»: asesinato extrajudicial de un detenido, normalmente de noche en una cuneta o contra la tapia de un cementerio, en ambas zonas en 1936."
+  ],
+  [
+   "Saca",
+   "La extracción de presos de una cárcel para matarlos, como en Paracuellos en 1936 y en cárceles de la zona sublevada."
+  ],
+  [
+   "Brigadas Internacionales",
+   "Las unidades de voluntarios extranjeros del ejército republicano, 1936-1938."
+  ],
+  [
+   "Legión Cóndor",
+   "La unidad aérea y terrestre alemana que Hitler envió en apoyo de Franco, 1936-1939."
+  ],
+  [
+   "CTV",
+   "Corpo Truppe Volontarie: el cuerpo expedicionario de tropas italianas de Mussolini en España."
+  ],
+  [
+   "Ejército Popular",
+   "El ejército de la República, formado desde finales de 1936 a partir de las milicias y las unidades leales y organizado en brigadas mixtas."
+  ],
+  [
+   "Sublevados",
+   "Término neutral para los alzados contra la República en julio de 1936."
+  ],
+  [
+   "Nacionales",
+   "El nombre que los sublevados se daban a sí mismos; en inglés, «Nationalists»."
+  ],
+  [
+   "Rojos",
+   "Término de la época con el que los sublevados designaban a todos los partidarios de la República; hoy se percibe como partidista."
+  ],
+  [
+   "Bando",
+   "Cada una de las partes de la guerra (bando nacional, bando republicano); también, proclama militar, por ejemplo la que declara el estado de guerra."
+  ],
+  [
+   "Retirada",
+   "La huida masiva de soldados y civiles republicanos de Cataluña a Francia en enero y febrero de 1939."
+  ],
+  [
+   "Desbandá",
+   "La huida de civiles de Málaga por la carretera de la costa hacia Almería en febrero de 1937, atacados desde el mar y el aire."
+  ],
+  [
+   "Cinturón de Hierro",
+   "La línea fortificada alrededor de Bilbao, rota en junio de 1937."
+  ],
+  [
+   "Blocao",
+   "Pequeño fortín o puesto fortificado, a menudo de hormigón, usado por ambos bandos."
+  ],
+  [
+   "Nido de ametralladora",
+   "Emplazamiento de hormigón o piedra para una ametralladora, frecuente en los frentes estabilizados."
+  ],
+  [
+   "Refugio",
+   "Refugio antiaéreo; se excavaron cientos en Madrid, Barcelona, Valencia, Cartagena y Almería."
+  ],
+  [
+   "SIM",
+   "Servicio de Investigación Militar: el servicio de inteligencia y contraespionaje militar de la República desde 1937, con sus propias cárceles."
+  ],
+  [
+   "Comisario",
+   "Comisario político del Ejército Popular, encargado de la moral y la formación política."
+  ],
+  [
+   "Maquis",
+   "Guerrilleros antifranquistas que siguieron luchando en los montes después de 1939, hasta finales de los años cuarenta y más allá."
+  ],
+  [
+   "Valle de Cuelgamuros",
+   "La basílica monumental y la cruz cerca de El Escorial construidas por Franco (Valle de los Caídos hasta 2022)."
+  ],
+  [
+   "Ley de Memoria Democrática",
+   "La Ley 20/2022 de memoria democrática, que sustituyó a la Ley de Memoria Histórica de 2007."
+  ]
+ ],
+ "links": [
+  "Comunidad de Madrid: ruta de la Guerra Civil del «Frente del Agua»",
+  "Museo del Ejército, Alcázar de Toledo: web oficial",
+  "Turismo de Toledo: Museo del Ejército / Alcázar",
+  "Turismo de Morata de Tajuña: Museo Batalla del Jarama",
+  "Patrimonio Nacional: entradas y horarios del Valle de Cuelgamuros",
+  "Sierra de Guadarrama: ruta de la Guerra Civil en la Sierra de Madrid",
+  "Belchite: visitas guiadas al Pueblo Viejo (web oficial del municipio)",
+  "Turismo de Aragón: Ruta Orwell y centro de la Guerra Civil de Robres",
+  "Patrimonio Cultural de Aragón: lugares de memoria",
+  "Patrimonio Cultural de Aragón: ruta de vestigios de la Guerra Civil y la posguerra",
+  "Comarca de Teruel: Centro de Interpretación de la Batalla del Alfambra",
+  "Consorci Memorial dels Espais de la Batalla de l'Ebre (COMEBE)",
+  "Patrimoni Cultural, Generalitat: Espais de la Batalla de l'Ebre",
+  "MUHBA Refugi 307: refugio antiaéreo de Barcelona",
+  "Museu Memorial de l'Exili (MUME), La Jonquera",
+  "Memorial Democràtic: red de espacios de memoria de Cataluña",
+  "Fundación Museo de la Paz de Gernika",
+  "Turismo de Gernika-Lumo: el Museo de la Paz",
+  "Bilbao Turismo: Cinturón de Hierro",
+  "Gogora: Instituto de la Memoria, la Convivencia y los Derechos Humanos",
+  "Ayuntamiento de Almería: Refugios de la Guerra Civil",
+  "Junta de Andalucía: lugares de memoria histórica y democrática",
+  "Junta de Andalucía: lugar de memoria de la carretera Málaga-Almería",
+  "Universo Lorca: ruta de Lorca por Víznar y Alfacar",
+  "Cartagena Puerto de Culturas: Museo-Refugio de la Guerra Civil",
+  "Visit Valencia: refugios antiaéreos de València",
+  "Museu d'Història de València (gestiona las visitas a los refugios)",
+  "Govern de les Illes Balears: hallados en Son Coletes restos de milicianos del desembarco de Bayo",
+  "Museo de la Guerra Civil, Campillo de Llerena: rutas por el frente de Extremadura",
+  "Turismo de La Serena: Guerra Civil y posguerra",
+  "REDEX Turismo: Museo de la Guerra Civil de Campillo de Llerena",
+  "Centro Documental de la Memoria Histórica, Salamanca: Ministerio de Cultura",
+  "CDMH: visitas guiadas",
+  "Museo Histórico Militar de Burgos: Ministerio de Defensa",
+  "Turismo Castilla y León: Museo Histórico Militar de Burgos",
+  "Sierra de Guadarrama: ruta de senderismo en el Alto del León"
+ ],
+ "credits": [
+  "Portada y bienvenida: ruinas del viejo Belchite — Diego Delso (CC BY-SA 4.0) y Fernando (CC BY-SA 2.0), vía Wikimedia Commons.",
+  "Madrid y el Centro: Madrid tras el bombardeo aéreo del 17 de noviembre de 1936. Dominio público.",
+  "Aragón: soldados republicanos en la batalla de Teruel, invierno de 1937-1938. Dominio público (Google Art Project).",
+  "Cataluña y el Ebro: fuerzas republicanas cruzando el Ebro, julio de 1938. Dominio público (Google Art Project).",
+  "El Norte: Gernika en ruinas tras el bombardeo del 26 de abril de 1937. Dominio público.",
+  "Andalucía: interior de los refugios de la Guerra Civil de Almería. Foto: Shadowgate, CC BY 2.0.",
+  "Valencia, Murcia y Baleares: refugio antiaéreo de la Guerra Civil bajo el Col·legi Balmes, Valencia. Foto: Fernando Mafé, CC BY-SA 4.0.",
+  "Extremadura: la plaza de toros de Badajoz, agosto de 1936. Dominio público.",
+  "Castilla, León, Galicia, Navarra y La Rioja: los generales Franco y Mola en Burgos, 1936. Dominio público.",
+  "Poble Vell de Corbera d'Ebre — Juan Emilio Prades Bel (CC BY 4.0), vía Wikimedia Commons.",
+  "Dibujo del Mauser español de la Encyclopaedia Britannica, 1911 (dominio público).",
+  "Mosin-Nagant M1891. Foto: Armémuseum, Estocolmo (dominio público), vía Wikimedia Commons.",
+  "Maxim M1910 sobre su afuste Sokolov con ruedas. Foto: Geni, CC BY-SA 4.0, vía Wikimedia Commons.",
+  "El MP 28 alemán, el arma que copió el naranjero. Foto: NatanFlayer, CC BY-SA 3.0, vía Wikimedia Commons.",
+  "Pistola Astra 400. Foto: V-Hantarex, CC BY 4.0, vía Wikimedia Commons.",
+  "Carro T-26B con distintivos republicanos. Foto: MCAE Consulting, CC0, vía Wikimedia Commons.",
+  "Carros Panzer I durante la instrucción de la Legión Cóndor en España. Bundesarchiv, Bild 183-E20569-21, CC BY-SA 3.0 DE.",
+  "Tanqueta italiana CV-33. Dominio público, vía Wikimedia Commons.",
+  "Polikarpov I-16 con distintivos de la República española. Foto: Elchuso, CC BY-SA 4.0, vía Wikimedia Commons.",
+  "Un avión Junkers de la Legión Cóndor en España. Bundesarchiv, Bild 183-C0214-0007-013, CC BY-SA 3.0 DE.",
+  "Heinkel He 111 B de la Legión Cóndor, España 1937-1938. Dominio público, vía Wikimedia Commons.",
+  "Savoia-Marchetti S.M.79 con los distintivos de la Aviazione Legionaria. Foto: Contando Estrelas, CC BY-SA 2.0, vía Wikimedia Commons.",
+  "Cañón Flak 18 de 8,8 cm conservado en España. Foto: Z3144228, CC BY-SA 4.0, vía Wikimedia Commons."
+ ],
+ "imgc": {
+  "catalonia-01": "El Poble Vell de Corbera d'Ebre en la actualidad. Foto: Juan Emilio Prades Bel, CC BY 4.0."
+ },
+ "geo_names": {
+  "Adaja": "Adaja",
+  "Adour": "Adour",
+  "Alagón": "Alagón",
+  "Albacete": "Albacete",
+  "Alberche": "Alberche",
+  "Alicante": "Alicante",
+  "Almería": "Almería",
+  "Ariège": "Ariège",
+  "Asturias": "Asturias",
+  "Aude": "Aude",
+  "Aveyron": "Aveyron",
+  "Badajoz": "Badajoz",
+  "Baleares": "Baleares",
+  "Barcelona": "Barcelona",
+  "Bizkaia": "Bizkaia",
+  "Burgos": "Burgos",
+  "Cabriel": "Cabriel",
+  "Cantabria": "Cantabria",
+  "Cantabrian Mountains": "Cordillera Cantábrica",
+  "Cardoner": "Cardoner",
+  "Castellón": "Castellón",
+  "Cinca": "Cinca",
+  "Ciudad Real": "Ciudad Real",
+  "Cuenca": "Cuenca",
+  "Cáceres": "Cáceres",
+  "Cádiz": "Cádiz",
+  "Córdoba": "Córdoba",
+  "Duero": "Duero",
+  "Durance": "Durance",
+  "Ebro": "Ebro",
+  "Esla": "Esla",
+  "Garonne": "Garona",
+  "Genil": "Genil",
+  "Gerona": "Gerona",
+  "Gipuzkoa": "Gipuzkoa",
+  "Granada": "Granada",
+  "Guadalajara": "Guadalajara",
+  "Guadalimar": "Guadalimar",
+  "Guadalquivir": "Guadalquivir",
+  "Guadiana": "Guadiana",
+  "Guadiana Menor": "Guadiana Menor",
+  "Henares": "Henares",
+  "Hers-Vif": "Hers-Vif",
+  "Huelva": "Huelva",
+  "Huesca": "Huesca",
+  "Jalón": "Jalón",
+  "Jaén": "Jaén",
+  "Jiloca": "Jiloca",
+  "Júcar": "Júcar",
+  "La Coruña": "La Coruña",
+  "La Rioja": "La Rioja",
+  "Le gave de Pau": "Gave de Pau",
+  "León": "León",
+  "Lot": "Lot",
+  "Lugo": "Lugo",
+  "Luna": "Luna",
+  "Lérida": "Lérida",
+  "Madrid": "Madrid",
+  "Maestrazgo": "Maestrazgo",
+  "Mijares": "Mijares",
+  "Minho": "Miño",
+  "Mio": "Mio",
+  "Mondego": "Mondego",
+  "Montes Universales": "Montes Universales",
+  "Montes de Toledo": "Montes de Toledo",
+  "Murcia": "Murcia",
+  "Málaga": "Málaga",
+  "Narcea": "Narcea",
+  "Navarra": "Navarra",
+  "Orense": "Orense",
+  "Palencia": "Palencia",
+  "Picos de Europa": "Picos de Europa",
+  "Pisuerga": "Pisuerga",
+  "Pontevedra": "Pontevedra",
+  "Pyrenees": "Pirineos",
+  "Rhône": "Ródano",
+  "Sado": "Sado",
+  "Salamanca": "Salamanca",
+  "Segovia": "Segovia",
+  "Segre": "Segre",
+  "Segura": "Segura",
+  "Serra de Pàndols": "Serra de Pàndols",
+  "Sevilla": "Sevilla",
+  "Sierra Morena": "Sierra Morena",
+  "Sierra Nevada": "Sierra Nevada",
+  "Sierra de Alcubierre": "Sierra de Alcubierre",
+  "Sierra de Gredos": "Sierra de Gredos",
+  "Sierra de Guadarrama": "Sierra de Guadarrama",
+  "Sil": "Sil",
+  "Sistema Ibérico": "Sistema Ibérico",
+  "Soria": "Soria",
+  "Sorraia": "Sorraia",
+  "Tajo": "Tajo",
+  "Tarn": "Tarn",
+  "Tarragona": "Tarragona",
+  "Tejo": "Tajo",
+  "Teruel": "Teruel",
+  "Tiétar": "Tiétar",
+  "Toledo": "Toledo",
+  "Tormes": "Tormes",
+  "Turia": "Turia",
+  "Valencia": "Valencia",
+  "Valladolid": "Valladolid",
+  "Zamora": "Zamora",
+  "Zaragoza": "Zaragoza",
+  "Zncara": "Zncara",
+  "Zêzere": "Zêzere",
+  "Zújar": "Zújar",
+  "Álava": "Álava",
+  "Ávila": "Ávila"
+ }
+}

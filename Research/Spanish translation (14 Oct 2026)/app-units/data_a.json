@@ -1,0 +1,1154 @@
+{
+ "regions": [
+  {
+   "id": "madrid",
+   "name": "Madrid & the Centre",
+   "short": "Madrid",
+   "blurb": "The capital that held for 29 months: the University City front, the Jarama, Brunete and Guadalajara battlefields, the Alcázar of Toledo and the bunker lines of the Sierra.",
+   "cap": "Madrid after the air raid of 17 November 1936. Public domain."
+  },
+  {
+   "id": "aragon",
+   "name": "Aragon",
+   "short": "Aragon",
+   "blurb": "The long Aragon front: Orwell's trenches in the Sierra de Alcubierre, the ruins of Belchite, and frozen Teruel, taken and lost in the winter of 1937–38.",
+   "cap": "Republican soldiers in the Battle of Teruel, winter 1937–38. Public domain (Google Art Project)."
+  },
+  {
+   "id": "catalonia",
+   "name": "Catalonia & the Ebro",
+   "short": "Catalonia",
+   "blurb": "The Battle of the Ebro, the war's longest and bloodiest, with its trenches and the ruined Poble Vell of Corbera; bombed Barcelona and the road into exile in 1939.",
+   "cap": "Republican forces crossing the Ebro, July 1938. Public domain (Google Art Project)."
+  },
+  {
+   "id": "north",
+   "name": "The North",
+   "short": "North",
+   "blurb": "Basque Country, Cantabria and Asturias: Gernika and Durango, Bilbao's Iron Belt, and the mountain fighting of 1937.",
+   "cap": "Gernika in ruins after the bombing of 26 April 1937. Public domain."
+  },
+  {
+   "id": "south",
+   "name": "Andalusia",
+   "short": "South",
+   "blurb": "Where the Army of Africa crossed in 1936: Seville, the Córdoba front, Lorca's Granada, the Málaga–Almería road and Almería's shelters.",
+   "cap": "Inside the Civil War shelters of Almería. Photo: Shadowgate, CC BY 2.0."
+  },
+  {
+   "id": "levant",
+   "name": "Valencia, Murcia & the Balearics",
+   "short": "Levant",
+   "blurb": "The Republic's last territory: Valencia as capital, the XYZ Line, Alicante's port in March 1939, Cartagena's fleet base and the landing on Mallorca.",
+   "cap": "A Civil War air-raid shelter under the Col·legi Balmes, Valencia. Photo: Fernando Mafé, CC BY-SA 4.0."
+  },
+  {
+   "id": "west",
+   "name": "Extremadura",
+   "short": "West",
+   "blurb": "The Army of Africa's march north in August 1936: Mérida and Badajoz, and the La Serena pocket of 1938.",
+   "cap": "The bullring of Badajoz, August 1936. Public domain."
+  },
+  {
+   "id": "castile",
+   "name": "Castile, León, Galicia, Navarre & La Rioja",
+   "short": "Castile",
+   "blurb": "The Nationalist rear: Franco's headquarters at Burgos and Salamanca, Mola's Pamplona, the prison camps and places of memory.",
+   "cap": "Generals Franco and Mola in Burgos, 1936. Public domain."
+  }
+ ],
+ "phases": [
+  {
+   "id": "P1",
+   "name": "Coup & first summer",
+   "when": "Jul–Oct 1936"
+  },
+  {
+   "id": "P2",
+   "name": "Battle for Madrid",
+   "when": "Nov 1936–Mar 1937"
+  },
+  {
+   "id": "P3",
+   "name": "War in the North",
+   "when": "Mar–Oct 1937"
+  },
+  {
+   "id": "P4",
+   "name": "Belchite & Teruel",
+   "when": "Aug 1937–Feb 1938"
+  },
+  {
+   "id": "P5",
+   "name": "Drive to the sea",
+   "when": "Mar–Jun 1938"
+  },
+  {
+   "id": "P6",
+   "name": "Battle of the Ebro",
+   "when": "Jul–Nov 1938"
+  },
+  {
+   "id": "P7",
+   "name": "Fall of Catalonia & the end",
+   "when": "Dec 1938–Apr 1939"
+  },
+  {
+   "id": "P8",
+   "name": "Aftermath & memory",
+   "when": "1939–today"
+  }
+ ],
+ "time": [
+  {
+   "date": "17 Jul 1936",
+   "title": "Rising in Melilla",
+   "t": "Warned that the plot had been uncovered, officers in Melilla rise on the afternoon of 17 July, a day early. Ceuta and Tetuán follow overnight; loyal officers and trade unionists are shot. Spanish Morocco, base of the Army of Africa, is secured for the rebels.",
+   "place": "Melilla"
+  },
+  {
+   "date": "18 Jul 1936",
+   "title": "Queipo de Llano takes Seville",
+   "t": "Queipo de Llano arrests the divisional commander around midday and, with a few hundred troops and bluff, seizes the centre of Seville. The civil governor surrenders that evening; working-class districts such as Triana resist until 20–22 July, when they are crushed with Legion reinforcements.",
+   "place": "Seville"
+  },
+  {
+   "date": "19 Jul 1936",
+   "title": "Coup defeated in Barcelona",
+   "t": "Troops leave their barracks before dawn but are fought to a standstill by CNT militants, Assault Guards and, decisively, the Civil Guard. General Goded, flown in from Mallorca, is captured and broadcasts an appeal to stop fighting. The last rebel barracks surrender on 20 July.",
+   "place": "Barcelona, Plaça de Catalunya"
+  },
+  {
+   "date": "19 Jul 1936",
+   "title": "Mola declares war in Pamplona",
+   "t": "General Mola proclaims a state of war in Navarre, where thousands of Carlist Requetés in red berets mobilise alongside the army and Falangists. Within days columns leave Pamplona for the Guadarrama passes, Aragon and Gipuzkoa, and killings of Republican supporters begin across the province.",
+   "place": "Pamplona"
+  },
+  {
+   "date": "20 Jul 1936",
+   "title": "Storming of the Cuartel de la Montaña",
+   "t": "Militias, Assault Guards and loyal troops besiege and storm the Montaña barracks in Madrid, where General Fanjul had gathered rebel officers and Falangists. Many defenders are killed after the surrender. The coup in Madrid collapses. The Temple of Debod now stands on the site.",
+   "place": "Madrid, Parque del Oeste"
+  },
+  {
+   "date": "late Jul 1936",
+   "title": "Airlift across the Strait",
+   "t": "From 19–20 July Army of Africa troops are flown to Seville, from early August in German Ju 52s and Italian SM.81s — the first large military airlift. A sea convoy crosses on 5 August despite the Republican navy.",
+   "place": "Tetuán–Seville (Tablada)"
+  },
+  {
+   "date": "22–25 Jul 1936",
+   "title": "Fighting for the Guadarrama passes",
+   "t": "Mola's columns and Republican militias from Madrid fight for the Alto del León and Somosierra passes. The rebels hold the passes but cannot break through; the Sierra becomes a static front for the rest of the war.",
+   "place": "Alto del León (Guadarrama Pass)"
+  },
+  {
+   "date": "14 Aug 1936",
+   "title": "Fall of Badajoz",
+   "t": "Yagüe's Legion and Regulares storm Badajoz, linking the southern and northern rebel zones. Mass executions follow, many reportedly in the bullring. Estimates range from several hundred to around 4,000; Francisco Espinosa documented 1,341 names as a minimum.",
+   "place": "Badajoz"
+  },
+  {
+   "date": "16 Aug 1936",
+   "title": "Republican landing on Mallorca",
+   "t": "Captain Alberto Bayo lands several thousand Catalan and Valencian militiamen near Porto Cristo and Sa Coma. Italian aircraft and reinforcements support the defenders, the bridgehead stalls, and the expedition is withdrawn on 3–4 September. Mallorca stays Nationalist and becomes an Italian air base for raids on the coast.",
+   "place": "Porto Cristo, Mallorca"
+  },
+  {
+   "date": "c. 18 Aug 1936",
+   "title": "Killing of Federico García Lorca",
+   "t": "Spain's best-known poet is shot by rebel-side forces in the ravine between Víznar and Alfacar, near Granada, one of thousands killed in Granada province in the first months of the war. The exact date and place of burial remain unknown; several searches have found nothing.",
+   "place": "Víznar–Alfacar, Granada"
+  },
+  {
+   "date": "4 Sep 1936",
+   "title": "Largo Caballero government",
+   "t": "Francisco Largo Caballero, leader of the UGT, forms a government of Socialists, Republicans and Communists, joined by Basque and Catalan ministers and, in November, four CNT anarchists. It begins turning the party and union militias into a regular Popular Army with mixed brigades and political commissars.",
+   "place": "Madrid"
+  },
+  {
+   "date": "5–13 Sep 1936",
+   "title": "Irun and San Sebastián fall",
+   "t": "Mola's columns, with Carlist volunteers and air support, take Irun on 5 September after fierce fighting; parts of the town are burned by its retreating defenders. The northern Republican zone loses its land border with France. San Sebastián is occupied without a battle on 13 September.",
+   "place": "Irun"
+  },
+  {
+   "date": "27 Sep 1936",
+   "title": "Relief of the Alcázar of Toledo",
+   "t": "After a siege of about 70 days, Varela's columns relieve Moscardó's garrison in the ruined Alcázar; killings of militiamen and wounded in the city follow. Franco's decision to divert to Toledo boosted his prestige at home and abroad but gave Madrid time to prepare its defence.",
+   "place": "Toledo, Alcázar"
+  },
+  {
+   "date": "1 Oct 1936",
+   "title": "Franco becomes Generalísimo and Head of State",
+   "t": "Meeting near Salamanca in late September, the rebel generals name Franco supreme military commander; the decree also makes him head of the 'Government of the Spanish State'. He is formally invested in Burgos on 1 October 1936 and rules the Nationalist zone as a personal dictatorship from then on.",
+   "place": "Burgos"
+  },
+  {
+   "date": "7 Oct 1936",
+   "title": "Basque government sworn in at Gernika",
+   "t": "Days after the Cortes approves the Basque Statute of Autonomy, José Antonio Aguirre of the PNV takes the oath as first Lehendakari under the Tree of Gernika. His government, a coalition of Basque nationalists and the Popular Front parties, runs Biscay until June 1937.",
+   "place": "Gernika, Casa de Juntas"
+  },
+  {
+   "date": "17 Oct 1936",
+   "title": "Siege of Oviedo relieved",
+   "t": "Colonel Aranda's garrison, which declared for the rebels on 19 July and was besieged by Asturian miners' militias through the summer and autumn, is relieved by a column from Galicia. Oviedo remains a narrow Nationalist salient under constant fire until Asturias falls in October 1937.",
+   "place": "Oviedo"
+  },
+  {
+   "date": "25 Oct 1936",
+   "title": "Gold leaves Cartagena for Moscow",
+   "t": "Most of the Bank of Spain's gold reserve is shipped from Cartagena to the USSR as payment for arms. The Soviet tanks and aircraft appearing at Madrid that autumn are the first return.",
+   "place": "Cartagena"
+  },
+  {
+   "date": "6 Nov 1936",
+   "title": "Government leaves Madrid",
+   "t": "With rebel columns at the south-western edge of the city, the Largo Caballero government leaves for Valencia on the night of 6 November, leaving General Miaja and a Junta de Defensa to hold Madrid. Many saw it as flight; the city's defence became a popular cause worldwide.",
+   "place": "Valencia"
+  },
+  {
+   "date": "7 Nov–4 Dec 1936",
+   "title": "Paracuellos killings",
+   "t": "Prisoners taken from Madrid jails in 'sacas' are shot at Paracuellos del Jarama and Torrejón. Many historians put the dead at around 2,000–3,000, though claims range much higher. Responsibility — the Junta's public-order officials including Santiago Carrillo, Communist cadres, Soviet advisers, militias — is disputed.",
+   "place": "Paracuellos de Jarama cemetery"
+  },
+  {
+   "date": "8 Nov 1936",
+   "title": "Assault on Madrid",
+   "t": "Varela's columns attack through the Casa de Campo and Carabanchel. The XI International Brigade arrives the same day. Fighting spreads into the Ciudad Universitaria from 15 November, where Durruti is mortally wounded on 19 November. By 23 November Franco abandons the frontal assault.",
+   "place": "Madrid, Casa de Campo / Ciudad Universitaria"
+  },
+  {
+   "date": "20 Nov 1936",
+   "title": "José Antonio executed in Alicante",
+   "t": "José Antonio Primo de Rivera, founder of the Falange, imprisoned since before the war, is tried for conspiracy and military rebellion by a Republican people's court and shot in Alicante prison. The Nationalist zone kept his death officially quiet for some time; later he became the regime's great martyr.",
+   "place": "Alicante"
+  },
+  {
+   "date": "27–28 Dec 1936",
+   "title": "Lopera",
+   "t": "A Republican attack on the Córdoba front near Lopera, including the XIV International Brigade and its British company, fails against Nationalist positions with heavy losses. The young British poet John Cornford and the writer Ralph Fox are among the volunteers killed around this time.",
+   "place": "Lopera"
+  },
+  {
+   "date": "6–27 Feb 1937",
+   "title": "Battle of Jarama",
+   "t": "Nationalists cross the Jarama to cut the Madrid–Valencia road. The XV International Brigade, including British and American volunteers, suffers heavy losses at 'Suicide Hill' and Pingarrón. The road stays open.",
+   "place": "Morata de Tajuña"
+  },
+  {
+   "date": "7–12 Feb 1937",
+   "title": "Fall of Málaga and the 'Desbandá'",
+   "t": "Nationalist and Italian forces take Málaga on 8 February. Tens of thousands flee along the coast road to Almería and are shelled from the sea and attacked from the air. Deaths are uncertain; about 3,000 is often cited. Mass executions follow in Málaga.",
+   "place": "Málaga–Almería road (N-340)"
+  },
+  {
+   "date": "8–23 Mar 1937",
+   "title": "Battle of Guadalajara",
+   "t": "Italian CTV motorised divisions advance down the Zaragoza road, are stopped in rain and mud and routed by a Republican counter-attack around Brihuega, with Italian anti-fascists of the Garibaldi Battalion on the Republican side.",
+   "place": "Brihuega"
+  },
+  {
+   "date": "31 Mar 1937",
+   "title": "Bombing of Durango",
+   "t": "Italian and Nationalist aircraft bomb Durango as Mola's offensive against Biscay opens, killing some 250 or more civilians (estimates vary), including a priest and worshippers at Mass in churches. The raid, four weeks before Gernika, marked a new stage in the bombing of undefended towns.",
+   "place": "Durango"
+  },
+  {
+   "date": "19 Apr 1937",
+   "title": "Unification decree",
+   "t": "In Salamanca Franco merges the fascist Falange and the Carlist Comunión Tradicionalista into one party, FET y de las JONS, under his own leadership. Falangist leader Manuel Hedilla, who resisted, is arrested and sentenced to death, later commuted. All other parties in the Nationalist zone are dissolved.",
+   "place": "Salamanca"
+  },
+  {
+   "date": "26 Apr 1937",
+   "title": "Bombing of Gernika",
+   "t": "Condor Legion and Italian bombers attack Gernika on a market Monday, 16:30–19:30. The Basque government reported 1,654 dead; modern research gives about 150–300. Picasso's painting makes it the emblem of the bombing of civilians.",
+   "place": "Gernika"
+  },
+  {
+   "date": "1 May 1937",
+   "title": "Fall of Santa María de la Cabeza",
+   "t": "Civil Guards, their families and right-wing civilians, about 1,200 people, besieged since September 1936 in the mountain sanctuary near Andújar, surrender after a final Republican assault. Their commander, Captain Santiago Cortés, dies of his wounds. The siege became a Nationalist legend like the Alcázar.",
+   "place": "Santuario de la Virgen de la Cabeza"
+  },
+  {
+   "date": "3–8 May 1937",
+   "title": "May Days in Barcelona",
+   "t": "Fighting breaks out when Assault Guards try to take the CNT-held Telefónica. Anarchists and the POUM fight Communists and the government's police. Several hundred die; the POUM is then suppressed and its leader Andreu Nin murdered.",
+   "place": "Barcelona, Telefónica"
+  },
+  {
+   "date": "3 Jun 1937",
+   "title": "Death of Mola",
+   "t": "General Mola, commander of the Army of the North and architect of the 1936 plot, is killed when his aircraft crashes in bad weather near Alcocero, north of Burgos, during the Biscay campaign. Franco's position as sole leader is strengthened. The village was renamed Alcocero de Mola.",
+   "place": "Alcocero de Mola"
+  },
+  {
+   "date": "19 Jun 1937",
+   "title": "Fall of Bilbao",
+   "t": "After an engineer who knew its plans defected and the Iron Belt was breached at its weakest point on 12 June, Basque forces withdraw westward. Nationalist troops enter Bilbao on 19 June without large-scale destruction, as Basque units had prevented the demolition of factories and bridges.",
+   "place": "Bilbao"
+  },
+  {
+   "date": "6–25 Jul 1937",
+   "title": "Battle of Brunete",
+   "t": "The Popular Army's first big offensive west of Madrid takes Brunete but stalls in extreme heat against Nationalist reserves and German aircraft. Losses are heavy on both sides; Gerda Taro is killed.",
+   "place": "Brunete"
+  },
+  {
+   "date": "24 Aug–6 Sep 1937",
+   "title": "Belchite",
+   "t": "The Republican offensive towards Zaragoza takes Quinto and Codo, then the fortified town of Belchite after two weeks of house-to-house fighting in summer heat. Zaragoza is never reached and the northern campaign is not diverted. The ruined old town is later left standing as a war memorial.",
+   "place": "Belchite, Pueblo Viejo"
+  },
+  {
+   "date": "26 Aug 1937",
+   "title": "Fall of Santander",
+   "t": "Nationalist and Italian forces take Santander after a rapid offensive. Basque units that had retreated into Cantabria surrender to the Italian CTV at Santoña under an agreement meant to guarantee their lives; Franco did not honour it, and many were imprisoned or executed.",
+   "place": "Santander"
+  },
+  {
+   "date": "21 Oct 1937",
+   "title": "Fall of Gijón",
+   "t": "Nationalist columns enter Gijón, ending the war in the North and giving Franco its coal, steel and arms industries. Thousands of Asturian soldiers and militants take to the mountains, where some keep up guerrilla resistance for years; many others are killed or imprisoned.",
+   "place": "Gijón"
+  },
+  {
+   "date": "31 Oct 1937",
+   "title": "Government moves to Barcelona",
+   "t": "Negrín's government leaves Valencia for Barcelona, joining the President and aiming to put the Catalan war industry under central control. Relations with the Generalitat of Companys become strained as Catalan autonomy is steadily reduced during the last year and a half of the war.",
+   "place": "Barcelona"
+  },
+  {
+   "date": "15 Dec 1937",
+   "title": "Republicans attack Teruel",
+   "t": "In snow and bitter cold, without preliminary bombardment, the Popular Army encircles Teruel and fights its way into the town. Colonel Rey d'Harcourt's garrison holds out in the Seminary, the Bank of Spain and other buildings until it surrenders on 8 January 1938.",
+   "place": "Teruel"
+  },
+  {
+   "date": "5–7 Feb 1938",
+   "title": "Alfambra breakthrough",
+   "t": "A Nationalist offensive north of Teruel, spearheaded by Monasterio's cavalry division in one of the last large cavalry charges in European warfare, breaks the Republican front along the Alfambra river and takes thousands of prisoners. The collapse leaves Teruel open to encirclement.",
+   "place": "Alfambra"
+  },
+  {
+   "date": "22 Feb 1938",
+   "title": "Nationalists retake Teruel",
+   "t": "Almost encircled, Republican forces withdraw south along the Turia and Teruel, reduced to ruins, returns to Nationalist hands. Losses on both sides in the two-month battle were enormous, with many cases of frostbite; the Popular Army's reserves are spent.",
+   "place": "Teruel"
+  },
+  {
+   "date": "7 Mar 1938",
+   "title": "Aragon offensive begins",
+   "t": "A massive Nationalist offensive with strong air and armoured support breaks through the Republican front south of the Ebro, weakened by losses at Teruel. Belchite is retaken on 10 March, Caspe soon after; International Brigade units are shattered in the retreat, and the advance rolls towards Catalonia and the sea.",
+   "place": "Belchite"
+  },
+  {
+   "date": "16–18 Mar 1938",
+   "title": "Bombing of Barcelona",
+   "t": "Italian bombers of the Aviazione Legionaria flying from Mallorca attack Barcelona in waves every few hours for three days, 16–18 March. Between 1,000 and 1,300 civilians are killed and at least 2,000 wounded. International protests follow; the city's network of shelters expands.",
+   "place": "Barcelona"
+  },
+  {
+   "date": "3 Apr 1938",
+   "title": "Fall of Lleida",
+   "t": "Nationalist troops take Lleida after street fighting in which El Campesino's division defends the city; the front in Catalonia settles along the Segre river. Catalonia's hydroelectric plants in the Pyrenees are soon lost, adding to the Republic's industrial difficulties.",
+   "place": "Lleida"
+  },
+  {
+   "date": "15 Apr 1938",
+   "title": "Nationalists reach the sea at Vinaròs",
+   "t": "Navarrese troops under Camilo Alonso Vega reach the Mediterranean coast at Vinaròs on Good Friday, 15 April. The Republican zone is cut in two: Catalonia in the north, and the larger centre-south zone with Madrid and Valencia. Many expected the war to end within weeks.",
+   "place": "Vinaròs"
+  },
+  {
+   "date": "14 Jun 1938",
+   "title": "Fall of Castellón",
+   "t": "Franco turns south towards Valencia rather than into Catalonia. Castellón falls on 14 June, but the advance is halted in July in front of the XYZ Line, a deep network of trenches and bunkers in the mountains north of Valencia, at heavy cost to the attackers.",
+   "place": "Castellón de la Plana"
+  },
+  {
+   "date": "25 Jul 1938",
+   "title": "Crossing of the Ebro",
+   "t": "Shortly after midnight the Army of the Ebro crosses the river by boats, footbridges and pontoons at a dozen points between Mequinenza and Miravet, with a diversion at Amposta. It advances up to 20 km in a few days, reaching the outskirts of Gandesa.",
+   "place": "Móra d'Ebre"
+  },
+  {
+   "date": "Aug–Oct 1938",
+   "title": "Pàndols and Cavalls",
+   "t": "Successive Nationalist counter-offensives, supported by overwhelming air and artillery superiority, grind against Republican positions on the bare rocky ridges of the Serra de Pàndols and Serra de Cavalls. Losses on both sides are among the heaviest of the war.",
+   "place": "Serra de Pàndols"
+  },
+  {
+   "date": "28 Oct 1938",
+   "title": "Farewell to the International Brigades",
+   "t": "Withdrawn under a Non-Intervention scheme announced by Negrín at the League of Nations, the International Brigades parade through Barcelona before cheering crowds. Many volunteers from dictatorships have no home to go to; some later rejoin the fighting in the final weeks.",
+   "place": "Barcelona, Avinguda Diagonal"
+  },
+  {
+   "date": "16 Nov 1938",
+   "title": "End of the Battle of the Ebro",
+   "t": "The last Republican troops recross the Ebro at Flix on 16 November after a final Nationalist breakthrough in the Serra de Cavalls. Estimated casualties range from 50,000 to over 100,000; the Republic's best army is broken and Catalonia lies open.",
+   "place": "Flix / Riba-roja d'Ebre"
+  },
+  {
+   "date": "23 Dec 1938",
+   "title": "Catalonia offensive",
+   "t": "Nationalist armies with strong Italian participation attack along the Segre and Ebro fronts on 23 December. The exhausted Republican defence collapses in stages; Tarragona falls on 15 January 1939, and columns converge on Barcelona while refugees crowd the roads north.",
+   "place": "Tarragona"
+  },
+  {
+   "date": "26 Jan 1939",
+   "title": "Fall of Barcelona",
+   "t": "Nationalist troops enter Barcelona almost without resistance, the government having left for Girona and Figueres. Tens of thousands of civilians and soldiers are already heading for the French border; arrests and courts-martial follow in the city.",
+   "place": "Barcelona"
+  },
+  {
+   "date": "28 Jan–10 Feb 1939",
+   "title": "The Retirada",
+   "t": "Nearly half a million refugees and soldiers cross into France via La Jonquera, Portbou and mountain passes and are held in camps such as Argelès. Nationalist troops reach the border on 10 February.",
+   "place": "La Jonquera"
+  },
+  {
+   "date": "1 Feb 1939",
+   "title": "Last Cortes at Figueres",
+   "t": "The Republican Cortes meets for the last time on Spanish soil in the cellars of the castle of Sant Ferran at Figueres. Negrín sets out minimum conditions for peace — independence, free choice of government by the Spanish people, and no reprisals — which Franco ignores.",
+   "place": "Figueres, Castell de Sant Ferran"
+  },
+  {
+   "date": "5 Mar 1939",
+   "title": "Casado's coup",
+   "t": "Colonel Segismundo Casado, with Socialist Julián Besteiro and anarchist support, forms a National Defence Council in Madrid against Negrín's government, hoping to negotiate terms. Fighting with Communist units follows in Madrid. In Cartagena a rising leads the Republican fleet to sail for Bizerte.",
+   "place": "Madrid"
+  },
+  {
+   "date": "28 Mar 1939",
+   "title": "Madrid surrenders",
+   "t": "Nationalist troops enter Madrid. At Alicante the British ship Stanbrook sails with some 2,600 refugees; thousands more left on the quay are interned, many in the Campo de los Almendros.",
+   "place": "Madrid"
+  },
+  {
+   "date": "1 Apr 1939",
+   "title": "Last war communiqué",
+   "t": "Franco signs the final war communiqué at the Palacio de la Isla in Burgos: the Red Army captured and disarmed, 'the war has ended'. The USA recognises his government the same day. Repression, prison camps and executions continue for years.",
+   "place": "Burgos, Palacio de la Isla"
+  },
+  {
+   "date": "1940–1959",
+   "title": "Valley of the Fallen built",
+   "t": "The basilica and giant cross at Cuelgamuros are built from 1940, partly with the labour of political prisoners, and inaugurated in 1959. Remains of over 33,000 dead from both sides are moved there, many Republicans without their families' consent; exhumations for identification began in 2023.",
+   "place": "Valle de Cuelgamuros"
+  },
+  {
+   "date": "26 Dec 2007",
+   "title": "Law of Historical Memory",
+   "t": "Ley 52/2007, passed under Prime Minister Rodríguez Zapatero, recognises victims of persecution and violence on both sides, supports the location and exhumation of mass graves, and orders the removal of Francoist symbols from public buildings and streets. Critics on the right saw it as reopening old wounds.",
+   "place": "Madrid"
+  },
+  {
+   "date": "24 Oct 2019",
+   "title": "Franco exhumed",
+   "t": "After a long legal battle with his family, Franco's remains are removed from the basilica at Cuelgamuros by helicopter and reburied beside his wife in the Mingorrubio cemetery at El Pardo, north of Madrid. The move was widely seen as a milestone in Spain's reckoning with the dictatorship.",
+   "place": "Valle de Cuelgamuros"
+  },
+  {
+   "date": "21 Oct 2022",
+   "title": "Democratic Memory Law in force",
+   "t": "Ley 20/2022 replaces the 2007 law. It makes the state responsible for searching for and exhuming the disappeared, creates a DNA bank, declares Francoist court sentences void, dissolves the Franco foundation and renames the valley Cuelgamuros. It remains politically contested.",
+   "place": "Madrid"
+  }
+ ],
+ "people": [
+  {
+   "name": "Manuel Azaña",
+   "role": "Prime Minister 1931–33 and 1936; President of the Republic 1936–39",
+   "dates": "1880–1940",
+   "t": "A writer and left Republican intellectual, Azaña embodied the reforming Republic of 1931: army reform, secular education and Catalan autonomy. After the Popular Front victory he became Prime Minister, then President in May 1936. During the war he had little real power and grew pessimistic; his 1937 speech in Barcelona ended with the plea for 'peace, pity and pardon'. He crossed into France in the Retirada, resigned on 27 February 1939 after Britain and France recognised Franco, and died in exile at Montauban in November 1940."
+  },
+  {
+   "name": "Francisco Largo Caballero",
+   "role": "UGT/PSOE leader; Prime Minister and War Minister Sep 1936–May 1937",
+   "dates": "1869–1946",
+   "t": "A plasterer turned trade-union leader, head of the UGT and of the PSOE's left wing, nicknamed 'the Spanish Lenin' by admirers. He became Prime Minister on 4 September 1936 in a government that brought in Socialists, Communists and, from November, four anarchist ministers. He moved the government to Valencia in November 1936 and began building the Popular Army. Clashes with the Communists and the fallout of the Barcelona May Days forced him out in May 1937. In exile in France he was arrested and held in Sachsenhausen; he died in Paris in 1946."
+  },
+  {
+   "name": "Juan Negrín",
+   "role": "Finance Minister 1936–37; Prime Minister May 1937–March 1939",
+   "dates": "1892–1956",
+   "t": "A physiologist and Socialist, Negrín as Finance Minister organised the transfer of most of the Bank of Spain's gold reserve to Moscow in October–November 1936 to pay for Soviet arms — still a controversial decision. As Prime Minister from May 1937 he centralised the war effort, worked closely with the Communists and argued that 'to resist is to win', hoping that a general European war would save the Republic. His Thirteen Points (April 1938) set out peace terms. Ousted by Casado's coup in March 1939, he died in exile in Paris."
+  },
+  {
+   "name": "Dolores Ibárruri, 'La Pasionaria'",
+   "role": "Communist deputy and PCE leader; orator",
+   "dates": "1895–1989",
+   "t": "A miner's daughter from Gallarta (Biscay), Ibárruri became the best-known voice of the Spanish Communist Party. Her radio speech on 19 July 1936, ending '¡No pasarán!' ('They shall not pass'), became the slogan of the defence of Madrid. She toured fronts and rallies throughout the war and gave the farewell speech to the departing International Brigades in autumn 1938. She spent almost four decades in exile, mainly in the USSR, where her son died at Stalingrad, and returned to Spain in 1977, when she was again elected to the Cortes for Asturias."
+  },
+  {
+   "name": "Buenaventura Durruti",
+   "role": "Anarchist (CNT-FAI) militant; leader of the Durruti Column",
+   "dates": "1896–1936",
+   "t": "A metalworker from León and veteran anarchist activist, Durruti helped defeat the military rising in Barcelona in July 1936 and then led a militia column of several thousand onto the Aragon front, where collectivisation followed in its wake. In November 1936 he brought part of the column to Madrid and fought in the Ciudad Universitaria. He was mortally wounded near the Clinical Hospital on 19 November and died the next day. Whether he was hit by enemy fire, a stray shot or an accident is still disputed. Hundreds of thousands attended his funeral in Barcelona."
+  },
+  {
+   "name": "José Miaja",
+   "role": "General; president of the Junta de Defensa de Madrid",
+   "dates": "1878–1958",
+   "t": "An unremarkable career officer, Miaja was left in charge of Madrid when the government fled to Valencia on 6 November 1936, heading the Junta de Defensa with Vicente Rojo as chief of staff. The city held, and Miaja became a popular hero of the defence. He later commanded the Army of the Centre and took charge at Jarama. In March 1939 he backed Colonel Casado's council against Negrín, which led to the surrender of Madrid. He left for exile in Mexico and died there."
+  },
+  {
+   "name": "Vicente Rojo",
+   "role": "Chief of staff of the Madrid defence, then of the Popular Army",
+   "dates": "1894–1966",
+   "t": "A Catholic professional officer and staff-college teacher who stayed loyal to the Republic, Rojo organised the defence of Madrid in November 1936 and became chief of the central general staff in 1937. He planned the Republic's major offensives — Brunete, Belchite, Teruel and the Ebro — which achieved initial surprise but could not be sustained against Nationalist reserves and air power. He went into exile in Argentina and Bolivia, returned to Spain in 1957, was tried by a military court and sentenced, then pardoned, and died in Madrid."
+  },
+  {
+   "name": "Enrique Líster",
+   "role": "Communist commander: 5th Regiment, 11th Division, V Army Corps",
+   "dates": "1907–1994",
+   "t": "A Galician stonemason and Communist trained in Moscow, Líster rose from militia leader in the Communist 5th Regiment to one of the Popular Army's best-known commanders. His units fought at Madrid, Jarama, Guadalajara, Brunete and Teruel, where his division broke into the city in December 1937, and his V Corps led the Ebro crossing in July 1938. He was a hard disciplinarian, and his troops' dissolution of the anarchist Council of Aragon in August 1937 remains controversial. He lived in exile in the USSR and elsewhere, returning to Spain in 1977."
+  },
+  {
+   "name": "Juan Modesto",
+   "role": "Communist commander of the Army of the Ebro",
+   "dates": "1906–1969",
+   "t": "A former sawmill worker from Andalusia who had served as a corporal in the Legion, Modesto became a Communist militia leader in 1936 and rose through the Popular Army to command V Corps and then the Army of the Ebro in 1938. He directed the Republic's largest operation, the crossing of the Ebro on 25 July 1938, and the long defensive battle that followed. After the war he went into exile in the Soviet Union and Eastern Europe and died in Prague in 1969."
+  },
+  {
+   "name": "Lluís Companys",
+   "role": "President of the Generalitat de Catalunya 1934–40",
+   "dates": "1882–1940",
+   "t": "A lawyer and leader of Esquerra Republicana de Catalunya, Companys proclaimed a Catalan State in October 1934 and was imprisoned until 1936. When the coup failed in Barcelona he met the victorious anarchists and accepted their Central Committee of Anti-Fascist Militias alongside the Generalitat. Tensions with the central government and between anarchists and Communists culminated in the May Days of 1937. He fled to France in 1939, was arrested by the Gestapo in 1940, handed to Franco and shot at Montjuïc castle on 15 October 1940."
+  },
+  {
+   "name": "José Antonio Aguirre",
+   "role": "First Lehendakari (President) of the Basque Government",
+   "dates": "1904–1960",
+   "t": "A Catholic lawyer and leader of the Basque Nationalist Party (PNV), Aguirre was sworn in beneath the oak of Gernika on 7 October 1936, after the Cortes passed the Basque Statute. His government ran Biscay as a largely autonomous state, organised its own army (Eusko Gudarostea) and protected the Church. After the fall of Bilbao in June 1937 Basque units surrendered to the Italians at Santoña in August under an agreement that was not honoured. Aguirre led the Basque government in exile until his death in Paris in 1960."
+  },
+  {
+   "name": "Federico García Lorca",
+   "role": "Poet and playwright; killed by the rebels",
+   "dates": "1898–1936",
+   "t": "Spain's most celebrated poet and dramatist of the period, Lorca was a Republican sympathiser but not a party activist. He was in Granada when the city fell to the rebels in July 1936. Arrested at the house of the Falangist Rosales family, he was taken to Víznar and shot in the ravine between Víznar and Alfacar around 18 August 1936, alongside a schoolteacher and two anarchist banderilleros. His remains have never been found despite several searches. His killing became a symbol of the repression in the Nationalist zone."
+  },
+  {
+   "name": "Francisco Franco",
+   "role": "Commander of the Army of Africa; Generalísimo and Head of State",
+   "dates": "1892–1975",
+   "t": "Spain's youngest general, a veteran of the Moroccan wars and Millán-Astray's second-in-command in the Legion, Franco was posted to the Canaries in 1936 and joined the plot late. Flown to Morocco on 19 July, he secured German and Italian aircraft to ferry the Army of Africa to the mainland. On 1 October 1936 he became Generalísimo and Head of State, directing the war from Salamanca and Burgos with methodical, attritional caution. He ruled as dictator until his death in 1975. He was buried at Cuelgamuros; his remains were moved to Mingorrubio cemetery in 2019."
+  },
+  {
+   "name": "Emilio Mola",
+   "role": "'The Director' of the 1936 plot; commander of the Army of the North",
+   "dates": "1887–1937",
+   "t": "Military governor of Pamplona, Mola organised the conspiracy under the codename 'the Director' and secured the support of the Carlists. His instructions called for extreme violence against opponents. When the coup failed to take Madrid, his northern columns were stopped in the Guadarrama passes. He commanded the 1937 campaign against the Basque Country, including the bombing of Durango and Gernika. He was killed when his aircraft crashed near Alcocero (Burgos) on 3 June 1937; the village was renamed Alcocero de Mola."
+  },
+  {
+   "name": "Gonzalo Queipo de Llano",
+   "role": "General; leader of the rising in Seville and ruler of western Andalusia",
+   "dates": "1875–1951",
+   "t": "A general once seen as a Republican, Queipo seized Seville on 18 July 1936 with a small force, bluff and ruthlessness. From Radio Sevilla he broadcast nightly speeches mixing propaganda, threats and crude sexual intimidation of Republican women. Western Andalusia under his command saw one of the war's harshest repressions, with many thousands shot. He led the southern army that took Málaga in February 1937. Buried in the Basilica of La Macarena, his remains were removed in November 2022 under the Democratic Memory Law."
+  },
+  {
+   "name": "Juan Yagüe",
+   "role": "Commander of the Army of Africa columns; later Moroccan Corps",
+   "dates": "1891–1952",
+   "t": "A Falange-sympathising Legion officer who had fought in Asturias in 1934, Yagüe led the Army of Africa columns north from Seville in August 1936 through Mérida and Badajoz, where hundreds or thousands of prisoners were shot after the city's capture (numbers disputed). He told an American journalist that of course they had shot them. Relieved at Toledo, he returned to command the Moroccan Army Corps in Aragon in 1938 and on the Ebro. He was Air Minister in 1939–40."
+  },
+  {
+   "name": "José Enrique Varela",
+   "role": "General; Madrid assault and Teruel counter-offensive",
+   "dates": "1891–1951",
+   "t": "A twice-decorated veteran of Morocco (Laureate Cross) with Carlist sympathies, Varela secured Cádiz for the rebels in July 1936, then led the columns that relieved the Alcázar of Toledo on 27 September and attacked Madrid in November 1936. He commanded at Jarama in February 1937 and led one of the corps that retook Teruel in 1938. As Army Minister after the war he clashed with the Falange."
+  },
+  {
+   "name": "José Moscardó",
+   "role": "Colonel; commander of the Alcázar of Toledo during the siege",
+   "dates": "1878–1956",
+   "t": "Military governor of Toledo, Moscardó held the Alcázar fortress with about a thousand Civil Guards, soldiers, Falangists and their families, plus civilian hostages, from 21 July to 27 September 1936. The best-known story — a telephone call in which he told his captured son Luis to die bravely — became a pillar of Francoist legend; Luis was shot weeks later, though the details of the call have been questioned. Relieved by Varela, Moscardó became a Nationalist hero and later a general."
+  },
+  {
+   "name": "José Antonio Primo de Rivera",
+   "role": "Founder and leader of the Falange",
+   "dates": "1903–1936",
+   "t": "Son of the 1920s dictator Miguel Primo de Rivera, José Antonio founded the fascist Falange Española in 1933. Arrested in March 1936, he was in prison in Alicante when the war began. A Republican court tried him for conspiracy and he was shot on 20 November 1936 — the same day Durruti died. The Franco regime turned him into a martyr ('el Ausente'); his remains were moved to the Valley of the Fallen in 1959 and exhumed in April 2023 for reburial in a Madrid cemetery."
+  },
+  {
+   "name": "Wolfram von Richthofen",
+   "role": "Chief of staff, then commander of the German Condor Legion",
+   "dates": "1895–1945",
+   "t": "A First World War pilot and engineer, and cousin of the 'Red Baron', Richthofen served as the Condor Legion's chief of staff from January 1937 and developed close air support tactics with the Nationalist army in the Basque campaign. He was in charge of air operations when Gernika was bombed on 26 April 1937. He commanded the Legion from late 1938 to the end of the war. In the Second World War he became a Luftwaffe field marshal; he died in 1945."
+  },
+  {
+   "name": "Mario Roatta",
+   "role": "Commander of the Italian Corpo Truppe Volontarie (CTV)",
+   "dates": "1887–1968",
+   "t": "An Italian general and former head of military intelligence, Roatta led Italian troops in the rapid capture of Málaga in February 1937. A month later his motorised CTV divisions attacked towards Guadalajara, but mud, Republican air power, Soviet tanks and a counter-attack in which Italian anti-fascists fought against them turned the battle into a defeat widely publicised as a humiliation for Mussolini. He was replaced and later served as army chief of staff; he was accused of war crimes in Yugoslavia."
+  },
+  {
+   "name": "The International Brigades",
+   "role": "Foreign volunteers in the Republican army, 1936–38",
+   "dates": "Oct 1936 – Oct 1938",
+   "t": "Recruited largely through Communist parties and based at Albacete, volunteers from dozens of countries formed the XI to XV Brigades and others. Estimates of total numbers vary, commonly around 32,000–35,000, with some counts higher. They fought at Madrid, Jarama, Guadalajara, Brunete, Belchite, Teruel and the Ebro, often as shock troops, with heavy losses. Discipline could be harsh and political control strict. They were withdrawn in autumn 1938 and paraded through Barcelona on 28 October 1938."
+  },
+  {
+   "name": "George Orwell",
+   "role": "British writer; militiaman with the POUM",
+   "dates": "1903–1950",
+   "t": "Eric Blair came to Barcelona in December 1936 and joined the militia of the POUM, serving on the quiet Aragon front in the Sierra de Alcubierre and near Huesca. On leave in Barcelona he witnessed the May Days of 1937. Back at the front he was shot through the throat on 20 May 1937. When the POUM was outlawed and its leaders arrested, he escaped to France. His account, Homage to Catalonia (1938), is one of the classic books on the war."
+  },
+  {
+   "name": "Norman Bethune",
+   "role": "Canadian surgeon; mobile blood-transfusion pioneer",
+   "dates": "1890–1939",
+   "t": "A Canadian thoracic surgeon and Communist, Bethune set up a mobile blood-transfusion service in Madrid in late 1936, bringing stored blood to front-line casualties. In February 1937 he and his team drove along the Málaga–Almería road ferrying refugees fleeing the fall of Málaga and documented the attacks on them. He left Spain in 1937, went to China to serve with the Communist Eighth Route Army, and died there of blood poisoning in 1939."
+  },
+  {
+   "name": "Ernest Hemingway",
+   "role": "American writer and war correspondent",
+   "dates": "1899–1961",
+   "t": "Hemingway reported the war for the North American Newspaper Alliance in 1937–38, staying at the Hotel Florida in besieged Madrid and visiting the Jarama, Guadalajara, Teruel and Ebro fronts. He helped make the documentary The Spanish Earth (1937) with Joris Ivens and wrote the play The Fifth Column. His novel For Whom the Bell Tolls (1940), set among guerrillas in the Sierra de Guadarrama, shaped how English-speaking readers imagined the war."
+  },
+  {
+   "name": "Robert Capa and Gerda Taro",
+   "role": "Photojournalists",
+   "dates": "Capa 1913–1954; Taro 1910–1937",
+   "t": "Hungarian-born Endre Friedmann and German-born Gerta Pohorylle created the 'Robert Capa' name together in Paris. Their photographs from the Republican zone set the standard for modern war photography. Capa's 'Falling Soldier' (September 1936, Córdoba front) is famous and much debated over whether it was staged and where it was taken. Taro was fatally injured on 25 July 1937 when a tank struck the car she was riding on near Brunete, and died the next day. Capa was killed in Indochina in 1954."
+  }
+ ],
+ "brief": [
+  {
+   "h": "A war inside Spain, watched by the world",
+   "t": "The Spanish Civil War began with a military coup against the elected government of the Second Republic on 17–18 July 1936 and ended with the unconditional victory of General Francisco Franco on 1 April 1939. The coup failed in Madrid, Barcelona, Valencia, Bilbao and much of the industrial north and east, but succeeded in Spanish Morocco, the Canaries, most of the Balearics, Galicia, Old Castile, Navarre and pockets of western Andalusia. What was meant to be a quick seizure of power became a war of almost three years. It was at once a class war, a clash over religion and the Church, a struggle between centralism and regional autonomy (Catalonia, the Basque Country), and an early battleground of the wider European confrontation between fascism, communism and liberal democracy."
+  },
+  {
+   "h": "The Republic and its defenders",
+   "t": "The Republican (loyalist) side was a coalition: the government of the Republic led in turn by José Giral, Francisco Largo Caballero and Juan Negrín; the left Republicans of President Manuel Azaña; the Socialists (PSOE) and their union UGT; the Communists (PCE), whose influence grew with Soviet aid; the anarcho-syndicalist CNT-FAI; the anti-Stalinist Marxist POUM; and the autonomous governments of Catalonia and the Basque Country. In summer 1936 party and union militias did most of the fighting; from late 1936 they were folded into the Ejército Popular (People's Army). Foreign volunteers of the International Brigades and Soviet tanks, aircraft and advisers — paid for with the Bank of Spain's gold reserve — were the Republic's main outside support. Mexico also sent arms."
+  },
+  {
+   "h": "The rebels: 'Nationalists' or 'sublevados'",
+   "t": "The rebels called themselves nacionales; Republicans called them facciosos or rebeldes, and historians often use sublevados (the risen). Their core was the army, above all the professional Army of Africa — the Spanish Legion and Moroccan Regulares — commanded by Franco, with General Emilio Mola directing the plot from Pamplona. Civilian supporters included the fascist Falange, the Carlist Requetés of Navarre, monarchists and people and networks of the Catholic right. CEDA itself was breaking up by 1936: its leader Gil Robles and others backed the conspirators, while many of its younger members moved into the Falange. In April 1937 Franco merged Falange and Carlists into a single party, FET y de las JONS. Nazi Germany sent the Condor Legion (air and armour, with rotating crews) and Fascist Italy the Corpo Truppe Volontarie (CTV) and the Aviazione Legionaria; Portugal gave logistic support and volunteers."
+  },
+  {
+   "h": "How the war ran",
+   "t": "In the first summer rebel columns from the south advanced up the Tagus towards Madrid while Mola's northern forces fought for the Guadarrama passes. Madrid held in November 1936, and battles around it — Jarama, Guadalajara, Brunete — failed to break the stalemate. Franco turned north: Bilbao fell in June 1937, Santander in August and Asturias in October, giving the rebels the industrial north. Republican offensives at Belchite and Teruel won ground but could not keep it. In spring 1938 the Nationalists reached the Mediterranean at Vinaròs, cutting the Republic in two. The Republic's last great offensive, across the Ebro (July–November 1938), bled its army white. Catalonia fell in January–February 1939."
+  },
+  {
+   "h": "How it ended",
+   "t": "After Barcelona fell on 26 January 1939, around half a million people fled across the Pyrenees into France in the Retirada. Britain and France recognised Franco's government on 27 February and President Azaña resigned in exile. In the remaining central zone, Prime Minister Negrín wanted to resist in the hope that a European war would change the balance, but on 5 March Colonel Segismundo Casado seized power in Madrid to negotiate a surrender, leading to fighting among Republicans. Franco accepted only unconditional surrender. His troops entered Madrid on 28 March; thousands of Republicans waited in vain for ships at Alicante. Franco's final war communiqué was signed at Burgos on 1 April 1939. Formal war ended; repression, prison camps and exile did not."
+  },
+  {
+   "h": "The cost",
+   "t": "The total death toll is still debated; a commonly cited overall figure is around half a million, but historians' estimates vary widely. Beyond combat deaths, both zones saw mass killing behind the lines. For the Nationalist zone during the war, estimates range from under 50,000 to 200,000 (Casanova c. 100,000; Thomas 75,000), with tens of thousands more executed after 1939. For the Republican zone, most historians place the figure around 38,000–55,000 (Beevor 38,000; Payne and Juliá 50,000; Thomas and Preston 55,000), including 6,832 clergy. Cities such as Madrid, Barcelona, Gernika, Valencia and Almería were bombed from the air. Hundreds of thousands went into exile; many never returned."
+  },
+  {
+   "h": "Memory: silence, pact and law",
+   "t": "Under Franco (to 1975) only the victors' dead were honoured; the Valley of the Fallen (now Valle de Cuelgamuros) became the regime's great monument. The transition to democracy rested on an amnesty (1977) and an informal 'pact of forgetting'. From 2000 civil associations began exhuming mass graves. The Law of Historical Memory (Ley 52/2007, 26 December 2007) recognised victims of both sides, supported exhumations and ordered the removal of Francoist symbols. Franco's remains were moved from Cuelgamuros on 24 October 2019. The Democratic Memory Law (Ley 20/2022, in force 21 October 2022) replaced it: the state takes charge of exhumations and a DNA bank, Francoist court sentences are declared void, and the official name of the Valle de los Caídos was changed to Valle de Cuelgamuros, now a Place of Democratic Memory. The subject remains politically divisive, and several regions have their own memory laws."
+  },
+  {
+   "h": "Visiting today",
+   "t": "Much of the war's landscape survives: trench lines in the Sierra de Guadarrama, Jarama and Aragon; ruined villages kept as memorials at Belchite and Corbera d'Ebre; bunkers of Bilbao's Iron Belt; air-raid shelters in Barcelona, Valencia, Cartagena and Almería; and mass-grave memorials in every region. Many sites are on open hillside or farmland — respect private land, do not dig or collect metal (it is illegal and unexploded ordnance is still found), and remember that many places are graves. This guide tries to present both sides' dead and both sides' crimes plainly and without glorification."
+  }
+ ],
+ "orig": [
+  {
+   "h": "14 April 1931: the Second Republic",
+   "t": "After municipal elections in which Republican candidates swept the cities, King Alfonso XIII left Spain and the Second Republic was proclaimed on 14 April 1931. The new Cortes, dominated by Republicans and Socialists, passed a democratic constitution in December 1931 that separated Church and state, gave women the vote and allowed regional autonomy; Catalonia obtained its Statute in 1932. Under Prime Minister Manuel Azaña the government attempted army reform, agrarian reform in the great estates of the south, secular schooling and restrictions on the religious orders. The reforms raised huge hopes among landless labourers and workers, and deep alarm among landowners, much of the officer corps and Catholic Spain."
+  },
+  {
+   "h": "1932–1933: pressure from both flanks",
+   "t": "The Republic was attacked from right and left. In August 1932 General José Sanjurjo's coup attempt in Seville (the Sanjurjada) collapsed within a day. Anarchist insurrections broke out in 1932 and 1933; at Casas Viejas (Cádiz) in January 1933 Assault Guards killed villagers after a rising, damaging Azaña's government. The Catholic right organised in the mass party CEDA under José María Gil Robles, while José Antonio Primo de Rivera founded the Falange in October 1933. In the November 1933 elections — the first in which women voted — the centre-right won, and a Radical Party government under Alejandro Lerroux, dependent on CEDA votes, began to slow or reverse the reforms."
+  },
+  {
+   "h": "October 1934: Asturias and Catalonia",
+   "t": "When three CEDA ministers entered the government in October 1934, the left called a revolutionary general strike. It failed in most of Spain, but in Catalonia President Lluís Companys proclaimed a 'Catalan State within a Spanish Federal Republic' on 6 October; it lasted about ten hours. In Asturias, miners of the UGT, CNT and Communists seized much of the region for two weeks (5–19 October). The government, with General Franco coordinating from Madrid, sent in the Legion and Moroccan Regulares. Hugh Thomas estimated about 2,000 deaths, including those killed in the repression, and 15,000–30,000 were arrested. Each side drew its own lesson: for the left, fascism was at the gates; for the right, revolution."
+  },
+  {
+   "h": "February 1936: the Popular Front",
+   "t": "Scandals brought down the Radical-CEDA governments, and elections were called for 16 February 1936. The left united in the Popular Front (Republicans, Socialists, Communists, POUM, with anarchist voters largely turning out), against a right-wing coalition. The Popular Front won 267 seats to the right's 132 on a narrow popular-vote margin; the fairness of the count in some provinces is still argued over by historians (Villa García and Álvarez Tardío, 2017, versus their critics). Azaña formed a government, amnestied the 1934 prisoners and restored Catalan autonomy; in May he became President and Santiago Casares Quiroga Prime Minister. Land occupations, strikes, church burnings and street killings between left and right militants followed."
+  },
+  {
+   "h": "Spring 1936: the plot",
+   "t": "Army officers had begun conspiring soon after the election. The government moved suspect generals away from Madrid — Franco to the Canary Islands, Mola to Pamplona, Goded to the Balearics — which in practice let them build networks in the provinces. Mola, as 'the Director', drafted instructions calling for extreme violence to crush resistance. Sanjurjo, in exile in Portugal, was to lead the new regime. Monarchist and Carlist leaders pledged support; the Carlists offered thousands of armed Requetés in Navarre. The Falange, banned and its leader José Antonio imprisoned since March, joined the plot. Franco hesitated until late; a British-registered aircraft, the Dragon Rapide, was chartered in London to fly him from the Canaries to Morocco."
+  },
+  {
+   "h": "12–13 July 1936: two killings",
+   "t": "On 12 July 1936 gunmen of the right shot dead Lieutenant José Castillo of the Assault Guards, a known Socialist, in Madrid. In retaliation, in the early hours of 13 July a group of Assault Guards and Socialist militants seized the monarchist leader José Calvo Sotelo from his home and murdered him; his body was left at the East Cemetery. That men connected to the state's own police had killed a leading opposition deputy shocked conservative Spain and removed the last hesitations among some conspirators. Mola fixed the date of the rising for 17–18 July."
+  },
+  {
+   "h": "17–18 July 1936: the coup",
+   "t": "Warned that the plot had been discovered, the garrison in Melilla rose on the afternoon of 17 July; Ceuta and Tetuán followed and Spanish Morocco was in rebel hands by the next morning. On 18 July Franco proclaimed a state of war in Las Palmas and flew to Morocco; Queipo de Llano seized Seville; risings followed across the peninsula. Casares Quiroga refused to arm the unions and resigned; a compromise cabinet under Martínez Barrio lasted hours; on 19 July José Giral's government distributed arms to the workers' organisations. Where loyal Assault and Civil Guards joined armed workers — Madrid, Barcelona, Valencia — the coup failed. Where the army and Civil Guard held together, it succeeded. Spain was split in two."
+  }
+ ],
+ "factors": [
+  {
+   "h": "Non-intervention",
+   "t": "Fearing a general European war, Britain and France sponsored a Non-Intervention Agreement in August 1936, overseen by a committee in London from September. Germany, Italy and the USSR signed it and broke it. In practice it denied the legal government of Spain the right to buy arms openly, while Germany and Italy supplied the rebels on a large scale. France closed its border for much of the war. Historians broadly agree that non-intervention worked against the Republic, which was pushed into dependence on the Soviet Union."
+  },
+  {
+   "h": "Foreign aid on both sides",
+   "t": "The rebels received German aircraft, tanks, artillery and the Condor Legion (about 16,000 Germans served over time), and Italian troops, aircraft and arms on a larger scale (Italy's CTV numbered up to about 50,000 at a time), with Portuguese help and volunteers. The Republic's main supplier was the USSR, which sent aircraft, T-26 tanks, artillery and some 3,000 advisers and technicians, paid for with Spain's gold reserve; Mexico sent rifles. International Brigade volunteers added tens of thousands of fighters. Axis aid was steadier and was easier to deliver than Soviet shipments across the Mediterranean."
+  },
+  {
+   "h": "The Army of Africa and the airlift",
+   "t": "The rebels' best troops — the Legion and the Moroccan Regulares — were stranded in Morocco when the Republican fleet, whose crews had largely mutinied against their officers, blocked the Strait. From late July 1936 German Junkers Ju 52s and Italian Savoia-Marchetti SM.81s flew thousands of men to Seville, the first large-scale military airlift. These professional soldiers drove north through Extremadura to the outskirts of Madrid in three months, defeating militias in open country and carrying out mass killings along the way."
+  },
+  {
+   "h": "Divisions inside the Republic",
+   "t": "The Republic combined a liberal-democratic government with a social revolution that broke out in July 1936 in Catalonia, Aragon and elsewhere: collectivised land and factories, militia rule and anticlerical violence. Anarchists and the POUM wanted to push the revolution forward; Communists, Socialists and Republicans wanted a centralised state and army first. The conflict erupted in the Barcelona May Days of 1937 and ended in the suppression of the POUM, and again in Casado's coup against Negrín in March 1939. The Nationalists, by contrast, were unified under one command and one party from 1937."
+  },
+  {
+   "h": "Air power and the bombing of cities",
+   "t": "Spain was a testing ground for air war. German and Italian aircraft, and in 1936–37 Soviet fighters and bombers on the Republican side, fought for air superiority, which the Nationalists held from 1938. Madrid was bombed and shelled from November 1936; Durango and Gernika were destroyed in 1937; Italian aircraft from Mallorca raided Barcelona, Valencia, Alicante and other coastal cities. Republican aircraft also bombed Nationalist-held cities such as Córdoba, Valladolid and Palma. The response — hundreds of public air-raid shelters built by municipalities and neighbours — is one of the war's most visitable legacies."
+  },
+  {
+   "h": "Holding Madrid and the problem of logistics",
+   "t": "The failure to take Madrid in November 1936 turned a coup into a long war. Soviet tanks and aircraft, the International Brigades, a disciplined Communist-led militia and the city's mass mobilisation stopped the assault; the Nationalists dug in at the Ciudad Universitaria and Casa de Campo for over two years. The Republic's offensives from 1937 won surprise but failed on supply, reserves and command: it could not replace equipment losses, while the Nationalists held the food-producing interior, the northern industry after 1937, and steadier foreign supply."
+  },
+  {
+   "h": "Repression, refugees and exile",
+   "t": "Both zones saw mass killing of perceived enemies, especially in the first months: in the Republican zone clergy, landowners, right-wing politicians and suspected rebels; in the Nationalist zone left-wing activists, trade unionists, officials and teachers, often through systematic military orders. After victory the Franco regime continued executions, camps and prison labour for years. Refugee flows marked the war: the Desbandá from Málaga in 1937, and the Retirada of nearly half a million people into France in 1939. Many exiles stayed in France, Mexico, the USSR and Latin America; some ended up in Nazi camps."
+  }
+ ],
+ "clock": [
+  [
+   "17 JULY — AFTERNOON AND NIGHT"
+  ],
+  [
+   "c. 17:00",
+   "Warned that their plans had been discovered, officers in Melilla rise early, seize the garrison and arrest the loyal commander, General Romerales.",
+   "Melilla",
+   "HIGH"
+  ],
+  [
+   "Evening",
+   "The rising spreads to Ceuta and Tetuán; loyal officers and trade unionists are shot. Spanish Morocco is in rebel hands by the next morning.",
+   "Ceuta / Tetuán",
+   "HIGH"
+  ],
+  [
+   "18 JULY"
+  ],
+  [
+   "Early morning",
+   "Franco goes to the military headquarters in Las Palmas and proclaims a state of war; his manifesto is broadcast.",
+   "Las Palmas de Gran Canaria",
+   "MEDIUM"
+  ],
+  [
+   "Morning",
+   "The government in Madrid announces that the rising is limited to Morocco. Prime Minister Casares Quiroga refuses to arm the UGT and CNT.",
+   "Madrid",
+   "HIGH"
+  ],
+  [
+   "c. 13:15",
+   "Queipo de Llano enters divisional HQ in Seville and arrests General Villa-Abrille.",
+   "Seville",
+   "MEDIUM"
+  ],
+  [
+   "c. 14:30",
+   "The Dragon Rapide takes off from Gando with Franco aboard, bound for Morocco via Agadir and Casablanca.",
+   "Gando, Gran Canaria",
+   "MEDIUM"
+  ],
+  [
+   "c. 20:00",
+   "Seville's civil governor surrenders to Queipo, who broadcasts on Radio Sevilla that night. Risings also in Cádiz and Córdoba.",
+   "Seville",
+   "MEDIUM"
+  ],
+  [
+   "Night 18–19",
+   "Casares Quiroga resigns. Diego Martínez Barrio tries to form a compromise cabinet; Mola refuses by telephone.",
+   "Madrid",
+   "HIGH"
+  ],
+  [
+   "19 JULY"
+  ],
+  [
+   "c. 04:00",
+   "Troops leave barracks in Barcelona and are met by CNT militants, Assault Guards and later the Civil Guard.",
+   "Barcelona",
+   "MEDIUM"
+  ],
+  [
+   "Dawn",
+   "Mola proclaims a state of war in Pamplona; Carlist Requetés mobilise.",
+   "Pamplona",
+   "HIGH"
+  ],
+  [
+   "07:30",
+   "Franco lands at Tetuán and takes command of the Army of Africa.",
+   "Tetuán",
+   "MEDIUM"
+  ],
+  [
+   "Morning",
+   "José Giral forms a government that dissolves rebel units and hands arms to the workers' organisations.",
+   "Madrid",
+   "HIGH"
+  ],
+  [
+   "Evening",
+   "Goded, who flew in from Mallorca around midday, is captured and broadcasts an appeal to lay down arms. The first Army of Africa troops are flown to Seville.",
+   "Barcelona / Tetuán–Seville",
+   "MEDIUM"
+  ],
+  [
+   "20 JULY"
+  ],
+  [
+   "Morning–midday",
+   "Militias and loyal forces storm the Cuartel de la Montaña in Madrid; Atarazanas barracks in Barcelona surrenders. Sanjurjo is killed in a plane crash at Estoril. Spain is divided.",
+   "Madrid / Barcelona / Estoril",
+   "HIGH"
+  ]
+ ],
+ "gloss": [
+  [
+   "CNT",
+   "Confederación Nacional del Trabajo — the anarcho-syndicalist trade union, strongest in Catalonia, Aragon and Andalusia."
+  ],
+  [
+   "FAI",
+   "Federación Anarquista Ibérica — the militant anarchist federation closely linked to the CNT (CNT-FAI)."
+  ],
+  [
+   "UGT",
+   "Unión General de Trabajadores — the Socialist trade union, led by Largo Caballero."
+  ],
+  [
+   "PSOE",
+   "Partido Socialista Obrero Español — the Socialist Party, divided between moderates (Prieto) and a revolutionary left (Largo Caballero)."
+  ],
+  [
+   "PCE",
+   "Partido Comunista de España — small in 1936, it grew rapidly during the war thanks to Soviet aid and its discipline."
+  ],
+  [
+   "PSUC",
+   "Partit Socialista Unificat de Catalunya — the Catalan Communist-aligned party formed in July 1936."
+  ],
+  [
+   "POUM",
+   "Partido Obrero de Unificación Marxista — anti-Stalinist Marxist party, strongest in Catalonia; suppressed after May 1937. Orwell served in its militia."
+  ],
+  [
+   "ERC",
+   "Esquerra Republicana de Catalunya — Catalan left-republican party of Companys."
+  ],
+  [
+   "PNV",
+   "Partido Nacionalista Vasco — the Catholic Basque Nationalist Party of Aguirre."
+  ],
+  [
+   "CEDA",
+   "Confederación Española de Derechas Autónomas — the mass Catholic right-wing party of Gil Robles."
+  ],
+  [
+   "Falange",
+   "Falange Española (de las JONS) — the fascist party founded by José Antonio Primo de Rivera in 1933; its militia grew hugely after July 1936."
+  ],
+  [
+   "FET y de las JONS",
+   "The single party created by Franco's unification decree of April 1937, merging Falangists and Carlists."
+  ],
+  [
+   "Carlists",
+   "Traditionalist monarchists, strongest in Navarre, loyal to a rival branch of the Bourbons; fervently Catholic."
+  ],
+  [
+   "Requetés",
+   "The Carlist militia, recognisable by their red berets; a key rebel force in 1936."
+  ],
+  [
+   "Regulares",
+   "Moroccan infantry and cavalry units of the Spanish army under Spanish officers, part of the Army of Africa."
+  ],
+  [
+   "Legión",
+   "The Spanish Foreign Legion (Tercio), created in 1920: shock troops of the Army of Africa. José Millán-Astray founded it; Franco was his second-in-command and led its 1st Bandera."
+  ],
+  [
+   "Guardia Civil",
+   "The rural paramilitary police; it split in 1936, and its choice often decided who won a town."
+  ],
+  [
+   "Guardia de Asalto",
+   "The Republic's urban Assault Guard, created in 1931; mostly loyal in July 1936."
+  ],
+  [
+   "Checa",
+   "Unofficial detention and interrogation centre run by parties, unions or police in the Republican zone, especially in 1936."
+  ],
+  [
+   "Paseo",
+   "'Taking for a ride' — extra-judicial killing of a detainee, usually at night on a roadside or cemetery wall, in both zones in 1936."
+  ],
+  [
+   "Saca",
+   "The removal of prisoners from a jail to be killed, as at Paracuellos in 1936 and in Nationalist-zone jails."
+  ],
+  [
+   "Brigadas Internacionales",
+   "The International Brigades of foreign volunteers in the Republican army, 1936–38."
+  ],
+  [
+   "Legión Cóndor",
+   "The German air and ground unit sent by Hitler to support Franco, 1936–39."
+  ],
+  [
+   "CTV",
+   "Corpo Truppe Volontarie — Mussolini's expeditionary corps of Italian troops in Spain."
+  ],
+  [
+   "Ejército Popular",
+   "The Republic's Popular Army, formed from late 1936 from the militias and loyal units, organised in mixed brigades."
+  ],
+  [
+   "Sublevados",
+   "'Those who rose' — neutral term for the rebels of July 1936."
+  ],
+  [
+   "Nacionales",
+   "The rebels' own name for their side; 'Nationalists' in English."
+  ],
+  [
+   "Rojos",
+   "'Reds' — period Nationalist term for all supporters of the Republic; today it reads as partisan."
+  ],
+  [
+   "Bando",
+   "A side in the war (bando nacional, bando republicano); also a military proclamation, e.g. declaring a state of war."
+  ],
+  [
+   "Retirada",
+   "The mass flight of Republican soldiers and civilians from Catalonia into France in January–February 1939."
+  ],
+  [
+   "Desbandá",
+   "The flight of civilians from Málaga along the coast road to Almería in February 1937, attacked from sea and air."
+  ],
+  [
+   "Cinturón de Hierro",
+   "Bilbao's 'Iron Belt' — the fortified line around the city, breached in June 1937."
+  ],
+  [
+   "Blocao",
+   "A small blockhouse or fortified post, often concrete, used by both sides."
+  ],
+  [
+   "Nido de ametralladora",
+   "Machine-gun nest — a concrete or stone emplacement, common on static fronts."
+  ],
+  [
+   "Refugio",
+   "Air-raid shelter; hundreds were dug in Madrid, Barcelona, Valencia, Cartagena and Almería."
+  ],
+  [
+   "SIM",
+   "Servicio de Investigación Militar — the Republic's military intelligence and counter-espionage service from 1937, with its own prisons."
+  ],
+  [
+   "Comisario",
+   "Political commissar in the Popular Army, responsible for morale and political education."
+  ],
+  [
+   "Maquis",
+   "Anti-Franco guerrillas who continued fighting in the mountains after 1939, into the late 1940s and beyond."
+  ],
+  [
+   "Valle de Cuelgamuros",
+   "The monumental basilica and cross near El Escorial built by Franco (Valle de los Caídos until 2022)."
+  ],
+  [
+   "Ley de Memoria Democrática",
+   "Law 20/2022 on democratic memory, which replaced the 2007 Historical Memory Law."
+  ]
+ ],
+ "links": [
+  "Comunidad de Madrid – Civil War route of the 'Frente del Agua'",
+  "Museo del Ejército (Army Museum), Alcázar of Toledo – official",
+  "Toledo tourism – Museo del Ejército / Alcázar",
+  "Morata de Tajuña tourism – Museo Batalla del Jarama",
+  "Patrimonio Nacional – Valle de Cuelgamuros tickets and opening times",
+  "Sierra de Guadarrama – Civil War route in the Sierra de Madrid",
+  "Belchite – guided visits to the Pueblo Viejo (official town site)",
+  "Turismo de Aragón – Ruta Orwell and Civil War centre at Robres",
+  "Patrimonio Cultural de Aragón – Places of memory",
+  "Patrimonio Cultural de Aragón – Route of Civil War and post-war remains",
+  "Comarca de Teruel – Interpretation Centre of the Battle of the Alfambra",
+  "Consorci Memorial dels Espais de la Batalla de l'Ebre (COMEBE)",
+  "Patrimoni Cultural, Generalitat – Espais de la Batalla de l'Ebre",
+  "MUHBA Refugi 307 – Barcelona air-raid shelter",
+  "Museu Memorial de l'Exili (MUME), La Jonquera",
+  "Memorial Democràtic – Network of Memory Sites of Catalonia",
+  "Gernika Peace Museum Foundation",
+  "Gernika-Lumo tourism – the Peace Museum",
+  "Bilbao Turismo – Cinturón de Hierro (Iron Belt)",
+  "Gogora – Basque Institute of Memory, Coexistence and Human Rights",
+  "Ayuntamiento de Almería – Refugios de la Guerra Civil",
+  "Junta de Andalucía – Places of historical and democratic memory",
+  "Junta de Andalucía – Place of memory: Málaga–Almería road",
+  "Universo Lorca – Lorca route through Víznar and Alfacar",
+  "Cartagena Puerto de Culturas – Museo-Refugio de la Guerra Civil",
+  "Visit Valencia – Air-raid shelters of València",
+  "Museu d'Història de València (manages shelter visits)",
+  "Govern de les Illes Balears – remains of Bayo landing militiamen found at Son Coletes",
+  "Museo de la Guerra Civil, Campillo de Llerena – routes on the Extremadura front",
+  "La Serena tourism – Civil War and post-war",
+  "REDEX Turismo – Museo de la Guerra Civil de Campillo de Llerena",
+  "Centro Documental de la Memoria Histórica, Salamanca – Ministry of Culture",
+  "CDMH – guided visits",
+  "Museo Histórico Militar de Burgos – Ministry of Defence",
+  "Turismo Castilla y León – Museo Histórico Militar de Burgos",
+  "Sierra de Guadarrama – hiking route at the Alto del León"
+ ],
+ "credits": [
+  "Cover and welcome: ruins of old Belchite — Diego Delso (CC BY-SA 4.0) and Fernando (CC BY-SA 2.0), via Wikimedia Commons.",
+  "Madrid & the Centre: Madrid after the air raid of 17 November 1936. Public domain.",
+  "Aragon: Republican soldiers in the Battle of Teruel, winter 1937–38. Public domain (Google Art Project).",
+  "Catalonia & the Ebro: Republican forces crossing the Ebro, July 1938. Public domain (Google Art Project).",
+  "The North: Gernika in ruins after the bombing of 26 April 1937. Public domain.",
+  "Andalusia: Inside the Civil War shelters of Almería. Photo: Shadowgate, CC BY 2.0.",
+  "Valencia, Murcia & the Balearics: A Civil War air-raid shelter under the Col·legi Balmes, Valencia. Photo: Fernando Mafé, CC BY-SA 4.0.",
+  "Extremadura: The bullring of Badajoz, August 1936. Public domain.",
+  "Castile, León, Galicia, Navarre & La Rioja: Generals Franco and Mola in Burgos, 1936. Public domain.",
+  "Poble Vell de Corbera d'Ebre — Juan Emilio Prades Bel (CC BY 4.0), via Wikimedia Commons.",
+  "Drawing of the Spanish Mauser from the Encyclopaedia Britannica, 1911 (public domain).",
+  "Mosin–Nagant M1891. Photo: Armémuseum, Stockholm (public domain), via Wikimedia Commons.",
+  "Maxim M1910 on its wheeled Sokolov mount. Photo: Geni, CC BY-SA 4.0, via Wikimedia Commons.",
+  "The German MP 28, the gun the naranjero copied. Photo: NatanFlayer, CC BY-SA 3.0, via Wikimedia Commons.",
+  "Astra 400 pistol. Photo: V-Hantarex, CC BY 4.0, via Wikimedia Commons.",
+  "T-26B tank in Republican markings. Photo: MCAE Consulting, CC0, via Wikimedia Commons.",
+  "Panzer I tanks during Condor Legion training in Spain. Bundesarchiv, Bild 183-E20569-21, CC BY-SA 3.0 DE.",
+  "Italian CV-33 tankette. Public domain, via Wikimedia Commons.",
+  "Polikarpov I-16 in Spanish Republican markings. Photo: Elchuso, CC BY-SA 4.0, via Wikimedia Commons.",
+  "A Condor Legion Junkers aircraft in Spain. Bundesarchiv, Bild 183-C0214-0007-013, CC BY-SA 3.0 DE.",
+  "Heinkel He 111 B of the Condor Legion, Spain 1937–38. Public domain, via Wikimedia Commons.",
+  "Savoia-Marchetti S.M.79 in the markings of the Aviazione Legionaria. Photo: Contando Estrelas, CC BY-SA 2.0, via Wikimedia Commons.",
+  "8.8 cm Flak 18 gun preserved in Spain. Photo: Z3144228, CC BY-SA 4.0, via Wikimedia Commons."
+ ],
+ "imgc": {
+  "catalonia-01": "The Poble Vell of Corbera d'Ebre today. Photo: Juan Emilio Prades Bel, CC BY 4.0."
+ },
+ "geo_names": [
+  "Adaja",
+  "Adour",
+  "Alagón",
+  "Albacete",
+  "Alberche",
+  "Alicante",
+  "Almería",
+  "Ariège",
+  "Asturias",
+  "Aude",
+  "Aveyron",
+  "Badajoz",
+  "Baleares",
+  "Barcelona",
+  "Bizkaia",
+  "Burgos",
+  "Cabriel",
+  "Cantabria",
+  "Cantabrian Mountains",
+  "Cardoner",
+  "Castellón",
+  "Cinca",
+  "Ciudad Real",
+  "Cuenca",
+  "Cáceres",
+  "Cádiz",
+  "Córdoba",
+  "Duero",
+  "Durance",
+  "Ebro",
+  "Esla",
+  "Garonne",
+  "Genil",
+  "Gerona",
+  "Gipuzkoa",
+  "Granada",
+  "Guadalajara",
+  "Guadalimar",
+  "Guadalquivir",
+  "Guadiana",
+  "Guadiana Menor",
+  "Henares",
+  "Hers-Vif",
+  "Huelva",
+  "Huesca",
+  "Jalón",
+  "Jaén",
+  "Jiloca",
+  "Júcar",
+  "La Coruña",
+  "La Rioja",
+  "Le gave de Pau",
+  "León",
+  "Lot",
+  "Lugo",
+  "Luna",
+  "Lérida",
+  "Madrid",
+  "Maestrazgo",
+  "Mijares",
+  "Minho",
+  "Mio",
+  "Mondego",
+  "Montes Universales",
+  "Montes de Toledo",
+  "Murcia",
+  "Málaga",
+  "Narcea",
+  "Navarra",
+  "Orense",
+  "Palencia",
+  "Picos de Europa",
+  "Pisuerga",
+  "Pontevedra",
+  "Pyrenees",
+  "Rhône",
+  "Sado",
+  "Salamanca",
+  "Segovia",
+  "Segre",
+  "Segura",
+  "Serra de Pàndols",
+  "Sevilla",
+  "Sierra Morena",
+  "Sierra Nevada",
+  "Sierra de Alcubierre",
+  "Sierra de Gredos",
+  "Sierra de Guadarrama",
+  "Sil",
+  "Sistema Ibérico",
+  "Soria",
+  "Sorraia",
+  "Tajo",
+  "Tarn",
+  "Tarragona",
+  "Tejo",
+  "Teruel",
+  "Tiétar",
+  "Toledo",
+  "Tormes",
+  "Turia",
+  "Valencia",
+  "Valladolid",
+  "Zamora",
+  "Zaragoza",
+  "Zncara",
+  "Zêzere",
+  "Zújar",
+  "Álava",
+  "Ávila"
+ ]
+}

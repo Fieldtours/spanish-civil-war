@@ -1,0 +1,32 @@
+{
+ "slug": "alcaniz-air-raid-shelter",
+ "name": "Alcañiz air-raid shelter",
+ "when": "3 Mar 1938",
+ "story": "Alcañiz council built this shelter in 1937 for about 230 residents of the Almudines quarter. On 3 March 1938, at 16:10, bombers of the Italian Aviazione Legionaria, flying for the Nationalists, attacked the town centre and market area, although the front was more than 70 km away. It was one of the deadliest raids on a town in Aragon. The raid came days before the Nationalist Aragon offensive swept through the Bajo Aragón. The shelter now holds a permanent exhibition about the raid and its victims.",
+ "see": "An original underground shelter gallery with a permanent exhibition on the 1938 bombing.",
+ "plan": "The shelter is between C/ Teniente Moore and C/ Santo Domingo in the old town. It is seen on the booked 1-hour old-town guided tour run by the Alcañiz tourist office (tel. 978 831 213), not as a separate visit.",
+ "vis": [
+  {
+   "label": "Open",
+   "text": "Guided visit Mon, Wed, Fri and Sun at 11:00, as part of the old-town (Casco Histórico) tour"
+  },
+  {
+   "label": "Price",
+   "text": "€5 adults; €3.50 seniors and students"
+  },
+  {
+   "label": "Booking",
+   "text": "Advance booking required with the tourist office, tel. 978 831 213"
+  },
+  {
+   "label": "Notice",
+   "text": "Tourist office temporarily at Plaza del Mercado 1 during town-hall works"
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "The death toll is uncertain: sources give between about 300 and more than 500 dead and missing."
+  }
+ ]
+}

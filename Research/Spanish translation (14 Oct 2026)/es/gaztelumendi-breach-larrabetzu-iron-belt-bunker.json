@@ -1,0 +1,16 @@
+{
+ "slug": "gaztelumendi-breach-larrabetzu-iron-belt-bunker",
+ "name": "Ruptura de Gaztelumendi: búnker del Cinturón de Hierro en Larrabetzu",
+ "when": "12 jun. 1937",
+ "story": "El Cinturón de Hierro se construyó desde finales de 1936 como un anillo de trincheras, búnkeres y emplazamientos artilleros alrededor de Bilbao. Se proyectó para unos 70.000 defensores, pero lo guarnecían unos 30.000, y el ingeniero Alejandro Goicoechea se pasó a los sublevados con sus planos, lo que reveló sus puntos débiles. El 12 de junio de 1937, los sublevados concentraron artillería pesada y más de un centenar de aviones sobre el débil sector de Gaztelumendi, en Larrabetzu, y rompieron la línea. Un último contraataque vasco en Mantuliz (Derio) fracasó, y Bilbao cayó una semana después. Cerca de Sarrikola se construyó un búnker de hormigón dentro de un caserío; las excavaciones en curso han sacado a la luz más restos de la línea.",
+ "see": "Un búnker de la Guerra Civil construido dentro de un edificio en la zona de Sarrikola, cerca del sector de la ruptura de Gaztelumendi.",
+ "plan": "En el barrio rural de Sarrikola, en Larrabetzu. Hay que tratarlo como propiedad privada y mirarlo desde el camino; se puede combinar con la ruta del Cinturón de Hierro de Zamudio, en la misma loma.",
+ "vis": [],
+ "boxes": [
+  {
+   "kind": "private",
+   "text": "solo puede verse desde la carretera o un camino público."
+  }
+ ],
+ "desc": "Búnker del Cinturón de Hierro en Larrabetzu, junto al punto por donde los sublevados rompieron la defensa de Bilbao en 1937. Historia y cómo verlo."
+}

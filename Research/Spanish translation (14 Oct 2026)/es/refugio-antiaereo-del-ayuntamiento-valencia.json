@@ -1,0 +1,29 @@
+{
+ "slug": "refugio-antiaereo-del-ayuntamiento-valencia",
+ "name": "Refugio antiaéreo del Ayuntamiento (Valencia)",
+ "when": "Construido en 1938; bombardeos ene. 1937–mar. 1939",
+ "story": "De noviembre de 1936 a octubre de 1937, Valencia fue la sede del Gobierno de la República, y se convirtió en objetivo. El primer bombardeo aéreo llegó el 12 de enero de 1937, y la mayoría de los ataques posteriores corrieron a cargo de bombarderos italianos procedentes de Mallorca. La ciudad excavó más de 50 refugios públicos y acondicionó unos 200 sótanos. En 1938, el arquitecto José Luis Testor construyó este refugio escolar bajo la antigua Casa de la Enseñanza, junto al Ayuntamiento, para 700 niños. Sus cinco cámaras abovedadas paralelas contaban con ventilación, iluminación y letrinas. El propio Ayuntamiento fue bombardeado el 28 de mayo de 1937. El refugio se restauró en 2016 y se abrió al público en 2017.",
+ "see": "Cinco cámaras de hormigón con bóveda de cañón, bancos originales, rótulos restaurados y paneles sobre los bombardeos de Valencia y su red de refugios.",
+ "plan": "Entrada gratuita y visita libre por la sala de exposiciones del Ayuntamiento, en la calle Arzobispo Mayoral 1, de martes a domingo; cerrado los lunes. Hay que llevar documento de identidad con foto.",
+ "vis": [
+  {
+   "label": "Open",
+   "text": "Mar.–sáb.: 10:00–14:00 y 15:00–19:00; dom. y festivos: 10:00–14:00; cerrado lun., 1 y 6 ene., 1 may. y 25 dic."
+  },
+  {
+   "label": "Price",
+   "text": "Gratis"
+  },
+  {
+   "label": "Notice",
+   "text": "Horario reducido durante las Fallas (1–19 de marzo). Se exige documento de identidad con foto."
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "Las cifras totales de los bombardeos de Valencia varían. Turismo de Valencia habla de más de 440 bombardeos, unos 800 muertos y 3000 heridos; otros recuentos difieren."
+  }
+ ],
+ "desc": "Refugio antiaéreo escolar del Ayuntamiento de Valencia, construido en 1938 para 700 niños. Historia de los bombardeos, qué ver y horarios. Gratis."
+}

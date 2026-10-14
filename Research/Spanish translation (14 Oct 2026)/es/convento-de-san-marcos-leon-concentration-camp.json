@@ -1,0 +1,25 @@
+{
+ "slug": "convento-de-san-marcos-leon-concentration-camp",
+ "name": "Convento de San Marcos, León (campo de concentración)",
+ "when": "jul. 1936–1940",
+ "story": "León cayó en manos de los sublevados en los primeros días de la guerra, y el enorme monasterio renacentista de San Marcos se convirtió en uno de los mayores campos de prisioneros de España. Miles de hombres (y mujeres, en una sección aparte) de León, Asturias y el frente Norte se hacinaron en sus salas y cuadras; a muchos los sacaron para fusilarlos y otros murieron de enfermedades. El mismo edificio había sido hospital de peregrinos del Camino de Santiago; hoy es un Parador de lujo, y las asociaciones de supervivientes llevan años reclamando un reconocimiento adecuado de su pasado como prisión.",
+ "see": "La famosa fachada plateresca junto al río Bernesga, la iglesia y el claustro (museo); el interior del hotel no es un lugar de memoria.",
+ "plan": "La fachada se ve gratis; la iglesia y el museo (Museo de León) también son gratuitos (conviene consultar el horario). Hay que tener en cuenta que el pasado carcelario del edificio apenas está señalizado.",
+ "vis": [
+  {
+   "label": "Open",
+   "text": "Mar.–sáb. 10:00–14:00 y 16:00–19:00 (jul.–sept., 17:00–20:00); dom. y festivos 10:00–14:00; cerrado los lunes"
+  },
+  {
+   "label": "Price",
+   "text": "Gratis"
+  }
+ ],
+ "boxes": [
+  {
+   "kind": "disagree",
+   "text": "Las cifras de presos y de muertos varían según las fuentes. Algunos relatos hablan de «hasta 7000 a la vez», pero aquí no se confirman."
+  }
+ ],
+ "desc": "Convento de San Marcos de León, hoy Parador, que fue uno de los mayores campos de concentración franquistas. Historia, qué ver y horarios."
+}

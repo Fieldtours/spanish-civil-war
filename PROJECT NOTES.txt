@@ -16,15 +16,19 @@ v1 - 27 September 2026 - first complete version
 
 WHERE IT LIVES
 - On dzcharlie.com: it is already inside the Easy Company upload folder
-  ("UPLOAD THIS TO NETLIFY - EasyCo2.0" > spanish-civil-war), and the
+  ("DZ Charlie Field Guides > UPLOAD THIS TO NETLIFY - dzcharlie.com" > spanish-civil-war), and the
   home page has a new card for it. Next time you drag that folder into
   Netlify, it goes live at dzcharlie.com/spanish-civil-war/
 - On its own: the folder "UPLOAD THIS TO NETLIFY - The Spanish Civil War"
   works as a separate website too (Netlify or Cloudflare Pages).
 
 HOW TO UPLOAD
-Drag "UPLOAD THIS TO NETLIFY - EasyCo2.0" into your dzcharlie Netlify site
+Drag "UPLOAD THIS TO NETLIFY - dzcharlie.com" into your dzcharlie Netlify site
 (this publishes the home page, Easy Company and the new guide together).
+
+GITHUB
+Saved as a private project: github.com/Fieldtours/spanish-civil-war
+(v1 saved 27 September 2026)
 
 TO CHECK
 Research > accuracy-check.md lists the disputed facts, the pins that only
@@ -34,6 +38,40 @@ DESIGN
 Design > design-brief.md (colours, fonts, why), cover-prompt.txt (ready-made
 text for an image generator if you want a painted cover like Easy Company's).
 The design board is in Claude as "The Spanish Civil War - Design".
+
+
+VERSION 1.1 - 28 September 2026
+Historical corrections after an outside review (about 30 points, each checked
+against official or scholarly sources before changing). Guernica photos and
+history, the Legion's founder, the Cuelgamuros name, CEDA in 1936, Cardeña
+dates, casualty figures softened where sources disagree, new verified figures
+for Valdenoceda, La Barranca and Camp de la Bota, two pins moved (La Barranca,
+La Vajol), clearer notes where a pin is only a reference point, updated visitor
+information, and the PDF rebuilt. Full list: Research/accuracy-check.md and
+Research/corrections_2026-09-28.json. Old version: backups/before-corrections-*.
+To publish: drag "UPLOAD THIS TO NETLIFY - dzcharlie.com" into Netlify.
+
+
+VERSION 1.2 - 28 September 2026
+New: "Diario de campaña" (campaign diary). After visiting sites, the Tour page
+offers "Write today's diary page": the day's places in the order the events
+happened, one recall question (never at cemeteries, graves or camps), a line in
+the visitor's own words, and a journal page to save as a picture, print, send
+to family, or gather into a trip booklet PDF. Also on Home and More. Stays on
+the phone. Old version: backups/before-diario-*.
+1.2b (same day): each site on the diary page now gets its own paragraph (what
+happened, who was there, why it mattered, what you see today); busy days run
+onto 2-3 pages.
+1.2c (same day): optional note for each site visited (a step before "Thoughts of
+the day"; can be skipped); notes print under that site on the page.
+1.2d (same day): the diary is now reached only from its tile on the Home page
+("Optional: save or share your route"), no longer pushed on the Tour page or
+listed in More. Old version: backups/before-diary-home-only-*.
+1.2e (same day): easier to use. Home shows the main tiles; The big picture,
+People and Weapons & arms sit under "More to explore" (one tap). "Orders"
+heading now "Explore the guide". Nothing removed. Old version:
+backups/before-easier-home-and-tour-*.
+1.2f (same day): "Plan my tour" button on the cover is now red so it stands out.
 
 FOLDERS
 Research  - every site with its sources, and the facts-to-check list
@@ -48,7 +86,36 @@ localStorage keys prefixed scw-. Built from the Easy Company layout and
 battle-map engine. Pictures: public domain / Creative Commons from
 Wikimedia Commons, credited in the app (More > Credits).
 
+UPDATE 28 Sep 2026 (map inside the app)
+The map inside the guide now uses Google-style colours: blue sea, pale land, yellow and orange
+main roads, and bolder town names. Nothing else changed. Old version:
+The Spanish Civil War backups/before-google-maps-in-app-20260928-1740.
+
 
 VERSION 1.3 - 30 September 2026 - NEW MAPS
-Google-style road maps from OpenStreetMap at several levels of detail (Easy Company standard): Spain overview,
-42 middle areas and 75 close-ups around every site; 526 tiles (26 MB) in app/maps/. Tools: build/maps-google-style/scw/.
+The maps inside the guide are now as good as the Easy Company ones:
+Google-style road maps drawn from OpenStreetMap, in several levels of detail.
+Zoomed out you see all of Spain with its towns and main roads; as you zoom in,
+village names, small roads and road numbers appear around every one of the 158
+sites. This works on every map in the guide (home, Map page, tour routes,
+timeline, the area planner). 526 map pictures (26 MB) in the new "maps" folder;
+"Save for offline" now also saves them. Nothing else in the guide changed.
+Old version: The Spanish Civil War backups/before-map-tiles-20260930-1544.
+To publish: drag "UPLOAD THIS TO NETLIFY - dzcharlie.com" into Netlify.
+
+
+VERSION 1.4 - 14 October 2026 - SPANISH VERSION
+The whole guide now also exists in Spanish (Castilian, as spoken in Spain):
+es.html in the upload folder, live at dzcharlie.com/spanish-civil-war/es.html.
+Everything is translated: menus, tour planner, all 158 sites, timeline, people,
+weapons, glossary, battle maps, visiting details and the Diario de campaña.
+Franco's side is called "sublevados", the Republic "republicanos".
+Switch language on the More page ("Español") or the Más page ("English").
+The printable PDF is still English only.
+Also new: 158 Spanish site pages on dzcharlie.com/es/guerra-civil/ (in the
+dzcharlie.com home page upload folder), linked both ways with the English ones.
+The Spanish copy does NOT update itself when the English text changes; everything
+used to make it is in Research/Spanish translation (14 Oct 2026).
+Old version: The Spanish Civil War backups/before Spanish app (14 Oct 2026).
+To publish: drag "UPLOAD THIS TO NETLIFY - The Spanish Civil War" into the
+spanishwar site on Netlify.

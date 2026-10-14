@@ -1,0 +1,737 @@
+{
+ "battles": [
+  {
+   "id": "madrid-nov-1936",
+   "name": "Battle for Madrid",
+   "when": "8–23 November 1936",
+   "place": "Casa de Campo and Ciudad Universitaria, western Madrid",
+   "why": "After relieving Toledo, Franco's Army of Africa columns under Varela (with Mola in overall command) attacked Madrid from the south-west, expecting the capital to fall quickly and end the war. The government left for Valencia on 6 November; General Miaja and Vicente Rojo organised the defence.",
+   "rep": "Madrid militias and new mixed brigades under Miaja and Rojo (Líster, Durruti Column), XI and XII International Brigades, Soviet T-26 tanks and fighters",
+   "nat": "Varela's columns of Legionaries and Moroccan Regulares (Asensio, Barrón, Castejón, Delgado Serrano, Tella, Yagüe), Italian tankettes, German and Italian aircraft",
+   "result": "Republican defensive success. The Nationalists crossed the Manzanares into the Ciudad Universitaria but were stopped; on 23 November Franco called off the frontal assault. The front froze here until March 1939.",
+   "visit": "<b>Today:</b> bunkers and trench remains in the Casa de Campo and Parque del Oeste, pockmarked buildings and memorial plaques in the Ciudad Universitaria (e.g. around the School of Architecture and the old Clinical Hospital).",
+   "phases": [
+    {
+     "name": "Phase 1",
+     "time": "8–9 Nov 1936",
+     "cap": "Varela's columns attack through the Casa de Campo and Carabanchel towards the Manzanares bridges. Militias, with Soviet tanks and aircraft, hold on the river line; the XI International Brigade marches into the Casa de Campo."
+    },
+    {
+     "name": "Phase 2",
+     "time": "10–14 Nov 1936",
+     "cap": "Bitter fighting in the Casa de Campo woods; Garabitas hill falls to the Nationalists and becomes their artillery position. Carabanchel is contested street by street. The XII Brigade and the Durruti Column arrive."
+    },
+    {
+     "name": "Phase 3",
+     "time": "15–18 Nov 1936",
+     "cap": "Asensio's column crosses the Manzanares by a footbridge and breaks into the Ciudad Universitaria, taking the School of Architecture and part of the Clinical Hospital. Room-by-room fighting follows; Durruti is mortally wounded on 19 November."
+    },
+    {
+     "name": "Phase 4",
+     "time": "19–23 Nov 1936 onward",
+     "cap": "Counter-attacks cannot dislodge the Nationalist wedge, and the attackers cannot go further. On 23 November Franco stops the frontal assault. Both sides dig in; the Ciudad Universitaria front is static until March 1939."
+    }
+   ]
+  },
+  {
+   "id": "jarama-1937",
+   "name": "Battle of Jarama",
+   "when": "6–27 February 1937",
+   "place": "Jarama valley between San Martín de la Vega, Morata de Tajuña and Arganda, south-east of Madrid",
+   "why": "Having failed to take Madrid head-on, Franco tried to cut the Madrid–Valencia road, the capital's lifeline, by crossing the Jarama river south-east of the city.",
+   "rep": "Republican Army of the Centre under Pozas and then Miaja, with Líster and El Campesino, the XI, XII, XIV and XV International Brigades (British Battalion, Lincoln Battalion), Soviet tanks and aircraft",
+   "nat": "Varela's forces: five brigades of Legionaries and Regulares (García Escámez, Asensio, Barrón, Sáenz de Buruaga, Rada), Condor Legion guns and aircraft",
+   "result": "Stalemate. The Nationalists crossed the river and held a bridgehead, but the Madrid–Valencia road stayed in Republican hands. Losses were heavy on both sides; estimates vary widely.",
+   "visit": "<b>Today:</b> the Museo Batalla del Jarama in Morata de Tajuña, preserved trenches and monuments around the Pingarrón and 'Suicide Hill' area, and the International Brigades memorial near the road to Chinchón; guided routes are run from Morata.",
+   "phases": [
+    {
+     "name": "Phase 1",
+     "time": "6–10 Feb 1937",
+     "cap": "The Nationalists attack across the west bank, take the heights of La Marañosa and close up to the Jarama along its length."
+    },
+    {
+     "name": "Phase 2",
+     "time": "11–12 Feb 1937",
+     "cap": "Moroccan troops silently kill the International Brigade sentries at the Pindoque bridge; Nationalist brigades cross there and at San Martín and push onto the plateau. The British Battalion is shattered defending 'Suicide Hill'."
+    },
+    {
+     "name": "Phase 3",
+     "time": "13–17 Feb 1937",
+     "cap": "Nationalist pushes towards Arganda and the Valencia road are stopped by Líster, El Campesino, the International Brigades and Soviet tanks and aircraft. Miaja takes unified command."
+    },
+    {
+     "name": "Phase 4",
+     "time": "23–27 Feb 1937",
+     "cap": "Republican counter-attacks on the Pingarrón heights fail with heavy loss; the Lincoln Battalion attacks on 27 February almost without artillery support. The front settles into trenches."
+    }
+   ]
+  },
+  {
+   "id": "guadalajara-1937",
+   "name": "Battle of Guadalajara",
+   "when": "8–23 March 1937",
+   "place": "The Zaragoza–Madrid road (N-II) and the Tajuña valley around Trijueque, Torija and Brihuega",
+   "why": "Fresh from Málaga, Mussolini's CTV was to strike down the Zaragoza road towards Guadalajara and Alcalá de Henares, meeting a renewed push from Jarama and encircling Madrid from the north-east.",
+   "rep": "Republican IV Corps: Líster's 11th Division, Cipriano Mera's 14th Division, XI and XII International Brigades (incl. the Italian Garibaldi Battalion), Soviet T-26 tanks and aircraft from permanent airfields",
+   "nat": "Italian CTV under Roatta (divisions 'Dio lo vuole', Fiamme Nere, Penne Nere and Littorio) with the Spanish Soria Division (Moscardó)",
+   "result": "Republican victory. The Italians were halted and driven back about 20 km (Wikipedia gives some 17,400 Italian and Spanish casualties against 6,258 Republican; figures vary). A major propaganda defeat for Mussolini.",
+   "visit": "<b>Today:</b> the Palacio de Ibarra ruins near Brihuega, the walls and cemetery of Brihuega, bunkers and positions along the N-II near Trijueque and Torija; few interpretation panels.",
+   "phases": [
+    {
+     "name": "Phase 1",
+     "time": "8–10 Mar 1937",
+     "cap": "Italian motorised columns break through the thin Republican front near Almadrones and advance down the highway in sleet; a second column takes Brihuega on 10 March."
+    },
+    {
+     "name": "Phase 2",
+     "time": "11–13 Mar 1937",
+     "cap": "The advance is stopped in front of Torija. At the Palacio de Ibarra, Italian volunteers of the Garibaldi Battalion fight Italian fascist troops. Republican aircraft from concrete runways strafe the columns jammed on the road; Trijueque is retaken on 13 March."
+    },
+    {
+     "name": "Phase 3",
+     "time": "18 Mar 1937",
+     "cap": "The Republican counter-offensive: Líster attacks up the highway while Mera's 14th Division crosses the Tajuña and outflanks Brihuega. The Italians abandon the town and retreat in disorder."
+    },
+    {
+     "name": "Phase 4",
+     "time": "19–23 Mar 1937",
+     "cap": "The Republicans advance some kilometres until the front stabilises; the Italians are withdrawn to reorganise. Captured Italian prisoners and documents are shown to the world press."
+    }
+   ]
+  },
+  {
+   "id": "belchite-1937",
+   "name": "Belchite",
+   "when": "24 August – 6 September 1937",
+   "place": "Belchite, Quinto and Codo, south-east of Zaragoza",
+   "why": "To relieve pressure on the collapsing northern front (Santander), the Republic launched an offensive on the Aragon front aimed at Zaragoza, attacking on a broad front south of the Ebro.",
+   "rep": "Army of the East under Pozas, planned by Rojo: Walter's 35th Division (XI and XV International Brigades), Líster's 11th Division, Kléber's 45th Division, Soviet tanks and aircraft",
+   "nat": "V Army Corps (Ponte); the Belchite garrison of soldiers, Falangists and Requetés (commonly given as up to about 5,000 incl. militia), with a relief force under Barrón and Sáenz de Buruaga",
+   "result": "Tactical Republican success, strategic failure: Quinto, Codo and Belchite were taken, but Zaragoza was not reached and the northern campaign was not halted. Wikipedia lists about 2,000 Nationalist dead and 2,411 prisoners at Belchite, and heavy Republican losses; figures vary.",
+   "visit": "<b>Today:</b> the ruined Pueblo Viejo of Belchite, left as a war memorial (guided visits only), the ruined churches of San Martín and San Agustín; trench remains around Codo and Quinto.",
+   "phases": [
+    {
+     "name": "Phase 1",
+     "time": "24–26 Aug 1937",
+     "cap": "Republican divisions attack along a wide front without preliminary bombardment. Quinto falls on 26 August after fighting for the church and Purburell hill; Codo is taken on 25 August, its Requetés largely killed or captured."
+    },
+    {
+     "name": "Phase 2",
+     "time": "26 Aug–1 Sep 1937",
+     "cap": "Belchite is encircled. A Nationalist relief force pushes from Zaragoza towards Mediana and gets within a few kilometres but is held; the Republicans fail to exploit towards Zaragoza."
+    },
+    {
+     "name": "Phase 3",
+     "time": "1–6 Sep 1937",
+     "cap": "House-to-house fighting through the old town, the San Agustín church and the seminary under heat, thirst and bombardment. The last defenders try to break out on the night of 5–6 September; the town falls on 6 September."
+    },
+    {
+     "name": "Aftermath",
+     "time": "Oct 1937 – Mar 1938",
+     "cap": "A last Republican tank attack at Fuentes de Ebro on 13 October fails. Belchite is retaken by the Nationalists on 10 March 1938. Franco later builds a new town beside the ruins and leaves the old one as a monument."
+    }
+   ]
+  },
+  {
+   "id": "teruel-1937",
+   "name": "Battle of Teruel",
+   "when": "15 December 1937 – 22 February 1938",
+   "place": "Teruel and its surrounding heights — La Muela, El Muletón, Concud, the Alfambra valley",
+   "why": "Rojo launched a surprise attack on the exposed Nationalist salient of Teruel to pre-empt a new Nationalist offensive on Madrid and show the Popular Army could take a provincial capital.",
+   "rep": "Army of the Levant under Hernández Saravia: XVIII, XX and XXII Corps, Líster's 11th Division, El Campesino's 46th Division; International Brigades later",
+   "nat": "Teruel garrison under Colonel Rey d'Harcourt (a few thousand troops and civilians); relief and counter-offensive by Varela's Castile Corps and Aranda's Galicia Corps, Yagüe's Moroccan Corps, Condor Legion",
+   "result": "Nationalist victory. Teruel was captured by the Republicans on 8 January and retaken by the Nationalists on 22 February 1938 in bitter cold; Wikipedia estimates about 110,000 combined casualties including frostbite and sickness. The Popular Army's reserves were exhausted.",
+   "visit": "<b>Today:</b> Teruel's rebuilt old town and the ruined Seminary area, bunkers on La Muela and at Concud, and the Centro de Interpretación de la Batalla del Alfambra; a Civil War museum in Teruel is planned for 2028.",
+   "phases": [
+    {
+     "name": "Phase 1",
+     "time": "15–22 Dec 1937",
+     "cap": "In deep snow and without preliminary bombardment, Republican columns close a ring around Teruel from north and south; Líster's division cuts the Zaragoza road at Concud. La Muela and El Mansueto are stormed and the garrison is pushed into the town."
+    },
+    {
+     "name": "Phase 2",
+     "time": "23 Dec 1937 – 8 Jan 1938",
+     "cap": "Street fighting for the Seminary, the Bank of Spain and the Civil Government. A Nationalist relief under Varela and Aranda reaches La Muela on 31 December before a four-day blizzard (temperatures near −20°C) halts everything. Rey d'Harcourt surrenders on 8 January."
+    },
+    {
+     "name": "Phase 3",
+     "time": "5–7 Feb 1938",
+     "cap": "The Nationalists switch their main effort north: in the Alfambra valley Yagüe's and Aranda's corps, led by a cavalry division in one of the last great cavalry charges, destroy the Republican front and take thousands of prisoners."
+    },
+    {
+     "name": "Phase 4",
+     "time": "17–22 Feb 1938",
+     "cap": "Nationalist pincers close north and south of the town. Republican units withdraw down the Turia valley; on 22 February Teruel is back in Nationalist hands, a ruin. The way is open for the spring offensive to the sea."
+    }
+   ]
+  },
+  {
+   "id": "ebro-1938",
+   "name": "Battle of the Ebro",
+   "when": "25 July – 16 November 1938",
+   "place": "The Ebro bend in the Terra Alta and Ribera d'Ebre: Riba-roja, Flix, Ascó, Móra d'Ebre, Miravet, Corbera, Gandesa, Serra de Pàndols and Serra de Cavalls",
+   "why": "With Valencia threatened after the Nationalist drive to the sea, Negrín and Rojo ordered a surprise crossing of the Ebro to reconnect the two halves of the Republic, relieve Valencia and show the world, before Munich, that the Republic could still fight.",
+   "rep": "Army of the Ebro under Modesto: Tagüeña's XV Corps (north), Líster's V Corps (centre), XII Corps; XI, XIII, XIV, XV International Brigades (withdrawn from late September)",
+   "nat": "Yagüe's Moroccan Corps initially holding the river, then Franco's reserves: García Valiño's Maestrazgo Corps and others, massed artillery, the Condor Legion and Italian aviation",
+   "result": "Nationalist victory. After advancing up to about 20 km the Republicans were stopped at Gandesa, then ground down over four months of counter-attacks. Casualty estimates range from 50,000 to over 100,000. The Army of the Ebro was destroyed, opening the way to Catalonia.",
+   "visit": "<b>Today:</b> the ruined Poble Vell of Corbera d'Ebre, the Memorial de les Camposines, the Serra de Pàndols memorial, trench and bunker sites at Punta Alta (Vilalba dels Arcs), Les Devees (Flix) and others, and interpretation centres coordinated by COMEBE.",
+   "phases": [
+    {
+     "name": "Phase 1",
+     "time": "25 Jul 1938",
+     "cap": "Shortly after midnight Republican assault troops cross in boats at a dozen points between Riba-roja and Miravet; engineers throw footbridges and pontoons across. Yagüe's thin defence is overrun; a diversion at Amposta fails with heavy loss for the XIV International Brigade."
+    },
+    {
+     "name": "Phase 2",
+     "time": "26 Jul – 2 Aug 1938",
+     "cap": "The Republicans reach the edge of Gandesa but cannot take it; the XV International Brigade fails repeatedly against Hill 481. Nationalist reinforcements arrive; aircraft bomb the bridges, and upstream dams are opened to flood the river."
+    },
+    {
+     "name": "Phase 3",
+     "time": "Aug – Oct 1938",
+     "cap": "Successive Nationalist counter-offensives batter the bridgehead in summer heat on bare rocky ridges: Serra de Pàndols, Serra de Cavalls, Corbera. Artillery and bombing dominate; both sides suffer enormous losses. The International Brigades are withdrawn in late September."
+    },
+    {
+     "name": "Phase 4",
+     "time": "30 Oct – 16 Nov 1938",
+     "cap": "The decisive Nationalist attack breaks through at the Serra de Cavalls; the Republicans fall back to the river. The last Republican troops recross at Flix on 16 November. The Army of the Ebro is spent."
+    }
+   ]
+  }
+ ],
+ "map_labels": [
+  "35th Div (XV IB)",
+  "50th Div (Yagüe)",
+  "Asensio",
+  "Asensio / Barrón",
+  "BT-5 tanks (Fuentes)",
+  "Belchite garrison",
+  "Blizzard 29 Dec – 1 Jan",
+  "CTV column",
+  "CTV divisions",
+  "CTV stalled",
+  "CTV withdrawn",
+  "Cavalls",
+  "Condor guns",
+  "Durruti Column",
+  "Durruti wounded 19 Nov",
+  "Front frozen until 28 Mar 1939",
+  "Gandesa garrison",
+  "Garabitas guns",
+  "García Escámez / Rada",
+  "Government left for Valencia 6 Nov",
+  "IV Corps",
+  "Italian tankettes",
+  "Kléber 45th Div",
+  "La Marañosa taken 6 Feb",
+  "Last crossing at Flix, 16 Nov",
+  "Líster (Pàndols)",
+  "Líster / Campesino",
+  "Líster 11th Div",
+  "Madrid defence (Miaja/Rojo)",
+  "Mera 14th Div",
+  "Militias",
+  "Militias (Líster, 5th Rgt)",
+  "Mixed brigades",
+  "Monasterio cavalry",
+  "Monte Garabitas",
+  "Moroccan tabors",
+  "Nationalist air superiority",
+  "Nationalist salient",
+  "Pingarrón MGs",
+  "Rain and mud ground the Italian aircraft",
+  "Relief (Barrón)",
+  "Republic's reserves spent",
+  "Retaken 10 Mar 1938",
+  "Rey d'Harcourt",
+  "Road never cut",
+  "Ruins left as a memorial",
+  "T-26 tanks",
+  "Tella / Delgado",
+  "V Corps (Líster)",
+  "Varela / Aranda relief",
+  "XI / XII IB",
+  "XI IB",
+  "XI IB / Durruti",
+  "XI Int. Brigade",
+  "XII IB (Garibaldi)",
+  "XII IB / militias",
+  "XV Corps (Tagüeña)",
+  "XV IB (British Bn)",
+  "XV IB (Lincoln Bn)",
+  "XV IB / 32nd Bde",
+  "XVIII Corps",
+  "XX Corps",
+  "Yagüe / Aranda",
+  "guns",
+  "massed artillery"
+ ],
+ "weapons": [
+  {
+   "id": "mauser-1893",
+   "name": "Mauser M1893 'Spanish Mauser' and M1916 short rifle",
+   "origin": "Germany (Ludwig Loewe/DWM, Berlin) and Spain (Fábrica de Armas de Oviedo; later La Coruña)",
+   "specs": [
+    [
+     "Calibre",
+     "7×57 mm Mauser"
+    ],
+    [
+     "Action",
+     "Bolt action, 5-round internal box magazine, stripper clips"
+    ],
+    [
+     "Length",
+     "1,235 mm (M1893 rifle); c. 1,050 mm (M1916 mosquetón)"
+    ],
+    [
+     "Weight",
+     "c. 4 kg (rifle); c. 3.9 kg (short rifle)"
+    ],
+    [
+     "Adopted",
+     "1893 (rifle); 1916 (short rifle)"
+    ]
+   ],
+   "t": "The standard rifle of the Spanish Army in July 1936, so both sides started the war with it. The M1893 introduced the flush, staggered five-round magazine later used in the famous Mauser 98, and the Oviedo arms factory built both the long rifle and the shorter M1916 'mosquetón', which became the most common infantry arm of the war. Oviedo itself was besieged throughout 1936–37 with the factory in Nationalist hands, while the Republic relied on stocks, captured rifles and foreign purchases. Most soldiers you meet in period photographs of either army carry one.",
+   "good": "Accurate, reliable, flat-shooting 7 mm round; well understood by every Spanish soldier; ammunition made in Spain.",
+   "bad": "Many 1936 stocks were worn or old; the Republic lost the main Oviedo factory output and never had enough; long rifle awkward in trenches and street fighting.",
+   "changes": "Jul 1936: split between the two sides with the army and Guardia Civil depots. Autumn 1936: Nationalists keep the Oviedo factory output; the Republic has to buy foreign rifles in a mix of calibres. 1937–39: the M1916 short rifle becomes the typical infantry arm of the Nationalists; captured Mausers are prized on the Republican side over foreign types.",
+   "story": "At San Juan Hill in Cuba (1 July 1898), Spanish troops with M1893 Mausers inflicted heavy losses on better-supplied US forces; the US Army studied the rifle and adopted a Mauser-type design as the M1903 Springfield.",
+   "cap": "Drawing of the Spanish Mauser from the Encyclopaedia Britannica, 1911 (public domain)."
+  },
+  {
+   "id": "mosin-nagant",
+   "name": "Mosin–Nagant M1891 ('Mexicanski')",
+   "origin": "Russia/USSR (Tula, Izhevsk, Sestroretsk); some US-made (Remington, New England Westinghouse) WWI contract rifles",
+   "specs": [
+    [
+     "Calibre",
+     "7.62×54 mmR"
+    ],
+    [
+     "Action",
+     "Bolt action, 5-round internal magazine"
+    ],
+    [
+     "Length",
+     "1,306 mm (infantry rifle)"
+    ],
+    [
+     "Weight",
+     "c. 4.2 kg"
+    ],
+    [
+     "Adopted",
+     "1891 (Russian Empire)"
+    ]
+   ],
+   "t": "From October 1936 Soviet ships unloaded tens of thousands of Mosin–Nagant rifles at Cartagena and other Republican ports, and they became the most numerous foreign rifle in the Popular Army. Soldiers called them 'mexicanos' or 'mexicanskis', because early aid was officially passed off as coming from Mexico, which openly supported the Republic. Many were Tsarist-era rifles, some made in the United States during the First World War, and their ammunition was not made in Spain. Visitors will see them in the Ebro and Madrid museums, often with the long spike bayonet fixed.",
+   "good": "Rugged and accurate; long reach with the spike bayonet; arrived in large numbers when the Republic most needed rifles.",
+   "bad": "Long and heavy; different calibre from Spanish Mausers complicated supply; many rifles were old and worn.",
+   "changes": "Oct 1936: first deliveries arm the new Mixed Brigades and International Brigades defending Madrid. 1937: standard in many Popular Army units. 1938–39: stays in use to the end; captured stocks were used by the Francoist army after 1939.",
+   "story": "Historian Gerald Howson showed that much of the Soviet aid consisted of old, mixed weapons, sometimes sold to the Republic at inflated prices, paid with the gold of the Bank of Spain.",
+   "cap": "Mosin–Nagant M1891. Photo: Armémuseum, Stockholm (public domain), via Wikimedia Commons."
+  },
+  {
+   "id": "maxim-1910",
+   "name": "Maxim M1910 machine gun",
+   "origin": "USSR (Tula Arms Plant)",
+   "specs": [
+    [
+     "Calibre",
+     "7.62×54 mmR"
+    ],
+    [
+     "Feed",
+     "250-round fabric belt"
+    ],
+    [
+     "Rate of fire",
+     "c. 550–600 rounds/min"
+    ],
+    [
+     "Cooling",
+     "Water jacket"
+    ],
+    [
+     "Weight",
+     "c. 23 kg gun; c. 64 kg with Sokolov wheeled mount and shield"
+    ]
+   ],
+   "t": "The Russian version of Hiram Maxim's water-cooled machine gun, mounted on its small two-wheeled Sokolov carriage with a steel shield. Several thousand were sent by the Soviet Union from autumn 1936 and they became the backbone of Republican defensive fire, notably in the defence of Madrid, at the Jarama and later on the Ebro. Water cooling let a crew fire long bursts from a fixed position, ideal for the trench lines and hill positions you can still walk today. They were heavy, needing a crew of several men to move them.",
+   "good": "Could fire for long periods without overheating; very reliable; the wheeled mount made it easy to roll on roads.",
+   "bad": "Very heavy on hills and in mountain terrain; needed water; different ammunition from Spanish weapons.",
+   "changes": "Nov 1936: in action in the defence of Madrid. Feb 1937: key weapon of the Republican line at the Jarama. 1938: still used on the Ebro, where crews had to carry them up the Pàndols and Cavalls sierras.",
+   "story": "Water for the cooling jackets was scarce in the dry Serra de Pàndols in summer 1938; veterans recalled crews using any liquid they had.",
+   "cap": "Maxim M1910 on its wheeled Sokolov mount. Photo: Geni, CC BY-SA 4.0, via Wikimedia Commons."
+  },
+  {
+   "id": "naranjero",
+   "name": "Naranjero submachine gun (Spanish copy of the MP 28/II)",
+   "origin": "Republican Spain (war-industry workshops in the Valencia region; 'naranjero' = 'orange-grower')",
+   "specs": [
+    [
+     "Calibre",
+     "9×23 mm Largo"
+    ],
+    [
+     "Action",
+     "Blowback, selective fire"
+    ],
+    [
+     "Magazine",
+     "Side-mounted box, 32 rounds (typical)"
+    ],
+    [
+     "Rate of fire",
+     "c. 500–600 rounds/min"
+    ],
+    [
+     "Based on",
+     "Bergmann/Haenel MP 28/II"
+    ]
+   ],
+   "t": "The Republic's war industries copied the German MP 28/II submachine gun, rechambered for the Spanish 9 mm Largo pistol round. Because production was centred in the Valencia region, the weapon got the nickname 'naranjero', after the orange groves. It gave assault troops, guards and officers close-range firepower in trenches and streets. After 1939 captured naranjeros stayed in Spanish service for years. It is one of the few Spanish Civil War weapons designed and built in Spain during the war itself, a sign of how the Republic tried to build its own arms industry.",
+   "good": "Robust, simple design; used a cartridge made in Spain; useful for trench raids and close combat.",
+   "bad": "Made in improvised workshops, quality varied; heavy for its role; never produced in the numbers needed.",
+   "changes": "1936: Republican units use seized pre-war MP 28s and other imported types. 1937–38: Spanish-made naranjero appears in growing numbers. 1939: captured stocks go to the Francoist army and security forces.",
+   "story": "Pistol-calibre submachine guns were rare in 1936 Spain; many were confiscated from police and private collections in the first days of the war.",
+   "cap": "The German MP 28, the gun the naranjero copied. Photo: NatanFlayer, CC BY-SA 3.0, via Wikimedia Commons."
+  },
+  {
+   "id": "astra-400",
+   "name": "Astra 400 pistol (and Republican copies)",
+   "origin": "Spain (Unceta y Compañía, Gernika/Guernica); Republican copy 'F. Ascaso' made in Catalonia",
+   "specs": [
+    [
+     "Calibre",
+     "9×23 mm Largo (also fired other 9 mm types)"
+    ],
+    [
+     "Action",
+     "Straight blowback"
+    ],
+    [
+     "Magazine",
+     "8 rounds"
+    ],
+    [
+     "Weight",
+     "c. 1.1 kg"
+    ],
+    [
+     "Length",
+     "c. 225 mm"
+    ]
+   ],
+   "t": "The Astra 400 was the Spanish Army's standard pistol from 1921, made by Unceta y Compañía in Gernika. Its blowback action and heavy spring were simple and robust, and it would fire a range of 9 mm cartridges, a big advantage in a war of mixed ammunition. Officers and militia leaders of both sides carried it. When the Basque country fell in 1937 the factory went to the Nationalists, so the Republic built its own copy in Catalonia, named 'F. Ascaso' after the anarchist Francisco Ascaso, killed in Barcelona in July 1936.",
+   "good": "Reliable, tolerant of different 9 mm cartridges, made in Spain.",
+   "bad": "Heavy recoil spring made it hard to cock; heavy for a pistol; Republic lost its source in 1937.",
+   "changes": "Jul 1936: standard issue on both sides. Apr–Jun 1937: Gernika and the Basque arms industry fall to the Nationalists. 1937–38: Republican 'F. Ascaso' copy made in Catalonia.",
+   "story": "The Astra works at Gernika is widely reported to have survived the bombing of 26 April 1937 while much of the town burned; whether this was deliberate is debated.",
+   "cap": "Astra 400 pistol. Photo: V-Hantarex, CC BY 4.0, via Wikimedia Commons."
+  },
+  {
+   "id": "laffitte",
+   "name": "Laffitte hand grenade ('bomba Laffitte')",
+   "origin": "Spain (Spanish design of the 1920s; made in many state and wartime workshops)",
+   "specs": [
+    [
+     "Type",
+     "Offensive hand grenade, impact (percussion) fuze"
+    ],
+    [
+     "Body",
+     "Thin sheet-metal cylinder"
+    ],
+    [
+     "Arming",
+     "Safety tape/strap unwinds in flight (details vary by model)"
+    ],
+    [
+     "Filler",
+     "High explosive (trilita/TNT or substitutes)"
+    ],
+    [
+     "Weight",
+     "c. 0.4–0.5 kg (sources vary)"
+    ]
+   ],
+   "t": "The Laffitte grenade was the standard Spanish Army hand grenade before the war and was made in huge numbers by both sides. Unlike time-fuzed grenades, it exploded on impact: a tape unwound in flight to arm the fuze. Its thin casing produced blast rather than heavy fragments, so a soldier could throw it while advancing. Poorly made wartime copies, especially early in the war, could fail to explode or go off too easily, and militias also used home-made 'bombas' and dynamite charges, above all Asturian miners.",
+   "good": "Cheap and simple to mass-produce; blast effect good for clearing trenches and houses; usable while advancing.",
+   "bad": "Impact fuze was dangerous if dropped after arming; many duds from improvised factories; short range of effect.",
+   "changes": "Jul 1936: both sides use army stocks; militias improvise with dynamite. 1937: mass production in Republican war industries and Nationalist factories. 1938: remains the typical grenade of the Ebro trenches; many unexploded Laffittes are still found on battlefields today (do not touch).",
+   "story": "Asturian miners in the 1934 revolution and 1936–37 were famous for dynamite charges thrown by hand; regular grenades like the Laffitte replaced them as war industries grew.",
+   "cap": ""
+  },
+  {
+   "id": "t-26",
+   "name": "T-26 light tank",
+   "origin": "USSR (Leningrad, Kirov/Voroshilov plant), based on the British Vickers 6-ton",
+   "specs": [
+    [
+     "Main gun",
+     "45 mm 20-K"
+    ],
+    [
+     "Armour",
+     "up to 15 mm"
+    ],
+    [
+     "Weight",
+     "c. 10 t"
+    ],
+    [
+     "Crew",
+     "3"
+    ],
+    [
+     "Speed",
+     "c. 30 km/h on road"
+    ],
+    [
+     "Delivered to Spain",
+     "c. 281 (Oct 1936–1938)"
+    ]
+   ],
+   "t": "The T-26 model 1933 was the most important tank of the war. Its 45 mm gun could destroy any German or Italian tank in Spain at long range, while enemy machine guns could not penetrate it. Soviet crews and advisers fought in the first T-26s from October 1936 near Madrid; Spanish crews took over later. Poor coordination with infantry often wasted its advantage. The Nationalists captured many T-26s and put them into their own units, and some served in the Spanish army long after 1939. Look for surviving examples at the El Goloso armour museum near Madrid.",
+   "good": "Powerful 45 mm gun, superior to the Panzer I and CV-33; reliable.",
+   "bad": "Thin armour vulnerable to anti-tank guns and the 88 mm; often used without infantry support; limited crews and spares.",
+   "changes": "29 Oct 1936: first action at Seseña (south of Madrid). Nov 1936–Mar 1937: Madrid, Jarama, Guadalajara. 1937: Brunete, Belchite, Fuentes de Ebro (with BT-5s). 1938–39: numbers fall; captured T-26s serve in Nationalist units.",
+   "story": "At Seseña on 29 October 1936 a T-26 of Paul Arman's company is reported to have rammed an Italian CV-33 tankette off the road; Arman became a Hero of the Soviet Union.",
+   "cap": "T-26B tank in Republican markings. Photo: MCAE Consulting, CC0, via Wikimedia Commons."
+  },
+  {
+   "id": "panzer-i",
+   "name": "Panzer I light tank",
+   "origin": "Germany (Krupp and others)",
+   "specs": [
+    [
+     "Armament",
+     "2 × 7.92 mm MG 13 machine guns"
+    ],
+    [
+     "Armour",
+     "up to 13 mm"
+    ],
+    [
+     "Weight",
+     "c. 5.4 t"
+    ],
+    [
+     "Crew",
+     "2"
+    ],
+    [
+     "Speed",
+     "c. 37–40 km/h"
+    ]
+   ],
+   "t": "Germany sent Panzer I tanks with the Condor Legion's tank training group ('Gruppe Drohne', commanded by Wilhelm von Thoma) from autumn 1936, handing most to Nationalist units. Armed only with machine guns, it was quickly shown to be no match for the T-26, which it could not penetrate. The Nationalists tried fitting some with an Italian 20 mm Breda cannon, and prized captured T-26s instead. The lessons the Germans learned in Spain, about radios, gun calibre and armour, fed directly into their tank designs of 1939–40.",
+   "good": "Fast, mechanically reliable, good for training and for supporting infantry against soft targets.",
+   "bad": "Machine guns only; thin armour; outgunned by the T-26 and BT-5.",
+   "changes": "Oct 1936: first arrivals, in action near Madrid. 1937: some fitted with 20 mm Breda gun ('Panzer I Breda'); Nationalists rely more on captured T-26s. 1938–39: used in Aragon, the Ebro and Catalonia in combined units.",
+   "story": "Von Thoma reportedly offered a bounty of 500 pesetas for each Republican T-26 captured intact.",
+   "cap": "Panzer I tanks during Condor Legion training in Spain. Bundesarchiv, Bild 183-E20569-21, CC BY-SA 3.0 DE."
+  },
+  {
+   "id": "cv-33",
+   "name": "CV-33 / CV-35 (L3) tankette",
+   "origin": "Italy (Fiat-Ansaldo)",
+   "specs": [
+    [
+     "Armament",
+     "1–2 machine guns (6.5 mm or 8 mm); flamethrower version L3 lf"
+    ],
+    [
+     "Armour",
+     "up to 12–14 mm"
+    ],
+    [
+     "Weight",
+     "c. 3.2 t"
+    ],
+    [
+     "Crew",
+     "2"
+    ],
+    [
+     "Speed",
+     "c. 42 km/h"
+    ]
+   ],
+   "t": "The small two-man tankette was the main armoured vehicle of Mussolini's Corpo Truppe Volontarie (CTV). Italy sent it to Spain from August 1936 and it fought at Madrid, Málaga, Guadalajara, Santander and in Aragon and Catalonia. Fast and cheap, it had machine guns only and armour that rifles firing armour-piercing bullets could pierce. At Guadalajara in March 1937, Italian columns stuck on muddy roads were hit by Republican T-26s and aircraft. A flamethrower version was feared by infantry in trenches. Survivors are shown at the El Goloso museum.",
+   "good": "Small, fast, cheap; good for reconnaissance and chasing retreating infantry; flamethrower version effective against trenches.",
+   "bad": "No turret, only machine guns; very thin armour; useless against T-26s.",
+   "changes": "Aug–Oct 1936: first arrivals, in action near Madrid (Seseña, 29 Oct 1936). Mar 1937: defeated at Guadalajara. 1937–39: used in the North, Aragon, Levant and Catalonia; handed to the Spanish army after the war.",
+   "story": "At Guadalajara (8–23 March 1937) Italian volunteers of the Garibaldi Battalion of the International Brigades fought against Mussolini's CTV; Republican loudspeakers called on Italians to desert.",
+   "cap": "Italian CV-33 tankette. Public domain, via Wikimedia Commons."
+  },
+  {
+   "id": "i-16",
+   "name": "Polikarpov I-16 'Mosca' (and I-15 'Chato')",
+   "origin": "USSR (Polikarpov design bureau; I-15s also built in Spain under licence)",
+   "specs": [
+    [
+     "Type",
+     "Single-seat monoplane fighter (I-15: biplane)"
+    ],
+    [
+     "Engine",
+     "Shvetsov M-25, c. 700 hp (I-16 type 5/6)"
+    ],
+    [
+     "Top speed",
+     "c. 440–450 km/h"
+    ],
+    [
+     "Armament",
+     "2 × 7.62 mm ShKAS machine guns (later types more)"
+    ],
+    [
+     "First combat in Spain",
+     "Nov 1936, over Madrid"
+    ]
+   ],
+   "t": "The I-16 was one of the first monoplane fighters in service with retractable landing gear. Soviet pilots flew it over Madrid from November 1936, and it gave the Republic air superiority over Madrid that winter. Republicans called it 'Mosca' (fly); Nationalists called it 'Rata' (rat). The I-15 biplane was called 'Chato' (snub-nose) and was later built in Spain. From 1937 the German Bf 109 became a dangerous rival, and by 1938 Soviet deliveries could not keep up with losses. Surviving I-16s flew with the Spanish air force until the 1950s.",
+   "good": "Fast, agile in roll, strongly armed for 1936; gave the Republic control of the air over Madrid in winter 1936–37.",
+   "bad": "Tricky to fly; outclassed by the Bf 109 from 1937–38; not enough aircraft or trained pilots.",
+   "changes": "Nov 1936: first combat over Madrid. 1937: Jarama, Guadalajara, Brunete; Spanish pilots trained in the USSR take over. 1938: heavy losses on the Ebro against Bf 109s. 1939: survivors captured and used by the Francoist air force.",
+   "story": "Spanish pilots gave both Soviet fighters nicknames that stuck: the snub-nosed I-15 'Chato' and the stubby I-16 'Mosca', while the other side called the I-16 'Rata'.",
+   "cap": "Polikarpov I-16 in Spanish Republican markings. Photo: Elchuso, CC BY-SA 4.0, via Wikimedia Commons."
+  },
+  {
+   "id": "ju-52",
+   "name": "Junkers Ju 52/3m",
+   "origin": "Germany (Junkers, Dessau)",
+   "specs": [
+    [
+     "Type",
+     "Three-engine transport / auxiliary bomber"
+    ],
+    [
+     "Engines",
+     "3 × BMW 132, c. 725 hp each"
+    ],
+    [
+     "Top speed",
+     "c. 250–270 km/h"
+    ],
+    [
+     "Bomb load",
+     "up to c. 1,500 kg"
+    ],
+    [
+     "Crew",
+     "3–4"
+    ]
+   ],
+   "t": "The Ju 52 changed the war in its first weeks. From late July 1936 German Ju 52s, with Italian SM.81s, carried Franco's Army of Africa from Morocco across the Strait of Gibraltar to Seville and Jerez, the first large military airlift in history, while the Republican navy controlled the sea. Later, as the bomber of the Condor Legion's K/88, it bombed Madrid, the northern front and, on 26 April 1937, Gernika. Slow and vulnerable to fighters, it was replaced as a bomber by the He 111 during 1937 but served as a transport to the end.",
+   "good": "Rugged, simple, could use rough airfields; carried men and heavy loads.",
+   "bad": "Slow and poorly armed; easy prey for I-15 and I-16 fighters; inaccurate as a bomber.",
+   "changes": "Jul–Oct 1936: airlift of the Army of Africa across the Strait. Nov 1936: night bombing of Madrid. Apr 1937: bombing of Durango and Gernika. Late 1937: replaced by He 111 as front-line bomber; continues as transport.",
+   "story": "Between late July and October 1936 Ju 52s and other aircraft flew around 14,000 soldiers and their equipment from Tetouan to Seville (numbers vary by source).",
+   "cap": "A Condor Legion Junkers aircraft in Spain. Bundesarchiv, Bild 183-C0214-0007-013, CC BY-SA 3.0 DE."
+  },
+  {
+   "id": "he-111",
+   "name": "Heinkel He 111 B",
+   "origin": "Germany (Heinkel, Rostock)",
+   "specs": [
+    [
+     "Type",
+     "Twin-engine medium bomber"
+    ],
+    [
+     "Engines",
+     "2 × Daimler-Benz DB 600, c. 900–1,000 hp"
+    ],
+    [
+     "Top speed",
+     "c. 370 km/h"
+    ],
+    [
+     "Bomb load",
+     "c. 1,500 kg"
+    ],
+    [
+     "Crew",
+     "4"
+    ]
+   ],
+   "t": "The He 111 arrived in Spain in early 1937 with the Condor Legion's experimental bomber unit (VB/88) and from mid-1937 replaced the Ju 52 as the main German bomber in Spain. It was faster than many Republican fighters and was used against towns, ports, roads and front lines in the North, Aragon, the Levant and on the Ebro. Its early success in Spain, where it could often outrun fighters, made the Luftwaffe over-confident in unescorted bombers, a mistake that cost them in the Battle of Britain in 1940.",
+   "good": "Fast for its day; good bomb load; could often escape I-15 fighters.",
+   "bad": "Weak defensive armament; vulnerable once faced with faster fighters.",
+   "changes": "Mar 1937: first He 111s with VB/88. Apr 1937: involved in the bombing of Gernika together with Ju 52s and Italian aircraft (the exact mix is still discussed). 1938: main Condor Legion bomber over Aragon, the Levant and the Ebro. 1939: survivors pass to the Spanish air force.",
+   "story": "Spain later built the He 111 under licence as the CASA 2.111, which flew until the 1970s.",
+   "cap": "Heinkel He 111 B of the Condor Legion, Spain 1937–38. Public domain, via Wikimedia Commons."
+  },
+  {
+   "id": "sm-79",
+   "name": "Savoia-Marchetti SM.79 Sparviero",
+   "origin": "Italy (Savoia-Marchetti, Sesto Calende)",
+   "specs": [
+    [
+     "Type",
+     "Three-engine medium bomber"
+    ],
+    [
+     "Engines",
+     "3 × Alfa Romeo 126, c. 750–780 hp"
+    ],
+    [
+     "Top speed",
+     "c. 430 km/h"
+    ],
+    [
+     "Bomb load",
+     "c. 1,250 kg"
+    ],
+    [
+     "Crew",
+     "4–5"
+    ]
+   ],
+   "t": "Italy's fast three-engine bomber arrived in Spain in 1937 with the Aviazione Legionaria. Units based in Mallorca bombed Barcelona, Valencia, Alicante and other cities of the Mediterranean coast, often without any warning, while others supported ground offensives in Aragon and on the Ebro. Its speed made it hard to catch for Republican fighters. The raids on Barcelona of 16–18 March 1938 by Italian bombers from Mallorca, including SM.79s, were among the worst attacks on a European city before the Second World War and caused international protests.",
+   "good": "Fast, long range, good bomb load; hard for Republican fighters to catch.",
+   "bad": "Wooden and fabric structure; vulnerable to fighter attack once intercepted; limited accuracy.",
+   "changes": "1937: arrives in Spain; bombing of coastal cities from Mallorca. 16–18 Mar 1938: Barcelona raids. 1938: supports the Aragon and Levant offensives and the Ebro battle. 1939: survivors handed to the Spanish air force.",
+   "story": "The March 1938 raids on Barcelona killed around 1,000 people; figures vary between sources (roughly 900 to 1,300).",
+   "cap": "Savoia-Marchetti S.M.79 in the markings of the Aviazione Legionaria. Photo: Contando Estrelas, CC BY-SA 2.0, via Wikimedia Commons."
+  },
+  {
+   "id": "flak-18",
+   "name": "8.8 cm Flak 18 ('88')",
+   "origin": "Germany (Krupp)",
+   "specs": [
+    [
+     "Calibre",
+     "88 mm, L/56"
+    ],
+    [
+     "Muzzle velocity",
+     "c. 820 m/s"
+    ],
+    [
+     "Effective ceiling",
+     "c. 8,000 m"
+    ],
+    [
+     "Rate of fire",
+     "c. 15–20 rounds/min"
+    ],
+    [
+     "Weight",
+     "c. 5 t in firing position"
+    ]
+   ],
+   "t": "The later-famous German '88' had its first combat in Spain with the Condor Legion's anti-aircraft battalion (F/88). Designed to shoot down aircraft, it proved just as effective against ground targets: its fast, flat-firing shell could destroy bunkers, machine-gun nests and tanks at long range. In Spain the Germans tested it in this direct-fire role, for example against Republican fortifications in the North and Aragon, and learned lessons they used in 1940 and in North Africa. Several Spanish museums show examples; the Spanish army built its own copies after the war.",
+   "good": "Powerful, accurate and fast-firing; worked against aircraft, bunkers and tanks.",
+   "bad": "Heavy and conspicuous; needed trained crews and a tractor; expensive.",
+   "changes": "Late 1936: arrives with the Condor Legion as anti-aircraft gun. 1937: used against ground targets in the North (Bilbao Iron Belt, Asturias). 1938: used in direct fire in Aragon, the Levant and on the Ebro. After 1939: some pass to the Spanish army.",
+   "story": "German reports from Spain recommended giving the 88 armour-piercing ammunition and a direct-fire role against tanks, which became standard in 1940.",
+   "cap": "8.8 cm Flak 18 gun preserved in Spain. Photo: Z3144228, CC BY-SA 4.0, via Wikimedia Commons."
+  }
+ ]
+}

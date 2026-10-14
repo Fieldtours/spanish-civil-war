@@ -1,0 +1,737 @@
+{
+ "battles": [
+  {
+   "id": "madrid-nov-1936",
+   "name": "Batalla de Madrid",
+   "when": "8–23 de noviembre de 1936",
+   "place": "Casa de Campo y Ciudad Universitaria, oeste de Madrid",
+   "why": "Tras levantar el asedio de Toledo, las columnas del Ejército de África de Franco al mando de Varela (con Mola en el mando general) atacaron Madrid desde el suroeste, convencidas de que la capital caería pronto y la guerra terminaría. El Gobierno se marchó a Valencia el 6 de noviembre; el general Miaja y Vicente Rojo organizaron la defensa.",
+   "rep": "Milicias madrileñas y nuevas brigadas mixtas al mando de Miaja y Rojo (Líster, Columna Durruti), XI y XII Brigadas Internacionales, carros T-26 y cazas soviéticos",
+   "nat": "Columnas de Varela formadas por legionarios y Regulares marroquíes (Asensio, Barrón, Castejón, Delgado Serrano, Tella, Yagüe), tanquetas italianas, aviones alemanes e italianos",
+   "result": "Éxito defensivo republicano. Los sublevados cruzaron el Manzanares y entraron en la Ciudad Universitaria, pero fueron detenidos; el 23 de noviembre Franco suspendió el asalto frontal. El frente quedó inmóvil aquí hasta marzo de 1939.",
+   "visit": "<b>Hoy:</b> búnkeres y restos de trincheras en la Casa de Campo y el Parque del Oeste, edificios con huellas de metralla y placas conmemorativas en la Ciudad Universitaria (por ejemplo, en torno a la Escuela de Arquitectura y el antiguo Hospital Clínico).",
+   "phases": [
+    {
+     "name": "Fase 1",
+     "time": "8–9 nov. 1936",
+     "cap": "Las columnas de Varela atacan a través de la Casa de Campo y Carabanchel hacia los puentes del Manzanares. Las milicias, con carros y aviones soviéticos, resisten en la línea del río; la XI Brigada Internacional entra en la Casa de Campo."
+    },
+    {
+     "name": "Fase 2",
+     "time": "10–14 nov. 1936",
+     "cap": "Duros combates en los bosques de la Casa de Campo; el cerro Garabitas cae en manos de los sublevados y se convierte en su posición de artillería. Carabanchel se disputa calle por calle. Llegan la XII Brigada y la Columna Durruti."
+    },
+    {
+     "name": "Fase 3",
+     "time": "15–18 nov. 1936",
+     "cap": "La columna de Asensio cruza el Manzanares por una pasarela e irrumpe en la Ciudad Universitaria, donde toma la Escuela de Arquitectura y parte del Hospital Clínico. Se combate habitación por habitación; Durruti cae herido de muerte el 19 de noviembre."
+    },
+    {
+     "name": "Fase 4",
+     "time": "19–23 nov. 1936 y después",
+     "cap": "Los contraataques no logran desalojar la cuña sublevada, y los atacantes no pueden avanzar más. El 23 de noviembre Franco detiene el asalto frontal. Ambos bandos se atrincheran; el frente de la Ciudad Universitaria permanece inmóvil hasta marzo de 1939."
+    }
+   ]
+  },
+  {
+   "id": "jarama-1937",
+   "name": "Batalla del Jarama",
+   "when": "6–27 de febrero de 1937",
+   "place": "Valle del Jarama entre San Martín de la Vega, Morata de Tajuña y Arganda, al sureste de Madrid",
+   "why": "Tras fracasar en el asalto frontal a Madrid, Franco intentó cortar la carretera de Madrid a Valencia, la vía vital de la capital, cruzando el río Jarama al sureste de la ciudad.",
+   "rep": "Ejército del Centro republicano al mando de Pozas y después de Miaja, con Líster y El Campesino, las XI, XII, XIV y XV Brigadas Internacionales (Batallón Británico, Batallón Lincoln), carros y aviones soviéticos",
+   "nat": "Fuerzas de Varela: cinco brigadas de legionarios y Regulares (García Escámez, Asensio, Barrón, Sáenz de Buruaga, Rada), cañones y aviones de la Legión Cóndor",
+   "result": "Punto muerto. Los sublevados cruzaron el río y mantuvieron una cabeza de puente, pero la carretera de Madrid a Valencia siguió en manos republicanas. Las pérdidas fueron muy elevadas en ambos bandos; las estimaciones varían mucho.",
+   "visit": "<b>Hoy:</b> el Museo Batalla del Jarama en Morata de Tajuña, trincheras y monumentos conservados en la zona del Pingarrón y la «Colina del Suicidio», y el memorial de las Brigadas Internacionales cerca de la carretera de Chinchón; desde Morata se organizan rutas guiadas.",
+   "phases": [
+    {
+     "name": "Fase 1",
+     "time": "6–10 feb. 1937",
+     "cap": "Los sublevados atacan por la orilla oeste, toman las alturas de La Marañosa y se acercan al Jarama a lo largo de todo su curso."
+    },
+    {
+     "name": "Fase 2",
+     "time": "11–12 feb. 1937",
+     "cap": "Tropas marroquíes matan en silencio a los centinelas de las Brigadas Internacionales en el puente de Pindoque; las brigadas sublevadas cruzan por allí y por San Martín y suben a la meseta. El Batallón Británico queda deshecho defendiendo la «Colina del Suicidio»."
+    },
+    {
+     "name": "Fase 3",
+     "time": "13–17 feb. 1937",
+     "cap": "Los avances sublevados hacia Arganda y la carretera de Valencia son frenados por Líster, El Campesino, las Brigadas Internacionales y los carros y aviones soviéticos. Miaja asume el mando unificado."
+    },
+    {
+     "name": "Fase 4",
+     "time": "23–27 feb. 1937",
+     "cap": "Los contraataques republicanos sobre las alturas del Pingarrón fracasan con grandes pérdidas; el Batallón Lincoln ataca el 27 de febrero casi sin apoyo artillero. El frente se estabiliza en trincheras."
+    }
+   ]
+  },
+  {
+   "id": "guadalajara-1937",
+   "name": "Batalla de Guadalajara",
+   "when": "8–23 de marzo de 1937",
+   "place": "La carretera de Zaragoza a Madrid (N-II) y el valle del Tajuña en torno a Trijueque, Torija y Brihuega",
+   "why": "Recién llegado de Málaga, el CTV de Mussolini debía avanzar por la carretera de Zaragoza hacia Guadalajara y Alcalá de Henares, enlazar con un nuevo empuje desde el Jarama y cercar Madrid por el noreste.",
+   "rep": "IV Cuerpo de Ejército republicano: 11.ª División de Líster, 14.ª División de Cipriano Mera, XI y XII Brigadas Internacionales (incluido el Batallón Garibaldi, italiano), carros T-26 soviéticos y aviones que operaban desde aeródromos permanentes",
+   "nat": "CTV italiano al mando de Roatta (divisiones «Dio lo vuole», Fiamme Nere, Penne Nere y Littorio) con la División Soria española (Moscardó)",
+   "result": "Victoria republicana. Los italianos fueron detenidos y rechazados unos 20 km (Wikipedia da unas 17.400 bajas italianas y españolas frente a 6258 republicanas; las cifras varían). Una gran derrota propagandística para Mussolini.",
+   "visit": "<b>Hoy:</b> las ruinas del Palacio de Ibarra cerca de Brihuega, las murallas y el cementerio de Brihuega, búnkeres y posiciones a lo largo de la N-II cerca de Trijueque y Torija; hay pocos paneles interpretativos.",
+   "phases": [
+    {
+     "name": "Fase 1",
+     "time": "8–10 mar. 1937",
+     "cap": "Las columnas motorizadas italianas rompen el débil frente republicano cerca de Almadrones y avanzan por la carretera bajo el aguanieve; una segunda columna toma Brihuega el 10 de marzo."
+    },
+    {
+     "name": "Fase 2",
+     "time": "11–13 mar. 1937",
+     "cap": "El avance se detiene ante Torija. En el Palacio de Ibarra, voluntarios italianos del Batallón Garibaldi combaten contra tropas fascistas italianas. Aviones republicanos que despegan de pistas de hormigón ametrallan las columnas atascadas en la carretera; Trijueque se recupera el 13 de marzo."
+    },
+    {
+     "name": "Fase 3",
+     "time": "18 mar. 1937",
+     "cap": "La contraofensiva republicana: Líster ataca por la carretera mientras la 14.ª División de Mera cruza el Tajuña y rebasa Brihuega por el flanco. Los italianos abandonan el pueblo y se retiran en desorden."
+    },
+    {
+     "name": "Fase 4",
+     "time": "19–23 mar. 1937",
+     "cap": "Los republicanos avanzan algunos kilómetros hasta que el frente se estabiliza; los italianos son retirados para reorganizarse. Los prisioneros y documentos italianos capturados se muestran a la prensa internacional."
+    }
+   ]
+  },
+  {
+   "id": "belchite-1937",
+   "name": "Belchite",
+   "when": "24 de agosto – 6 de septiembre de 1937",
+   "place": "Belchite, Quinto y Codo, al sureste de Zaragoza",
+   "why": "Para aliviar la presión sobre el frente norte, que se hundía (Santander), la República lanzó una ofensiva en el frente de Aragón con Zaragoza como objetivo, atacando en un amplio frente al sur del Ebro.",
+   "rep": "Ejército del Este al mando de Pozas, con planes de Rojo: 35.ª División de Walter (XI y XV Brigadas Internacionales), 11.ª División de Líster, 45.ª División de Kléber, carros y aviones soviéticos",
+   "nat": "V Cuerpo de Ejército (Ponte); la guarnición de Belchite, con soldados, falangistas y requetés (se suele hablar de hasta unos 5000, milicias incluidas), y una fuerza de socorro al mando de Barrón y Sáenz de Buruaga",
+   "result": "Éxito táctico republicano y fracaso estratégico: se tomaron Quinto, Codo y Belchite, pero no se llegó a Zaragoza ni se frenó la campaña del norte. Wikipedia recoge unos 2000 muertos sublevados y 2411 prisioneros en Belchite, y grandes pérdidas republicanas; las cifras varían.",
+   "visit": "<b>Hoy:</b> el Pueblo Viejo de Belchite en ruinas, conservado como memorial de guerra (solo con visita guiada), las iglesias en ruinas de San Martín y San Agustín, y restos de trincheras en torno a Codo y Quinto.",
+   "phases": [
+    {
+     "name": "Fase 1",
+     "time": "24–26 ago. 1937",
+     "cap": "Las divisiones republicanas atacan en un amplio frente sin bombardeo previo. Quinto cae el 26 de agosto tras los combates por la iglesia y el cerro de Purburell; Codo es tomado el 25 de agosto y sus requetés mueren o caen prisioneros en su mayoría."
+    },
+    {
+     "name": "Fase 2",
+     "time": "26 ago.–1 sept. 1937",
+     "cap": "Belchite queda cercado. Una fuerza de socorro sublevada avanza desde Zaragoza hacia Mediana y llega a pocos kilómetros, pero es contenida; los republicanos no logran explotar el éxito hacia Zaragoza."
+    },
+    {
+     "name": "Fase 3",
+     "time": "1–6 sept. 1937",
+     "cap": "Combates casa por casa en el casco antiguo, la iglesia de San Agustín y el seminario, bajo el calor, la sed y los bombardeos. Los últimos defensores intentan romper el cerco la noche del 5 al 6 de septiembre; el pueblo cae el 6 de septiembre."
+    },
+    {
+     "name": "Desenlace",
+     "time": "oct. 1937 – mar. 1938",
+     "cap": "Un último ataque republicano con carros en Fuentes de Ebro, el 13 de octubre, fracasa. Los sublevados recuperan Belchite el 10 de marzo de 1938. Más tarde, Franco construye un pueblo nuevo junto a las ruinas y deja el viejo como monumento."
+    }
+   ]
+  },
+  {
+   "id": "teruel-1937",
+   "name": "Batalla de Teruel",
+   "when": "15 de diciembre de 1937 – 22 de febrero de 1938",
+   "place": "Teruel y las alturas que lo rodean: La Muela, El Muletón, Concud, el valle del Alfambra",
+   "why": "Rojo lanzó un ataque por sorpresa contra el expuesto saliente sublevado de Teruel para adelantarse a una nueva ofensiva sublevada sobre Madrid y demostrar que el Ejército Popular podía tomar una capital de provincia.",
+   "rep": "Ejército de Levante al mando de Hernández Saravia: Cuerpos de Ejército XVIII, XX y XXII, 11.ª División de Líster, 46.ª División de El Campesino; más tarde, Brigadas Internacionales",
+   "nat": "Guarnición de Teruel al mando del coronel Rey d'Harcourt (unos pocos miles de soldados y civiles); socorro y contraofensiva a cargo del Cuerpo de Ejército de Castilla de Varela y el de Galicia de Aranda, el Cuerpo de Ejército Marroquí de Yagüe y la Legión Cóndor",
+   "result": "Victoria sublevada. Los republicanos tomaron Teruel el 8 de enero y los sublevados lo recuperaron el 22 de febrero de 1938, con un frío terrible; Wikipedia calcula unas 110.000 bajas entre ambos bandos, incluidas las congelaciones y las enfermedades. Las reservas del Ejército Popular quedaron agotadas.",
+   "visit": "<b>Hoy:</b> el casco antiguo reconstruido de Teruel y la zona en ruinas del Seminario, búnkeres en La Muela y en Concud, y el Centro de Interpretación de la Batalla del Alfambra; está previsto un museo de la Guerra Civil en Teruel para 2028.",
+   "phases": [
+    {
+     "name": "Fase 1",
+     "time": "15–22 dic. 1937",
+     "cap": "Con mucha nieve y sin bombardeo previo, las columnas republicanas cierran un cerco en torno a Teruel desde el norte y el sur; la división de Líster corta la carretera de Zaragoza en Concud. La Muela y El Mansueto son tomados al asalto y la guarnición queda encerrada en la ciudad."
+    },
+    {
+     "name": "Fase 2",
+     "time": "23 dic. 1937 – 8 ene. 1938",
+     "cap": "Combates callejeros por el Seminario, el Banco de España y el Gobierno Civil. Un socorro sublevado al mando de Varela y Aranda llega a La Muela el 31 de diciembre, antes de que una ventisca de cuatro días (con temperaturas cercanas a −20 °C) lo paralice todo. Rey d'Harcourt se rinde el 8 de enero."
+    },
+    {
+     "name": "Fase 3",
+     "time": "5–7 feb. 1938",
+     "cap": "Los sublevados desplazan su esfuerzo principal al norte: en el valle del Alfambra, los cuerpos de Yagüe y Aranda, encabezados por una división de caballería en una de las últimas grandes cargas de caballería, hunden el frente republicano y hacen miles de prisioneros."
+    },
+    {
+     "name": "Fase 4",
+     "time": "17–22 feb. 1938",
+     "cap": "Las tenazas sublevadas se cierran al norte y al sur de la ciudad. Las unidades republicanas se retiran por el valle del Turia; el 22 de febrero Teruel, convertido en ruinas, vuelve a manos sublevadas. Queda abierto el camino para la ofensiva de primavera hacia el mar."
+    }
+   ]
+  },
+  {
+   "id": "ebro-1938",
+   "name": "Batalla del Ebro",
+   "when": "25 de julio – 16 de noviembre de 1938",
+   "place": "El meandro del Ebro en la Terra Alta y la Ribera d'Ebre: Riba-roja, Flix, Ascó, Móra d'Ebre, Miravet, Corbera, Gandesa, Serra de Pàndols y Serra de Cavalls",
+   "why": "Con Valencia amenazada tras el avance sublevado hasta el mar, Negrín y Rojo ordenaron cruzar el Ebro por sorpresa para volver a unir las dos mitades de la República, aliviar la presión sobre Valencia y demostrar al mundo, antes de Múnich, que la República aún podía combatir.",
+   "rep": "Ejército del Ebro al mando de Modesto: XV Cuerpo de Tagüeña (norte), V Cuerpo de Líster (centro), XII Cuerpo; XI, XIII, XIV y XV Brigadas Internacionales (retiradas desde finales de septiembre)",
+   "nat": "Cuerpo de Ejército Marroquí de Yagüe, que defendía el río al principio, y después las reservas de Franco: Cuerpo de Ejército del Maestrazgo de García Valiño y otros, artillería en masa, la Legión Cóndor y la aviación italiana",
+   "result": "Victoria sublevada. Tras avanzar hasta unos 20 km, los republicanos fueron detenidos en Gandesa y desgastados durante cuatro meses de contraataques. Las estimaciones de bajas van de 50.000 a más de 100.000. El Ejército del Ebro quedó destruido, lo que abrió el camino hacia Cataluña.",
+   "visit": "<b>Hoy:</b> el Poble Vell de Corbera d'Ebre en ruinas, el Memorial de les Camposines, el memorial de la Serra de Pàndols, trincheras y búnkeres en Punta Alta (Vilalba dels Arcs), Les Devees (Flix) y otros lugares, y centros de interpretación coordinados por el COMEBE.",
+   "phases": [
+    {
+     "name": "Fase 1",
+     "time": "25 jul. 1938",
+     "cap": "Poco después de medianoche, las tropas de asalto republicanas cruzan en barcas por una docena de puntos entre Riba-roja y Miravet; los zapadores tienden pasarelas y pontones. La débil defensa de Yagüe queda desbordada; una maniobra de distracción en Amposta fracasa con grandes pérdidas para la XIV Brigada Internacional."
+    },
+    {
+     "name": "Fase 2",
+     "time": "26 jul. – 2 ago. 1938",
+     "cap": "Los republicanos llegan a las puertas de Gandesa, pero no logran tomarla; la XV Brigada Internacional fracasa una y otra vez ante la cota 481. Llegan refuerzos sublevados; la aviación bombardea los puentes y se abren las presas río arriba para provocar crecidas."
+    },
+    {
+     "name": "Fase 3",
+     "time": "ago. – oct. 1938",
+     "cap": "Sucesivas contraofensivas sublevadas golpean la cabeza de puente con el calor del verano, en crestas rocosas y desnudas: Serra de Pàndols, Serra de Cavalls, Corbera. Dominan la artillería y los bombardeos; ambos bandos sufren pérdidas enormes. Las Brigadas Internacionales se retiran a finales de septiembre."
+    },
+    {
+     "name": "Fase 4",
+     "time": "30 oct. – 16 nov. 1938",
+     "cap": "El ataque sublevado decisivo rompe el frente en la Serra de Cavalls; los republicanos se repliegan hasta el río. Las últimas tropas republicanas vuelven a cruzar por Flix el 16 de noviembre. El Ejército del Ebro está agotado."
+    }
+   ]
+  }
+ ],
+ "map_labels": {
+  "35th Div (XV IB)": "35.ª Div. (XV BI)",
+  "50th Div (Yagüe)": "50.ª Div. (Yagüe)",
+  "Asensio": "Asensio",
+  "Asensio / Barrón": "Asensio / Barrón",
+  "BT-5 tanks (Fuentes)": "Carros BT-5 (Fuentes)",
+  "Belchite garrison": "Guarnición de Belchite",
+  "Blizzard 29 Dec – 1 Jan": "Ventisca 29 dic. – 1 ene.",
+  "CTV column": "Columna del CTV",
+  "CTV divisions": "Divisiones del CTV",
+  "CTV stalled": "CTV detenido",
+  "CTV withdrawn": "CTV retirado",
+  "Cavalls": "Cavalls",
+  "Condor guns": "Cañones de la Cóndor",
+  "Durruti Column": "Columna Durruti",
+  "Durruti wounded 19 Nov": "Durruti, herido el 19 nov.",
+  "Front frozen until 28 Mar 1939": "Frente estabilizado hasta el 28 mar. 1939",
+  "Gandesa garrison": "Guarnición de Gandesa",
+  "Garabitas guns": "Cañones de Garabitas",
+  "García Escámez / Rada": "García Escámez / Rada",
+  "Government left for Valencia 6 Nov": "El Gobierno se va a Valencia el 6 nov.",
+  "IV Corps": "IV Cuerpo",
+  "Italian tankettes": "Tanquetas italianas",
+  "Kléber 45th Div": "45.ª Div. Kléber",
+  "La Marañosa taken 6 Feb": "La Marañosa, tomada el 6 feb.",
+  "Last crossing at Flix, 16 Nov": "Último paso en Flix, 16 nov.",
+  "Líster (Pàndols)": "Líster (Pàndols)",
+  "Líster / Campesino": "Líster / Campesino",
+  "Líster 11th Div": "11.ª Div. Líster",
+  "Madrid defence (Miaja/Rojo)": "Defensa de Madrid (Miaja/Rojo)",
+  "Mera 14th Div": "14.ª Div. Mera",
+  "Militias": "Milicias",
+  "Militias (Líster, 5th Rgt)": "Milicias (Líster, 5.º Rgto.)",
+  "Mixed brigades": "Brigadas mixtas",
+  "Monasterio cavalry": "Caballería de Monasterio",
+  "Monte Garabitas": "Monte Garabitas",
+  "Moroccan tabors": "Tabores marroquíes",
+  "Nationalist air superiority": "Superioridad aérea sublevada",
+  "Nationalist salient": "Saliente sublevado",
+  "Pingarrón MGs": "Ametralladoras del Pingarrón",
+  "Rain and mud ground the Italian aircraft": "Lluvia y barro dejan en tierra la aviación italiana",
+  "Relief (Barrón)": "Socorro (Barrón)",
+  "Republic's reserves spent": "Reservas republicanas agotadas",
+  "Retaken 10 Mar 1938": "Recuperado el 10 mar. 1938",
+  "Rey d'Harcourt": "Rey d'Harcourt",
+  "Road never cut": "La carretera nunca se corta",
+  "Ruins left as a memorial": "Ruinas conservadas como memorial",
+  "T-26 tanks": "Carros T-26",
+  "Tella / Delgado": "Tella / Delgado",
+  "V Corps (Líster)": "V Cuerpo (Líster)",
+  "Varela / Aranda relief": "Socorro de Varela / Aranda",
+  "XI / XII IB": "XI / XII BI",
+  "XI IB": "XI BI",
+  "XI IB / Durruti": "XI BI / Durruti",
+  "XI Int. Brigade": "XI Brigada Internacional",
+  "XII IB (Garibaldi)": "XII BI (Garibaldi)",
+  "XII IB / militias": "XII BI / milicias",
+  "XV Corps (Tagüeña)": "XV Cuerpo (Tagüeña)",
+  "XV IB (British Bn)": "XV BI (Bón. Británico)",
+  "XV IB (Lincoln Bn)": "XV BI (Bón. Lincoln)",
+  "XV IB / 32nd Bde": "XV BI / 32.ª Brig.",
+  "XVIII Corps": "XVIII Cuerpo",
+  "XX Corps": "XX Cuerpo",
+  "Yagüe / Aranda": "Yagüe / Aranda",
+  "guns": "cañones",
+  "massed artillery": "artillería en masa"
+ },
+ "weapons": [
+  {
+   "id": "mauser-1893",
+   "name": "Fusil Mauser M1893 («Mauser español») y mosquetón M1916",
+   "origin": "Alemania (Ludwig Loewe/DWM, Berlín) y España (Fábrica de Armas de Oviedo; más tarde, La Coruña)",
+   "specs": [
+    [
+     "Calibre",
+     "7×57 mm Mauser"
+    ],
+    [
+     "Mecanismo",
+     "De cerrojo, depósito interno de 5 cartuchos, carga con peines"
+    ],
+    [
+     "Longitud",
+     "1.235 mm (fusil M1893); aprox. 1.050 mm (mosquetón M1916)"
+    ],
+    [
+     "Peso",
+     "Aprox. 4 kg (fusil); aprox. 3,9 kg (mosquetón)"
+    ],
+    [
+     "Adopción",
+     "1893 (fusil); 1916 (mosquetón)"
+    ]
+   ],
+   "t": "Era el fusil reglamentario del Ejército español en julio de 1936, así que ambos bandos empezaron la guerra con él. El M1893 introdujo el depósito enrasado de cinco cartuchos en doble hilera que luego usaría el famoso Mauser 98, y la Fábrica de Armas de Oviedo fabricó tanto el fusil largo como el mosquetón M1916, más corto, que se convirtió en el arma de infantería más común de la guerra. Oviedo estuvo sitiado durante 1936–37 con la fábrica en manos sublevadas, mientras la República dependía de las existencias, los fusiles capturados y las compras en el extranjero. La mayoría de los soldados de ambos ejércitos que aparecen en las fotografías de la época lleva uno.",
+   "good": "Preciso, fiable, con un cartucho de 7 mm de trayectoria tensa; todo soldado español lo conocía bien; munición fabricada en España.",
+   "bad": "Muchas armas de 1936 estaban gastadas o eran viejas; la República perdió la producción de la fábrica de Oviedo y nunca tuvo bastantes; el fusil largo resultaba incómodo en las trincheras y en el combate urbano.",
+   "changes": "Jul. 1936: repartido entre ambos bandos junto con los depósitos del ejército y la Guardia Civil. Otoño de 1936: los sublevados conservan la producción de Oviedo; la República tiene que comprar fusiles extranjeros de calibres diversos. 1937–39: el mosquetón M1916 se convierte en el arma típica de la infantería sublevada; en el bando republicano, los Mauser capturados se prefieren a los modelos extranjeros.",
+   "story": "En la loma de San Juan, en Cuba (1 de julio de 1898), las tropas españolas armadas con Mauser M1893 causaron grandes pérdidas a unas fuerzas estadounidenses mejor abastecidas; el Ejército de Estados Unidos estudió el fusil y adoptó un diseño de tipo Mauser, el M1903 Springfield.",
+   "cap": "Dibujo del Mauser español de la Encyclopaedia Britannica, 1911 (dominio público)."
+  },
+  {
+   "id": "mosin-nagant",
+   "name": "Fusil Mosin-Nagant M1891 («Mexicanski»)",
+   "origin": "Rusia/URSS (Tula, Izhevsk, Sestroretsk); algunos fabricados en Estados Unidos (Remington, New England Westinghouse) por contratos de la Primera Guerra Mundial",
+   "specs": [
+    [
+     "Calibre",
+     "7,62×54 mmR"
+    ],
+    [
+     "Mecanismo",
+     "De cerrojo, depósito interno de 5 cartuchos"
+    ],
+    [
+     "Longitud",
+     "1.306 mm (fusil de infantería)"
+    ],
+    [
+     "Peso",
+     "Aprox. 4,2 kg"
+    ],
+    [
+     "Adopción",
+     "1891 (Imperio ruso)"
+    ]
+   ],
+   "t": "Desde octubre de 1936, los barcos soviéticos desembarcaron decenas de miles de fusiles Mosin-Nagant en Cartagena y otros puertos republicanos, y se convirtieron en el fusil extranjero más numeroso del Ejército Popular. Los soldados los llamaban «mexicanos» o «mexicanskis», porque la primera ayuda se hizo pasar oficialmente por mexicana, ya que México apoyaba abiertamente a la República. Muchos eran fusiles de la época zarista, algunos fabricados en Estados Unidos durante la Primera Guerra Mundial, y su munición no se fabricaba en España. Pueden verse en los museos del Ebro y de Madrid, a menudo con la larga bayoneta de punta calada.",
+   "good": "Robusto y preciso; gran alcance con la bayoneta de punta; llegó en grandes cantidades cuando la República más necesitaba fusiles.",
+   "bad": "Largo y pesado; su calibre, distinto del de los Mauser españoles, complicaba el abastecimiento; muchos fusiles eran viejos y estaban gastados.",
+   "changes": "Oct. 1936: las primeras entregas arman a las nuevas brigadas mixtas y a las Brigadas Internacionales que defienden Madrid. 1937: reglamentario en muchas unidades del Ejército Popular. 1938–39: sigue en uso hasta el final; el ejército franquista utilizó las existencias capturadas después de 1939.",
+   "story": "El historiador Gerald Howson demostró que gran parte de la ayuda soviética consistía en armas viejas y heterogéneas, vendidas a veces a la República a precios inflados y pagadas con el oro del Banco de España.",
+   "cap": "Mosin-Nagant M1891. Foto: Armémuseum, Estocolmo (dominio público), vía Wikimedia Commons."
+  },
+  {
+   "id": "maxim-1910",
+   "name": "Ametralladora Maxim M1910",
+   "origin": "URSS (Fábrica de Armas de Tula)",
+   "specs": [
+    [
+     "Calibre",
+     "7,62×54 mmR"
+    ],
+    [
+     "Alimentación",
+     "Cinta de lona de 250 cartuchos"
+    ],
+    [
+     "Cadencia de tiro",
+     "Aprox. 550–600 disparos/min"
+    ],
+    [
+     "Refrigeración",
+     "Por agua (camisa)"
+    ],
+    [
+     "Peso",
+     "Aprox. 23 kg el arma; aprox. 64 kg con el afuste de ruedas Sokolov y el escudo"
+    ]
+   ],
+   "t": "Versión rusa de la ametralladora refrigerada por agua de Hiram Maxim, montada sobre su pequeño afuste Sokolov de dos ruedas con escudo de acero. La Unión Soviética envió varios miles desde el otoño de 1936 y se convirtieron en la columna vertebral del fuego defensivo republicano, sobre todo en la defensa de Madrid, en el Jarama y más tarde en el Ebro. La refrigeración por agua permitía a los sirvientes disparar ráfagas largas desde una posición fija, ideal para las líneas de trincheras y las posiciones en las alturas que aún hoy se pueden recorrer. Eran pesadas, y hacían falta varios hombres para moverlas.",
+   "good": "Podía disparar mucho tiempo sin recalentarse; muy fiable; el afuste de ruedas facilitaba moverla por carretera.",
+   "bad": "Muy pesada en cerros y terreno de montaña; necesitaba agua; munición distinta de la de las armas españolas.",
+   "changes": "Nov. 1936: en combate en la defensa de Madrid. Feb. 1937: arma clave de la línea republicana en el Jarama. 1938: todavía en uso en el Ebro, donde los sirvientes tenían que subirlas a las sierras de Pàndols y Cavalls.",
+   "story": "En la seca Serra de Pàndols, en el verano de 1938, escaseaba el agua para las camisas de refrigeración; los veteranos recordaban que los sirvientes usaban cualquier líquido que tuvieran.",
+   "cap": "Maxim M1910 sobre su afuste de ruedas Sokolov. Foto: Geni, CC BY-SA 4.0, vía Wikimedia Commons."
+  },
+  {
+   "id": "naranjero",
+   "name": "Subfusil «naranjero» (copia española del MP 28/II)",
+   "origin": "España republicana (talleres de la industria de guerra en la región valenciana; «naranjero», por los naranjos)",
+   "specs": [
+    [
+     "Calibre",
+     "9×23 mm Largo"
+    ],
+    [
+     "Mecanismo",
+     "Retroceso de masas, tiro selectivo"
+    ],
+    [
+     "Cargador",
+     "Lateral, de 32 cartuchos (lo habitual)"
+    ],
+    [
+     "Cadencia de tiro",
+     "Aprox. 500–600 disparos/min"
+    ],
+    [
+     "Basado en",
+     "Bergmann/Haenel MP 28/II"
+    ]
+   ],
+   "t": "Las industrias de guerra de la República copiaron el subfusil alemán MP 28/II, adaptado al cartucho de pistola español 9 mm Largo. Como la producción se concentraba en la región valenciana, el arma recibió el apodo de «naranjero», por los naranjos. Daba a las tropas de asalto, los guardias y los oficiales potencia de fuego a corta distancia en trincheras y calles. Tras 1939, los naranjeros capturados siguieron en servicio en España durante años. Es una de las pocas armas de la Guerra Civil diseñadas y fabricadas en España durante la propia guerra, muestra de cómo la República intentó crear su propia industria de armamento.",
+   "good": "Diseño robusto y sencillo; usaba un cartucho fabricado en España; útil para golpes de mano en trincheras y combate cercano.",
+   "bad": "Fabricado en talleres improvisados, de calidad desigual; pesado para su función; nunca se produjo en las cantidades necesarias.",
+   "changes": "1936: las unidades republicanas usan MP 28 incautados de antes de la guerra y otros modelos importados. 1937–38: el naranjero de fabricación española aparece en número creciente. 1939: las existencias capturadas pasan al ejército franquista y a las fuerzas de seguridad.",
+   "story": "Los subfusiles de calibre de pistola eran raros en la España de 1936; muchos se requisaron a la policía y a colecciones particulares en los primeros días de la guerra.",
+   "cap": "El MP 28 alemán, el arma que copió el naranjero. Foto: NatanFlayer, CC BY-SA 3.0, vía Wikimedia Commons."
+  },
+  {
+   "id": "astra-400",
+   "name": "Pistola Astra 400 (y copias republicanas)",
+   "origin": "España (Unceta y Compañía, Gernika/Guernica); copia republicana «F. Ascaso» fabricada en Cataluña",
+   "specs": [
+    [
+     "Calibre",
+     "9×23 mm Largo (también disparaba otros tipos de 9 mm)"
+    ],
+    [
+     "Mecanismo",
+     "Retroceso de masas simple"
+    ],
+    [
+     "Cargador",
+     "8 cartuchos"
+    ],
+    [
+     "Peso",
+     "Aprox. 1,1 kg"
+    ],
+    [
+     "Longitud",
+     "Aprox. 225 mm"
+    ]
+   ],
+   "t": "La Astra 400 fue la pistola reglamentaria del Ejército español desde 1921, fabricada por Unceta y Compañía en Gernika. Su mecanismo de retroceso de masas y su muelle recuperador potente eran sencillos y robustos, y admitía diversos cartuchos de 9 mm, una gran ventaja en una guerra con munición tan variada. La llevaban oficiales y jefes de milicias de ambos bandos. Cuando el País Vasco cayó en 1937, la fábrica pasó a manos sublevadas, así que la República fabricó su propia copia en Cataluña, llamada «F. Ascaso» en recuerdo del anarquista Francisco Ascaso, muerto en Barcelona en julio de 1936.",
+   "good": "Fiable, admitía distintos cartuchos de 9 mm, fabricada en España.",
+   "bad": "El potente muelle recuperador hacía difícil montarla; pesada para ser una pistola; la República perdió su fábrica en 1937.",
+   "changes": "Jul. 1936: reglamentaria en ambos bandos. Abr.–jun. 1937: Gernika y la industria armera vasca caen en manos sublevadas. 1937–38: se fabrica en Cataluña la copia republicana «F. Ascaso».",
+   "story": "Según numerosas fuentes, la fábrica de Astra en Gernika se salvó del bombardeo del 26 de abril de 1937 mientras ardía gran parte de la villa; se discute si fue intencionado.",
+   "cap": "Pistola Astra 400. Foto: V-Hantarex, CC BY 4.0, vía Wikimedia Commons."
+  },
+  {
+   "id": "laffitte",
+   "name": "Granada de mano Laffitte («bomba Laffitte»)",
+   "origin": "España (diseño español de los años veinte; fabricada en muchos talleres estatales y de guerra)",
+   "specs": [
+    [
+     "Tipo",
+     "Granada de mano ofensiva, espoleta de percusión (de impacto)"
+    ],
+    [
+     "Cuerpo",
+     "Cilindro de chapa fina"
+    ],
+    [
+     "Armado",
+     "La cinta de seguridad se desenrolla en vuelo (los detalles varían según el modelo)"
+    ],
+    [
+     "Carga",
+     "Explosivo rompedor (trilita/TNT o sucedáneos)"
+    ],
+    [
+     "Peso",
+     "Aprox. 0,4–0,5 kg (según las fuentes)"
+    ]
+   ],
+   "t": "La granada Laffitte era la granada de mano reglamentaria del Ejército español antes de la guerra, y ambos bandos la fabricaron en enormes cantidades. A diferencia de las granadas de espoleta de tiempos, estallaba al impactar: una cinta se desenrollaba en vuelo y armaba la espoleta. Su envuelta fina producía sobre todo onda expansiva y no grandes fragmentos, así que un soldado podía lanzarla mientras avanzaba. Las copias de guerra mal fabricadas, sobre todo al principio, podían no estallar o hacerlo con demasiada facilidad, y las milicias usaban también «bombas» caseras y cargas de dinamita, sobre todo los mineros asturianos.",
+   "good": "Barata y sencilla de fabricar en serie; su onda expansiva era eficaz para limpiar trincheras y casas; se podía usar avanzando.",
+   "bad": "La espoleta de percusión era peligrosa si se caía después de armarla; muchas no estallaban por venir de fábricas improvisadas; radio de efecto corto.",
+   "changes": "Jul. 1936: ambos bandos usan las existencias del ejército; las milicias improvisan con dinamita. 1937: fabricación en serie en las industrias de guerra republicanas y en las fábricas sublevadas. 1938: sigue siendo la granada típica de las trincheras del Ebro; todavía hoy aparecen muchas Laffitte sin explotar en los campos de batalla (no tocarlas).",
+   "story": "Los mineros asturianos de la revolución de 1934 y de 1936–37 se hicieron famosos por las cargas de dinamita lanzadas a mano; granadas reglamentarias como la Laffitte las sustituyeron a medida que crecía la industria de guerra.",
+   "cap": ""
+  },
+  {
+   "id": "t-26",
+   "name": "Carro ligero T-26",
+   "origin": "URSS (Leningrado, fábrica Kírov/Voroshílov), basado en el británico Vickers de 6 toneladas",
+   "specs": [
+    [
+     "Armamento principal",
+     "Cañón de 45 mm 20-K"
+    ],
+    [
+     "Blindaje",
+     "Hasta 15 mm"
+    ],
+    [
+     "Peso",
+     "Aprox. 10 t"
+    ],
+    [
+     "Tripulación",
+     "3"
+    ],
+    [
+     "Velocidad",
+     "Aprox. 30 km/h en carretera"
+    ],
+    [
+     "Entregados a España",
+     "Aprox. 281 (oct. 1936–1938)"
+    ]
+   ],
+   "t": "El T-26 modelo 1933 fue el carro de combate más importante de la guerra. Su cañón de 45 mm podía destruir a gran distancia cualquier carro alemán o italiano presente en España, mientras que las ametralladoras enemigas no lo perforaban. Tripulaciones y asesores soviéticos combatieron en los primeros T-26 desde octubre de 1936 cerca de Madrid; más tarde los relevaron tripulaciones españolas. La mala coordinación con la infantería desperdició a menudo su ventaja. Los sublevados capturaron muchos T-26 y los incorporaron a sus propias unidades, y algunos sirvieron en el ejército español mucho después de 1939. Pueden verse ejemplares en el museo de carros de El Goloso, cerca de Madrid.",
+   "good": "Potente cañón de 45 mm, superior al del Panzer I y al CV-33; fiable.",
+   "bad": "Blindaje fino, vulnerable a los cañones contracarro y al de 88 mm; a menudo empleado sin apoyo de infantería; escasez de tripulaciones y repuestos.",
+   "changes": "29 oct. 1936: primer combate en Seseña (al sur de Madrid). Nov. 1936–mar. 1937: Madrid, Jarama, Guadalajara. 1937: Brunete, Belchite, Fuentes de Ebro (con BT-5). 1938–39: su número disminuye; los T-26 capturados sirven en unidades sublevadas.",
+   "story": "Según se cuenta, en Seseña, el 29 de octubre de 1936, un T-26 de la compañía de Paul Arman embistió a una tanqueta italiana CV-33 y la sacó de la carretera; Arman fue nombrado Héroe de la Unión Soviética.",
+   "cap": "Carro T-26B con distintivos republicanos. Foto: MCAE Consulting, CC0, vía Wikimedia Commons."
+  },
+  {
+   "id": "panzer-i",
+   "name": "Carro ligero Panzer I",
+   "origin": "Alemania (Krupp y otros)",
+   "specs": [
+    [
+     "Armamento",
+     "2 ametralladoras MG 13 de 7,92 mm"
+    ],
+    [
+     "Blindaje",
+     "Hasta 13 mm"
+    ],
+    [
+     "Peso",
+     "Aprox. 5,4 t"
+    ],
+    [
+     "Tripulación",
+     "2"
+    ],
+    [
+     "Velocidad",
+     "Aprox. 37–40 km/h"
+    ]
+   ],
+   "t": "Alemania envió carros Panzer I con el grupo de instrucción de carros de la Legión Cóndor («Gruppe Drohne», al mando de Wilhelm von Thoma) desde el otoño de 1936, y entregó la mayoría a unidades sublevadas. Armado solo con ametralladoras, pronto se vio que no podía competir con el T-26, cuyo blindaje no perforaba. Los sublevados probaron a montar en algunos un cañón italiano Breda de 20 mm, y preferían los T-26 capturados. Las lecciones que los alemanes aprendieron en España sobre radios, calibre y blindaje influyeron directamente en sus diseños de carros de 1939–40.",
+   "good": "Rápido, mecánicamente fiable, útil para la instrucción y para apoyar a la infantería contra objetivos no blindados.",
+   "bad": "Solo ametralladoras; blindaje fino; inferior en potencia de fuego al T-26 y al BT-5.",
+   "changes": "Oct. 1936: primeras llegadas, en combate cerca de Madrid. 1937: algunos reciben un cañón Breda de 20 mm («Panzer I Breda»); los sublevados confían cada vez más en los T-26 capturados. 1938–39: empleado en Aragón, el Ebro y Cataluña en unidades mixtas.",
+   "story": "Al parecer, Von Thoma ofrecía una recompensa de 500 pesetas por cada T-26 republicano capturado intacto.",
+   "cap": "Carros Panzer I durante la instrucción de la Legión Cóndor en España. Bundesarchiv, Bild 183-E20569-21, CC BY-SA 3.0 DE."
+  },
+  {
+   "id": "cv-33",
+   "name": "Tanqueta CV-33 / CV-35 (L3)",
+   "origin": "Italia (Fiat-Ansaldo)",
+   "specs": [
+    [
+     "Armamento",
+     "1–2 ametralladoras (6,5 mm u 8 mm); versión lanzallamas L3 lf"
+    ],
+    [
+     "Blindaje",
+     "Hasta 12–14 mm"
+    ],
+    [
+     "Peso",
+     "Aprox. 3,2 t"
+    ],
+    [
+     "Tripulación",
+     "2"
+    ],
+    [
+     "Velocidad",
+     "Aprox. 42 km/h"
+    ]
+   ],
+   "t": "Esta pequeña tanqueta de dos tripulantes fue el principal vehículo blindado del Corpo Truppe Volontarie (CTV) de Mussolini. Italia la envió a España desde agosto de 1936 y combatió en Madrid, Málaga, Guadalajara, Santander, Aragón y Cataluña. Rápida y barata, solo llevaba ametralladoras y un blindaje que podían perforar los fusiles con munición perforante. En Guadalajara, en marzo de 1937, las columnas italianas atascadas en carreteras embarradas fueron castigadas por los T-26 y la aviación republicanos. La infantería de las trincheras temía la versión lanzallamas. Hay ejemplares conservados en el museo de El Goloso.",
+   "good": "Pequeña, rápida y barata; útil para el reconocimiento y para perseguir a la infantería en retirada; la versión lanzallamas era eficaz contra las trincheras.",
+   "bad": "Sin torre, solo ametralladoras; blindaje muy fino; inútil frente a los T-26.",
+   "changes": "Ago.–oct. 1936: primeras llegadas, en combate cerca de Madrid (Seseña, 29 oct. 1936). Mar. 1937: derrotada en Guadalajara. 1937–39: empleada en el Norte, Aragón, Levante y Cataluña; entregada al ejército español después de la guerra.",
+   "story": "En Guadalajara (8–23 de marzo de 1937), voluntarios italianos del Batallón Garibaldi de las Brigadas Internacionales combatieron contra el CTV de Mussolini; los altavoces republicanos llamaban a los italianos a desertar.",
+   "cap": "Tanqueta italiana CV-33. Dominio público, vía Wikimedia Commons."
+  },
+  {
+   "id": "i-16",
+   "name": "Polikarpov I-16 «Mosca» (e I-15 «Chato»)",
+   "origin": "URSS (oficina de diseño Polikarpov; los I-15 también se fabricaron en España bajo licencia)",
+   "specs": [
+    [
+     "Tipo",
+     "Caza monoplaza monoplano (I-15: biplano)"
+    ],
+    [
+     "Motor",
+     "Shvetsov M-25, aprox. 700 CV (I-16 tipo 5/6)"
+    ],
+    [
+     "Velocidad máxima",
+     "Aprox. 440–450 km/h"
+    ],
+    [
+     "Armamento",
+     "2 ametralladoras ShKAS de 7,62 mm (más en tipos posteriores)"
+    ],
+    [
+     "Primer combate en España",
+     "Nov. 1936, sobre Madrid"
+    ]
+   ],
+   "t": "El I-16 fue uno de los primeros cazas monoplanos en servicio con tren de aterrizaje retráctil. Pilotos soviéticos lo volaron sobre Madrid desde noviembre de 1936, y dio a la República la superioridad aérea sobre la capital aquel invierno. Los republicanos lo llamaban «Mosca»; los sublevados, «Rata». El biplano I-15 se llamaba «Chato» y más tarde se fabricó en España. Desde 1937, el Bf 109 alemán se convirtió en un rival peligroso, y en 1938 las entregas soviéticas ya no compensaban las pérdidas. Los I-16 supervivientes volaron con el Ejército del Aire español hasta los años cincuenta.",
+   "good": "Rápido, ágil en el alabeo, bien armado para 1936; dio a la República el dominio del aire sobre Madrid en el invierno de 1936–37.",
+   "bad": "Difícil de pilotar; superado por el Bf 109 en 1937–38; no había suficientes aviones ni pilotos entrenados.",
+   "changes": "Nov. 1936: primer combate sobre Madrid. 1937: Jarama, Guadalajara, Brunete; toman el relevo pilotos españoles formados en la URSS. 1938: grandes pérdidas en el Ebro frente a los Bf 109. 1939: los supervivientes, capturados, los usa la aviación franquista.",
+   "story": "Los pilotos españoles pusieron a los dos cazas soviéticos apodos que perduraron: «Chato», por el morro achatado del I-15, y «Mosca», por el rechoncho I-16, mientras que el otro bando llamaba «Rata» al I-16.",
+   "cap": "Polikarpov I-16 con distintivos de la República española. Foto: Elchuso, CC BY-SA 4.0, vía Wikimedia Commons."
+  },
+  {
+   "id": "ju-52",
+   "name": "Junkers Ju 52/3m",
+   "origin": "Alemania (Junkers, Dessau)",
+   "specs": [
+    [
+     "Tipo",
+     "Trimotor de transporte / bombardero auxiliar"
+    ],
+    [
+     "Motores",
+     "3 BMW 132, aprox. 725 CV cada uno"
+    ],
+    [
+     "Velocidad máxima",
+     "Aprox. 250–270 km/h"
+    ],
+    [
+     "Carga de bombas",
+     "Hasta aprox. 1.500 kg"
+    ],
+    [
+     "Tripulación",
+     "3–4"
+    ]
+   ],
+   "t": "El Ju 52 cambió el curso de la guerra en sus primeras semanas. Desde finales de julio de 1936, los Ju 52 alemanes, junto con los SM.81 italianos, trasladaron el Ejército de África de Franco desde Marruecos, por encima del estrecho de Gibraltar, hasta Sevilla y Jerez, el primer gran puente aéreo militar de la historia, mientras la flota republicana controlaba el mar. Más tarde, como bombardero de la K/88 de la Legión Cóndor, bombardeó Madrid, el frente norte y, el 26 de abril de 1937, Gernika. Lento y vulnerable ante los cazas, el He 111 lo sustituyó como bombardero a lo largo de 1937, pero siguió sirviendo como avión de transporte hasta el final.",
+   "good": "Robusto y sencillo, podía operar desde aeródromos improvisados; transportaba tropas y cargas pesadas.",
+   "bad": "Lento y mal armado; presa fácil para los cazas I-15 e I-16; poco preciso como bombardero.",
+   "changes": "Jul.–oct. 1936: puente aéreo del Ejército de África sobre el Estrecho. Nov. 1936: bombardeos nocturnos de Madrid. Abr. 1937: bombardeo de Durango y Gernika. Finales de 1937: el He 111 lo sustituye como bombardero de primera línea; sigue como avión de transporte.",
+   "story": "Entre finales de julio y octubre de 1936, los Ju 52 y otros aviones trasladaron unos 14.000 soldados con su equipo de Tetuán a Sevilla (las cifras varían según la fuente).",
+   "cap": "Un avión Junkers de la Legión Cóndor en España. Bundesarchiv, Bild 183-C0214-0007-013, CC BY-SA 3.0 DE."
+  },
+  {
+   "id": "he-111",
+   "name": "Heinkel He 111 B",
+   "origin": "Alemania (Heinkel, Rostock)",
+   "specs": [
+    [
+     "Tipo",
+     "Bombardero medio bimotor"
+    ],
+    [
+     "Motores",
+     "2 Daimler-Benz DB 600, aprox. 900–1000 CV"
+    ],
+    [
+     "Velocidad máxima",
+     "Aprox. 370 km/h"
+    ],
+    [
+     "Carga de bombas",
+     "Aprox. 1.500 kg"
+    ],
+    [
+     "Tripulación",
+     "4"
+    ]
+   ],
+   "t": "El He 111 llegó a España a principios de 1937 con la unidad experimental de bombarderos de la Legión Cóndor (VB/88) y desde mediados de 1937 sustituyó al Ju 52 como principal bombardero alemán en España. Era más rápido que muchos cazas republicanos y se empleó contra ciudades, puertos, carreteras y líneas del frente en el Norte, Aragón, Levante y el Ebro. Su éxito inicial en España, donde a menudo podía dejar atrás a los cazas, dio a la Luftwaffe un exceso de confianza en los bombarderos sin escolta, un error que pagó caro en la batalla de Inglaterra en 1940.",
+   "good": "Rápido para su época; buena carga de bombas; a menudo podía escapar de los cazas I-15.",
+   "bad": "Armamento defensivo débil; vulnerable frente a cazas más rápidos.",
+   "changes": "Mar. 1937: primeros He 111 con la VB/88. Abr. 1937: participa en el bombardeo de Gernika junto con Ju 52 y aviones italianos (la composición exacta aún se discute). 1938: principal bombardero de la Legión Cóndor sobre Aragón, Levante y el Ebro. 1939: los supervivientes pasan al Ejército del Aire español.",
+   "story": "España fabricó después el He 111 bajo licencia como CASA 2.111, que voló hasta los años setenta.",
+   "cap": "Heinkel He 111 B de la Legión Cóndor, España 1937–38. Dominio público, vía Wikimedia Commons."
+  },
+  {
+   "id": "sm-79",
+   "name": "Savoia-Marchetti SM.79 Sparviero",
+   "origin": "Italia (Savoia-Marchetti, Sesto Calende)",
+   "specs": [
+    [
+     "Tipo",
+     "Bombardero medio trimotor"
+    ],
+    [
+     "Motores",
+     "3 Alfa Romeo 126, aprox. 750–780 CV"
+    ],
+    [
+     "Velocidad máxima",
+     "Aprox. 430 km/h"
+    ],
+    [
+     "Carga de bombas",
+     "Aprox. 1.250 kg"
+    ],
+    [
+     "Tripulación",
+     "4–5"
+    ]
+   ],
+   "t": "El rápido bombardero trimotor italiano llegó a España en 1937 con la Aviazione Legionaria. Las unidades basadas en Mallorca bombardearon Barcelona, Valencia, Alicante y otras ciudades de la costa mediterránea, a menudo sin ningún aviso, mientras otras apoyaban las ofensivas terrestres en Aragón y en el Ebro. Su velocidad hacía difícil que los cazas republicanos lo alcanzaran. Los bombardeos de Barcelona del 16 al 18 de marzo de 1938, realizados por bombarderos italianos desde Mallorca, entre ellos SM.79, figuran entre los peores ataques contra una ciudad europea antes de la Segunda Guerra Mundial y provocaron protestas internacionales.",
+   "good": "Rápido, de gran autonomía y con buena carga de bombas; difícil de alcanzar para los cazas republicanos.",
+   "bad": "Estructura de madera y tela; vulnerable a los cazas si lo interceptaban; precisión limitada.",
+   "changes": "1937: llega a España; bombardeos de ciudades costeras desde Mallorca. 16–18 mar. 1938: bombardeos de Barcelona. 1938: apoya las ofensivas de Aragón y Levante y la batalla del Ebro. 1939: los supervivientes se entregan al Ejército del Aire español.",
+   "story": "Los bombardeos de Barcelona de marzo de 1938 mataron a unas 1000 personas; las cifras varían según las fuentes (entre unas 900 y 1300).",
+   "cap": "Savoia-Marchetti S.M.79 con los distintivos de la Aviazione Legionaria. Foto: Contando Estrelas, CC BY-SA 2.0, vía Wikimedia Commons."
+  },
+  {
+   "id": "flak-18",
+   "name": "Cañón antiaéreo 8,8 cm Flak 18 (el «88»)",
+   "origin": "Alemania (Krupp)",
+   "specs": [
+    [
+     "Calibre",
+     "88 mm, L/56"
+    ],
+    [
+     "Velocidad en boca",
+     "Aprox. 820 m/s"
+    ],
+    [
+     "Techo eficaz",
+     "Aprox. 8000 m"
+    ],
+    [
+     "Cadencia de tiro",
+     "Aprox. 15–20 disparos/min"
+    ],
+    [
+     "Peso",
+     "Aprox. 5 t en posición de fuego"
+    ]
+   ],
+   "t": "El después famoso «88» alemán entró en combate por primera vez en España con el grupo antiaéreo de la Legión Cóndor (F/88). Diseñado para derribar aviones, resultó igual de eficaz contra objetivos terrestres: su proyectil, rápido y de trayectoria tensa, podía destruir búnkeres, nidos de ametralladoras y carros a gran distancia. En España los alemanes lo probaron en tiro directo, por ejemplo contra las fortificaciones republicanas del Norte y de Aragón, y sacaron lecciones que aplicaron en 1940 y en el norte de África. Varios museos españoles exponen ejemplares; el ejército español fabricó sus propias copias después de la guerra.",
+   "good": "Potente, preciso y de tiro rápido; eficaz contra aviones, búnkeres y carros.",
+   "bad": "Pesado y llamativo; necesitaba sirvientes bien instruidos y un tractor; caro.",
+   "changes": "Finales de 1936: llega con la Legión Cóndor como cañón antiaéreo. 1937: empleado contra objetivos terrestres en el Norte (Cinturón de Hierro de Bilbao, Asturias). 1938: usado en tiro directo en Aragón, Levante y el Ebro. Después de 1939: algunos pasan al ejército español.",
+   "story": "Los informes alemanes desde España recomendaban dotar al 88 de munición perforante y darle un papel de tiro directo contra carros, algo que se generalizó en 1940.",
+   "cap": "Cañón 8,8 cm Flak 18 conservado en España. Foto: Z3144228, CC BY-SA 4.0, vía Wikimedia Commons."
+  }
+ ]
+}

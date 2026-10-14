@@ -1,0 +1,587 @@
+{
+ "madrid-04": {
+  "when": "12–27 FEB. 1937",
+  "sort": "1937-02-12T00:00",
+  "ev": "El Pingarrón cambia de manos en combates cuerpo a cuerpo; el Batallón Lincoln lo ataca el 27 de febrero.",
+  "q": {
+   "t": "¿Qué apoyo se le prometió al Batallón Lincoln y se le negó el 27 de febrero?",
+   "o": [
+    "Carros de combate y caballería",
+    "Artillería y apoyo aéreo",
+    "Refuerzos del Batallón Garibaldi"
+   ],
+   "a": 1,
+   "x": "Los estadounidenses de Robert Merriman recibieron la orden de atacar sin la artillería y el apoyo aéreo prometidos y perdieron bastante más de la mitad de sus hombres."
+  },
+  "rem": "Los sublevados conservaron la colina, y la batalla terminó en tablas, con ambos ejércitos atrincherados hasta 1939.",
+  "solemn": false,
+  "st": "El Pingarrón dominaba el campo de batalla del Jarama y cambió de manos varias veces en combates cuerpo a cuerpo. Las tropas sublevadas lo tomaron a mediados de febrero de 1937, y unidades republicanas, entre ellas los hombres de Líster y la XV Brigada Internacional, intentaron una y otra vez recuperarlo. El 27 de febrero el Batallón Abraham Lincoln, al mando de Robert Merriman, atacó sin el apoyo de artillería y aviación prometido y sufrió pérdidas muy graves; entre los muertos estaba el poeta irlandés Charles Donnelly. Hoy, trincheras en la cresta y parapetos de piedra dominan el valle del Jarama."
+ },
+ "madrid-08": {
+  "when": "1937",
+  "sort": "1937-01-01T00:00",
+  "ev": "Picasso pinta el Guernica para el pabellón de la República en la Exposición Internacional de París de 1937.",
+  "q": {
+   "t": "¿Por qué permaneció el Guernica en Nueva York durante décadas?",
+   "o": [
+    "Picasso solo lo quería en España cuando volviera la democracia",
+    "España se negó a pagarlo",
+    "Era demasiado frágil para viajar"
+   ],
+   "a": 0,
+   "x": "Picasso quería que el cuadro solo viniera a España cuando volviera la democracia; el MoMA lo entregó en septiembre de 1981."
+  },
+  "rem": "El Guernica responde al bombardeo de la villa vasca por la Legión Cóndor y la aviación italiana el 26 de abril de 1937.",
+  "solemn": false,
+  "st": "Picasso pintó el Guernica para el pabellón de la República en la Exposición Internacional de París de 1937, como respuesta al bombardeo de la villa vasca por la Legión Cóndor y la aviación italiana. Tras la guerra lo custodió el Museo de Arte Moderno de Nueva York, porque Picasso quería que solo viniera a España cuando volviera la democracia. Llegó a España en 1981 y al Reina Sofía en 1992. Hoy cuelga junto a sus bocetos, entre salas de carteles y fotografías de la Guerra Civil."
+ },
+ "madrid-12": {
+  "when": "19–20 JUL. 1936",
+  "sort": "1936-07-19T00:00",
+  "ev": "Obreros armados y tropas leales asaltan el cuartel de la Montaña, donde se había sublevado el general Fanjul.",
+  "q": {
+   "t": "¿Qué hay hoy en el solar del cuartel de la Montaña?",
+   "o": [
+    "El Arco de la Victoria",
+    "El templo egipcio de Debod",
+    "El edificio de Telefónica"
+   ],
+   "a": 1,
+   "x": "Las ruinas del cuartel se demolieron después de la guerra, y el templo egipcio de Debod se reconstruyó en el solar en 1972."
+  },
+  "rem": "La caída del cuartel aseguró Madrid para la República; muchos de los que estaban dentro murieron tras la rendición.",
+  "solemn": false,
+  "st": "Aquí se alzaba el cuartel de la Montaña, donde el general Joaquín Fanjul se sublevó en Madrid el 19 de julio de 1936 y quedó luego sitiado. El 20 de julio lo asaltaron obreros armados, guardias de asalto y tropas leales; muchos oficiales y soldados del interior murieron tras la rendición, y Fanjul fue después juzgado y fusilado. La caída del cuartel aseguró Madrid para la República. Hoy el templo egipcio de Debod se levanta en un parque sobre el solar, sin rastro del cuartel."
+ },
+ "madrid-16": {
+  "when": "6–25 JUL. 1937",
+  "sort": "1937-07-06T00:00",
+  "ev": "La primera gran ofensiva de la República toma Brunete, pero los contraataques sublevados la recuperan el 24 de julio.",
+  "q": {
+   "t": "¿Qué división tomó Brunete por sorpresa el primer día?",
+   "o": [
+    "La 35.ª División",
+    "La 11.ª División de Líster",
+    "La 71.ª División sublevada"
+   ],
+   "a": 1,
+   "x": "La 11.ª División de Líster tomó Brunete el 6 de julio, pero el ataque se estancó y la contraofensiva de Varela recuperó el pueblo."
+  },
+  "rem": "Brunete quedó arrasado en los combates; la iglesia parroquial aún muestra impactos de balas y metralla.",
+  "solemn": false,
+  "st": "El 6 de julio de 1937 la República lanzó su primera gran ofensiva al oeste de Madrid, con el objetivo de aislar a las tropas sublevadas que asediaban la capital. La 11.ª División de Líster tomó Brunete por sorpresa, pero el ataque se estancó en Villanueva de la Cañada y Quijorna y bajo el calor de julio. La contraofensiva de Varela, apoyada por la Legión Cóndor, recuperó Brunete el 24 de julio, y el pueblo arrasado se reconstruyó después de la guerra. Hoy la iglesia parroquial aún muestra marcas de balas y metralla."
+ },
+ "madrid-20": {
+  "when": "1939–1944",
+  "sort": "1939-04-01T00:00",
+  "ev": "Tras la caída de Madrid, la tapia del cementerio de la Almudena se convierte en el principal lugar de ejecuciones de la ciudad.",
+  "q": null,
+  "rem": "Entre los fusilados ante esta tapia estuvieron las «Trece Rosas», trece mujeres jóvenes ejecutadas el 5 de agosto de 1939.",
+  "solemn": true,
+  "st": "Tras la caída de Madrid en marzo de 1939, la tapia este del cementerio de la Almudena se convirtió en el principal lugar de ejecuciones de la ciudad. Allí fueron fusiladas muchísimas personas entre 1939 y 1944, entre ellas las «Trece Rosas», trece mujeres jóvenes ejecutadas el 5 de agosto de 1939. El contiguo Cementerio Civil alberga las tumbas de dirigentes republicanos como Francisco Largo Caballero, Dolores Ibárruri y Pablo Iglesias. Hoy se pueden ver tumbas, placas a las Trece Rosas y un memorial a las víctimas junto a la tapia."
+ },
+ "madrid-24": {
+  "when": "FINALES DE 1938–1939",
+  "sort": "1938-10-01T00:00",
+  "ev": "Zapadores sublevados construyen el Blockhaus 13, el único fortín terminado de una línea proyectada.",
+  "q": {
+   "t": "¿Cuántos nidos de ametralladora abovedados tiene el Blockhaus 13?",
+   "o": [
+    "Dos",
+    "Doce",
+    "Cuatro"
+   ],
+   "a": 2,
+   "x": "Tiene cuatro nidos de ametralladora abovedados unidos por un pasillo central, con un patio interior y un aljibe."
+  },
+  "rem": "Diseñado para resistir artillería pesada y bombas, fue declarado Bien de Interés Cultural en 2019.",
+  "solemn": false,
+  "st": "Tras la batalla de Brunete, el frente oeste de Madrid se estabilizó a lo largo del valle del Perales. A finales de 1938 la 71.ª División sublevada empezó aquí una línea de grandes fortines de hormigón, y el Blockhaus 13, construido por el 7.º Batallón de Zapadores, fue el único que se terminó. Diseñado para resistir artillería pesada y bombas, tiene cuatro nidos de ametralladora abovedados unidos por un pasillo central. Hoy se conserva casi intacto, protegido desde 2019 como Bien de Interés Cultural."
+ },
+ "madrid-30": {
+  "when": "1944–1952",
+  "sort": "1944-01-01T00:00",
+  "ev": "Presos políticos construyen como trabajo forzoso el ferrocarril Madrid-Burgos y viven aquí en un campo.",
+  "q": null,
+  "rem": "Es uno de los pocos campos de España donde aún pueden verse restos del trabajo de los presos.",
+  "solemn": true,
+  "st": "Tras la guerra, el régimen empleó a presos políticos como mano de obra forzosa en obras públicas mediante el sistema de «redención de penas por el trabajo». En Bustarviejo, entre 1944 y 1952, los presos construyeron el ferrocarril Madrid-Burgos y vivieron en un campo que después han estudiado los arqueólogos. Es uno de los pocos campos de este tipo en España cuyos restos pueden verse, y completa a Cuelgamuros como testimonio del trabajo de los presos. Hoy quedan junto a la vía los cimientos de tres recintos, garitas de vigilancia y una celda de castigo."
+ },
+ "aragon-02": {
+  "when": "15 DIC. 1937–22 FEB. 1938",
+  "sort": "1937-12-15T00:00",
+  "ev": "Las fuerzas republicanas cercan y toman Teruel, y luego la pierden ante la contraofensiva de Franco entre ventiscas.",
+  "q": {
+   "t": "¿Cuándo rindió el coronel Rey d'Harcourt la guarnición de Teruel?",
+   "o": [
+    "El 15 de diciembre de 1937",
+    "El 8 de enero de 1938",
+    "El 22 de febrero de 1938"
+   ],
+   "a": 1,
+   "x": "Rey d'Harcourt se rindió el 8 de enero de 1938; la contraofensiva de Franco recuperó la ciudad en ruinas el 22 de febrero."
+  },
+  "rem": "Librada con temperaturas de hasta unos −18 °C, Teruel fue la batalla más dura de la guerra.",
+  "solemn": false,
+  "st": "El 15 de diciembre de 1937 el Ejército de Levante republicano, al mando de Hernández Saravia y con las divisiones de Líster y El Campesino, cercó Teruel. La guarnición del coronel Domingo Rey d'Harcourt, con muchos civiles, resistió en unos pocos reductos hasta que se rindió el 8 de enero de 1938. La batalla se libró entre ventiscas y un frío atroz, y la contraofensiva de Franco, dirigida por Aranda y Varela, recuperó la ciudad en ruinas el 22 de febrero, tras inmensas pérdidas en ambos bandos. Hoy, bajo el casco antiguo, se conservan refugios antiaéreos de la guerra."
+ },
+ "aragon-06": {
+  "when": "5–8 FEB. 1938",
+  "sort": "1938-02-05T00:00",
+  "ev": "El ejército de Franco rompe el frente republicano en el valle del Alfambra, al norte de Teruel.",
+  "q": {
+   "t": "¿Qué tuvo de especial el ataque sublevado en el valle del Alfambra?",
+   "o": [
+    "Un cruce nocturno del río",
+    "Una gran carga de caballería",
+    "El primer uso de paracaidistas"
+   ],
+   "a": 1,
+   "x": "El ataque incluyó una carga de la caballería sublevada, a menudo considerada una de las últimas grandes cargas de caballería de Europa occidental."
+  },
+  "rem": "La ruptura aisló el saliente republicano y preparó la reconquista de Teruel dos semanas después.",
+  "solemn": false,
+  "st": "A principios de febrero de 1938 el ejército de Franco rompió el frente republicano al norte de Teruel, en el valle del Alfambra, arrollando varios pueblos y haciendo miles de prisioneros. El ataque incluyó una carga de la caballería sublevada, a menudo considerada una de las últimas grandes cargas de caballería de Europa occidental. La ruptura aisló el saliente republicano al norte de la ciudad y preparó la reconquista de Teruel dos semanas después. Hoy el centro explica la batalla con mapas, fotografías y objetos, y enlaza con trincheras cercanas."
+ },
+ "aragon-10": {
+  "when": "3 AGO. 1936",
+  "sort": "1936-08-03T00:00",
+  "ev": "Un avión republicano bombardea la basílica del Pilar, y ninguna de las bombas estalla.",
+  "q": {
+   "t": "¿Cómo presentó la propaganda sublevada las bombas que no estallaron?",
+   "o": [
+    "Como un sabotaje republicano",
+    "Como un milagro",
+    "Como una conspiración extranjera"
+   ],
+   "a": 1,
+   "x": "La propaganda sublevada lo presentó como un milagro; dos de las bombas siguen expuestas dentro de la basílica."
+  },
+  "rem": "Las bombas se convirtieron en un poderoso símbolo del sentido religioso que el bando de Franco dio a su guerra.",
+  "solemn": false,
+  "st": "Al principio de la guerra, un avión republicano atacó Zaragoza, en manos de los sublevados, y lanzó bombas sobre la basílica de Nuestra Señora del Pilar, el gran santuario mariano de España. Las bombas cayeron sobre el templo y la plaza contigua, y ninguna estalló; las fuentes no coinciden en cuántas fueron. La propaganda sublevada lo presentó como un milagro, y se convirtió en un poderoso símbolo del sentido religioso que el bando de Franco dio a su guerra. Hoy dos bombas desactivadas cuelgan de un pilar dentro de la basílica."
+ },
+ "aragon-14": {
+  "when": "25–26 AGO. 1937",
+  "sort": "1937-08-25T00:00",
+  "ev": "Unidades republicanas toman la iglesia fortificada del cerro tras duros combates.",
+  "q": {
+   "t": "¿Qué sacó a la luz la restauración de la iglesia de El Piquete?",
+   "o": [
+    "Enterramientos momificados del siglo XVIII",
+    "Un depósito de armas de la Guerra Civil",
+    "Archivos republicanos ocultos"
+   ],
+   "a": 0,
+   "x": "La restauración sacó a la luz enterramientos momificados del siglo XVIII, «las momias de Quinto», hoy expuestos en la iglesia."
+  },
+  "rem": "Durante los combates, civiles se refugiaron en la iglesia junto a sus defensores.",
+  "solemn": false,
+  "st": "La antigua iglesia parroquial conocida como «El Piquete» se alza en el cerro de la Corona, sobre Quinto. En agosto de 1937 unos 300 defensores sublevados la convirtieron en una fortaleza, y también se refugiaron dentro civiles. La XV Brigada Internacional y otras unidades republicanas la tomaron tras encarnizados combates casa por casa y un fuego de artillería que dañó gravemente la torre. Casi todo el pueblo quedó destruido y se reconstruyó después de la guerra. Hoy la iglesia, con las cicatrices de la batalla, sigue en pie y expone en su interior enterramientos momificados del siglo XVIII."
+ },
+ "aragon-18": {
+  "when": "ABR.–16 JUN. 1938",
+  "sort": "1938-04-01T00:00",
+  "ev": "La 43.ª División republicana, aislada, resiste en la Bolsa de Bielsa mientras los civiles cruzan a Francia.",
+  "q": {
+   "t": "¿Qué hizo la mayoría de los hombres de la 43.ª División tras cruzar a Francia?",
+   "o": [
+    "Quedarse en campos franceses",
+    "Volver a la Cataluña republicana para seguir combatiendo",
+    "Rendirse a los sublevados"
+   ],
+   "a": 1,
+   "x": "Tras resistir en la bolsa unos dos meses, los soldados cruzaron a mediados de junio de 1938; la mayoría regresó a la Cataluña republicana."
+  },
+  "rem": "Miles de civiles huyeron por los puertos del Pirineo, y la propia Bielsa quedó destruida en gran parte.",
+  "solemn": false,
+  "st": "Cuando la ofensiva sublevada de Aragón rompió el frente en la primavera de 1938, la 43.ª División republicana de Antonio Beltrán quedó aislada en el alto valle pirenaico de Bielsa. Durante unos dos meses resistió en la bolsa frente a fuerzas muy superiores mientras miles de civiles cruzaban los puertos hacia Francia. A mediados de junio los soldados los siguieron, y la mayoría volvió a la Cataluña republicana para seguir combatiendo. Bielsa quedó destruida en gran parte. Hoy el museo del pueblo cuenta la historia de la bolsa y del éxodo."
+ },
+ "aragon-22": {
+  "when": "1937–1938",
+  "sort": "1937-01-01T00:00",
+  "ev": "Los republicanos fortifican el promontorio de Mansueto con un pequeño fortín de hormigón y ladrillo.",
+  "q": {
+   "t": "¿Qué sostenía la cubierta de hormigón del fortín de Mansueto?",
+   "o": [
+    "Vigas de madera",
+    "Vigas de acero de un puente",
+    "Carriles de ferrocarril"
+   ],
+   "a": 2,
+   "x": "En lugar de trincheras con sacos terreros, los republicanos construyeron un pequeño fortín cubierto con una losa de hormigón sobre carriles de ferrocarril."
+  },
+  "rem": "El fortín formó parte del cerco republicano de Teruel.",
+  "solemn": false,
+  "st": "Mansueto es un promontorio sobre Valdecebro que vigila el acceso sudeste a Teruel. Los republicanos no lo fortificaron con las habituales trincheras de sacos terreros, sino con un pequeño fortín de gruesos muros de hormigón y ladrillo, cubierto con una losa de hormigón apoyada sobre carriles de ferrocarril. Formó parte del cerco republicano de Teruel en 1937 y 1938, y su sólida construcción lo distinguía de la mayoría de las posiciones de este frente. Hoy quedan en el promontorio tramos rotos de muro con aspilleras y fragmentos de la cubierta de hormigón."
+ },
+ "catalonia-02": {
+  "when": "AGO. 1938",
+  "sort": "1938-08-01T00:00",
+  "ev": "Las tropas republicanas defienden la pelada sierra de Pàndols frente a repetidos asaltos sublevados.",
+  "q": {
+   "t": "¿Por qué fueron tan duros los combates en la sierra de Pàndols?",
+   "o": [
+    "Se luchaba sobre roca desnuda, donde apenas se podían cavar trincheras",
+    "La nieve profunda cortaba los suministros",
+    "Las inundaciones aislaban la sierra"
+   ],
+   "a": 0,
+   "x": "La sierra es de caliza desnuda: apenas se podían cavar trincheras y a menudo no se podía enterrar a los muertos."
+  },
+  "rem": "La sierra era el bastión sur de la cabeza de puente del Ebro y resistió hasta el hundimiento del otoño.",
+  "solemn": false,
+  "st": "La pelada sierra caliza de Pàndols era el bastión sur de la cabeza de puente del Ebro. Tropas republicanas, entre ellas el 5.º Cuerpo de Ejército de Líster y la 35.ª División con la XV Brigada Internacional, la defendieron durante todo agosto de 1938 frente a repetidos asaltos sublevados apoyados por un enorme bombardeo artillero y aéreo. Los hombres combatieron sobre la roca desnuda, donde apenas se podían cavar trincheras y a menudo no se podía enterrar a los muertos. Hoy hay cerca de la cima un memorial, parapetos de piedra y pozos de tirador excavados en la roca."
+ },
+ "catalonia-06": {
+  "when": "1937–ENE. 1939",
+  "sort": "1937-01-01T00:00",
+  "ev": "La batería antiaérea republicana dispara desde esta colina contra los bombarderos que atacan Barcelona.",
+  "q": {
+   "t": "¿Qué ocupó los emplazamientos de los cañones tras la guerra, hasta 1990?",
+   "o": [
+    "Barracas",
+    "Un museo militar",
+    "Una emisora de radio"
+   ],
+   "a": 0,
+   "x": "Tras la guerra, las barracas ocuparon los emplazamientos y permanecieron allí hasta 1990."
+  },
+  "rem": "El lugar explica dos capítulos: la defensa antiaérea en la guerra y la vida en las barracas de la posguerra.",
+  "solemn": false,
+  "st": "La defensa antiaérea republicana instaló su batería principal en esta colina porque dominaba la ciudad. Cuatro cañones Vickers, dirigidos con fonolocalizadores y reflectores, disparaban contra los bombarderos italianos y alemanes que atacaron Barcelona en 1937 y 1938. Fueron inutilizados cuando los republicanos se retiraron en enero de 1939. Tras la guerra, las barracas ocuparon los emplazamientos hasta 1990, y en 2011 el museo de historia de la ciudad restauró el lugar. Hoy las plataformas de los cañones y los suelos de baldosa de las barracas se asoman a una vista de 360° sobre Barcelona."
+ },
+ "catalonia-10": {
+  "when": "JUL.–NOV. 1938",
+  "sort": "1938-07-25T00:00",
+  "ev": "La ofensiva final sublevada rompe el frente en La Fatarella y acaba con la cabeza de puente del Ebro.",
+  "q": {
+   "t": "¿Por dónde repasaron el Ebro las últimas unidades republicanas el 16 de noviembre?",
+   "o": [
+    "Por Miravet",
+    "Por Móra d'Ebre",
+    "Por Flix"
+   ],
+   "a": 2,
+   "x": "Tras la ruptura en La Fatarella, las últimas unidades republicanas repasaron el río por Flix el 16 de noviembre, poniendo fin a la batalla."
+  },
+  "rem": "La Serra de la Fatarella fue el último reducto de la cabeza de puente republicana del Ebro.",
+  "solemn": false,
+  "st": "La Serra de la Fatarella era el flanco norte de la cabeza de puente republicana del Ebro y su último reducto. Les Devees era una posición de retaguardia que protegía el acceso a La Fatarella; allí los soldados construyeron dos refugios, uno en un antiguo horno de cal, unidos por una trinchera en zigzag. A mediados de noviembre de 1938 la ofensiva final sublevada rompió el frente aquí, y las últimas unidades republicanas repasaron el río el 16 de noviembre, poniendo fin a la batalla. Hoy unos paneles explican los refugios y la trinchera restaurados."
+ },
+ "catalonia-15": {
+  "when": "1937–1938",
+  "sort": "1937-01-01T00:00",
+  "ev": "Los vecinos de Flix excavan un refugio contra los bombardeos; la batalla del Ebro empieza y termina aquí.",
+  "q": {
+   "t": "¿Por qué fue bombardeada Flix repetidamente?",
+   "o": [
+    "Era el cuartel general sublevado",
+    "Tenía un aeródromo",
+    "Tenía una gran fábrica química y un paso sobre el río"
+   ],
+   "a": 2,
+   "x": "Flix tenía una gran fábrica química y un paso sobre el río, por lo que fue bombardeada repetidamente."
+  },
+  "rem": "Las últimas tropas republicanas se retiraron aquí al otro lado del río en la noche del 15 al 16 de noviembre de 1938.",
+  "solemn": false,
+  "st": "Flix tenía una gran fábrica química y un paso sobre el río, y fue bombardeada repetidamente; sus habitantes excavaron este refugio bajo el casco antiguo. El 25 de julio de 1938 unidades republicanas del XV Cuerpo de Ejército cruzaron el Ebro en este sector al comienzo de la ofensiva. En la noche del 15 al 16 de noviembre las últimas tropas republicanas se retiraron aquí al otro lado del río, poniendo fin a la batalla del Ebro. Hoy las galerías restauradas acogen una exposición sobre los bombardeos de Flix y la defensa civil."
+ },
+ "catalonia-23": {
+  "when": "1937–1939",
+  "sort": "1937-01-01T00:00",
+  "ev": "Un aeródromo construido por los republicanos es capturado y usado por escuadrillas sublevadas y la Legión Cóndor.",
+  "q": {
+   "t": "¿Quién construyó el aeródromo de La Sénia?",
+   "o": [
+    "La Legión Cóndor",
+    "La Aviazione Legionaria italiana",
+    "El Ejército republicano, con maquinaria soviética"
+   ],
+   "a": 2,
+   "x": "El Ejército republicano construyó el aeródromo en 1936-1937 con maquinaria soviética; fue capturado después de abril de 1938."
+  },
+  "rem": "Construido por un bando y utilizado por el otro, el aeródromo refleja cómo la República quedó partida en dos en 1938.",
+  "solemn": false,
+  "st": "El Ejército republicano construyó este aeródromo en 1936-1937 con maquinaria soviética. Después de que el avance sublevado hacia el mar en abril de 1938 partiera en dos la República, fue capturado y utilizado por escuadrillas sublevadas y por la Legión Cóndor alemana, que despegaba desde aquí contra Valencia y sobre la batalla del Ebro. Se abandonó tras la guerra. Hoy el edificio de mando original alberga el Centre d'Aviació Històrica de la Sénia, con aviones expuestos junto a la llana antigua pista de aterrizaje."
+ },
+ "catalonia-21": {
+  "when": "3–8 MAY. 1937",
+  "sort": "1937-05-03T00:00",
+  "ev": "George Orwell vigila el edificio del POUM desde la azotea del Poliorama durante los Hechos de Mayo.",
+  "q": {
+   "t": "¿Qué vigilaba Orwell desde la azotea del Poliorama?",
+   "o": [
+    "El hotel Colón",
+    "El edificio del comité ejecutivo del POUM",
+    "La central de Telefónica"
+   ],
+   "a": 1,
+   "x": "De permiso del frente de Aragón, Orwell vigilaba el edificio del comité ejecutivo del POUM, al otro lado de la Rambla, como cuenta en «Homenaje a Cataluña»."
+  },
+  "rem": "Un mes después el POUM fue ilegalizado, y Orwell huyó de España mientras detenían a sus militantes.",
+  "solemn": false,
+  "st": "George Orwell, de permiso de la milicia del POUM en el frente de Aragón, pasó los Hechos de Mayo de 1937 en la azotea del cine Poliorama vigilando el edificio del comité ejecutivo del POUM, al otro lado de la Rambla, como cuenta en Homenaje a Cataluña. El centro de Barcelona quedó dividido por barricadas entre las fuerzas de la CNT y el POUM y las del Gobierno y el PSUC. Un mes después el POUM fue ilegalizado, y Orwell huyó de España. Hoy la fachada y la torre del reloj del Poliorama tienen casi el mismo aspecto que él conoció."
+ },
+ "catalonia-26": {
+  "when": "5 FEB. 1939",
+  "sort": "1939-02-05T00:00",
+  "ev": "El presidente Azaña y otros dirigentes republicanos cruzan a pie a Francia por el Coll de Lli.",
+  "q": null,
+  "rem": "Miles de refugiados siguieron estos mismos caminos de montaña hacia el exilio mientras caía la Cataluña republicana.",
+  "solemn": true,
+  "st": "En los últimos días de la República en Cataluña, el pueblo fronterizo de La Vajol dio refugio a miembros del Gobierno y a tesoros evacuados de Barcelona, entre ellos cuadros del Prado. El 5 de febrero de 1939 Manuel Azaña, Diego Martínez Barrio, Lluís Companys y José Antonio Aguirre cruzaron a pie a Francia por el Coll de Lli, aunque los relatos de sus rutas difieren; miles de refugiados usaron los mismos caminos. Hoy un monumento al exilio y senderos señalizados conducen hacia la frontera."
+ },
+ "north-01": {
+  "when": "26 ABR. 1937",
+  "sort": "1937-04-26T00:00",
+  "ev": "En día de mercado, aviones alemanes e italianos bombardean Gernika durante unas tres horas y destruyen el centro de la villa.",
+  "q": null,
+  "rem": "Gernika se convirtió en la imagen emblemática del bombardeo de civiles; el museo la recuerda con las voces de los supervivientes y un mensaje de reconciliación.",
+  "solemn": true,
+  "st": "La tarde del lunes 26 de abril de 1937, día de mercado, aviones de la Legión Cóndor alemana y de la Aviazione Legionaria italiana bombardearon Gernika durante unas tres horas en apoyo del avance sublevado sobre Bilbao. La mayor parte del centro de la villa quedó destruida; el número de muertos sigue siendo objeto de debate. Contado por George Steer y pintado por Picasso, el ataque se convirtió en la imagen emblemática del bombardeo de civiles. Hoy el Museo de la Paz presenta testimonios de supervivientes y una sección sobre la reconciliación."
+ },
+ "north-05": {
+  "when": "SEPT. 1936–ABR. 1937",
+  "sort": "1936-09-01T00:00",
+  "ev": "Batallones vascos y republicanos defienden las alturas de Intxorta todo el invierno hasta que se hunde el frente.",
+  "q": {
+   "t": "¿Cuándo tuvieron que abandonar finalmente los defensores la línea de Intxorta?",
+   "o": [
+    "En septiembre de 1936, poco después de caer la mayor parte de Gipuzkoa",
+    "En junio de 1937, tras la caída de Bilbao",
+    "A finales de abril de 1937, al hundirse el frente"
+   ],
+   "a": 2,
+   "x": "Los batallones resistieron en Intxorta todo el invierno y las primeras semanas de la ofensiva de Mola de 1937, y la abandonaron a finales de abril de 1937."
+  },
+  "rem": "Intxorta se convirtió en un símbolo de la resistencia vasca; el centro de Elgeta también cuenta cómo se recuperó su memoria.",
+  "solemn": false,
+  "st": "Tras perderse la mayor parte de Gipuzkoa en 1936, batallones vascos y republicanos estabilizaron el frente en las alturas de Intxorta, sobre Elgeta. Resistieron en estas trincheras todo el invierno y las primeras semanas de la ofensiva de primavera de Mola, hasta que la línea se abandonó a finales de abril de 1937, cuando el frente se hundió hacia Durango y Bilbao. Intxorta se convirtió en un símbolo de la resistencia vasca. Hoy un centro de interpretación en Elgeta y una ruta circular señalizada llevan a trincheras restauradas, refugios, miradores y el monumento Intxortako Atea."
+ },
+ "north-09": {
+  "when": "12 JUN. 1937",
+  "sort": "1937-06-12T00:00",
+  "ev": "Una masa de artillería y aviones rompe el Cinturón de Hierro de Bilbao en su débil sector de Gaztelumendi.",
+  "q": {
+   "t": "¿Qué ayudó a revelar a los sublevados los puntos débiles del Cinturón de Hierro?",
+   "o": [
+    "El diario de un oficial vasco capturado",
+    "Fotografías aéreas tomadas por la Legión Cóndor",
+    "Su ingeniero se pasó al enemigo con los planos"
+   ],
+   "a": 2,
+   "x": "El ingeniero Alejandro Goicoechea se pasó a los sublevados con los planos del Cinturón de Hierro. El 12 de junio de 1937 el ataque abrió brecha en Gaztelumendi."
+  },
+  "rem": "Defendido por muchos menos hombres de los previstos, el Cinturón de Hierro falló, y Bilbao cayó una semana después de la ruptura.",
+  "solemn": false,
+  "st": "El Cinturón de Hierro rodeaba Bilbao con trincheras, búnkeres y posiciones artilleras, pero lo defendían muchos menos hombres de los previstos, y el ingeniero Alejandro Goicoechea se pasó a los sublevados con sus planos. El 12 de junio de 1937 los sublevados concentraron artillería pesada y más de cien aviones sobre el débil sector de Gaztelumendi, en Larrabetzu, y abrieron brecha; Bilbao cayó una semana después. Hoy un búnker integrado en un caserío cerca de Sarrikola señala el sector de la ruptura."
+ },
+ "north-13": {
+  "when": "14–17 AGO. 1937",
+  "sort": "1937-08-14T00:00",
+  "ev": "Divisiones italianas del CTV atacan y toman el puerto del Escudo, abriendo el camino a Santander.",
+  "q": null,
+  "rem": "La pirámide es un monumento de la época fascista a los caídos italianos; su futuro se debate en el marco de la ley de memoria democrática.",
+  "solemn": true,
+  "st": "El puerto del Escudo lleva la carretera principal de Burgos a Santander a través de la cordillera Cantábrica. Cuando comenzó la ofensiva sublevada sobre Santander el 14 de agosto de 1937, divisiones italianas del CTV atacaron aquí y tomaron el puerto el 17 de agosto, cercando a unidades republicanas; Santander cayó el 26 de agosto. El monumento a los caídos italianos es una obra de la época fascista cuyo futuro está en debate. Hoy una pirámide de piedra se alza junto a la N-623 en la cima, con amplias vistas de montaña."
+ },
+ "north-17": {
+  "when": "OCT. 1936–OCT. 1937",
+  "sort": "1936-10-01T00:00",
+  "ev": "Los defensores sublevados rodean Oviedo de posiciones de hormigón frente a las líneas republicanas del monte Naranco.",
+  "q": {
+   "t": "¿Qué bando construyó el búnker de hormigón de Cerdeño?",
+   "o": [
+    "Las milicias mineras republicanas",
+    "Los defensores sublevados de Oviedo",
+    "Ingenieros italianos del CTV"
+   ],
+   "a": 1,
+   "x": "Cuando la columna gallega llegó a Oviedo en octubre de 1936, los defensores sublevados rodearon la ciudad de posiciones de hormigón como esta."
+  },
+  "rem": "Estas posiciones siguieron en primera línea hasta la caída de Asturias en octubre de 1937.",
+  "solemn": false,
+  "st": "Cuando la columna gallega de socorro llegó a Oviedo en octubre de 1936, los defensores sublevados rodearon la ciudad de posiciones de hormigón frente a las líneas republicanas del monte Naranco y de los pueblos de alrededor. Estas obras siguieron en primera línea hasta la caída de Asturias en octubre de 1937, y las laderas del Naranco, más arriba, se disputaron una y otra vez. Desde entonces los arqueólogos han cartografiado muchas de las trincheras y búnkeres. Hoy en Cerdeño, en las afueras norte de la ciudad, se conserva un búnker sublevado."
+ },
+ "north-21": {
+  "when": "1936–JUN. 1937",
+  "sort": "1936-01-01T00:00",
+  "ev": "El extremo occidental del Cinturón de Hierro de Bilbao atraviesa la comarca de Uribe hasta la costa.",
+  "q": {
+   "t": "¿Dónde llegaba a la costa el extremo occidental del Cinturón de Hierro?",
+   "o": [
+    "En Barrika y Sopela",
+    "En el puerto de Santander",
+    "En Bermeo"
+   ],
+   "a": 0,
+   "x": "La línea atravesaba la comarca de Uribe, al norte de Bilbao, hasta la costa de Barrika y Sopela, donde unos paneles señalan los restos."
+  },
+  "rem": "El centro de Berango explica cómo se construyó el Cinturón de Hierro y por qué falló en junio de 1937.",
+  "solemn": false,
+  "st": "El extremo occidental del Cinturón de Hierro de Bilbao atravesaba la comarca de Uribe, al norte de la ciudad, hasta la costa de Barrika y Sopela. En varios municipios, entre ellos Berango, Urduliz, Gatika, Loiu, Mungia y Zamudio, se conservan restos de búnkeres, trincheras y emplazamientos artilleros que, en conjunto, muestran cómo se construyó la línea y por qué falló en junio de 1937. Hoy el pequeño centro de interpretación de Berango expone paneles, objetos y documentos, y es un buen punto de partida para rutas a pie hasta los restos señalizados."
+ },
+ "south-04": {
+  "when": "VERANO DE 1936",
+  "sort": "1936-07-01T00:00",
+  "ev": "Lorca vuelve a la casa de veraneo de su familia justo antes de la sublevación; la casa es registrada después.",
+  "q": {
+   "t": "¿Dónde se refugió Lorca después de que los militares se hicieran con Granada?",
+   "o": [
+    "En un cortijo de Víznar",
+    "En el Ayuntamiento de Granada",
+    "En la casa de la familia Rosales"
+   ],
+   "a": 2,
+   "x": "Lorca se refugió con los Rosales, falangistas y amigos suyos, pero allí lo detuvieron el 16 de agosto de 1936 y lo mataron días después cerca de Alfacar."
+  },
+  "rem": "Aquí escribió Lorca buena parte de Bodas de sangre y Yerma; es el lugar para conocer al escritor antes de visitar los lugares de su muerte.",
+  "solemn": false,
+  "st": "Esta fue la casa de veraneo de la familia García Lorca de 1926 a 1936, donde el poeta escribió buena parte de Bodas de sangre y Yerma. Cuando los militares se hicieron con Granada, la casa fue registrada, y su cuñado Manuel Fernández-Montesinos, alcalde socialista, fue detenido y fusilado. Lorca se refugió en casa de los Rosales, falangistas y amigos suyos, pero allí lo detuvieron el 16 de agosto de 1936 y lo mataron días después cerca de Alfacar. Hoy el cortijo encalado, casi sin cambios, conserva muebles de la familia, su escritorio y su piano, dibujos y documentos."
+ },
+ "south-08": {
+  "when": "FEB. 1937",
+  "sort": "1937-02-01T00:00",
+  "ev": "Aquí se encuentran los refugiados que huyen de Málaga por la carretera de la costa y los que bajan de los pueblos de la Axarquía.",
+  "q": null,
+  "rem": "Cada febrero florecen aquí los almendros junto a placas con los nombres de los supervivientes escritos de su puño y letra.",
+  "solemn": true,
+  "st": "Torre del Mar, a unos 30 km al este de Málaga, fue el lugar donde, en febrero de 1937, los refugiados que huían por la carretera de la costa se encontraron con los que bajaban de los pueblos de la Axarquía. En 2007 el municipio inauguró este jardín de la memoria, concebido como lugar de encuentro más que como monumento, y aquí se celebra cada año la conmemoración de la Desbandá. Hoy una placa agrietada con «MÁLAGA 1937 / NUNCA MÁS», almendros y cientos de placas manuscritas por supervivientes llenan el jardín."
+ },
+ "south-12": {
+  "when": "PRINCIPIOS DE SEPT. 1936",
+  "sort": "1936-09-01T00:00",
+  "ev": "La fotografía «Muerte de un miliciano» de Robert Capa se ha situado, por el perfil del horizonte, en los alrededores de Espejo.",
+  "q": {
+   "t": "¿Cómo se relacionó la fotografía «Muerte de un miliciano» con Espejo?",
+   "o": [
+    "Un agricultor del lugar reconoció al miliciano",
+    "El propio cuaderno de Capa nombraba el pueblo",
+    "Su horizonte se identificó con las afueras de Espejo"
+   ],
+   "a": 2,
+   "x": "En 2009 José Manuel Susperregui identificó el horizonte con Espejo, donde el frente estaba tranquilo. El lugar, el hombre y si la escena fue preparada siguen en debate."
+  },
+  "rem": "La fotografía más famosa de la guerra sigue en debate; Espejo muestra cómo el frente del primer verano discurría por campo abierto.",
+  "solemn": false,
+  "st": "La fotografía de Robert Capa de un miliciano que cae hacia atrás, publicada en Vu en septiembre de 1936, se convirtió en la imagen emblemática de la guerra. Durante décadas se dijo que mostraba al anarquista Federico Borrell García muerto en Cerro Muriano, pero en 2009 José Manuel Susperregui identificó el perfil del horizonte con las afueras de Espejo, donde el frente estaba entonces tranquilo; el lugar, la identidad del soldado y si la escena fue preparada siguen siendo objeto de debate. Hoy rodean Espejo campos de cultivo abiertos y ondulados, sin ningún memorial ni indicación conocidos."
+ },
+ "south-16": {
+  "when": "FINALES DE JUL.–OCT. 1936",
+  "sort": "1936-07-01T00:00",
+  "ev": "Aviones de transporte alemanes e italianos llevan el Ejército de África de Franco de Tetuán a Sevilla en el primer gran puente aéreo.",
+  "q": {
+   "t": "¿Por qué se trasladó por aire, y no por mar, el Ejército de África de Franco a la Península?",
+   "o": [
+    "No quedaban barcos en Marruecos",
+    "La flota republicana bloqueaba el Estrecho",
+    "Los temporales habían cerrado los puertos marroquíes"
+   ],
+   "a": 1,
+   "x": "Con la flota republicana bloqueando el Estrecho, los aviones de transporte llevaron legionarios y Regulares a Tablada y Jerez; después las tropas marcharon hacia el norte."
+  },
+  "rem": "Fue el primer gran puente aéreo militar de la historia, y llevó al Ejército de África camino de Badajoz y Madrid.",
+  "solemn": false,
+  "st": "Con la flota republicana bloqueando el Estrecho, el Ejército de África de Franco estaba atrapado en Marruecos. Desde finales de julio de 1936, aviones de transporte alemanes Junkers Ju 52 e italianos Savoia-Marchetti llevaron legionarios y Regulares de Tetuán a Sevilla, aterrizando sobre todo en Tablada y en Jerez, en el primer gran puente aéreo militar de la historia. Las tropas marcharon después hacia el norte, hacia Badajoz y Madrid, y el aeródromo sirvió más tarde como base militar y escuela de aviación. Hoy Tablada sigue siendo una base militar y solo puede verse su perímetro."
+ },
+ "levant-05": {
+  "when": "28 MAR.–1 ABR. 1939",
+  "sort": "1939-03-28T00:00",
+  "ev": "Decenas de miles de republicanos se agolpan en los muelles de Alicante con la esperanza de ser evacuados mientras se hunde la República.",
+  "q": {
+   "t": "¿Qué era el Stanbrook?",
+   "o": [
+    "Un carbonero británico que llevó refugiados a Orán",
+    "Un buque de guerra republicano que escapó a Bizerta",
+    "Un transporte italiano que traía tropas al puerto"
+   ],
+   "a": 0,
+   "x": "Al mando del capitán Archibald Dickson, el carbonero Stanbrook zarpó hacia Orán el 28 de marzo de 1939, muy por encima de su capacidad; muy pocos barcos lo siguieron."
+  },
+  "rem": "Miles de personas que quedaron en los muelles fueron hechas prisioneras; la Generalitat Valenciana declara hoy el 28 de marzo día de recuerdo.",
+  "solemn": false,
+  "st": "Mientras la República se hundía en marzo de 1939, decenas de miles de soldados, cargos y familias republicanos acudieron a Alicante con la esperanza de ser evacuados por mar. El 28 de marzo el carbonero británico Stanbrook, al mando del capitán Archibald Dickson, zarpó rumbo a Orán muy por encima de su capacidad, pero lo siguieron muy pocos barcos y muchos miles quedaron en los muelles. Tras la toma del puerto, fueron conducidos a Los Almendros y Albatera. Hoy una placa dedicada a la tripulación del Stanbrook se encuentra en el muelle."
+ },
+ "levant-06": {
+  "when": "30 MAR.–6 ABR. 1939",
+  "sort": "1939-03-30T00:00",
+  "ev": "Los prisioneros capturados en el puerto de Alicante quedan retenidos en un almendral al aire libre, casi sin comida ni agua.",
+  "q": null,
+  "rem": "No queda ninguna estructura original; un sencillo monolito en el parque recuerda a quienes estuvieron aquí retenidos y a los que se llevaron para fusilarlos.",
+  "solemn": true,
+  "st": "Los prisioneros capturados en el puerto de Alicante fueron retenidos desde el 31 de marzo de 1939 en un almendral de La Goteta, un campo abierto rodeado de alambre de espino, casi sin comida ni agua. Durante aproximadamente una semana estuvieron aquí muchos miles, hasta que la mayoría fue trasladada a Albatera o a cárceles, y algunos fueron sacados y fusilados; no hay registros fiables de cuántos murieron. Hoy un pequeño monolito conmemorativo se alza en un parque de barrio sobre el lugar; no queda ninguna estructura original."
+ },
+ "levant-13": {
+  "when": "7 MAR. 1939",
+  "sort": "1939-03-07T00:00",
+  "ev": "Las baterías costeras cerca de Cabo Tiñoso hunden el transporte sublevado Castillo de Olite cuando se acercaba a Cartagena.",
+  "q": null,
+  "rem": "Los dos cañones de 381 mm de Castillitos siguen en su sitio, construidos para proteger la principal base naval de la República.",
+  "solemn": false,
+  "st": "Castillitos, construida entre 1933 y 1936 con aspecto de falso castillo, montaba dos cañones Vickers de 381 mm que protegían Cartagena y, según se dice, solo disparó una vez en toda la guerra. Las baterías de Cabo Tiñoso cobraron importancia al final: en marzo de 1939 tropas leales a la República las recuperaron, y el 7 de marzo un proyectil de la vecina batería de La Parajola alcanzó el transporte sublevado Castillo de Olite, en el que murieron 1476 de los 2112 hombres a bordo. Hoy ambos cañones siguen en sus emplazamientos sobre el acantilado."
+ },
+ "levant-16": {
+  "when": "1940–1942",
+  "sort": "1940-01-01T00:00",
+  "ev": "Presos republicanos permanecen recluidos en una colonia penitenciaria franquista junto a la carretera que cruza Formentera.",
+  "q": null,
+  "rem": "Muchos presos murieron aquí de hambre y enfermedades; el lugar está hoy protegido, con el poema de Coromines «El cementerio de los vivos» a su lado.",
+  "solemn": true,
+  "st": "Tras la guerra, el régimen de Franco instaló una colonia penitenciaria para presos republicanos en Formentera, junto a la carretera de La Savina a La Mola. Pasaron por ella unos 2133 hombres, y al menos 58 murieron de hambre y enfermedades antes de su cierre en noviembre de 1942; fueron enterrados en el cementerio de Sant Francesc, donde se han exhumado restos. Hoy quedan muros bajos, cimientos de barracones, pozos y una placa con el poema de Joan Coromines «El cementerio de los vivos»."
+ },
+ "west-06": {
+  "when": "1939–MAR. 1940",
+  "sort": "1939-03-01T00:00",
+  "ev": "Las autoridades franquistas retienen aquí a miles de soldados y civiles republicanos a la espera de clasificación y juicio.",
+  "q": null,
+  "rem": "Muchos de los retenidos aquí fueron sacados y fusilados; el foso, las calles y los cimientos del campo se conservan como uno de los trazados de campo franquista mejor conservados de España.",
+  "solemn": true,
+  "st": "Cuando el Ejército republicano de Extremadura se rindió a finales de marzo de 1939, las autoridades franquistas levantaron un campo en la finca La Verilleja, cerca de Castuera. Durante aproximadamente un año retuvo a miles de soldados y civiles republicanos a la espera de clasificación y juicio; muchos fueron sacados y fusilados, aunque no se ha establecido cuántos fueron ejecutados. Es uno de los trazados de campo franquista mejor conservados de España. Hoy quedan el foso perimetral, las calles del campo, los cimientos de los barracones y la base de la cruz."
+ },
+ "west-05": {
+  "when": "26 AGO.–OCT. 1936",
+  "sort": "1936-08-26T00:00",
+  "ev": "Franco dirige desde este palacio renacentista el avance del Ejército de África hacia Talavera y Toledo.",
+  "q": {
+   "t": "¿Qué le ocurrió a Franco mientras estaba aquí, a finales de septiembre de 1936?",
+   "o": [
+    "Resultó herido en un bombardeo aéreo",
+    "Firmó el último parte de guerra",
+    "Sus compañeros generales lo eligieron jefe supremo de los ejércitos"
+   ],
+   "a": 2,
+   "x": "Sus compañeros generales lo eligieron generalísimo y jefe del Estado sublevado, antes de la proclamación formal en Burgos el 1 de octubre."
+  },
+  "rem": "El palacio muestra cómo el mando sublevado se improvisó en edificios particulares de capitales de provincia.",
+  "solemn": false,
+  "st": "Desde el 26 de agosto de 1936 Franco instaló su cuartel general en este palacio renacentista de Cáceres, desde donde dirigió el avance del Ejército de África Tajo arriba hacia Talavera y Toledo. A finales de septiembre, mientras estaba aquí, sus compañeros generales lo eligieron generalísimo y jefe del Estado sublevado. El palacio muestra cómo el mando sublevado se improvisó en edificios particulares de capitales de provincia. Hoy su hermosa fachada se alza en la ciudad monumental amurallada; una placa franquista ha suscitado peticiones de retirada."
+ },
+ "castile-04": {
+  "when": "1942–2016",
+  "sort": "1942-01-01T00:00",
+  "ev": "Pamplona levanta un monumento con cúpula a los muertos del bando sublevado, cuya cripta acogerá después a Mola y Sanjurjo.",
+  "q": null,
+  "rem": "Si resignificar o derribar el monumento sigue siendo uno de los debates más vivos de España sobre el patrimonio incómodo.",
+  "solemn": true,
+  "st": "Pamplona fue la base del general Emilio Mola, «el Director» del golpe de julio de 1936, y Navarra aportó miles de requetés carlistas al bando sublevado, mientras más de 3000 navarros de izquierdas fueron asesinados en la retaguardia. El Monumento a los Caídos de Navarra, con su cúpula, honraba a los muertos del bando sublevado, y su cripta albergó a Mola y Sanjurjo hasta 2016. Sigue sin resolverse si hay que resignificarlo o derribarlo. Hoy el enorme edificio domina la avenida de Carlos III, con sus inscripciones franquistas tapadas."
+ },
+ "castile-07": {
+  "when": "1937–1947",
+  "sort": "1937-01-01T00:00",
+  "ev": "Presos republicanos y, después, extranjeros que huían a través de los Pirineos son recluidos en el campo de concentración franquista que más tiempo funcionó.",
+  "q": null,
+  "rem": "Aquí se recuerda a los presos republicanos, a los brigadistas internacionales y a los refugiados y evadidos de la Segunda Guerra Mundial retenidos en el campo hasta 1947.",
+  "solemn": true,
+  "st": "Abierto en 1937 junto al nudo ferroviario, Miranda de Ebro fue el campo de concentración franquista que más tiempo funcionó: no cerró hasta enero de 1947. Por él pasaron muchísimos presos republicanos, entre ellos brigadistas internacionales capturados. Durante la Segunda Guerra Mundial se convirtió en el principal campo de internamiento para extranjeros que cruzaban los Pirineos, con más de 3500 internos a la vez en un campo construido para 1500. Hoy quedan algunos restos y una placa entre naves industriales, y un centro de interpretación municipal tiene un barracón reconstruido."
+ },
+ "castile-10": {
+  "when": "1938–1943",
+  "sort": "1938-01-01T00:00",
+  "ev": "Presos republicanos recluidos en una antigua fábrica de seda mueren de frío, hambre y enfermedades.",
+  "q": null,
+  "rem": "Las exhumaciones realizadas desde 2007 han devuelto el nombre a muchos de los que murieron aquí, uno de los casos de mortalidad carcelaria mejor documentados de la España de Franco.",
+  "solemn": true,
+  "st": "En una antigua fábrica de seda del valle de Valdivielso, al norte de Burgos, el régimen de Franco tuvo una prisión para presos republicanos, muchos de ellos trasladados de otras cárceles y del frente Norte. El frío, el hambre y las enfermedades mataron a 153 reclusos entre 1938 y 1943, que fueron enterrados en el cementerio del pueblo; desde 2007 la asociación de víctimas ha exhumado 114 cuerpos e identificado a muchos de ellos. Hoy el esqueleto de la fábrica-prisión se alza junto al Ebro, y el cementerio acoge un memorial a los presos."
+ }
+}
