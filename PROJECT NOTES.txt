@@ -119,3 +119,12 @@ used to make it is in Research/Spanish translation (14 Oct 2026).
 Old version: The Spanish Civil War backups/before Spanish app (14 Oct 2026).
 To publish: drag "UPLOAD THIS TO NETLIFY - The Spanish Civil War" into the
 spanishwar site on Netlify.
+
+
+VERSION 1.5 - 18 October 2026 - SPANISH PDF
+The printable PDF now also exists in Spanish (Castilian):
+app/pdf/La-Guerra-Civil-espanola-guia-de-campo.pdf (78 pages). The download
+button on the Spanish app (es.html, Inicio page) now gives this Spanish PDF;
+the English app still gives the English PDF. "Save for offline" keeps both.
+It is made from the Spanish app's own text, so it says exactly what es.html says.
+To make it again after the Spanish text changes: python3 build/make_pdf_es.py

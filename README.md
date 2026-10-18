@@ -13,5 +13,7 @@ Visitors choose the area they want to tour and how much time they have; the guid
 - `app/es.html` — the same guide in Spanish (Castilian), added 14 October 2026. It was made from the finished
   `index.html`, not from `build/`, so rebuilding with `build/assemble.py` does not recreate it or the "Español"
   link; see `Research/Spanish translation (14 Oct 2026)/README.txt`
+- `app/pdf/La-Guerra-Civil-espanola-guia-de-campo.pdf` — the printable guide in Spanish (added 18 October 2026),
+  made from `app/es.html` by `build/make_pdf_es.py`
 
 Version: v1 · 27 September 2026
