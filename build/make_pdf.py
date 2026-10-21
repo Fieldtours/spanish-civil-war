@@ -10,14 +10,14 @@ parts.append('<section><h2>Contents</h2><ol class="toc">'+''.join(f'<li>{E(r["na
 parts.append('<h2>The war in brief</h2>'+''.join(f'<h3>{E(b["h"])}</h3><p>{E(b["t"])}</p>' for b in D['brief'])+'</section>')
 for r in D['regions']:
   L=[s for s in D['stops'] if s['r']==r['id']]
-  parts.append(f'<section class="reg"><h2>{E(r["name"])}</h2><img class="rimg" src="../site/{r["img"]}"><p class="cap">{E(r["cap"])}</p><p class="lede">{E(r["blurb"])}</p>')
+  parts.append(f'<section class="reg"><h2>{E(r["name"])}</h2><img class="rimg" src="../site/{r["img"]}"><p class="cap">{E(r["cap"])}</p><p class="lede">{E(r["blurb"])}</p><img class="rmap" src="pdfmaps/en-{r["id"]}.jpg" alt="Map of {E(r["name"])}"><p class="cap">The numbers on the map are the sites in this chapter. Map data © OpenStreetMap contributors.</p>')
   for s in L:
     parts.append(f'''<div class="stop"><div class="sh"><span class="no">{s["no"] if "no" in s else ""}</span><div><b>{E(s["n"])}</b><div class="meta"><span class="c c-{s["c"]}">{s["c"]}</span> {E(s["tw"])} · {E(s["k"])} · {E(s["d"])} · ≈{s["m"]} min{" · ★ must see" if s["p"]==1 else ""}</div></div></div>
 <p>{E(s["t"])}</p><p class="look"><b>What you can see:</b> {E(s["lk"])}</p><p class="plan"><b>Plan:</b> {E(s["pl"])}{" <b>Private land — view from the road.</b>" if s["pv"] else ""}</p>{f'<p class="disp"><b>Where sources disagree:</b> {E(s["ds"])}</p>' if s["ds"] else ""}<p class="gps">GPS {s["la"]:.5f}, {s["lo"]:.5f}</p></div>''')
   parts.append('</section>')
 parts.append('<section><h2>Timeline</h2>'+''.join(f'<p class="tl"><b>{E(t["date"])}</b> — <b>{E(t["title"])}</b> ({E(t["place"])}). {E(t["t"])}</p>' for t in D['time'])+'</section>')
 parts.append('<section><h2>People</h2>'+''.join(f'<p class="tl"><b>{E(p["name"])}</b> ({E(p["side"])}; {E(p["dates"])}) — {E(p["role"])}. {E(p["t"])}</p>' for p in D['people'])+'</section>')
-parts.append('<section><h2>Words to know</h2>'+''.join(f'<p class="tl"><b>{E(g[0])}</b> — {E(g[1])}</p>' for g in D['gloss'])+'<h2>Credits</h2>'+''.join(f'<p class="cap">{E(c)}</p>' for c in D['credits'])+'<p class="cap">Base maps: Natural Earth. Positions checked against Wikipedia, Wikidata, OpenStreetMap (© OpenStreetMap contributors), TracesOfWar, Mapcarta and official heritage inventories.</p></section>')
+parts.append('<section><h2>Words to know</h2>'+''.join(f'<p class="tl"><b>{E(g[0])}</b> — {E(g[1])}</p>' for g in D['gloss'])+'<h2>Credits</h2>'+''.join(f'<p class="cap">{E(c)}</p>' for c in D['credits'])+'<p class="cap">Base maps: Natural Earth; area maps: © OpenStreetMap contributors (openstreetmap.org/copyright). Positions checked against Wikipedia, Wikidata, OpenStreetMap (© OpenStreetMap contributors), TracesOfWar, Mapcarta and official heritage inventories.</p></section>')
 # numbering like app
 for i,s in enumerate(D['stops']): s['no']=i+1
 css='''@font-face{font-family:BSS;src:url(../site/fonts/bss-800.woff2)}@font-face{font-family:SE;src:url(../site/fonts/special-elite-400.woff2)}
@@ -35,6 +35,7 @@ section.cover{page-break-before:auto;box-sizing:border-box;height:258mm;backgrou
 .cover .note{position:absolute;bottom:14mm;left:14mm;right:14mm;font-size:9pt;background:rgba(0,0,0,.55);padding:6px}
 .toc li{font-size:13pt;margin:4px 0}.toc span{color:#6f6150;font-size:10pt}
 .rimg{width:100%;max-height:70mm;object-fit:cover}
+.rmap{width:100%;display:block;border:1px solid #c9b994;margin:8px 0 2px;break-inside:avoid}
 .cap{font-size:8.5pt;color:#6f6150;margin:2px 0 8px}
 .lede{font-style:italic}
 .stop{break-inside:avoid;border-top:1px dashed #c9b994;padding:8px 0 4px}
