@@ -490,16 +490,6 @@ html.aar-open,html.aar-open body{overflow:hidden}
 @media (min-width:900px) and (min-aspect-ratio:5/4){.wel{background-image:url(welcome-wide.jpg)}}
 
 </style>
-<style id="scw-plan-css">
-.scwhow{margin:10px 0 12px;font-size:14px}.scwhow summary{cursor:pointer;font-weight:700;min-height:36px;display:flex;align-items:center;color:var(--red,#a3261e)}
-.scwhow p{margin:4px 0 0;line-height:1.45}
-.scwoff{border:2px solid currentColor;border-radius:12px;padding:12px 14px;margin:0 0 14px}
-.scwoff b.h{display:block;font-size:16px;margin-bottom:4px}.scwoff p{font-size:13.5px;margin:0 0 10px;line-height:1.45}
-.scwoff .row{display:grid;gap:8px}
-.scwoff button{min-height:48px;border-radius:10px;font:inherit;font-weight:700;font-size:15px;cursor:pointer;border:2px solid #1a73e8;background:#1a73e8;color:#fff}
-.scwoff button.no{border:0;background:none;color:inherit;font-weight:600;min-height:40px}
-.scwoff .ok{font-weight:700}
-</style>
 </head>
 <body>
 <div class="wel" id="welcome" role="dialog" aria-modal="true" aria-labelledby="wel-h" hidden>
@@ -1197,19 +1187,12 @@ function build(){const B=budget();const f=FOCUS.find(x=>x[0]===PLAN.focus);
   const ids=sel.map(s=>s.id);const left=area.filter(s=>!ids.includes(s.id)).sort((a,b)=>a.p-b.p||a.no-b.no);
   PLAN.res={ids,route:best?best.r.map(s=>s.id):[],days:best?best.d.map(d=>({ids:d.stops.map(x=>x.s.id),legs:d.stops.map(x=>[x.legKm,x.leg]),used:d.used})):[],left:left.map(s=>s.id),start:start?PLAN.startPlace:null,built:Date.now()}}
 function planToggle(id){if(!PLAN.res)return;if(PLAN.res.ids.includes(id)){PLAN.dropped.push(id);PLAN.forced=PLAN.forced.filter(x=>x!==id)}else{PLAN.forced.push(id);PLAN.dropped=PLAN.dropped.filter(x=>x!==id)}build();savePlan();if(CUR==="tour")drawPlanner();else show("tour")}
-/* under every finished tour: how the times are worked out, and a prompt to save the guide before the trip */
-function scwPlanExtra(){const saved=!!LS.get("offline",0),no=!!LS.get("offno2",0);
-  return `<details class="scwhow"><summary>Cómo se calculan los tiempos</summary><p>Los tiempos de visita son lo que se suele tardar en ver cada lugar. El tiempo en coche es una estimación aproximada a partir de la distancia entre paradas. No incluye atascos, aparcamiento ni ferris, y no se comprueban los horarios de apertura: el día del viaje, consulta Google Maps para saber el tiempo real en coche.</p></details>`+
-   (saved?"":(no?"":`<div class="scwoff" id="scwOffT"><b class="h">¿Vas a hacer este viaje? Guarda la guía antes de salir.</b><p>Guarda los textos, la información práctica y los mapas propios de la guía. Las indicaciones para conducir se abren en Google Maps, que necesita cobertura salvo que también hayas descargado esa zona en Google Maps.</p><div class="row"><button type="button" data-scwoff="go"><b>Guardar para usar sin conexión (mejor con wifi)</b></button><button type="button" class="no" data-scwoff="no">Ahora no</button></div></div>`))}
-document.addEventListener("click",e=>{const b=e.target.closest("[data-scwoff]");if(!b)return;
-  if(b.dataset.scwoff==="no"){LS.set("offno2",1);const c=document.getElementById("scwOffT");if(c)c.remove();return}
-  offlineSave(b);const lab=b.querySelector("b");const ob=new MutationObserver(()=>{if(/✓/.test(lab.textContent)){ob.disconnect();const c=document.getElementById("scwOffT");if(c)c.innerHTML=`<p class="ok">✓ Guardada en este móvil: la guía funciona sin internet.</p>`;document.querySelectorAll("[data-act=offline] b").forEach(x=>x.textContent=lab.textContent)}});ob.observe(lab,{childList:true,characterData:true,subtree:true})});
 function drawResult(box){const R=PLAN.res,B=budget();const t=TIMES.find(x=>x[0]===PLAN.time);
   const vis=R.days.reduce((a,d)=>a+d.ids.reduce((x,id)=>x+byId[id].m,0),0),drv=R.days.reduce((a,d)=>a+d.legs.reduce((x,l)=>x+l[1],0),0);
   const areaTxt=PLAN.mode==="regions"?PLAN.regions.map(r=>REG[r].short).join(", "):(PLAN.mode==="around"?`${PLAN.radius} km alrededor de ${PLAN.place?PLAN.place[2]:""}`:"la zona de tu pantalla");
   let n=0;
   box.innerHTML=`<p class="eb">Tu ruta</p><h2 class="pt">${esc(t[1])} · ${esc(areaTxt)}</h2>
-   <div class="sum"><b>${R.ids.length} parada${R.ids.length===1?"":"s"} · ${R.days.length} día${R.days.length>1?"s":""}</b><span>Aprox. ${fmtMin(vis+drv)} en total, con ${fmtMin(drv)} de coche. ${R.start?"Salida desde "+esc(R.start[2])+".":""}</span></div>${scwPlanExtra()}
+   <div class="sum"><b>${R.ids.length} parada${R.ids.length===1?"":"s"} · ${R.days.length} día${R.days.length>1?"s":""}</b><span>Aprox. ${fmtMin(vis+drv)} en total, con ${fmtMin(drv)} de coche. ${R.start?"Salida desde "+esc(R.start[2])+".":""}</span></div>
    <div class="mapbox" style="height:320px" id="r-map"></div>
    ${R.days.map((d,di)=>{const last=byId[d.ids[d.ids.length-1]];return `<div class="dayh"><b>${R.days.length>1?"Día "+(di+1):"Tu ruta"}</b><span>${fmtMin(d.used)}</span></div>`+d.ids.map((id,i)=>{const s=byId[id];n++;const lg=d.legs[i];
      return (lg[0]>0.3?`<div class="leg">↓ ${fmtKm(lg[0])} · aprox. ${fmtMin(lg[1])} en coche</div>`:"")+`<div class="card" style="padding:12px 14px;margin-bottom:8px"><div style="display:flex;gap:12px;align-items:flex-start"><button type="button" class="no" style="flex:0 0 38px;height:38px;border-radius:50%;border:2px solid var(--earth);background:${VIS.has(id)?"var(--earth)":"var(--paper3)"};color:${VIS.has(id)?"#fff":"var(--earth)"};font-family:var(--disp);font-weight:800;font-size:17px;cursor:pointer" data-stop="${id}" aria-label="Abrir parada ${n}">${n}</button><div style="flex:1;min-width:0"><b style="display:block;font-size:17px;line-height:1.25;cursor:pointer" data-stop="${id}">${esc(s.n)}</b><div class="small" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:3px">${pill(s.c)}<span>${esc(s.tw)}</span><span>≈ ${fmtMin(s.m)}</span></div><p style="font-size:14.5px;margin:6px 0 0;color:var(--ink2)">${esc(s.lk)}</p>
@@ -1231,7 +1214,7 @@ function offlineSave(btn){if(!("serviceWorker" in navigator)||!/^https?:$/.test(
   navigator.serviceWorker.ready.then(reg=>{const ch=new MessageChannel();ch.port1.onmessage=e=>{if(e.data&&e.data.done){lab.textContent="Guardada en este móvil ✓";LS.set("offline",Date.now())}else if(e.data&&e.data.n)lab.textContent=`Guardando… ${e.data.n}/${e.data.of}`};reg.active.postMessage({save:true},[ch.port2])}).catch(()=>{lab.textContent="No se ha podido guardar: inténtalo con wifi"})}
 /* ================= WELCOME ================= */
 function welcome(){let seen=false;try{seen=localStorage.getItem("scw-welcomed")==="1"}catch(e){}
-  const w=$("#welcome");if(true){w.remove();return}w.hidden=false;document.body.style.overflow="hidden";const go=$("#wel-go");go.focus();
+  const w=$("#welcome");if(seen){w.remove();return}w.hidden=false;document.body.style.overflow="hidden";const go=$("#wel-go");go.focus();
   go.onclick=()=>{try{localStorage.setItem("scw-welcomed","1")}catch(e){}w.classList.add("bye");document.body.style.overflow="";setTimeout(()=>w.remove(),450)}}
 /* ================= INIT ================= */
 function init(){
@@ -1408,7 +1391,6 @@ function draw(){const el=root(),all=days(),total=all.filter(d=>d.n).length;let h
     ${all.length?`<div class="aar-list">${all.map(d=>{const r=REP[d.date];return `<button type="button" class="aar-row" data-aar="write" data-date="${d.date}"><span class="aar-k">${d.n||"·"}</span><span class="aar-x"><b>${d.n?"Día "+d.n+" · ":""}${ESC(dayTitle(d))}</b><small>${ESC(longDate(d.date))} · ${d.ids.length} lugar${d.ids.length===1?"":"es"} visitado${d.ids.length===1?"":"s"}</small></span><span class="aar-st${r?" ok":""}">${r?"Escrita":"Escribir"}</span></button>`}).join("")}</div>`
       :`<div class="aar-empty"><b>Aún no hay visitas</b><p>Marca <b>Visitado</b> en cada lugar a medida que lo veas. Por la noche, vuelve aquí y escribe la página del día.</p></div>`}
     ${wrote.length?`<button type="button" class="aar-btn" data-aar="booklet">Crear el cuaderno del viaje (${wrote.length} página${wrote.length===1?"":"s"})</button><p class="aar-note">Abre la ventana de impresión: elige «Guardar como PDF» para conservarlo o imprímelo para tu cuaderno.</p>`:""}
-    <p class="aar-note">Tus notas se guardan solo en este dispositivo, en este navegador. Para conservar una copia, crea el cuaderno del viaje y guárdalo como PDF.</p>
     ${C.tourCard===false?"":`<label class="aar-sw"><input type="checkbox" data-aar="remind"${SET.remind?" checked":""}><span><b>Recordármelo en la página Ruta</b><small>Muestra «Escribe la ${ESC(C.docNameShort)} de hoy» después de visitar lugares.</small></span></label>`}
     <p class="aar-note">Tus páginas se quedan en este móvil. No se envía nada a ningún sitio salvo que decidas compartirlo.</p></div>`}
   else{const dy=dayByDate(S.date);if(!dy){S.view="list";return draw()}const q=pickQ(dy),hasQ=!!q,SEQ=hasQ?[1,2,3]:[2,3],steps=SEQ.length,cur=SEQ.indexOf(S.step)+1;
@@ -1508,7 +1490,7 @@ function e(s){return String(s).replace(/[&<>"']/g,function(c){return{"&":"&amp;"
 function host(u){return u.replace(/^https?:\/\/(www\.)?/,"").split("/")[0]}
 function mail(name){
   var s="DZ Charlie – problema en: "+name+" ("+G+")";
-  var b="Guía: "+G+"\nParada: "+name+"\nPágina: "+location.origin+location.pathname+"\n\n¿Qué tipo de problema es? (borra los que no correspondan)\n- Un dato histórico es incorrecto\n- El punto del mapa está mal situado\n- Han cambiado el horario, los precios o el acceso\n- Algo de la app no funciona\n\n¿Qué falla y cómo lo sabes?\n\n";
+  var b="Guía: "+G+"\nParada: "+name+"\nPágina: "+location.origin+location.pathname+"\n\nQué falla (cerrado, trasladado, horario erróneo, camino cortado...):\n\n";
   return "mailto:"+MAIL+"?subject="+encodeURIComponent(s)+"&body="+encodeURIComponent(b);
 }
 function block(id,name){
@@ -1742,8 +1724,7 @@ function addBack(){const w=$("#b-weap")||$("header.top .ib");if(w&&!$(".dzall"))
     else{a.href="es.html";a.setAttribute("data-lang","es");a.setAttribute("hreflang","es");a.lang="es";a.innerHTML="<small>¡AHORA EN ESPAÑOL!</small><b>Ver la guía en español →</b>"}
     const sub=$(".sub",cv);(sub||h1).after(a)}
   const cin=$("#cover .in");if(cin&&!$(".dzback",cin)){const a=document.createElement("a");a.className="dzback";a.href=HOMEURL;a.textContent=BK[0];cin.prepend(a)}
-  const pg=$("#p-more .pg");if(pg&&!$(".dzbackt",pg)){const a=document.createElement("a");a.className="dzbackt";a.href=HOMEURL;a.innerHTML=`<b>${BK[0]}</b><span>${BK[1]}</span>`;pg.prepend(a)}
-  if(pg&&!$(".dzabout",pg)){const b=$(".dzbackt",pg);if(b){const a=document.createElement("a");a.className="dzbackt dzabout";a.href=HOMEURL+"#about";a.innerHTML="<b>Quiénes somos y fuentes</b><span>Quién hace DZ Charlie, cómo se documenta cada parada, qué significan ALTA, MEDIA y BAJA, y cómo avisar de un error</span>";b.after(a)}}}
+  const pg=$("#p-more .pg");if(pg&&!$(".dzbackt",pg)){const a=document.createElement("a");a.className="dzbackt";a.href=HOMEURL;a.innerHTML=`<b>${BK[0]}</b><span>${BK[1]}</span>`;pg.prepend(a)}}
 let q=0;new MutationObserver(()=>{if(!q)q=requestAnimationFrame(()=>{q=0;try{renderNext()}catch(e){}})}).observe(document.body,{childList:true});
 function start(){try{unifyNav();renderSet();addBack();renderToday();renderOff();renderNext()}catch(e){console.error(e)}}
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",()=>setTimeout(start,50));else setTimeout(start,50);

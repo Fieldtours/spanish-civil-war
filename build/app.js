@@ -310,19 +310,12 @@ function build(){const B=budget();const f=FOCUS.find(x=>x[0]===PLAN.focus);
   const ids=sel.map(s=>s.id);const left=area.filter(s=>!ids.includes(s.id)).sort((a,b)=>a.p-b.p||a.no-b.no);
   PLAN.res={ids,route:best?best.r.map(s=>s.id):[],days:best?best.d.map(d=>({ids:d.stops.map(x=>x.s.id),legs:d.stops.map(x=>[x.legKm,x.leg]),used:d.used})):[],left:left.map(s=>s.id),start:start?PLAN.startPlace:null,built:Date.now()}}
 function planToggle(id){if(!PLAN.res)return;if(PLAN.res.ids.includes(id)){PLAN.dropped.push(id);PLAN.forced=PLAN.forced.filter(x=>x!==id)}else{PLAN.forced.push(id);PLAN.dropped=PLAN.dropped.filter(x=>x!==id)}build();savePlan();if(CUR==="tour")drawPlanner();else show("tour")}
-/* under every finished tour: how the times are worked out, and a prompt to save the guide before the trip */
-function scwPlanExtra(){const saved=!!LS.get("offline",0),no=!!LS.get("offno2",0);
-  return `<details class="scwhow"><summary>How the times are worked out</summary><p>Visit times are the usual time to see each site. Driving is a rough estimate from the distance between stops. It does not include traffic, parking or ferries, and opening hours are not checked: use Google Maps on the day for the real driving time.</p></details>`+
-   (saved?"":(no?"":`<div class="scwoff" id="scwOffT"><b class="h">Taking this trip? Save your guide before you leave.</b><p>Saves the stories, the visiting information and the guide’s own maps. Driving directions open in Google Maps, which needs signal unless you have saved that area in Google Maps too.</p><div class="row"><button type="button" data-scwoff="go"><b>Save for offline (Wi-Fi recommended)</b></button><button type="button" class="no" data-scwoff="no">Not now</button></div></div>`))}
-document.addEventListener("click",e=>{const b=e.target.closest("[data-scwoff]");if(!b)return;
-  if(b.dataset.scwoff==="no"){LS.set("offno2",1);const c=document.getElementById("scwOffT");if(c)c.remove();return}
-  offlineSave(b);const lab=b.querySelector("b");const ob=new MutationObserver(()=>{if(/✓/.test(lab.textContent)){ob.disconnect();const c=document.getElementById("scwOffT");if(c)c.innerHTML=`<p class="ok">✓ Saved on this phone: this guide works without internet.</p>`;document.querySelectorAll("[data-act=offline] b").forEach(x=>x.textContent=lab.textContent)}});ob.observe(lab,{childList:true,characterData:true,subtree:true})});
 function drawResult(box){const R=PLAN.res,B=budget();const t=TIMES.find(x=>x[0]===PLAN.time);
   const vis=R.days.reduce((a,d)=>a+d.ids.reduce((x,id)=>x+byId[id].m,0),0),drv=R.days.reduce((a,d)=>a+d.legs.reduce((x,l)=>x+l[1],0),0);
   const areaTxt=PLAN.mode==="regions"?PLAN.regions.map(r=>REG[r].short).join(", "):(PLAN.mode==="around"?`${PLAN.radius} km around ${PLAN.place?PLAN.place[2]:""}`:"the area on your screen");
   let n=0;
   box.innerHTML=`<p class="eb">Your tour</p><h2 class="pt">${esc(t[1])} · ${esc(areaTxt)}</h2>
-   <div class="sum"><b>${R.ids.length} stops · ${R.days.length} day${R.days.length>1?"s":""}</b><span>About ${fmtMin(vis+drv)} in all, including ${fmtMin(drv)} of driving. ${R.start?"Starting from "+esc(R.start[2])+".":""}</span></div>${scwPlanExtra()}
+   <div class="sum"><b>${R.ids.length} stops · ${R.days.length} day${R.days.length>1?"s":""}</b><span>About ${fmtMin(vis+drv)} in all, including ${fmtMin(drv)} of driving. ${R.start?"Starting from "+esc(R.start[2])+".":""}</span></div>
    <div class="mapbox" style="height:320px" id="r-map"></div>
    ${R.days.map((d,di)=>{const last=byId[d.ids[d.ids.length-1]];return `<div class="dayh"><b>${R.days.length>1?"Day "+(di+1):"Your route"}</b><span>${fmtMin(d.used)}</span></div>`+d.ids.map((id,i)=>{const s=byId[id];n++;const lg=d.legs[i];
      return (lg[0]>0.3?`<div class="leg">↓ ${fmtKm(lg[0])} · about ${fmtMin(lg[1])} by car</div>`:"")+`<div class="card" style="padding:12px 14px;margin-bottom:8px"><div style="display:flex;gap:12px;align-items:flex-start"><button type="button" class="no" style="flex:0 0 38px;height:38px;border-radius:50%;border:2px solid var(--earth);background:${VIS.has(id)?"var(--earth)":"var(--paper3)"};color:${VIS.has(id)?"#fff":"var(--earth)"};font-family:var(--disp);font-weight:800;font-size:17px;cursor:pointer" data-stop="${id}" aria-label="Open stop ${n}">${n}</button><div style="flex:1;min-width:0"><b style="display:block;font-size:17px;line-height:1.25;cursor:pointer" data-stop="${id}">${esc(s.n)}</b><div class="small" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:3px">${pill(s.c)}<span>${esc(s.tw)}</span><span>≈ ${fmtMin(s.m)}</span></div><p style="font-size:14.5px;margin:6px 0 0;color:var(--ink2)">${esc(s.lk)}</p>
@@ -344,7 +337,7 @@ function offlineSave(btn){if(!("serviceWorker" in navigator)||!/^https?:$/.test(
   navigator.serviceWorker.ready.then(reg=>{const ch=new MessageChannel();ch.port1.onmessage=e=>{if(e.data&&e.data.done){lab.textContent="Saved on this phone ✓";LS.set("offline",Date.now())}else if(e.data&&e.data.n)lab.textContent=`Saving… ${e.data.n}/${e.data.of}`};reg.active.postMessage({save:true},[ch.port2])}).catch(()=>{lab.textContent="Couldn't save — try again on Wi-Fi"})}
 /* ================= WELCOME ================= */
 function welcome(){let seen=false;try{seen=localStorage.getItem("scw-welcomed")==="1"}catch(e){}
-  const w=$("#welcome");if(true){w.remove();return}w.hidden=false;document.body.style.overflow="hidden";const go=$("#wel-go");go.focus();
+  const w=$("#welcome");if(seen){w.remove();return}w.hidden=false;document.body.style.overflow="hidden";const go=$("#wel-go");go.focus();
   go.onclick=()=>{try{localStorage.setItem("scw-welcomed","1")}catch(e){}w.classList.add("bye");document.body.style.overflow="";setTimeout(()=>w.remove(),450)}}
 /* ================= INIT ================= */
 function init(){
