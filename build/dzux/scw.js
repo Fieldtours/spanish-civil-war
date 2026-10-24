@@ -88,7 +88,8 @@ function addBack(){const w=$("#b-weap")||$("header.top .ib");if(w&&!$(".dzall"))
     else{a.href="es.html";a.setAttribute("data-lang","es");a.setAttribute("hreflang","es");a.lang="es";a.innerHTML="<small>¡AHORA EN ESPAÑOL!</small><b>Ver la guía en español →</b>"}
     const sub=$(".sub",cv);(sub||h1).after(a)}
   const cin=$("#cover .in");if(cin&&!$(".dzback",cin)){const a=document.createElement("a");a.className="dzback";a.href=HOMEURL;a.textContent=BK[0];cin.prepend(a)}
-  const pg=$("#p-more .pg");if(pg&&!$(".dzbackt",pg)){const a=document.createElement("a");a.className="dzbackt";a.href=HOMEURL;a.innerHTML=`<b>${BK[0]}</b><span>${BK[1]}</span>`;pg.prepend(a)}}
+  const pg=$("#p-more .pg");if(pg&&!$(".dzbackt",pg)){const a=document.createElement("a");a.className="dzbackt";a.href=HOMEURL;a.innerHTML=`<b>${BK[0]}</b><span>${BK[1]}</span>`;pg.prepend(a)}
+  if(pg&&!$(".dzabout",pg)){const b=$(".dzbackt",pg);if(b){const a=document.createElement("a");a.className="dzbackt dzabout";a.href=HOMEURL+"#about";a.innerHTML="<b>About &amp; sources</b><span>Who makes DZ Charlie, how every stop is researched, what HIGH, MEDIUM and LOW mean, and how to report a mistake</span>";b.after(a)}}}
 let q=0;new MutationObserver(()=>{if(!q)q=requestAnimationFrame(()=>{q=0;try{renderNext()}catch(e){}})}).observe(document.body,{childList:true});
 function start(){try{unifyNav();renderSet();addBack();renderToday();renderOff();renderNext()}catch(e){console.error(e)}}
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",()=>setTimeout(start,50));else setTimeout(start,50);
