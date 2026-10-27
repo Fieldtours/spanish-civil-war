@@ -1,0 +1,2102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><name>The Spanish Civil War 1936–1939 — DZ Charlie</name><description>Waypoints from the DZ Charlie field guides. Pins marked LOW or AREA are the centre of a search area, not an exact spot.</description>
+<Style id="s0"><IconStyle><color>ff2222cc</color><Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="s1"><IconStyle><color>ffcc7a1f</color><Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="s2"><IconStyle><color>ff2a8f2a</color><Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="s3"><IconStyle><color>ff1f8fd6</color><Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="s4"><IconStyle><color>ff8a2a8a</color><Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="s5"><IconStyle><color>ff2ab0b0</color><Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="s6"><IconStyle><color>ff555555</color><Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="s7"><IconStyle><color>ff0057e6</color><Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="s8"><IconStyle><color>ff7a5230</color><Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="s9"><IconStyle><color>ffb0306a</color><Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Folder><name>Battlefields</name>
+<Placemark><name>001 Ciudad Universitaria front</name><description>Madrid (Moncloa-Aravaca) · 15 Nov 1936–28 Mar 1939
+
+In mid-November 1936 Nationalist columns under Varela and Asensio, spearheaded by Moroccan Regulares and the Legion, crossed the Manzanares and broke into the half-built University City. The XI and XII International Brigades and the anarchist Durruti column fought them building by building: the School of Architecture fell first, the Hospital Clínico became a Nationalist bastion, the Faculty of Philosophy a Republican strongpoint. Durruti was mortally wounded here on 19–20 November. The line then froze for over two years, with sniping, shelling and mine warfare under the faculties, until Madrid surrendered on 28 March 1939. The salient marks the closest Franco's army came to taking the capital by storm.
+
+A modern campus rebuilt after the war; a few façades show repaired damage, and a memorial to the International Brigades (2011) stands on the campus. The Hospital Clínico San Carlos occupies the building fought over in 1936.
+
+Best walked from Metro Ciudad Universitaria or Moncloa, combined with the Parque del Oeste bunkers and Casa de Velázquez (about 2–3 hours on foot). Campus buildings are working faculties; view from outside.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-3.726700,40.445200,0</coordinates></Point></Placemark>
+<Placemark><name>003 Suicide Hill (Colina del Suicidio), Jarama</name><description>Morata de Tajuña · 12 Feb 1937
+
+On 12 February 1937, in the Nationalist offensive to cut the Madrid–Valencia road, the British Battalion of the XV International Brigade was thrown onto this knoll above the Jarama valley. For about seven hours it held against Moroccan Regulares and Legionaries supported by artillery and machine guns. Of roughly 600 men who went into action, only a fraction were still standing at nightfall; the writer Christopher Caudwell was among the dead. Neighbouring Dimitrov and Franco-Belgian battalions suffered similarly. The line bent but held, and the Jarama front froze here until 1939.
+
+An open, olive-and-scrub hilltop with an informal stone cairn and plaques; traces of trenches and scattered shrapnel remain in the fields around.
+
+Morata de Tajuña publishes nine waymarked battle routes; route 7 starts here. Park carefully on the M-302 tracks; no facilities, bring water in summer.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-3.498080,40.218030,0</coordinates></Point></Placemark>
+<Placemark><name>004 Pingarrón hill, Jarama</name><description>San Martín de la Vega / Morata de Tajuña · 12–27 Feb 1937
+
+The 695 m Pingarrón dominated the Jarama battlefield and changed hands several times in hand-to-hand fighting. Nationalist troops took it in mid-February; Republican units, including Líster's men and the XV International Brigade, tried repeatedly to retake it. On 27 February the Abraham Lincoln Battalion, about 450 Americans under Robert Merriman, was ordered to attack without the promised artillery and air support and lost well over half its men, among them the Irish poet Charles Donnelly. The Nationalists kept the hill; the battle ended in stalemate, with both armies dug in facing each other until 1939.
+
+Ridge-top trenches, stone parapets and nearby Republican positions (Cota 700, Cota 666) with views over the Jarama valley.
+
+Reached on foot by Morata's battle routes 5 and 6 (several km on farm tracks). Morata's route leaflet notes the hill itself is private property with difficult access, so keep to the public tracks. Rough ground: wear boots.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-3.516600,40.207700,0</coordinates></Point></Placemark>
+<Placemark><name>009 Cerro Garabitas, Casa de Campo</name><description>Madrid (Casa de Campo) · 13 Nov 1936–Mar 1939
+
+At 677 m, Garabitas is one of the highest points of the Casa de Campo, the former royal hunting estate through which Nationalist columns attacked Madrid in November 1936. Varela's troops took the hill on 13 November and held it for the rest of the war despite Republican counter-attacks, including by the XI International Brigade. From December 1936 their batteries here shelled the city centre, the Gran Vía and the Telefónica building. The front line across the park stayed almost static until March 1939, and several concrete bunkers from both sides still survive in the woods.
+
+A panoramic summit with a ranger watchtower and views over Madrid; scattered bunkers and trench traces in the surrounding park.
+
+Free, open park; walk up from the Lago or Batán Metro stations (about 45 minutes). Take a map: signage for war remains is limited.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-3.756500,40.434500,0</coordinates></Point></Placemark>
+<Placemark><name>017 Brihuega &amp; Palacio de Ibarra</name><description>Brihuega · 8–23 Mar 1937
+
+In March 1937 Mussolini's Corpo Truppe Volontarie under General Roatta drove down the Zaragoza road towards Guadalajara to encircle Madrid from the north-east. Rain grounded its aircraft on muddy airfields while Republican planes flew from paved runways. At the Palacio de Ibarra, a country house south of Brihuega, the Italian anti-fascist Garibaldi Battalion of the XII International Brigade fought Italian Blackshirts on 13–14 March: Italians against Italians. On 18 March Republican divisions under Líster, Mera and others counter-attacked and retook Brihuega, routing the CTV. It was the Republic's most celebrated victory and a humiliation for Fascist Italy.
+
+Brihuega's walled old town above the Tajuña; the ruins of the Palacio de Ibarra stand in fields a few km south-east (private land).
+
+View the Palacio de Ibarra from the track only. Trijueque and Torija, on the N-II, were also battle sites and lie 15–20 minutes away.
+
+Accuracy: LOW — general area only.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-2.869170,40.760560,0</coordinates></Point></Placemark>
+<Placemark><name>021 Jarama bridges: Pindoque &amp; Arganda</name><description>Rivas-Vaciamadrid · 11 Feb 1937
+
+The Nationalist offensive of February 1937 needed to cross the Jarama. On the night of 11 February, Moroccan Regulares crept up to the Pindoque railway bridge near Vaciamadrid and silently killed the International Brigade sentries; a Republican attempt to blow the bridge failed, and it survived the explosion. Further south, Barrón's cavalry seized the Arganda road bridge. These crossings opened the way to the hills of Pingarrón and Suicide Hill. Nearby, on the Cerro del Melero at Rivas, stretches of Republican trenches from 1938 have been restored.
+
+The railway bridge (rebuilt) and old Arganda road bridge over the Jarama in the Parque Regional del Sureste; restored trenches on the Cerro del Melero.
+
+Reach on foot or by bike from the Laguna del Campillo (Rivas-Vaciamadrid) along the river paths; free.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-3.527000,40.319700,0</coordinates></Point></Placemark>
+<Placemark><name>023 Villanueva de la Cañada &amp; Mosquito Ridge</name><description>Villanueva de la Cañada · 6–7 Jul &amp; 8–18 Jul 1937
+
+Villanueva de la Cañada, held by a small Nationalist garrison, resisted the Republican offensive through the first day at Brunete and fell only on the night of 7 July, after the XV International Brigade and other units had been pinned in the open wheatfields. North-east of the village, the Republican drive towards Boadilla stalled on the Mosquito Ridge (Loma de los Mosquitos), where the British and American battalions suffered heavily in repeated attacks under a scorching sun. The failure to take the ridge ended hopes of cutting the Nationalist lines west of Madrid.
+
+A modern town; the ridge line and open country of the battle are visible from the Villanueva del Pardillo–Boadilla area, with scattered fortifications.
+
+Best seen by car from the M-600 and M-503 roads; no dedicated interpretation on site.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-3.983000,40.450000,0</coordinates></Point></Placemark>
+<Placemark><name>035 El Muletón (Tortajada)</name><description>Tortajada · Dec 1937–Jan 1938
+
+El Muletón is a steep hill north-west of Teruel that commands the road north and the Alfambra valley. The Nationalists fortified it as part of the city's outer defences, with trenches, shelters and a concrete cistern. Republican troops stormed it early in the December 1937 offensive, and it became a key position in the struggle for Teruel. Heavy fighting went on around it in January 1938, when Nationalist artillery and aircraft pounded the Republican lines. It is one of the best places to understand the ground around the city.
+
+A command post, the concrete cistern and trench lines. Shell and bomb craters from January 1938 are still visible near the Gilochas ravine.
+
+The hill is reached from Tortajada, a few km north of Teruel. It is an open hillside with rough walking, so wear boots.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-1.104920,40.392450,0</coordinates></Point></Placemark>
+<Placemark><name>043 Codo – battle of the Montserrat requetés</name><description>Codo · 24–25 Aug 1937
+
+At the start of the Zaragoza offensive the Republican 25th Division attacked the small village of Codo, between Belchite and Quinto. It was held by the Tercio de Nuestra Señora de Montserrat, a battalion of Catalan Carlist volunteers (requetés) of about 200 men, together with other troops. Encircled on 24 August, the defenders fought on until the survivors broke out on 25 August. The battalion suffered very heavy losses and ceased to exist as a fighting unit. Its 1st and 2nd companies later received the Laureate Cross of San Fernando.
+
+A small village rebuilt after the war, with a commemorative cross to the fallen requetés.
+
+Codo is a short drive from Belchite and easily combined with Belchite and Quinto. The pin marks the village; ask locally for the memorial cross.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-0.700830,41.333890,0</coordinates></Point></Placemark>
+<Placemark><name>050 Fuentes de Ebro – tank attack of October 1937</name><description>Fuentes de Ebro · 13 Oct 1937
+
+As the last act of the Zaragoza offensive, the Republicans attacked the fortified town of Fuentes de Ebro, south-east of Zaragoza. A tank regiment of 48 Soviet-built BT-5s charged with XV International Brigade infantry riding on them or following behind, including the Canadian Mackenzie-Papineau Battalion in its first major action. Poorly coordinated with infantry and artillery, the attack broke down. Nineteen tanks and more than 300 men were lost, and the town stayed in Nationalist hands.
+
+The open, flat fields where the attack went in. Visible remains are few.
+
+This stop is for enthusiasts. It is 25 km from Zaragoza on the way to Quinto and Belchite.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-0.628890,41.511390,0</coordinates></Point></Placemark>
+<Placemark><name>056 Serra de Pàndols – Cota 705 memorial</name><description>Gandesa / El Pinell de Brai · Aug 1938
+
+The bare limestone ridge of Pàndols, rising to Punta Alta (Cota 705), was the southern bastion of the Ebro bridgehead. Republican troops, including Líster's 5th Army Corps and the 35th Division with the XV International Brigade, held it through August 1938 against repeated Nationalist assaults supported by massive artillery and air bombardment. Men fought on bare rock where trenches could barely be dug and the dead often could not be buried. Nearby Hill 666 was held by International Brigade units, among them the British and Lincoln battalions. The ridge remained in Republican hands until the general collapse of the bridgehead in the autumn.
+
+The 'Cub per la Pau' memorial and plaques near the summit, stone parapets and scraped rifle pits, and a panoramic view over the whole Terra Alta battlefield; a separate plaque marks Hill 666 (41.03300, 0.47585).
+
+Reached by a rough forest track from the Gandesa–Pinell de Brai road, then a short walk; check track conditions and fire-risk closures in summer, and carry water.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>0.466160,41.022020,0</coordinates></Point></Placemark>
+<Placemark><name>067 Coll del Moro – Franco's observation post, Gandesa</name><description>Gandesa · Jul–Nov 1938
+
+From this 470 m hill west of Gandesa, on top of an Iberian settlement and necropolis, the Nationalist command watched the Battle of the Ebro. Franco himself came here, as did senior commanders and foreign military observers. The Nationalists' approach relied on artillery and air superiority to wear down the Republican bridgehead in a series of costly counter-offensives rather than seeking manoeuvre. From the observation post the whole southern battlefield is visible, from Gandesa to the Pàndols and Cavalls ridges.
+
+The Nationalist observation post and its surroundings alongside the excavated Iberian tower and settlement; wide views over the Terra Alta battlefield.
+
+Beside the N-420 at km 795.5; the Iberian site is visited by reservation only (reservesmonuments.acdpc@gencat.cat, tel. 977 638 556).
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>0.386510,41.048080,0</coordinates></Point></Placemark>
+<Placemark><name>090 El Mazuco &amp; Sierra del Cuera</name><description>Llanes · 6–22 Sep 1937
+
+After Santander fell, the Nationalists pushed west into Asturias. At the El Mazuco pass and on the limestone heights of the Sierra del Cuera, about 5,000 Republican troops of the XIV Army Corps, many of them CNT militia, held off Navarrese brigades under José Solchaga. Those brigades were far stronger, at about 33,000 men, and were supported by the Condor Legion, Italian units and naval gunfire. The Condor Legion used some of its first carpet-bombing tactics here, but the rugged terrain blunted their effect. Peña Turbina, the highest point of the range, was the last main Republican position; it fell on 22 September, opening eastern Asturias.
+
+A small mountain village below rocky heights. Hiking routes such as Alto de la Tornería–Los Resquilones cross the former front line, where informal traces of positions remain.
+
+About 16 km south of Llanes on the AS-115. Stout boots are needed for the karst hillsides; the bar in El Mazucu is the only service.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-4.852220,43.382220,0</coordinates></Point></Placemark>
+<Placemark><name>095 San Marcial hermitage &amp; the Battle of Irun</name><description>Irun · 19 Aug–5 Sep 1936
+
+Mola's Navarrese columns under Colonel Alfonso Beorlegui attacked Irun to cut the Republican north off from France. Their attack was supported by German and Italian aircraft and a few light tanks. Basque militia, CNT units, Asturian miners and some French communist volunteers held the Puntza ridge and the San Marcial hill with its hermitage. France had closed the border, and the defenders ran short of ammunition. San Marcial fell after heavy fighting, and Irun was abandoned on 5 September. Retreating anarchists set parts of the town on fire. Beorlegui was wounded entering the town and later died. The Nationalist victory cut Gipuzkoa, Biscay, Santander and Asturias off from the French border.
+
+The San Marcial hermitage on its hilltop, a good viewpoint over the 1936 battlefield, Irun, Hendaye and the Bidasoa. The pin marks the hermitage, not a firing position; the fighting positions are not signposted.
+
+A minor road and footpaths lead up from Irun to the hermitage (about 1 h on foot). The view is best on a clear day.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-1.766540,43.331180,0</coordinates></Point></Placemark>
+<Placemark><name>099 Monte Sollube battlefield</name><description>Bermeo · 6–14 May 1937
+
+Sollube (686 m) commands the coast road between Bermeo and Bilbao. In May 1937 it was attacked by the mixed Italian-Spanish Flechas Negras brigade under Sandro Piazzoni and the IV Navarrese Brigade, supported by the Condor Legion. Basque, Asturian and Cantabrian battalions defended it, including UGT, ANV and Kirikiño units. The mountain fell around 8 May, and fighting on its slopes continued for several days. Both sides suffered heavy casualties; published totals vary. Losing Sollube opened the coastal approach to Bilbao's Iron Belt and was seen at the time as the beginning of the end for the city's defence.
+
+An open mountain with wide views to Bermeo and the Urdaibai estuary; any remains of positions are informal and unsigned.
+
+The BI-631 Bilbao–Bermeo road crosses the Sollube pass; short walks to the summit start from the pass.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-2.763770,43.370980,0</coordinates></Point></Placemark>
+<Placemark><name>110 Santuario de la Virgen de la Cabeza (1936–37 siege), Andújar</name><description>Andújar · 14 Sep 1936 – 1 May 1937
+
+In September 1936 about 250 Civil Guards, some Falangists and around 1,000 of their family members and civilians from Jaén province shut themselves into this hilltop sanctuary in the Sierra Morena, deep inside Republican territory. Captain Santiago Cortés deposed the commander who favoured surrender and held out for more than seven months, supplied by Nationalist aircraft dropping food and medicine. A Nationalist relief offensive stalled at Lopera in December. Republican forces under Lt. Col. García Vallejo and Maj. Martínez Cartón, eventually 6,000 or more men, stormed the ruins on 1 May 1937; Cortés was mortally wounded and the survivors surrendered. Franco's regime made the siege a heroic legend, rather like the Alcázar of Toledo.
+
+The sanctuary, rebuilt after its destruction in the siege, on its granite hilltop; a 22 m monument of 1965 with a bronze Angel of Victory lifting a fallen defender; relics including Cortés's Laureate Cross.
+
+Open daily as a working shrine; 32 km north of Andújar by the A-6177 through the Sierra de Andújar park. Avoid the huge Romería on the last weekend of April unless you want the pilgrimage.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-4.034920,38.179360,0</coordinates></Point></Placemark>
+<Placemark><name>111 Lopera — battlefield and Jardín de los Poetas Ingleses (Cornford &amp; Fox)</name><description>Lopera · 27–29 Dec 1936
+
+On Christmas Day 1936 Nationalist troops took Lopera during their 'olive offensive' towards Andújar. The Republic threw in the newly formed XIV International Brigade under General 'Walter' (Karol Świerczewski) — French, Belgian, British and Irish volunteers with little training, no telephones and scant artillery or air support. Their attacks on the hills around the town, including the Cerro del Calvario, were beaten off by requetés and Moroccan Regulares. The English-speaking No. 1 Company lost heavily: the poet John Cornford, 21, a great-grandson of Charles Darwin, and the novelist Ralph Fox were killed. The front then settled here until 1939, leaving machine-gun nests, trenches and bunkers. It was the Brigades' last action in Andalusia.
+
+In town, the Jardín de los Poetas Ingleses with a monolith and a bronze relief of Cornford by Frank Casey (2019); outside, two concrete Nationalist machine-gun nests near the Arroyo Salado bridge (2.5 km out), traces of Republican trenches on the Cerro de las Esperillas and an anti-tank bunker at Valcargado.
+
+Ask at the town hall (lopera.es) for a map of the vestiges; the machine-gun nests are signed off the road near the Puente del Arroyo Salado. A re-enactment is held in late May some years.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-4.215000,37.945000,0</coordinates></Point></Placemark>
+<Placemark><name>116 Espejo — site of Capa's 'Falling Soldier'</name><description>Espejo · Early Sep 1936
+
+Robert Capa's photograph of a militiaman falling backwards, published in Vu on 23 September 1936 and in Life in 1937, became the defining image of the war. For decades it was said to show the anarchist Federico Borrell García killed at Cerro Muriano, north of Córdoba, on 5 September 1936. In 2009 José Manuel Susperregui matched the skyline to the outskirts of Espejo, about 50 km away, where the front was quiet at the time; many now think the picture was staged or taken during an exercise. Espejo shows how the Córdoba front lines ran through open countryside in the first summer.
+
+The open, rolling farmland around Espejo, whose skyline was matched to the photographs; no memorial or marker is known.
+
+Drive around the outskirts of Espejo with a copy of the photograph; the fields are private farmland, so view from tracks.
+
+Accuracy: LOW — general area only.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-4.548620,37.679030,0</coordinates></Point></Placemark>
+<Placemark><name>134 Porto Cristo – Bayo's landing on Mallorca</name><description>Porto Cristo (Manacor) · 16 Aug–4 Sep 1936
+
+Mallorca sided with the coup in July 1936. On 16 August Captain Alberto Bayo, with Catalan and Valencian militia and naval support, landed on the east coast at Porto Cristo and Punta Amer (Sa Coma), renaming the port 'Porto Rojo'. The attackers were poorly coordinated, and the defenders were reinforced by Italian aircraft and the Fascist Arconovaldo Bonaccorsi ('Conde Rossi'). The counter-attack from 27 August drove the Republicans back, and they re-embarked by 4 September, leaving equipment behind. Captured militiamen and local leftists were executed; in 2020 excavations at Son Coletes cemetery in Manacor found remains of milicianos and two nurses.
+
+The harbour and beaches of Porto Cristo and Sa Coma, where the landing and fighting took place. There is no major monument on the shore; Son Coletes cemetery in Manacor has the excavated grave site.
+
+Walk the harbour and the Passeig de la Sirena, then drive 12 km to Manacor for Son Coletes cemetery. Pairs with a visit to the Drach caves.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>3.334430,39.542330,0</coordinates></Point></Placemark>
+<Placemark><name>158 La Granja offensive – the battlefield above La Granja (Cabeza Grande, Matabueyes)</name><description>Real Sitio de San Ildefonso (La Granja) · 30 May–6 Jun 1937
+
+To relieve pressure on Bilbao, the Republic launched an attack across the Sierra de Guadarrama towards Segovia. General Walter's 35th Division, including the XIV International Brigade, struck from the Navacerrada pass on 30 May 1937 against Nationalist positions on the heights of Cabeza Grande and Matabueyes above La Granja. Initial gains were lost to counter-attacks and Condor Legion air strikes; the offensive was called off within a week with heavy Republican losses. Hemingway set 'For Whom the Bell Tolls' against the preparations for this attack.
+
+Mountain slopes and pine forest between the CL-601 (Puerto de Navacerrada road) and La Granja; scattered trenches and positions remain in the forest.
+
+The pin marks La Granja, the starting point for the mountains above where the fighting took place; it is not a trench or strongpoint. Remains in the forest are not signposted, so keep to the paths. Avoid duplicating the Madrid-side Guadarrama stops.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s0</styleUrl><Point><coordinates>-4.006850,40.901820,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Museums</name>
+<Placemark><name>002 Alcázar of Toledo &amp; Army Museum</name><description>Toledo · 21 Jul–27 Sep 1936
+
+When the coup failed in Toledo, Colonel José Moscardó shut himself in the Alcázar with Civil Guards, cadets, Falangists and their families, plus a number of left-wing hostages. Republican militias besieged the fortress for 70 days, shelling and mining it until the east side collapsed. On 27 September Varela's Army of Africa relieved it, after Franco had diverted his march on Madrid to do so; the capture of Toledo was followed by killings in the town, including of wounded militiamen in the hospital. The siege became the founding legend of Francoism and the Alcázar was rebuilt as a shrine. Since 2010 it houses the Museo del Ejército.
+
+The rebuilt Alcázar, with the Army Museum's Spanish military history galleries; Moscardó's office is preserved and scale models show the fortress before and after the siege.
+
+Museo del Ejército opens Tuesday–Sunday (closed Mondays); allow at least 2 hours. Paid entry, with free periods; check the museum site before travelling.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s1</styleUrl><Point><coordinates>-4.020630,39.858080,0</coordinates></Point></Placemark>
+<Placemark><name>008 Museo Reina Sofía — Picasso's Guernica</name><description>Madrid (Atocha) · Painted 1937; in Madrid since 1981
+
+Picasso painted Guernica for the Spanish Republic's pavilion at the 1937 Paris International Exhibition, in response to the bombing of the Basque town by the Condor Legion and Italian aircraft on 26 April 1937. The painting toured to raise support for the Republic. After the war it was looked after by the Museum of Modern Art in New York, which also lent it to exhibitions, because Picasso wanted it to go to Spain only when democracy returned. MoMA handed it over to the Spanish government in September 1981; it was first shown in the Casón del Buen Retiro and moved to the Reina Sofía in 1992. The surrounding rooms place it among posters, photographs and film from the war, making this the best single introduction in Madrid to the war's propaganda and art.
+
+Guernica and its preparatory sketches, with rooms of Civil War posters, photographs and the 1937 pavilion material.
+
+Closed Tuesdays; free entry in the evening on most weekdays (check hours). Photos are allowed without flash, tripod or selfie stick, unless a sign in the room says otherwise. Metro Atocha.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s1</styleUrl><Point><coordinates>-3.694500,40.408000,0</coordinates></Point></Placemark>
+<Placemark><name>014 Museo de la Batalla del Jarama, Morata</name><description>Morata de Tajuña · 6–27 Feb 1937
+
+A small private museum, built up by local enthusiasts, gathers thousands of objects recovered from the Jarama battlefield or donated by veterans and their families: rifles, grenades, pierced helmets, mortars, lamps from the refuge caves, coins, passes and ration cards. It is the natural starting point for the battlefield, which saw Nationalist forces under Varela cross the Jarama in February 1937 and Republican troops, with the International Brigades, stop them short of the Madrid–Valencia road at a cost of many thousands of casualties on each side.
+
+Display rooms of battlefield finds, maps and photographs.
+
+Located in the Mesón El Cid, Calle Carmen, Morata de Tajuña (tel. 918 730 181); ask there for opening. Morata hosts a battle re-enactment each February.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s1</styleUrl><Point><coordinates>-3.437850,40.225670,0</coordinates></Point></Placemark>
+<Placemark><name>048 Bielsa museum – the Bielsa Pocket</name><description>Bielsa · Apr–16 Jun 1938
+
+When the Nationalist Aragon offensive broke the front in spring 1938, the Republican 43rd Division under Antonio Beltrán ('El Esquinazau') was cut off in the high Pyrenean valley of Bielsa. For about two months the division held the 'Bolsa de Bielsa' pocket against far larger forces while thousands of civilians crossed the passes into France. In mid-June 1938 the soldiers followed them. Most of the men went back to Republican Catalonia to keep fighting. Bielsa itself was largely destroyed. The village museum has a section on the pocket and the exodus.
+
+A local museum with photographs, documents and objects about the Bielsa Pocket and the flight of civilians over the border.
+
+Museo de Bielsa 'José María Escalona', Plaza Mayor, Bielsa, with a section on the Bielsa Pocket and the exodus. Opening changes with the season, so check before you go or arrange a visit in advance. Bielsa is in the high Pyrenees near the tunnel to France; combine it with a walk in the valley.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s1</styleUrl><Point><coordinates>0.218710,42.633730,0</coordinates></Point></Placemark>
+<Placemark><name>057 Museu Memorial de la Batalla de l'Ebre (CEBE), Gandesa</name><description>Gandesa · 25 Jul–16 Nov 1938
+
+Gandesa was the prize the Republican offensive never took: after crossing the Ebro on 25 July 1938, Republican units reached the outskirts within days but were stopped by Nationalist reinforcements, and the town became the pivot of the whole battle. The museum of the Centre d'Estudis de la Batalla de l'Ebre is housed in a former school that served as a blood hospital in 1938. Its collection of weapons, equipment, documents and photographs, with recreated trench and hospital scenes, gives the best overview of the battle, fought by roughly 80,000–100,000 men on each side, before visiting the sites in the field.
+
+Permanent exhibition of over 450 m² with weapons, uniforms, models, a reconstructed trench and field-hospital ward, and audiovisuals.
+
+Avinguda de Catalunya 3–5, Gandesa; tel. 977 42 09 10. Check opening days with the town hall, and ask about guided field routes to Pàndols and Coll del Moro.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s1</styleUrl><Point><coordinates>0.439080,41.054570,0</coordinates></Point></Placemark>
+<Placemark><name>062 MUME – Museu Memorial de l'Exili, La Jonquera</name><description>La Jonquera · Jan–Feb 1939
+
+As Nationalist forces overran Catalonia after the fall of Barcelona on 26 January 1939, a huge mass of civilians and defeated soldiers fled north to the French border: the Retirada. They crossed at Le Perthus/La Jonquera, Portbou, Coll d'Ares and the mountain passes, in winter, under air attack. France held many of them in improvised camps on the beaches such as Argelès and Saint-Cyprien. The MUME, opened in 2008 in the frontier town of La Jonquera, tells the story of this exodus and of the Republican exile: the camps, return, deportation to Nazi camps, and life abroad.
+
+Permanent exhibition on the Retirada, the French camps and exile, with photographs, objects and testimonies; temporary exhibitions and a documentation centre.
+
+Carrer Major 43–47, La Jonquera; open Monday–Saturday and Sunday mornings; see museuexili.cat for hours and prices. The museum can advise on the exile walking routes over the nearby passes.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s1</styleUrl><Point><coordinates>2.873470,42.416090,0</coordinates></Point></Placemark>
+<Placemark><name>072 Camp d'Aviació de la Sénia</name><description>La Sénia · 1937–1939
+
+The Republican Army built this airfield in 1936–37 with Soviet machinery. After the Nationalist drive to the sea in April 1938 cut the Republic in two, it was captured and used by Nationalist squadrons and the German Condor Legion. From here they flew against Valencia and over the Battle of the Ebro. It was abandoned after the war. The surviving command house now holds the Centre d'Aviació Històrica de la Sénia, with aircraft and aeronautical items, and the site is protected as local cultural heritage.
+
+The original command building with the museum, aircraft on display, and the flat former landing field.
+
+On the La Sénia–Ulldecona road (Camí dels Plans); museum opening is limited, mostly at weekends; check before going.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s1</styleUrl><Point><coordinates>0.307840,40.623230,0</coordinates></Point></Placemark>
+<Placemark><name>084 Gernika Peace Museum (Museo de la Paz)</name><description>Gernika-Lumo · 26 Apr 1937
+
+On the afternoon of Monday 26 April 1937 – market day – aircraft of the German Condor Legion, with Italian Aviazione Legionaria bombers, attacked Gernika for about three hours in support of the Nationalist advance on Bilbao. Explosive and incendiary bombs destroyed most of the town centre, while the Rentería bridge and the arms factories on the edge of town survived. The raid, reported worldwide by journalists including George Steer and painted by Picasso, became the defining image of the bombing of civilians. The Peace Museum, on the main square, tells the story of the raid through survivors' testimony and places it in a wider history of war and reconciliation, including Germany's 1997 apology.
+
+A modern museum with a reconstructed 1937 house interior, survivor testimony, audiovisuals and a section on peace and reconciliation.
+
+Foru Plaza 1, opposite the town hall. Closed on Mondays from mid-October to mid-March; entry €6.50 (reduced €4.50); English group tours can be booked in advance.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s1</styleUrl><Point><coordinates>-2.678400,43.315040,0</coordinates></Point></Placemark>
+<Placemark><name>108 Huerta de San Vicente (García Lorca house-museum), Granada</name><description>Granada · Summer 1936
+
+The García Lorca family's summer home from 1926 to 1936, where the poet wrote much of Blood Wedding and Yerma. Lorca came here from Madrid in July 1936, days before the rising. When the military seized Granada, the house was searched; his brother-in-law Manuel Fernández-Montesinos, the Socialist mayor, was arrested and shot in August. Lorca took refuge in the house of the Rosales family, Falangists and friends, but was arrested there on 16 August and killed days later near Alfacar. The family sold the house to the city in 1985 and it opened as a museum in 1995. It is the best place to understand Lorca the writer before visiting the sites of his death.
+
+The whitewashed farmhouse, largely unchanged, with family furniture, Lorca's desk and piano, drawings and documents, in the Parque García Lorca.
+
+Guided visits only, in small groups; closed Mondays. Book ahead in summer; small fee (free day weekly). Official site: huertadesanvicente.com.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s1</styleUrl><Point><coordinates>-3.609310,37.170650,0</coordinates></Point></Placemark>
+<Placemark><name>142 Campillo de Llerena – Civil War Museum &amp; Italian cemetery</name><description>Campillo de Llerena · 1937–1939
+
+Campillo de Llerena lay just behind the Nationalist line on the static southern Extremadura front. In 1937 Italian units of the mixed Italo-Spanish 'Flechas Azules' brigade, based here, created a war cemetery for their dead. The restored Cementerio de los Italianos and the town's Civil War museum — Extremadura's first — form one complex. The museum, expanded in 2023, recreates a trench and bunker and displays material from the fortifications of south-eastern Badajoz, explaining life in the trenches on both sides. It is presented as a place of remembrance for victims of both sides.
+
+The walled Italian cemetery outside the village; in town (Plaza Cívica 1) the museum with a reconstructed trench and bunker and finds from the front.
+
+The museum website recently stated it was closed for renovation — phone the town hall (924 770 131) before travelling. The cemetery is about 1.3 km north of the village centre.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s1</styleUrl><Point><coordinates>-5.842770,38.511630,0</coordinates></Point></Placemark>
+<Placemark><name>147 Centro Documental de la Memoria Histórica, Salamanca</name><description>Salamanca · 1938–today
+
+In 1937–38 the Nationalists set up a documents office in Salamanca to gather papers seized from Republican parties, unions, Masonic lodges and individuals — raw material for the repression, especially under the 1940 Law for the Repression of Freemasonry and Communism. The archive later became the General Archive of the Civil War, and in 2007 the Centro Documental de la Memoria Histórica. Its holdings now serve historians and relatives of victims of both sides. Catalan government papers held here were returned to Catalonia from 2006 after a long political dispute (the 'papeles de Salamanca').
+
+A permanent exhibition including a reconstructed Masonic lodge room made from confiscated regalia and material on the documentation service; reading room for researchers.
+
+Exhibition free, usually weekday mornings and some afternoons — check the Ministry of Culture site; photo ID required for the reading room.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s1</styleUrl><Point><coordinates>-5.667300,40.959750,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Repression &amp; memory sites</name>
+<Placemark><name>005 Valle de Cuelgamuros (former Valle de los Caídos)</name><description>San Lorenzo de El Escorial · 1940–1959; exhumations 2019, 2023
+
+Franco ordered this basilica cut into the granite of the Guadarrama, crowned by a 150 m cross, as a monument to his victory. Work lasted from 1940 to 1959; the workforce included political prisoners who redeemed sentence by labour. Remains of tens of thousands of dead from both sides were brought here, many Republicans moved from mass graves without their families' consent. Franco himself was buried here in 1975 and exhumed in 2019; José Antonio Primo de Rivera was removed in 2023. The Democratic Memory Law (Ley 20/2022) changed the official name from Valle de los Caídos to Valle de Cuelgamuros, made it a Place of Democratic Memory and plans its re-signification; forensic exhumations in the crypts continue.
+
+The monumental esplanade, the rock-cut basilica and the 150 m cross (the funicular up to the cross is closed indefinitely), with the Benedictine abbey behind.
+
+Paid entry; closed Mondays and some holidays. Opening days and prices change, so check the Patrimonio Nacional website just before you go. Access by car via the M-600 from El Escorial; allow half a day with El Escorial. Dress respectfully: it is an active church.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-4.155200,40.641900,0</coordinates></Point></Placemark>
+<Placemark><name>006 Paracuellos de Jarama cemetery</name><description>Paracuellos de Jarama · 7 Nov–early Dec 1936
+
+As Nationalist troops reached Madrid in November 1936, thousands of prisoners — officers, priests, Falangists, conservatives — were taken from the Modelo, San Antón, Porlier and Ventas prisons in 'sacas' and shot beside the Arroyo de San José at Paracuellos and at Soto de Aldovea near Torrejón. It was the largest single massacre in the Republican zone. The orders for the removals came from Madrid's public-order authorities under the Junta de Defensa; the degree of responsibility of its councillor Santiago Carrillo, and the role of Soviet advisers, remain contested. The cemetery holds the mass graves and a monument erected after the war.
+
+A walled cemetery on the slope with long rows of mass graves, crosses and memorial plaques listing identified victims.
+
+Managed by a private brotherhood; opening is restricted, typically mornings and on commemorative dates. Check locally before going; be respectful.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-3.546160,40.511670,0</coordinates></Point></Placemark>
+<Placemark><name>028 Bustarviejo penal labour camp</name><description>Bustarviejo · 1944–1952
+
+After the war the regime used political prisoners as forced labour on public works under the 'redemption of sentences through work' scheme. At Bustarviejo, prisoners built the Madrid–Burgos railway between 1944 and 1952, living in a camp that has been studied by archaeologists of the CSIC and the Comunidad de Madrid. It is one of the few such camps in Spain whose remains can be seen, and complements Cuelgamuros as evidence of prison labour.
+
+Foundations of three compounds, guard posts, a punishment cell and nearby railway cuttings and tunnels.
+
+Signposted path outside the village; free, open access. Allow an hour.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-3.692670,40.843700,0</coordinates></Point></Placemark>
+<Placemark><name>034 Pozos de Caudé memorial (Concud)</name><description>Concud / Teruel · Jul 1936–Dec 1937
+
+The site is a well about 50 m deep beside an old inn on the Teruel–Zaragoza road, near Concud. From July 1936 until the Republican encirclement of Teruel in December 1937, people held for their political views in Nationalist-held Teruel were shot here and thrown into the well. When the well was full, pits were dug nearby. It is one of the largest execution sites of the rearguard repression in Aragon. Families and associations campaigned for decades to have the victims remembered and identified.
+
+The covered mouth of the well, a wall of plaques put up by families and several memorials, one of them to anarchist victims.
+
+The memorial is by the N-234 just west of Teruel and is open-access. Please treat it as a grave site.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-1.162410,40.374040,0</coordinates></Point></Placemark>
+<Placemark><name>039 Torrero Cemetery memorials (Zaragoza)</name><description>Zaragoza · 1936–1946; memorial 1980
+
+Zaragoza fell to the military rising on 19 July 1936 without a fight and became the Nationalists' main base on the Aragon front. In the city, repression was carried out mainly at the walls of Torrero cemetery, where thousands were shot in the war and post-war years. In 1979 the remains of about 2,500 victims were found beneath a cemetery walkway. The following year Zaragoza's first democratic mayor, Ramón Sainz de Varanda, dedicated a monument over their common grave. The same cemetery holds a Nationalist memorial chapel with graves of the fallen of the other side.
+
+The 1980 memorial over the mass grave near Joaquín Costa's mausoleum, later memorial walls with victims' names, and the Nationalist memorial chapel with graves set in its walls.
+
+The cemetery is in the south of the city (C/ Fray Julián Garcés) and is open daily during cemetery hours. Entry is free. Please be respectful.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-0.885730,41.623530,0</coordinates></Point></Placemark>
+<Placemark><name>042 Barbastro – Claretian Martyrs Museum</name><description>Barbastro · Jul–Aug 1936
+
+Barbastro stayed in Republican hands after the rising. In the first weeks of the war anarchist militias carried out one of the worst killings of clergy in the Republican zone here. The dead included 51 Claretian missionaries, mostly young seminarians, as well as Benedictines, Piarists, cathedral canons and diocesan priests. Bishop Florentino Asensio was also killed. The diocese lost a larger share of its clergy than any other in Spain. The 51 Claretians were beatified in 1992. A museum in the Claretian house tells their story.
+
+The museum in the Claretian community's house, with the seminarians' letters and belongings and a crypt with their remains.
+
+Museo de los Mártires Claretianos, C/ Conde 4, Barbastro, about 50 km east of Huesca. Usually open Tuesday–Saturday 10:00–13:00 and 17:00–19:00 and Sunday 17:00–19:00; hours change, so check with the museum or the Barbastro tourist office before you go.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>0.126390,42.036110,0</coordinates></Point></Placemark>
+<Placemark><name>059 Fossar de la Pedrera, Montjuïc</name><description>Barcelona · 1939–1952
+
+This old quarry in Montjuïc cemetery was used as a common grave for people executed by the Franco regime after Barcelona fell on 26 January 1939, most of them shot at the Camp de la Bóta. Victims of the air raids and the city's poorest were also buried here. Lluís Companys, President of the Generalitat, was handed over by the Gestapo in occupied France, tried by court-martial and shot at Montjuïc castle on 15 October 1940; he lies in the mausoleum here. The site was made into a memorial in 1985, with columns listing the names of the executed. Nearby there are also memorials to the CNT dead, to the International Brigades and to Catalans who died in Nazi camps.
+
+A quiet sunken garden in the old quarry, with stone columns listing the victims' names, the Companys mausoleum, the 'Pietat' sculpture and several other memorials along the paths.
+
+Inside Montjuïc cemetery (free, open daily); bus 21 to the cemetery gate, then follow the signs; allow time to walk the sloping paths.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>2.148430,41.356100,0</coordinates></Point></Placemark>
+<Placemark><name>070 Castell de Montjuïc</name><description>Barcelona · Aug 1936; 15 Oct 1940
+
+The fortress above the port was a prison and execution ground for whichever side held Barcelona. In August 1936 the Republican authorities executed rebel generals Manuel Goded and Álvaro Fernández Burriel here after the failed rising of 19 July, and other prisoners followed. After the city fell in January 1939, the Franco regime used the castle as a prison. On 15 October 1940 Lluís Companys, President of the Generalitat, was shot in its moat after a summary court-martial. He had been arrested in France by the Gestapo and handed to Spain. The castle has been in city hands since 2007 and now tells this history.
+
+The moat where Companys was shot (a memorial marks the spot), the bastions, and two Civil War-era guns.
+
+By cable car or bus 150; entry fee (free on some Sunday afternoons); allow time for the views and the exhibition on the castle's history.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>2.165850,41.363210,0</coordinates></Point></Placemark>
+<Placemark><name>075 Camp de la Bóta memorial (Fraternitat)</name><description>Barcelona · 1939–1952
+
+The Camp de la Bóta, an old military ground on the shore at the edge of Barcelona, was the main execution site of Francoist repression in the city. It had already been used by the Republican side in 1936 for executions of people convicted of taking part in the military rising. Between 1939 and 1952, 1,686 people were shot here after court-martial, according to the figure the Generalitat uses for its new memorial. Most were buried in the Fossar de la Pedrera. The 'Fraternitat' monument by Miquel Navarro, erected in 1992, remembers them, and the Generalitat's memorial 'Bosc d'Empremtes' has one iron tube for each person shot.
+
+A tall modern sculpture near the Fòrum esplanade, with a plaque; nothing survives of the camp itself.
+
+Beside the Ronda Litoral near the Fòrum; free; tram T4 or metro L4 (El Maresme | Fòrum).
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>2.221640,41.409560,0</coordinates></Point></Placemark>
+<Placemark><name>077 Barcelona Cathedral – the religious persecution of 1936</name><description>Barcelona · Jul–Dec 1936
+
+In the first months after the military rising was defeated in Barcelona on 19–20 July 1936, a wave of revolutionary violence swept the Republican zone. Priests, monks, nuns and Catholic laypeople were among its main victims, and many churches were burned. Most of the killings were carried out by militia patrols and 'control committees' outside any legal process; the Generalitat and the Republican government gradually reined them in from late 1936. The cathedral is a place to reflect on this violence against the Church in Barcelona in 1936; some of the diocese's clergy killed then have since been beatified.
+
+The Gothic cathedral and its cloister on Carrer del Bisbe. Earlier versions of this guide mentioned a memorial chapel to the clergy killed in 1936; it has not been independently confirmed, so ask at the cathedral.
+
+Inside or next to the cathedral; entry to parts of the cathedral requires a ticket outside worship hours; be respectful during services.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>2.176360,41.383830,0</coordinates></Point></Placemark>
+<Placemark><name>098 El Salvador cemetery mass grave, Oviedo</name><description>Oviedo · 1937–1950s
+
+After Asturias fell in October 1937, Francoist courts-martial and extrajudicial killings claimed many lives. About 1,000 executions took place in Oviedo alone, and killings continued into the 1950s. Many of those shot against the walls of the municipal cemetery of El Salvador, at San Esteban de las Cruces, were buried in a common grave there. The names of 1,316 identified victims are now engraved on walls around the grave, making it one of the largest memorials of its kind in northern Spain. Earlier, in the Republican zone, rightists and clergy had also been killed in Asturias in 1934 and 1936.
+
+Memorial walls engraved with the names of identified victims around the mass-grave area inside the cemetery.
+
+Open during cemetery hours; please be respectful. It is south of the city centre in San Esteban de las Cruces.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-5.831610,43.345900,0</coordinates></Point></Placemark>
+<Placemark><name>102 Ceares cemetery mass grave, Gijón</name><description>Gijón · 1937–1950s
+
+After Gijón fell on 21 October 1937, thousands of Republicans were imprisoned and many were tried by courts-martial and shot. Victims executed at the wall of the Ceares municipal cemetery were buried in a common grave there. It is recorded as holding 1,293 victims of the war and the years that followed. It is now a place of annual remembrance for families and memory associations. The fall of Gijón ended the war in the North. Some Republican soldiers escaped to the mountains, and guerrilla resistance in Asturias went on for years.
+
+A memorial area at the site of the common grave inside the municipal cemetery.
+
+Open during cemetery hours; please be quiet and respectful. It is south of the city centre in the Ceares district.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-5.659180,43.524800,0</coordinates></Point></Placemark>
+<Placemark><name>106 Barranco de Víznar (mass graves, Place of Memory)</name><description>Víznar · Aug 1936 – 1940s
+
+After the military rising took Granada in July 1936, the rebel civil government organised the execution of Republican supporters, trade unionists, teachers and politicians. Many were taken at night from La Colonia, a house in Víznar used as a holding point, and shot in this pine-covered ravine beside the Víznar–Alfacar road, where they were buried in pits and natural hollows. Killings continued into the post-war years. University of Granada excavations since the 2010s have located some 29 graves and recovered the remains of 166 people, a few of them since identified by DNA. The ravine is an official Andalusian Place of Memory, and for many it stands for all the victims of the repression in Granada.
+
+A path through the pines to excavated and marked graves, a stone monolith inscribed 'Todos eran Lorca' (2002) and a stone gallery with metal plaques bearing victims' names.
+
+Open access and free, on the GR-3101 between Víznar and Alfacar; roadside parking. A night poetry vigil is held each 18–19 August. Combine with Alfacar (1 km west).
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-3.543780,37.240160,0</coordinates></Point></Placemark>
+<Placemark><name>113 Panteón de la Memoria, Cementerio de San Rafael, Málaga</name><description>Málaga · 1937–1950s; exhumed 2006–2009
+
+After Málaga fell in February 1937, military courts and summary shootings killed thousands of Republican supporters, many against the wall of the old San Rafael cemetery. Their bodies were thrown into mass graves there. Between 2006 and 2009 archaeologists exhumed 2,840 bodies — one of the largest Civil War grave excavations in Spain. The cemetery has since been turned into a park and the remains placed in a memorial pantheon, inaugurated on 11 January 2014. Málaga had also seen heavy repression in the Republican zone in the first months of the war, before the city fell; the two waves of killing should be understood together.
+
+A park on the site of the former cemetery with the Panteón de la Memoria, a monument holding the recovered remains, and walls of victims' names.
+
+Camino de San Rafael, in the Carretera de Cádiz district west of the centre; open during park hours, free.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-4.452170,36.706510,0</coordinates></Point></Placemark>
+<Placemark><name>114 Cementerio de San Fernando — Pico Reja mass grave, Seville</name><description>Seville · Jul 1936 onwards
+
+General Gonzalo Queipo de Llano seized Seville on 18 July 1936, crushing working-class resistance in Triana and La Macarena and broadcasting nightly radio speeches from Unión Radio that threatened opponents with death. The repression that followed killed thousands in the city. Many were buried in Pico Reja, a mass grave in the municipal cemetery of San Fernando. Among them is probably Blas Infante, the 'father of Andalusian nationalism', shot on 11 August 1936 at km 4 of the Carmona road. Excavations begun in 2020 are one of the largest in Spain.
+
+The municipal cemetery with the excavated Pico Reja area and memorial markers; the exhumation site itself may be fenced.
+
+Cemetery open daily; ask at the entrance for the Pico Reja area. For Infante, his house in Coria del Río is now the Museum of Andalusian Autonomy.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-5.980840,37.418850,0</coordinates></Point></Placemark>
+<Placemark><name>126 Paredón de España (El Terrer), Paterna</name><description>Paterna · 1939–1956
+
+After Valencia fell in March 1939, the Franco regime used the wall of a former quarry beside Paterna cemetery, known as El Terrer or the 'Paredón de España', as its main execution site in the province. Records document 2,238 people shot here between 1939 and 1956 and buried in mass graves 65 to 135 of the neighbouring cemetery. About 94% came from the Valencian region. The graves have been the focus of exhumations driven largely by victims' relatives, many of them women. The adjacent cemetery now holds the '2238' memorial listing the names. This is the most important site of post-war repression in the Valencian Community.
+
+The bullet-scarred wall with a monument and plaques; in Paterna municipal cemetery nearby, the mass-grave area and the 2238 memorial.
+
+The wall is in the open near the cemetery and a school sports hall; the cemetery keeps normal daytime hours. Please behave respectfully, as families still visit.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-0.435910,39.511180,0</coordinates></Point></Placemark>
+<Placemark><name>128 Campo de Los Almendros memorial, Alicante</name><description>Alicante · 30 Mar–6 Apr 1939
+
+Prisoners taken at Alicante port were held in an almond grove in La Goteta, about 3 km from the centre. The site was an open field of roughly 200 × 80 m ringed with barbed wire, with almost no food or water. For about a week from 31 March 1939 some 18,000–19,000 people were held here, though estimates run from 18,000 to 30,000. From here most were moved to Albatera or to prisons, and some were taken out and shot. The Nationalist army recorded 6,800 military prisoners. A campaign by the Alicante Vivo association led to a park named after the camp, opened in 2012, and a monument unveiled in 2014.
+
+A small memorial monolith in a neighbourhood park on the former camp site. No original structures survive.
+
+Open public park; a 5-minute visit, near the MARQ archaeological museum and the Plaza Mar 2 centre.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-0.469300,38.357400,0</coordinates></Point></Placemark>
+<Placemark><name>131 Albatera concentration camp memorial, San Isidro</name><description>San Isidro · Oct 1937–Oct 1939
+
+The Republic built this camp near San Isidro in 1937 as a labour camp. It held around 1,000 prisoners, including many detainees suspected of Nationalist sympathies, who drained the Saladares marshes; five deaths were reported. After April 1939 the victors turned it into a concentration camp for Republicans taken at Alicante port and Los Almendros. Estimates run from 12,000 to 30,000 inmates. Hunger, lice and disease killed many, with 138 deaths recorded in April 1939 alone, and prisoners were removed for execution ('sacas'). Among those held were the poet Marcos Ana and the jurist Manuel García-Pelayo. The camp closed in October 1939. Excavations began in 2020.
+
+A 1995 memorial of iron beams and chains near the station, a palm grove on the camp site, and one surviving original building (a former watchtower, now a shed). Excavation areas may be visible.
+
+The memorial is freely accessible near San Isidro station, 3 km from Albatera; the site itself is largely farmland. An interpretation centre is planned.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-0.836990,38.168260,0</coordinates></Point></Placemark>
+<Placemark><name>136 Es Campament penal colony, La Savina (Formentera)</name><description>La Savina · 1940–1942
+
+After the war the Franco regime set up a penal colony for Republican prisoners on Formentera, beside the road from La Savina to La Mola. Some 2,133 men passed through it, many of them from mainland Spain and the Canaries. On 1 January 1942 it held 1,209 prisoners, on an island of about 3,000 inhabitants. At least 58 died of hunger and disease between 1941 and its closure in November 1942, and they were buried in Sant Francesc cemetery, where the Fòrum per la Memòria has exhumed remains. The site was declared a Bien de Interés Cultural in 2014, and the protection was upheld in court in 2018.
+
+Low perimeter walls, barracks foundations, wells and a plaque with Joan Coromines' poem 'The Cemetery of the Living', beside the main road near the Estany des Peix.
+
+Seen from the PM-820 about 1 km out of La Savina port. Remains are fragmentary and luxury flats stand next to it, so stay on public land.
+
+Accuracy: LOW — general area only.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>1.416950,38.731700,0</coordinates></Point></Placemark>
+<Placemark><name>139 Former bullring (Palacio de Congresos) – Badajoz massacre memorial</name><description>Badajoz · 14 Aug 1936 and following weeks
+
+After the city fell, Nationalist troops and Falangists rounded up militiamen, Popular Front supporters and people found with bruised shoulders from rifle recoil. Many were held in the bullring and shot there and elsewhere; bodies were burned and buried at the San Juan cemetery. Reports by Mário Neves, Jay Allen and other foreign journalists made 'Badajoz' known worldwide. The bullring was demolished in 2000 and the Palacio de Congresos 'Manuel Rojas' (2006) was built on the site within the San Roque bastion. After years of controversy a small permanent memorial display, 'Memorial Badajoz 1936', was installed in the lobby in 2021.
+
+A modern congress hall on the site of the ring; in the lobby, information panels, a display case and audiovisual material on the massacre, plus a model of Blanca Muñoz's sculpture 'Eclíptica' that stands outside.
+
+The lobby is accessible when the building is open for events or office hours; check with the Palacio de Congresos (tel. 924 939 000). Outside, the sculpture can be seen any time.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-6.969450,38.874950,0</coordinates></Point></Placemark>
+<Placemark><name>140 Castuera concentration camp (La Verilleja)</name><description>Castuera · Mar/Apr 1939–Mar 1940
+
+When the Republican Army of Extremadura surrendered at the end of March 1939, Nationalist authorities built a camp on the La Verilleja estate about 3 km from Castuera, in the La Serena district. For about a year it held thousands of Republican soldiers and civilians awaiting classification and trial; many were taken out and shot, some reportedly at nearby mine shafts. The camp was laid out with a perimeter ditch, streets of barracks, a central square with a cross, latrines and washrooms. In 2009 it was declared a Bien de Interés Cultural (historic site) — one of the best-preserved Francoist camp layouts in Spain.
+
+On the ground: the perimeter ditch, main gate area, paved camp streets, barrack foundations and the cement base of the cross; memorial markers placed by the memory association.
+
+Site is within private farmland; access is along a marked track from the Castuera–Benquerencia road — ask at Castuera tourist office or the Asociación Memorial Campo de Concentración de Castuera about access and annual commemorative walks.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-5.515210,38.723380,0</coordinates></Point></Placemark>
+<Placemark><name>149 Fuerte de San Cristóbal (Alfonso XII), Ezkaba</name><description>Pamplona (Ansoáin/Ezcabarte) · 22 May 1938 (escape); prison 1934–1945
+
+This 19th-century fort on the summit of Mount Ezkaba, above Pamplona, was used as a political prison in which about 2,500 Republican prisoners from across Spain were held in damp, overcrowded casemates. On 22 May 1938 prisoners overpowered guards and some 795 escaped in the largest prison break of the war. Without maps or support they were hunted down in the hills of Navarre: around 200 were killed, most of the rest recaptured, 14 later executed after court martial, and only three reached France. Scores more died of disease in the fort; many lie in the nearby 'bottle cemetery', where names were placed in bottles on the graves.
+
+Huge moats, walls and casemate galleries on the summit; 360 m to the southeast the Cementerio de las botellas with memorial markers; road and hiking routes from Ansoáin, Artika and Berriozar.
+
+Walk or drive up (road closed to traffic at times); the fort interior is closed except on organised guided visits by the Navarre government/memory groups — check dates in advance. Allow 2 hours including the cemetery.
+
+Accuracy: HIGH — exact spot known.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-1.665630,42.856740,0</coordinates></Point></Placemark>
+<Placemark><name>152 Miranda de Ebro concentration camp (historic site)</name><description>Miranda de Ebro · 1937–13 Jan 1947
+
+Opened in 1937 beside the railway junction, Miranda de Ebro was the longest-running of Franco's concentration camps, closing only in January 1947. Around 65,000 Republican prisoners passed through it during and after the war, including captured International Brigaders. During the Second World War it became the main internment camp for foreigners crossing the Pyrenees — escaped Allied servicemen, Poles, Belgians, Czechs, French evaders and Jewish refugees — with over 3,500 held at once in a camp built for 1,500.
+
+A few remains (water tank, sections of wall, washroom ruins, a guard post) and a plaque on the old site, now among industrial plants; an interpretation centre with a reconstructed barrack and prisoner files in the town's civic centre, plus memorials in Parque Alcalde Emiliano Bajo.
+
+The pin marks the old camp site, now among industrial plants, where a few remains survive; it does not mark every surviving structure. The interpretation centre, with a reconstructed barrack, is in the Centro Cívico Raimundo Porres, Avenida República Argentina 93, in town; check its opening hours with Miranda's tourist office.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-2.931390,42.692600,0</coordinates></Point></Placemark>
+<Placemark><name>153 Convento de San Marcos, León (concentration camp)</name><description>León · Jul 1936–1940
+
+León fell to the rebels in the first days of the war, and the vast Renaissance monastery of San Marcos was turned into one of the largest prison camps in Spain. Thousands of men — and women in a separate section — from León, Asturias and the Northern front were crowded into its halls and stables, with many taken out for execution or dying of disease. The same building had been a pilgrim hospital on the Camino de Santiago; today it is a luxury Parador, and survivors' associations have long pressed for proper recognition of its prison past.
+
+The famous Plateresque façade on the Bernesga river, the church and cloister (museum); the hotel interior is not a memorial site.
+
+Façade free; the church/museum section (Museo de León) is free too (check hours). Be aware the building's prison history is barely signposted.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-5.582130,42.601790,0</coordinates></Point></Placemark>
+<Placemark><name>154 Isla de San Simón (concentration camp), Ría de Vigo</name><description>Redondela · 1936–1943
+
+Galicia fell to the coup within days in July 1936, and the rearguard repression was severe. The small island of San Simón, a former lazaretto in the Ría de Vigo, became a concentration camp and penal colony for political prisoners — first from Vigo and Pontevedra, later from across Spain, including many older prisoners. Overcrowding, hunger and disease killed hundreds (around 250 in 1941 alone), and some inmates were taken out and shot. Declared a Bien de Interés Cultural in 1999, the island is now a cultural centre dedicated partly to memory.
+
+The restored island buildings, bridge to San Antón islet, and memorial and literary route; guided tours explain the camp period.
+
+Visits by written request to the Xunta de Galicia; groups must arrange their own boat. About 2 hours.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-8.628570,42.307450,0</coordinates></Point></Placemark>
+<Placemark><name>155 San Pedro de Cardeña monastery (International Brigades camp)</name><description>Castrillo del Val / Burgos · Dec 1936–Nov 1939
+
+The ancient monastery near Burgos, traditionally linked to El Cid, was turned into a concentration camp in December 1936. From April 1938 it was the main camp for captured International Brigaders, held alongside Spanish prisoners, until it closed in November 1939. British, Irish, American and other volunteers taken at Jarama, Belchite, Calaceite and Gandesa passed through; some were exchanged, others transferred to prisons. Army psychiatrist Antonio Vallejo-Nágera carried out pseudo-scientific studies on inmates here aiming to identify a 'Marxist' psychological type. Memoirs by former prisoners describe hunger, beatings and forced saluting.
+
+The restored monastery church and cloister, today home to a Cistercian (Trappist) community; there is no major memorial to the prisoners.
+
+10 km southeast of Burgos; visits are guided by a monk at set times — check monastery hours. Please be discreet: it is an active monastery.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-3.607340,42.304470,0</coordinates></Point></Placemark>
+<Placemark><name>156 Valdenoceda prison memorial</name><description>Valdenoceda · 1938–1943
+
+In an old silk factory in the Valdivielso valley north of Burgos, the Franco regime ran a prison for Republican prisoners, many transferred from other jails and from the Northern front. Cold, hunger and disease killed 153 inmates between 1938 and 1943, and they were buried in the village cemetery. The victims' association counts 154, adding a man killed at Valdenoceda in 1936 before the prison opened. From 2007 the association exhumed 114 bodies and identified many of them, making it one of the best-documented cases of prison mortality in Franco's Spain.
+
+The shell of the factory-prison beside the Ebro, and the cemetery with memorial for the prisoners.
+
+Small village on the N-232 about 1 h from Burgos; building exterior only; cemetery accessible.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s2</styleUrl><Point><coordinates>-3.595180,42.854440,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>City sites</name>
+<Placemark><name>007 Telefónica building, Gran Vía</name><description>Madrid (Centro) · Nov 1936–Mar 1939
+
+Madrid's first skyscraper (1929) was the tallest building in the city and the Republic's eye over the front: from its upper floors observers watched Nationalist movements in the Casa de Campo. It housed the telephone exchange and the Foreign Press Office, where correspondents such as Hemingway and Dos Passos filed censored reports. That made it a target: Nationalist guns on the Garabitas hill hit it again and again (over 120 impacts in October 1936 alone, according to the company's history), but the exchange never stopped working. The stretch of Gran Vía outside became known as 'Shell Alley'.
+
+The restored tower dominates Gran Vía; the Espacio Fundación Telefónica inside hosts free exhibitions.
+
+Espacio Fundación Telefónica (entrance on Calle Fuencarral) is free, Tuesday–Sunday. Metro Gran Vía.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-3.701800,40.420200,0</coordinates></Point></Placemark>
+<Placemark><name>011 Puente de los Franceses</name><description>Madrid (Moncloa) · Nov 1936
+
+This 19th-century railway bridge over the Manzanares was one of the crossings the Nationalists needed to break into Madrid from the Casa de Campo in November 1936. Republican militias and troops, soon joined by the newly arrived International Brigades, defended it; the fighting here is remembered as part of the Brigades' baptism of fire. It gave its name to a popular Republican song ('Puente de los Franceses, mamita mía, nadie te pasa'). The Nationalists eventually crossed the river further north and entered the University City instead.
+
+The original brick-and-granite five-arch bridge, still carrying trains.
+
+View from the Madrid Río riverside path or the Paseo de la Florida; 15 minutes' walk from Príncipe Pío.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-3.735800,40.433700,0</coordinates></Point></Placemark>
+<Placemark><name>012 Templo de Debod — site of the Cuartel de la Montaña</name><description>Madrid (Moncloa) · 19–20 Jul 1936
+
+Here stood the Montaña barracks, where General Joaquín Fanjul rose for the coup in Madrid on 19 July 1936 and then found himself besieged. On 20 July, armed workers, Assault Guards and loyal troops attacked with artillery and aircraft and stormed it; many of the officers and soldiers inside were killed after the surrender, and Fanjul was later tried and shot. The fall of the barracks secured Madrid for the Republic. The ruined building was demolished after the war, and the Egyptian Temple of Debod was re-erected on the site in 1972.
+
+A park with the Egyptian temple; there is no trace of the barracks, but the viewpoint looks towards the Casa de Campo front.
+
+Free park, a short walk from Plaza de España. Best at sunset.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-3.717780,40.424050,0</coordinates></Point></Placemark>
+<Placemark><name>025 Sigüenza Cathedral</name><description>Sigüenza · Sep–Oct 1936
+
+In the autumn of 1936 Nationalist columns advancing from Aragon and Soria besieged Sigüenza. The last Republican militiamen, with civilians, took refuge in the cathedral and held out for several days under artillery and air bombardment before surrendering in mid-October. The cathedral suffered heavy damage: roofs and the crossing collapsed, sculpture was shattered and the 18th-century organ destroyed. It was restored in the 1940s, when a new lantern tower was added over the crossing.
+
+The fortress-like Romanesque–Gothic cathedral, restored; post-war repairs and the new lantern are visible.
+
+Cathedral open daily; the €10 ticket covers the cathedral and diocesan museum (self-guided). Sigüenza is 1 h 45 min from Madrid by train.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-2.641270,41.068410,0</coordinates></Point></Placemark>
+<Placemark><name>040 Basílica del Pilar – the unexploded bombs (Zaragoza)</name><description>Zaragoza · 3 Aug 1936
+
+Early in the war a Republican aircraft attacked Nationalist-held Zaragoza and dropped bombs on the Basilica of Our Lady of the Pillar, Spain's great Marian shrine. Bombs fell on the church and the square beside it, and none exploded. Nationalist propaganda presented this as a miracle, and the event became a strong symbol of the religious meaning Franco's side gave its war. Two of the bombs are still displayed inside the basilica.
+
+Two defused bombs hang on a pillar inside the basilica. There is also a mark of the damage on the ceiling vaults.
+
+The basilica is open daily with free entry, so visit outside Mass times. The bombs are near the Holy Chapel of the Pillar.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-0.878330,41.656940,0</coordinates></Point></Placemark>
+<Placemark><name>044 Quinto – El Piquete church</name><description>Quinto · 25–26 Aug 1937
+
+The old parish church of the Assumption, called 'El Piquete', stands on the Cerro de la Corona above Quinto. In August 1937 about 300 Nationalist defenders turned it into a fortress, and civilians also took refuge inside. The XV International Brigade and other Republican units took it after bitter house-to-house fighting and artillery fire, and the western face of the tower was heavily damaged. The fighting destroyed most of the town, which was rebuilt after the war by the Francoist regions-devastated agency.
+
+The battle-scarred church on its hill. Inside, restoration uncovered 18th-century mummified burials ('las momias de Quinto'), now displayed there.
+
+Visits are run by Quinto council, so check times locally. Combine it with the Purburel trenches.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-0.498300,41.423830,0</coordinates></Point></Placemark>
+<Placemark><name>049 Caspe – battle of March 1938</name><description>Caspe · 15–17 Mar 1938 (Council of Aragon 1936–37)
+
+From 1936 Caspe was the seat of the anarchist-led Regional Defence Council of Aragon, which ran the collectivised Republican part of the region. In August 1937 the Republican government dissolved the council by force and arrested its president, Joaquín Ascaso. During the Aragon offensive three divisions of Yagüe's Moroccan Army Corps reached Caspe on 15 March 1938. International Brigades XI, XIII and XV, later joined by the XII and XIV, defended the town, the XV Brigade most stubbornly. Caspe fell on 17 March and became a Nationalist corps headquarters for the Ebro front.
+
+The historic town centre and the hills around the Guadalope valley where the brigades fought. Traces are scattered and mostly unmarked.
+
+Start from the old town and the tourist office. A local guide or book helps to locate the battle positions.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-0.033000,41.233000,0</coordinates></Point></Placemark>
+<Placemark><name>061 Plaça de Sant Felip Neri (bombing of 30 January 1938)</name><description>Barcelona · 30 Jan 1938
+
+On 30 January 1938 Italian aircraft from Mallorca bombed the old city of Barcelona. One bomb fell on this small square, where the church crypt was used as an air-raid shelter by the neighbouring school and children who had been evacuated from Madrid. As rescuers dug survivors out of the rubble, a second bomb struck. Forty-two people were killed, most of them children, making it one of the deadliest single incidents of the city's bombing. For decades the damage to the church front was said to come from executions; today a plaque records the true cause.
+
+The church façade is still pitted with shrapnel scars, and a plaque remembers the victims; the rest of the square is unchanged.
+
+Free, always accessible, in the Gothic Quarter a few minutes from the cathedral; a quiet place, so please be respectful as the school still uses the square.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>2.174980,41.383410,0</coordinates></Point></Placemark>
+<Placemark><name>063 Castell de Sant Ferran, Figueres (last Cortes)</name><description>Figueres · 1 Feb 1939
+
+As Catalonia collapsed, the Republican government withdrew to Figueres. On 1 February 1939 Prime Minister Juan Negrín held the last session of the Republican Cortes on Spanish soil in the stables of this huge 18th-century fortress, proposing peace conditions that Franco ignored. The castle and places nearby also sheltered art evacuated from the Prado and other collections before it was sent to Geneva. Days later the government crossed into France and Nationalist troops reached the border on 10 February. From 1940 to 1942 the Franco regime used the castle as a concentration camp for Republicans returned from France.
+
+One of the largest bastioned fortresses in Europe: the stables where the Cortes met, the parade ground, bastions and underground cisterns.
+
+On the edge of Figueres, 20 minutes' walk from the Dalí Museum; check seasonal hours. Guided visits to the underground cisterns (by boat) and the moat (by electric vehicle) must be booked.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>2.946390,42.273610,0</coordinates></Point></Placemark>
+<Placemark><name>071 Telefónica building &amp; Plaça de Catalunya (May Days 1937)</name><description>Barcelona · 3–8 May 1937
+
+On 3 May 1937 Catalan police under Eusebio Rodríguez Salas tried to take the Telefónica exchange from the CNT workers' committee that had run it since July 1936. The anarchists opened fire, and within hours barricades went up across Barcelona. The CNT and POUM faced the Generalitat, the PSUC communists and the Republican government forces in the 'May Days'. The PSUC headquarters were at the Hotel Colón across the square. After a ceasefire and the arrival of Assault Guards from Valencia, the government took control of public order in Catalonia. The events led to the suppression of the POUM and the kidnapping and murder of Andreu Nin.
+
+The Telefónica building (1926–28) still faces the square, though its dome was removed in 1949; the Hotel Colón stood on the Passeig de Gràcia corner and was later replaced.
+
+Free, always visible; combine with the Poliorama and Rambla stop (5 minutes' walk).
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>2.171770,41.386950,0</coordinates></Point></Placemark>
+<Placemark><name>076 Teatre Poliorama, La Rambla (Orwell's rooftop)</name><description>Barcelona · 3–8 May 1937
+
+George Orwell, on leave from the POUM militia on the Aragon front, spent the May Days of 1937 on the roof of the Poliorama cinema (Rambla 115) guarding the POUM executive building across the Rambla, as he describes in 'Homage to Catalonia'. The Rambla, Plaça de Catalunya and the old city were divided by barricades between CNT/POUM and government/PSUC forces. A month later the POUM was outlawed and Orwell escaped from Spain as its members were being arrested. A small square in the Gothic Quarter, Plaça de George Orwell, now bears his name.
+
+The building of the Reial Acadèmia de Ciències i Arts with the Poliorama theatre, its façade and clock tower much as Orwell knew them.
+
+Free, visible from La Rambla; the theatre is open only for performances.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>2.170650,41.384120,0</coordinates></Point></Placemark>
+<Placemark><name>085 Casa de Juntas &amp; Tree of Gernika</name><description>Gernika-Lumo · 26 Apr 1937
+
+The Assembly House (Casa de Juntas) and the oak of Gernika are the historic symbols of Biscayan and Basque self-government: the Lords of Biscay swore under the tree to respect local liberties. That symbolism is one reason the destruction of the town in April 1937 caused such outrage. The assembly house and the oak, then the tree planted in 1860, survived the bombing on the hill above the burning centre. After the Nationalists took the town on 29 April, Carlist requetés of the Tercio de Begoña, themselves Biscayans, posted a guard to stop the tree being damaged. The old trunk stands under a colonnade next to its successor.
+
+The 19th-century Assembly House with its stained-glass ceiling, the living oak (planted 2015), and the preserved trunk of the 'old tree' that survived 1937.
+
+Free entry, but visits must be booked in advance; closed on days of plenary sessions. It's a 5-minute uphill walk from the Peace Museum.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-2.679410,43.313310,0</coordinates></Point></Placemark>
+<Placemark><name>097 Oviedo siege – the old town</name><description>Oviedo · 19 Jul 1936–Feb 1937
+
+On 19 July 1936 Colonel Antonio Aranda, who had persuaded Republican leaders he was loyal, declared for the rising and held Oviedo with soldiers, Civil Guards and Falangist volunteers. The city was surrounded by Asturian miners' militias. It survived months of siege, shelling and street fighting, including around the Plaza de la Constitución and the cathedral, until a Nationalist column from Galicia opened a narrow corridor on 16–17 October 1936. The Republican offensive of February 1937, supported by T-26 tanks, failed. The old centre was heavily damaged.
+
+The town hall on Plaza de la Constitución, facing San Isidoro church, in an old quarter that was largely rebuilt after siege damage.
+
+Central Oviedo, on foot. Earlier versions of this guide listed a memorial to the defenders inside the town hall; whether it is still on display has not been confirmed.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-5.844600,43.360480,0</coordinates></Point></Placemark>
+<Placemark><name>101 Simancas barracks siege memorial, Gijón</name><description>Gijón · 19 Jul–16 Aug 1936
+
+When the coup failed in Gijón, Colonel Antonio Pinilla and about 600 soldiers of the Simancas mountain infantry regiment shut themselves into the Simancas barracks, a former Jesuit college. Asturian militias besieged them with dynamite, artillery and aircraft, while the Nationalist cruiser Almirante Cervera fired from offshore but could not relieve them. When the building was stormed in mid-August, Pinilla radioed the cruiser to fire on his own position. Almost the entire garrison died. The Franco regime made the siege a heroic legend, and a memorial to the regiment stands near the site.
+
+The 1958 Monumento a los Héroes del Simancas on the façade of the Colegio de la Inmaculada, Avenida Hermanos Felgueroso 25. It is a Francoist monument, shown here as a historical exhibit; the barracks building itself was later rebuilt.
+
+In the El Coto/La Arena area of Gijón, easy to reach on foot or by bus from the centre.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-5.657930,43.534690,0</coordinates></Point></Placemark>
+<Placemark><name>118 Puerto de Almería &amp; Parque de las Almadrabillas</name><description>Almería · Feb–May 1937; memorial to Mauthausen deportees
+
+Almería's harbour was the arrival point for tens of thousands of refugees from Málaga in February 1937, and the target of the German naval bombardment of 31 May 1937. After the war, many Andalusian Republican exiles who had fled to France were captured by the Germans in 1940 and sent to Mauthausen; of about 1,500 who passed through the camp only about 500 survived. The memorial in the Parque de las Almadrabillas by the port remembers them.
+
+The harbour front and the memorial to the Mauthausen deportees in the Almadrabillas park.
+
+10 minutes' walk from the shelters; open access.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-2.462000,36.833000,0</coordinates></Point></Placemark>
+<Placemark><name>120 Tablada airfield (Army of Africa airlift), Seville</name><description>Seville · Late Jul – Oct 1936
+
+With the Republican navy blocking the Strait, Franco's Army of Africa was stuck in Morocco. From late July 1936 German Junkers Ju 52 and Italian Savoia-Marchetti transports flew legionnaires and Regulares from Tetuán to Seville — the first large military airlift in history, landing mainly at Tablada and at Jerez. The troops then marched north to Badajoz and Madrid. The airfield was a military base and aviation school afterwards.
+
+A military base; only its perimeter can be seen.
+
+View from outside only.
+
+Accuracy: LOW — general area only.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-6.004000,37.357000,0</coordinates></Point></Placemark>
+<Placemark><name>124 Port of Alicante – Stanbrook and the last refugees</name><description>Alicante · 28 Mar–1 Apr 1939
+
+As the Republic collapsed in March 1939, tens of thousands of Republican soldiers, officials and families converged on Alicante, hoping for evacuation by sea. On 28 March the British collier Stanbrook, under Captain Archibald Dickson, sailed for Oran carrying about 2,600–3,000 people, far beyond her capacity. Very few ships came after her. Between 15,000 and 20,000 people were left on the quays. Italian troops of the Littorio Division and Nationalist forces took the port, and on 1 April some of those trapped killed themselves rather than surrender. The rest were marched to the Los Almendros field and then to Albatera. The Generalitat Valenciana now marks 28 March as a day of remembrance.
+
+Today a modern ferry and leisure port. A plaque to the Stanbrook's crew stands on the quayside (it was torn off once by vandals) and a street is named after the ship.
+
+Walk the waterfront from the Explanada. The plaque's exact position is not confirmed, so ask at the port tourist office. Combine with Los Almendros, 2 km north.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-0.480410,38.343560,0</coordinates></Point></Placemark>
+<Placemark><name>127 Palau de Benicarló (seat of the Republican government)</name><description>Valencia · Nov 1936–Oct 1937
+
+When Madrid seemed about to fall in November 1936, the government of Francisco Largo Caballero left for Valencia. The city was the capital of the Republic until the government moved on to Barcelona in autumn 1937. This 15th-century Borja palace became the headquarters of the Presidency of the Republican government. The Cortes also sat in Valencia during this period, sharing the Town Hall. Here the Republic reorganised its army and dealt with the crisis of May 1937, when Juan Negrín replaced Largo Caballero. Valencia also hosted the Second International Congress of Writers for the Defence of Culture in July 1937. Since the 1980s the palace has been the seat of the Valencian parliament, the Corts Valencianes.
+
+A Gothic–Renaissance palace facing Plaza de San Lorenzo. There is no Civil War display; the building itself is the point of interest.
+
+View from the square, a few minutes' walk from the Cathedral. The Corts run booked guided visits on Monday and Friday mornings (not in August); check their website.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-0.374630,39.477870,0</coordinates></Point></Placemark>
+<Placemark><name>138 Puerta de la Trinidad, Badajoz</name><description>Badajoz · 14 Aug 1936
+
+On 14 August 1936 Lt-Col. Juan Yagüe's Army of Africa columns stormed Badajoz, defended by Col. Ildefonso Puigdendolas with loyal troops and several thousand militia. The breach assault at the Puerta de la Trinidad was the bloodiest action of the day: the 16th Company of the Legion's 4th Bandera charged through machine-gun fire at the gate and was almost wiped out before the walls were carried, while Castejón's men broke in further south. Badajoz's fall joined the Nationalist zones of the south and north and opened the road up the Tagus valley towards Madrid. What followed inside the city became one of the war's most notorious episodes of repression.
+
+The 17th-century gate and walls survive at the northeast corner of the old town, beside the Rivillas stream and the Puente de San Roque.
+
+Free, street-side, any time; combine on foot with the former bullring site (Palacio de Congresos) about 15 minutes away along the Ronda del Pilar.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-6.964340,38.878070,0</coordinates></Point></Placemark>
+<Placemark><name>141 Puente Romano, Mérida (fall of Mérida)</name><description>Mérida · 10–11 Aug 1936
+
+Mérida was the key road and rail junction between the Nationalist south and north. Around 2,600 militiamen and loyal forces held the Guadiana line against columns under Asensio, Castejón and Tella. On 10 August the Legion's 5th Bandera rushed the 2,000-year-old Roman bridge, which the defenders had mined; the charges were not fired (Nationalist accounts credit Cmdr. Luis Alarcón de la Lastra with disarming them) and the troops broke into the city. Mérida's capture linked Seville with Mola's northern zone. Mass detentions followed: the bullring, the Santo Domingo convent and the barracks became prison camps, and executions took place at the cemetery wall.
+
+The Roman bridge (now pedestrian) over the Guadiana, where the assault crossed; in the town, the town hall on Plaza de España and a memorial at the municipal cemetery to the victims of the repression.
+
+Free, always open; walk the bridge from the Alcazaba end (10 min). The cemetery memorial is a short drive north of the centre.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-6.350830,38.913060,0</coordinates></Point></Placemark>
+<Placemark><name>143 Almendralejo – Purificación church tower &amp; memorial</name><description>Almendralejo · 7–15 Aug 1936
+
+On the drive north from Seville, Asensio's and Castejón's columns entered Almendralejo on 7 August 1936. About fifty militiamen barricaded themselves in the tower of the parish church of Nuestra Señora de la Purificación and held out for a week against artillery, explosives and smoke before surrendering; they were then shot. The town suffered heavy repression, including the killing of a number of women. A memorial in the municipal cemetery, unveiled in November 2023, names 462 victims from Almendralejo and 252 from other towns killed nearby. Earlier, under Republican control, several right-wing prisoners had also been killed in the town.
+
+The tall church tower on Plaza de España, still showing its role in the siege only through local accounts; the new memorial wall in the municipal cemetery.
+
+The church exterior is free on Plaza de España; the cemetery lies at the edge of town (usual cemetery hours).
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-6.407750,38.684060,0</coordinates></Point></Placemark>
+<Placemark><name>144 Palacio de los Golfines de Arriba, Cáceres (Franco HQ 1936)</name><description>Cáceres · 26 Aug–early Oct 1936
+
+From 26 August 1936 Franco set up his headquarters in this Renaissance palace in Cáceres old town, directing the Army of Africa's advance up the Tagus towards Talavera and Toledo. He stayed some 38 days; in late September, while based here, he was chosen by his fellow generals as commander-in-chief and head of the rebel state, before the formal proclamation in Burgos on 1 October and his move to Salamanca. The palace is one of few places that shows how the rebel command was improvised in private buildings of provincial towns.
+
+The fine Renaissance façade in the walled old town (a UNESCO site). A Francoist commemorative plaque has been the subject of removal requests by memory associations.
+
+Privately owned (hospitality use); view from the street. Easy to combine with a walk through the Ciudad Monumental.
+
+Accuracy: HIGH — exact spot known.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-6.371790,39.473360,0</coordinates></Point></Placemark>
+<Placemark><name>146 Palacio de la Isla, Burgos (Franco HQ)</name><description>Burgos · 10 Aug 1937–18 Oct 1939
+
+Burgos was the political capital of Nationalist Spain: the Junta de Defensa Nacional sat here from July 1936, and on 1 October 1936 Franco was invested as head of state at the city's Capitanía General. From August 1937 until October 1939 this early-20th-century mansion on the Paseo de la Isla served as his residence and headquarters. His first government was formed in Burgos in January 1938, and here on 1 April 1939 he signed the final war communiqué: 'the war has ended'. The palace now houses the Instituto Castellano y Leonés de la Lengua.
+
+A neo-Renaissance mansion set in gardens on the Paseo de la Isla, west of the old town, beside the Arlanzón riverside walk.
+
+Exterior and gardens from the street; the council lists weekday visiting hours for the interior. 15 minutes' walk from the cathedral; combine with the Capitanía General building on Plaza de Alonso Martínez.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-3.709750,42.338840,0</coordinates></Point></Placemark>
+<Placemark><name>150 Palacio Episcopal, Salamanca (Franco HQ 1936–37)</name><description>Salamanca · Oct 1936–1937
+
+After his investiture as head of state, Franco moved his headquarters to Salamanca, installing himself in the bishop's palace beside the cathedrals, lent by Bishop Enrique Pla y Deniel — whose 1936 pastoral 'Las dos ciudades' framed the war as a crusade. From here Franco directed the attack on Madrid, the war in the North and the unification of Falange and Carlists (April 1937). German and Italian envoys and the press office operated nearby, making Salamanca the rebel zone's working capital until the move to Burgos. In October 1936 the nearby University hall saw Unamuno's famous clash with General Millán-Astray.
+
+The palace facade on Plaza Juan XXIII next to the New Cathedral; since 2023 it houses the Museo Diocesano (Fernando Gallego paintings and sacred art).
+
+Museum opening hours and ticket apply; exterior free. Easily combined with the Centro Documental de la Memoria Histórica five minutes away.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s3</styleUrl><Point><coordinates>-5.667360,40.960640,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Trenches &amp; fortifications</name>
+<Placemark><name>010 Parque del Oeste bunkers</name><description>Madrid (Moncloa) · 1937–1939
+
+The northern end of the Parque del Oeste lay right on the front line facing the Nationalist salient in the University City. Nationalist sappers built concrete machine-gun posts here under fire; the stages of construction are still visible in the concrete, and one carries the inscription 'Zapadores nº 7'. Of around twenty such posts, three survive, protected as heritage. They are among the few tangible traces of the two-and-a-half-year siege line inside the city itself.
+
+Three sealed concrete machine-gun bunkers among the park's trees and lawns.
+
+Free, open park; 10 minutes' walk from Metro Moncloa. Combine with the University City and Casa de Velázquez.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-3.728600,40.435020,0</coordinates></Point></Placemark>
+<Placemark><name>018 Frente del Agua, Paredes de Buitrago</name><description>Paredes de Buitrago · Jul 1936–Mar 1939
+
+In late July 1936 rebel troops under Colonel García Escámez crossed the Somosierra and seized Paredes de Buitrago, close to the El Villar and Puentes Viejas reservoirs that supplied Madrid with water. Republican forces, helped by workers of the Canal de Isabel II who fortified the positions, stopped them just short. The front stabilised by the end of August and stayed here for the rest of the war, the Nationalist 72nd Division facing Republican mixed brigades across the valley. The Comunidad de Madrid has cleared and signposted 26 positions of both armies.
+
+Trenches, machine-gun nests, shelters and command posts at Loma Quemada (Republican), El Pinar and Peñas Bajas (Nationalist), with information panels.
+
+An 8 km circular waymarked route starts from the interpretation centre in the old village laundry. Allow 3 hours; good footwear.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-3.561400,41.005180,0</coordinates></Point></Placemark>
+<Placemark><name>019 Alto del León (south side), Guadarrama</name><description>Guadarrama · 22 Jul 1936–Mar 1939
+
+The Guadarrama pass, renamed Alto de los Leones by the victors, was one of the first battlefields of the war. Columns sent by General Mola from Valladolid and Segovia seized it on 22 July 1936 and held it against militia columns from Madrid in bloody fighting over the following days. The front then settled along the crest. Nationalist positions pushed south of the pass towards La Jarosa, the most advanced in the central sector, while Republican lines faced them on the lower slopes. Both sides fortified the mountain with concrete bunkers, shelters and observation posts that survive in the pine woods.
+
+A bunker behind the roadside restaurant at the pass, an armoured observation post, and trenches, nests and a vaulted command bunker in the woods towards the La Jarosa reservoir.
+
+A 13 km circular walk links the positions (about 600 m of climbing). Mountain weather: carry warm clothing even in summer. The north side of the pass is in Segovia (see Castile).
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-4.140320,40.709150,0</coordinates></Point></Placemark>
+<Placemark><name>022 Quijorna</name><description>Quijorna · 6–9 Jul 1937
+
+Quijorna was one of the Nationalist strongpoints that blunted the Republic's Brunete offensive. Its small garrison held out for three days against Republican divisions before falling on 9 July 1937, costing the attackers time they could not afford. The surrounding hills were then fortified by both sides. Around the village survive a hilltop bunker and, some 2 km behind the Republican line of Cota 640 and Loma Quemada, the camp of La Peña, while the farmhouse of Casa de los Llanos served as a Republican planning centre.
+
+A concrete bunker on the hill above the village and remains of the Republican rear camp at La Peña.
+
+Free; walk up from the village. Combine with Brunete and Villanueva de la Cañada.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-4.056500,40.428000,0</coordinates></Point></Placemark>
+<Placemark><name>024 Blockhaus 13, Colmenar del Arroyo</name><description>Colmenar del Arroyo · late 1938–early 1939
+
+After the Battle of Brunete the western front of Madrid settled along the Perales valley. In late 1938 the Nationalist 71st Division began a line of large concrete blockhouses here; Blockhaus 13, built by the 2nd Company of the 7th Sapper Battalion, was the only one completed. Designed to withstand heavy artillery and aerial bombs, it has four domed machine-gun nests linked by a central corridor, an inner courtyard and a cistern. Unusually well preserved, it was declared a Bien de Interés Cultural in 2019.
+
+A near-intact reinforced-concrete blockhouse with four circular firing nests.
+
+Signposted near the M-510 between Navalagamella and Colmenar del Arroyo; short walk from the road; free.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-4.182800,40.432900,0</coordinates></Point></Placemark>
+<Placemark><name>029 Fresnedillas de la Oliva bunkers</name><description>Fresnedillas de la Oliva · Nov 1936–1939
+
+Nationalist troops took Fresnedillas de la Oliva on 5 November 1936 during the advance on Madrid; the front then halted on the Perales river and saw heavy fighting in December 1936. In 1937 the Nationalists fortified the heights around the village with machine-gun nests, trenches and catenary-vaulted shelters, forming part of the western front of Madrid. Several of these positions, including those of Cota 960, can be visited along local paths.
+
+Concrete machine-gun posts, connecting trenches and vaulted storage shelters around the village.
+
+One bunker is by the M-521 towards Robledo de Chavela; others require short walks. Free.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-4.138200,40.501400,0</coordinates></Point></Placemark>
+<Placemark><name>030 Los Yesares positions, Pinto</name><description>Pinto · 1937–1939
+
+South of Madrid, between Pinto and Valdemoro, the Nationalist line that ran from the Cerro de los Ángeles to the Jarama was dug into the gypsum hills. At Los Yesares, archaeologists of the Comunidad de Madrid have recorded four concrete-and-masonry posts, trenches, rifle pits and a shelter on a limestone hill. The site shows the static rear lines that followed the Jarama battle. A similar Nationalist position was excavated at El Espartal near Valdemoro.
+
+Four small fortins, trenches and a shelter on a low hill.
+
+Accessible on foot from Pinto; little signage, so use a GPS track. Free.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-3.671920,40.277350,0</coordinates></Point></Placemark>
+<Placemark><name>033 Ruta Orwell – Monte Irazo &amp; Las Tres Huegas (Sierra de Alcubierre)</name><description>Alcubierre / Leciñena · Jan–16 Feb 1937 (front static Aug 1936–Mar 1938)
+
+From late 1936 the Aragon front ran across the bare Sierra de Alcubierre. Anarchist and POUM militia columns faced Nationalist positions such as San Simón, and the front hardly moved for more than a year. The British writer George Orwell served here with the POUM militia, first on Monte Pucero and then on the crest of Monte Irazo until 16 February 1937. He described the cold, the lice and the stalemate in Homage to Catalonia (1938). The Republicans held these positions until the Nationalist Aragon offensive broke the front in March 1938. A monument to the Nationalist side from the 1940s stands on San Simón (699 m).
+
+Excavated and rebuilt Republican trenches, rifle pits, an observation post, shelters and a bivouac line with barbed wire on Monte Irazo. Las Tres Huegas has a rebuilt camp with a command post, kitchens, cisterns and a cave shelter. Panels explain the sites.
+
+Monte Irazo is reached by a 1.5 km dirt track from the A-129 at km 34.6 (Alcubierre direction) between Leciñena and Alcubierre. Las Tres Huegas is at about km 33.5. The sites are open-air and free. Bring water and sturdy shoes.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-0.509180,41.818450,0</coordinates></Point></Placemark>
+<Placemark><name>038 Quinto – Purburel / Cabezo de la Nariz trenches</name><description>Quinto · 24–26 Aug 1937
+
+Quinto was a fortified Nationalist outpost on the Ebro that had been on the front for a year. Its main strongpoint was on the Purburel and Cabezo de la Nariz hills, held by about 650 men behind wire, trenches and concrete works. On 24–26 August 1937 the Republican 35th Division, including the XV International Brigade with its British, American (Lincoln) and Dimitrov battalions, stormed the town and the hills. The last defenders on Cabezo de la Nariz surrendered on 26 August. Quinto then served as a Republican headquarters until March 1938.
+
+About 250 m of excavated earth trenches, rifle pits, dugouts and an observation post with interpretation panels. There are views over the Ebro plain.
+
+The site is about 2 km from Quinto town centre (4.5 km by the marked trail). It is open-access, and the council also offers guided visits.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-0.488680,41.403790,0</coordinates></Point></Placemark>
+<Placemark><name>045 Estrecho Quinto bunker (Huesca front)</name><description>Loporzano / Tierz · late 1936–1938
+
+After July 1936, Nationalist-held Huesca was almost surrounded by Republican columns, and the siege lines around the city lasted until March 1938. In late 1936 Republican forces under Colonel Villalba built this machine-gun bunker at Estrecho Quinto to control the Huesca–Barbastro road. It formed one complex with the positions at Montearagón castle and trench lines nearby. The Huesca front saw costly Republican attacks, above all the June 1937 Huesca offensive, when General Lukács of the XII International Brigade was killed. George Orwell was wounded on this front in May 1937.
+
+A well-preserved concrete machine-gun bunker beside the old road, with trench remains on the nearby hills.
+
+It is east of Huesca near Tierz and Loporzano. A quick stop of 15–30 min, freely accessible. There is a marked walking route from Siétamo.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-0.336600,42.143500,0</coordinates></Point></Placemark>
+<Placemark><name>046 Montearagón castle (Huesca siege lines)</name><description>Quicena · 1936–1938
+
+The 11th-century castle-abbey of Montearagón stands on a hill east of Huesca. From 1936 to 1938 it was part of the Republican ring around Nationalist-held Huesca, together with the Estrecho Quinto bunker below. Its commanding views over the city made it an important observation and defensive position for the Republican columns and, later, the Popular Army. The front moved away only when the Nationalist offensive of March 1938 broke the siege lines.
+
+Massive medieval walls on a hilltop with views over Huesca and the siege ground. Civil War remains are nearby.
+
+Guided visits only (about €5), in several sessions a day. Book by phone (622 573 497) or online.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-0.344760,42.153480,0</coordinates></Point></Placemark>
+<Placemark><name>047 Alto de la Torana bunker (Corbalán)</name><description>Corbalán · 1936–Feb 1938
+
+East of Teruel the Republicans built a fortified line on the heights around Corbalán after the militia columns reached the area in summer 1936. Alto de la Torana was its strongest point. It controlled the old road into Teruel and was flanked by the neighbouring heights of El Tocón and El Chopo. The nearby Cabigordo trenches saw heavy fighting in the last phase of the Battle of Teruel. The site has been restored as part of the 'Atrinchérate' route of 17 Civil War sites around Teruel.
+
+A machine-gun post in excellent condition with iron reinforcement, parallel trenches, a concrete-walled shelter and a deep command bunker cut into the rock.
+
+It is by the A-226 near Corbalán, with parking and interpretation panels. The 'Atrinchérate' app adds audio and augmented-reality content.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-1.036330,40.388490,0</coordinates></Point></Placemark>
+<Placemark><name>051 Aldehuela bunker</name><description>Aldehuela · 1937–1938
+
+Before the Battle of Teruel the Popular Army built a fortified line south of the city facing Nationalist positions such as the Muela de Villaspesa. This concrete observation post on the hill opposite Aldehuela cemetery is one of the few pieces of that line to survive intact. From inside, observers could see Teruel itself.
+
+A domed concrete bunker with stepped courses left by its formwork, entered through a tunnel on the slope.
+
+It is near the Teruel–Aldehuela road, about 10 km south-east of Teruel, and is freely accessible on foot. Take a torch.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-1.061530,40.268970,0</coordinates></Point></Placemark>
+<Placemark><name>052 Mansueto fort (Valdecebro)</name><description>Valdecebro · 1937–1938
+
+Mansueto is a promontory guarding the south-eastern approach to Teruel above Valdecebro. The Republicans fortified it not with the usual sandbagged trenches but with a small fort of thick concrete and brick walls, roofed with a concrete slab on railway rails. It formed part of the Republican ring around Teruel.
+
+Broken wall sections with firing loopholes and fragments of the concrete roof.
+
+It is a short walk from Valdecebro, about 5 km east of Teruel. The site is ruined, so watch your footing.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-1.062030,40.346330,0</coordinates></Point></Placemark>
+<Placemark><name>053 Las Viñas bunker (Teruel)</name><description>Teruel · 1936–1938
+
+The Las Viñas sector around Teruel cemetery was contested from the very start of the war. A defence line on the ridge above the prison watched the Turia riverbed and the old Zaragoza road below the city. This concrete observation fort and bunker is one of its surviving pieces, on the edge of Teruel itself.
+
+A thick-walled concrete fort used as an observatory, a rifle post and a bunker.
+
+It is on the Camino de Capuchinos near the cemetery, within walking distance of the centre. Visit together with the city sites.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-1.116890,40.349400,0</coordinates></Point></Placemark>
+<Placemark><name>054 Muela de Villaspesa</name><description>Villaspesa · 1937–1938
+
+The Muela de Villaspesa was an intermediate fortified point south of Teruel overlooking the Republican positions at Aldehuela and the Turia valley. Its defenders dug a tunnel from the trench line to the back of the hill so they could move without being seen or hit from the Republican positions at Las Cañadas.
+
+Trenches and observation posts on the slope facing Aldehuela, and the tunnel, whose rear entrance is now sealed.
+
+It is near Villaspesa, about 8 km south of Teruel. Open hillside, so bring boots. Combine it with the Aldehuela bunker opposite.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-1.111800,40.297000,0</coordinates></Point></Placemark>
+<Placemark><name>060 Turó de la Rovira anti-aircraft battery (Bunkers del Carmel)</name><description>Barcelona · 1937–Jan 1939
+
+The Republican anti-aircraft defence (DECA) built its main battery on this 262 m hill because it commanded the city. Four Vickers 105 mm guns, directed by acoustic locators and searchlights, fired on the Italian and German bombers raiding Barcelona in 1937–38. The guns were disabled as the Republicans withdrew on 25–26 January 1939, just before Nationalist troops entered the city. After the war the emplacements were taken over by shanty housing, which remained until 1990. In 2011 the Barcelona History Museum (MUHBA) restored the site as a place explaining both chapters of its history.
+
+Concrete gun platforms, the command post and barrack foundations, shanty-town floor tiles, and a 360° view over Barcelona.
+
+Free, open-air site; steep walk up from Carrer Marià Labèrnia (buses V17/22/119 go close). Busy at sunset; the small MUHBA interpretation space has limited opening hours.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>2.161960,41.419590,0</coordinates></Point></Placemark>
+<Placemark><name>064 Les Devees trenches, La Fatarella</name><description>La Fatarella · Jul–Nov 1938
+
+The Serra de la Fatarella was the northern shoulder of the Republican Ebro bridgehead and its last stronghold. Les Devees was a rear position guarding the approach to La Fatarella. Soldiers built two shelters here, one in an old lime kiln, joined to a zig-zag trench on higher ground. In mid-November 1938 the final Nationalist offensive broke through at La Fatarella. The last Republican units recrossed the river at Flix on 16 November, ending the battle. The La Fatarella interpretation centre 'Internacionals a l'Ebre' tells the story of the foreign volunteers.
+
+Two restored shelters, one built into a lime kiln, and about 20 m of zig-zag trench, with information panels.
+
+Signposted from La Fatarella; free, open-air site. A 12 km circular route (Ruta de Sant Bertomeu) links it with the Camposines memorial.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>0.492630,41.136970,0</coordinates></Point></Placemark>
+<Placemark><name>066 Vilalba dels Arcs: Els Barrancs trenches &amp; Mirador del Bassot</name><description>Vilalba dels Arcs · 25 Jul–Nov 1938
+
+Vilalba dels Arcs lay on the northern edge of the Republican advance of 25 July 1938. Republican attacks failed to take the village and its hills. The Mirador del Bassot looks out from the defensive positions of the first days over the ground where those assaults were made. Just outside the village, the Els Barrancs site keeps about 700 m of trench line with firing pits, shelters and huts, the best-preserved trench network in the Ebro heritage network. The 'Soldats a les trinxeres' interpretation centre in the village explains the everyday life of the soldiers at the front.
+
+About 700 m of restored trenches, firing pits, shelters and huts at Els Barrancs; a viewpoint with panels in the village.
+
+The 'Soldats a les Trinxeres' interpretation centre in the village is temporarily closed; the Barrancs trenches and the Mirador del Bassot can still be reached on foot or by car. Check with the Espais de la Batalla de l'Ebre network.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>0.410450,41.121740,0</coordinates></Point></Placemark>
+<Placemark><name>079 Mont de Conques – Pallars front strongholds</name><description>Conques (Isona i Conca Dellà) · Apr–Dec 1938
+
+After the Nationalist Aragon offensive of spring 1938 the front in western Catalonia settled along the Segre and Noguera Pallaresa rivers. The Nationalists held bridgeheads at Tremp, Balaguer and Seròs. Mont de Conques, near Isona in the Conca de Tremp, was fortified by the Nationalists and attacked several times by the Republicans, especially in their May 1938 offensive against the Tremp and Balaguer bridgeheads, which failed at high cost. The line held until the Nationalist Catalonia offensive of December 1938. Republican positions such as the La Posa bunker at Abella de la Conca faced it across the valley.
+
+Nationalist concrete positions and trenches on the hill; the Republican La Posa bunker at Abella de la Conca (42.13311, 1.07633) is nearby.
+
+Rough tracks from Conques (Camí Vell d'Isona); walking boots needed; no facilities.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>1.016640,42.130430,0</coordinates></Point></Placemark>
+<Placemark><name>083 Bunquers de Martinet (Línea P)</name><description>Martinet i Montellà · 1944–1950s
+
+These are not Civil War works but its aftermath. After the Republican guerrilla incursion into the Val d'Aran in October 1944, and fearing an Allied or exile invasion, the Franco regime secretly built the 'Línea P' (Pirineos) fortification line. It had thousands of concrete bunkers from the Cap de Creus to the Basque coast and was never used in combat. At Martinet in the Cerdanya a group of bunkers has been restored and opened as an interpretation park. It shows how far the regime's post-war isolation and fears shaped the frontier.
+
+Restored machine-gun and anti-tank bunkers with connecting trenches, and an interpretation centre.
+
+Off the LV-4055 at Martinet; guided visits must be booked (bunquersmartinet.net, tel. +34 648 141 070).
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>1.685040,42.357410,0</coordinates></Point></Placemark>
+<Placemark><name>086 Artxanda – Iron Belt trenches &amp; memorial</name><description>Bilbao · 12–19 Jun 1937
+
+Mount Artxanda, above Bilbao, was the last defended position before the city fell. After the Nationalists broke through the Iron Belt (Cinturón de Hierro) at Gaztelumendi on 12 June 1937, Basque and Republican units fell back to Artxanda, where there was a final, bitter defence while civilians were evacuated westwards. The Basque Army withdrew on 18 June and Nationalist troops entered Bilbao on 19 June. Today the summit is a park with a viewpoint over the city. A stretch of restored trench recalls the fighting, and a large 'fingerprint' sculpture (Huella Dactilar) by Juan José Novella honours all those who died in the war.
+
+A restored trench section near the Artxanda viewpoint, the fingerprint memorial and a panoramic view over Bilbao.
+
+Take the Artxanda funicular from central Bilbao (about 3 min) or drive up; free, open access. Allow an hour to walk between the viewpoint and the memorial.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-2.921870,43.274200,0</coordinates></Point></Placemark>
+<Placemark><name>092 Gaztelumendi breach – Larrabetzu Iron Belt bunker</name><description>Larrabetzu · 12 Jun 1937
+
+The Iron Belt was built from late 1936 as a ring of trenches, bunkers and gun positions around Bilbao. It was planned for about 70,000 defenders but held by roughly 30,000, and the engineer Alejandro Goicoechea defected to the Nationalists with its plans, revealing its weak points. On 12 June 1937 the Nationalists concentrated heavy artillery and more than a hundred aircraft on the weak Gaztelumendi sector at Larrabetzu and broke through. A last Basque counter-attack at Mantuliz (Derio) failed, and Bilbao fell a week later. Near Sarrikola a concrete bunker was built into a farmhouse; ongoing excavations here have uncovered more remains of the line.
+
+A Civil War bunker built inside a building in the Sarrikola area, near the Gaztelumendi breach sector.
+
+In the rural Sarrikola neighbourhood of Larrabetzu. Treat it as private property and look from the lane; combine it with the Zamudio Iron Belt trail on the same ridge.
+
+Accuracy: HIGH — exact spot known.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-2.798400,43.256610,0</coordinates></Point></Placemark>
+<Placemark><name>093 Iron Belt trail, Zamudio (Berreaga–Gaztelumendi ridge)</name><description>Zamudio · 11–13 Jun 1937
+
+Zamudio lies directly below the stretch of the Iron Belt where the Nationalists broke through. The fighting of 11–13 June 1937 spread along the Berreaga–Urrusti–Gaztelumendi ridge, and on 12 June the attackers crossed the line and came down into Zamudio. A signposted 11.1 km memory trail, marked with support from Gogora (the Basque Institute for Memory, Coexistence and Human Rights), climbs to the ridge past surviving trenches and machine-gun nests. It is one of the best places to understand what the Iron Belt actually looked like on the ground, and why it failed against massed artillery and aircraft.
+
+Original trenches and concrete machine-gun posts along the ridge, with explanatory panels and waymarks.
+
+Start from the panel at the Arroeta car park in Zamudio. The 11 km loop takes about 4 h and is hilly; wear walking boots.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-2.870000,43.285830,0</coordinates></Point></Placemark>
+<Placemark><name>100 Oviedo front – Cerdeño bunker</name><description>Oviedo · Oct 1936–Oct 1937
+
+Once the Galician relief column had reached Oviedo in October 1936, the Nationalist defenders ringed the city with concrete positions facing the Republican lines on Monte Naranco and in the surrounding villages. Archaeologists have mapped many trenches and bunkers around Oviedo. They remained on a front line until Asturias fell in October 1937. The concrete bunker at Cerdeño, on the northern edge of the city below the Naranco, is one of the surviving Nationalist works. Just above rise the slopes of Monte Naranco, fought over repeatedly during the siege and the February 1937 offensive.
+
+A concrete Nationalist bunker on the northern outskirts of Oviedo.
+
+On the edge of the village of Cerdeño, north of the city centre. Access may be over farmland, so ask before crossing fields.
+
+Accuracy: HIGH — exact spot known.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-5.823860,43.375820,0</coordinates></Point></Placemark>
+<Placemark><name>119 Fuerte de Carchuna and the Motril front, Granada coast</name><description>Carchuna (Motril) · 23 May 1938
+
+After the fall of Málaga the front on the Granada coast stabilised between Motril (Nationalist) and the Republican zone to the east, and stayed there until 1939. On 23 May 1938 a Republican guerrilla unit landed by boat and attacked the fort of Carchuna, where prisoners (mostly Asturian miners) were held as forced labourers; 308 escaped to the Republican lines. It was one of the most successful special operations of the war. Trenches of the static front survive nearby.
+
+The 18th-century coastal fort of Carchuna and remains of the front-line trenches.
+
+The fort houses a free interpretation centre (weekdays, see Visiting); trenches on the nearby hills — ask locally.
+
+Accuracy: LOW — general area only.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-3.435410,36.696040,0</coordinates></Point></Placemark>
+<Placemark><name>125 Línea XYZ – La Muela &amp; La Vegatilla trenches, Jérica</name><description>Jérica · 18–24 Jul 1938
+
+After reaching the sea at Vinaròs in April 1938, Franco turned south towards Valencia. The Republic dug the Línea XYZ (or Matallana Line), a system of trenches, shelters and concrete bunkers about 150 km long, from Almenara on the coast to Santa Cruz de Moya. Between 18 and 24 July 1938, the forces of Varela, García Valiño, Solchaga and the Italian CTV attacked it. They broke against it less than 40 km from Valencia, and the Republican Ejército de Levante under General Menéndez held. Days later the Republic launched the Ebro offensive. Around Jérica, La Muela and La Vegatilla (Resistance Centre no. 7) were part of the rear line held by the 40th Division, and they survive very well.
+
+Stone and excavated trenches, parapets, small shelters, machine-gun nests and concrete positions, some with Republican inscriptions, around La Muela and the Alto de Sayas.
+
+The waymarked 'Senda de las Trincheras' starts from the car park by the lavadero on Calle del Río in Jérica, about 13 km with climbs. The official La Muela–Aceitenebro route (12.3 km, about 3¼ h) starts from Novaliches. Wear boots and take water in summer.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-0.578440,39.912120,0</coordinates></Point></Placemark>
+<Placemark><name>130 Línea XYZ at Viver – Morredondo, Cerro Cruz &amp; El Ragudo bunkers</name><description>Viver · Jul 1938
+
+Viver lay at the centre of the Línea XYZ, where the Nationalist drive down the Teruel–Sagunto road and railway was stopped in July 1938. Republican engineers used the broken terrain rather than building a continuous wall. The result was a network of trenches, shelters and bunkers covering the road and the railway pass at El Ragudo. Although the Nationalists had more men and command of the air, repeated frontal assaults here failed. The town has signposted short walks to the Morredondo trenches and the Cerro Cruz defensive position, and the official Línea XYZ project maps a route to the Ragudo bunkers (Viver–Benafer).
+
+Trenches at Morredondo, fortified positions on the Cerro Cruz, and concrete bunkers and railway ruins at El Ragudo.
+
+The pin marks Viver: Morredondo, Cerro Cruz and El Ragudo are separate sites around it. Morredondo and Cerro Cruz are each about an hour's walk from the town. El Ragudo is reached along the Ojos Negros greenway or by track. The CIBAL interpretation centre in Viver is open; ask the tourist office (679 881 627, viver@touristinfo.net).
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-0.598200,39.921300,0</coordinates></Point></Placemark>
+<Placemark><name>132 Batería de Castillitos, Cabo Tiñoso (Cartagena)</name><description>Cartagena · 1933–1939; 7 Mar 1939
+
+Cartagena's coast was guarded by a ring of modern batteries. Castillitos, built between 1933 and 1936 in a mock-castle style, mounted two Vickers 381 mm guns with a range of about 35 km. It is reported to have fired only once in the war, in 1937. The batteries of Cabo Tiñoso played their decisive part at the very end. After the anti-Negrín uprising in Cartagena of 4–7 March 1939, the Republican fleet left for Bizerte. A Nationalist relief convoy then approached the port after troops loyal to the Republic had retaken the batteries. On 7 March 1939, a 152 mm shell from the neighbouring La Parajola battery hit the transport Castillo de Olite. Of 2,112 men aboard, 1,476 died, making it Spain's deadliest shipwreck.
+
+Monumental gun emplacements with both 381 mm barrels still in place, tunnels, magazines and fake-castle towers on a clifftop 250 m above the sea.
+
+Drive the narrow, winding military road from Campillo de Adentro to the car park; the site is free and open (Ministry of Defence property, partly restored in 2010–11). Allow time for the walk and the views; not for anyone afraid of heights.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-1.120860,37.540230,0</coordinates></Point></Placemark>
+<Placemark><name>135 Sierra de Espadán – Las Tetas &amp; La Ràpita positions</name><description>Alcudia de Veo · 10–23 Jul 1938
+
+On the eastern part of the Línea XYZ, García Valiño's corps tried to break through the Sierra de Espadán via the Veo valley and seize the heights of La Ràpita and Espadà, which anchored the Republican line. After bombardment from 10 July 1938, the Nationalists took one of the two 'Tetas' summits on 18 July. Heavy fighting on 19 and 23 July failed to take the main ridge. The 1st Navarrese Division, left exposed on the captured hill, fortified it with bunkers and concrete walls. Both sides' works survive on the mountain.
+
+Stepped parapets with loopholes, bunkers, trenches cut into the rock on La Ràpita's north-east slope, and stone sniper posts near the 1,106 m summit, with wide views over the Espadán.
+
+Official circular route 'Las Tetas i la Ràpita': 10 km, 702 m ascent, about 3½ h, with a demanding first half. It starts from the Alcudia de Veo / Algimia de Almonacid area. For experienced walkers only.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-0.391260,39.920040,0</coordinates></Point></Placemark>
+<Placemark><name>145 Valle de la Serena – Republican defence line (La Serena pocket)</name><description>Valle de la Serena · 1937–Jul 1938
+
+From late 1936 the Republic held a large salient in eastern Badajoz, the 'La Serena pocket'. Along the Guadámez valley Republican engineers and local masons built concrete-and-brick machine-gun posts linked by zigzag trenches; one carries the inscription 'AÑO 1937'. In July 1938 Queipo de Llano's Army of the South attacked, taking Castuera, Campanario and Villanueva de la Serena and cutting off much of the pocket, while the Republican front fell back to the Zújar and Guadiana. Unlike the famous fronts, these works are almost untouched and little visited.
+
+Small round and square fortines (about 3 × 3 m inside, four firing slits) and stretches of trench at Cañada Honda and Los Palancares, controlling the roads to Puebla de la Reina and Don Benito.
+
+On farmland off local roads; no signage — go with a local guide or the 'guerracivilenbadajoz' route notes, wear boots, respect livestock gates. The pin marks the town: ask locally for the exact spot.
+
+Accuracy: LOW — general area only.
+
+Private land — view from the road.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s4</styleUrl><Point><coordinates>-5.799390,38.700380,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Air-raid shelters</name>
+<Placemark><name>013 Posición Jaca bunker, El Capricho park</name><description>Madrid (Alameda de Osuna) · 1937–1939
+
+Under the 18th-century garden of the Dukes of Osuna, Republican engineers dug 'Posición Jaca', the command bunker of General Miaja's Army of the Centre and his chief of staff Vicente Rojo, completed in August 1937. Some 15 m underground, it has a central gallery with rooms for about 200 people, generators, ventilation and gas-proof doors. It is one of the best-preserved Civil War command posts in Spain and shows how the defence of Madrid was run once the front had stabilised.
+
+The restored underground galleries beneath the romantic garden of El Capricho.
+
+Guided visits only, usually on weekends and by prior booking with the City of Madrid. The park is open weekends and holidays. Metro El Capricho.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>-3.595500,40.456940,0</coordinates></Point></Placemark>
+<Placemark><name>032 Teruel Civil War shelters &amp; old town (Plaza del Torico)</name><description>Teruel · 15 Dec 1937–22 Feb 1938
+
+Teruel was at the heart of the war's harshest battle. On 15 December 1937 the Republican Army of the Levante under Hernández Saravia, with Líster's and El Campesino's divisions, encircled the city, and by 21 December they were inside it. Colonel Domingo Rey d'Harcourt's garrison held out in the Civil Government building, the Bank of Spain, the Santa Clara convent and the Seminary. Many civilians sheltered with them. Rey d'Harcourt surrendered on 8 January 1938. The battle was fought in blizzards, with temperatures down to about −18°C. Franco's counter-offensive under Aranda and Varela retook the ruined city on 22 February 1938. Both sides together lost more than 100,000 men killed, wounded, sick or captured.
+
+Underground air-raid shelters from the war lie beneath the old-town centre. Rebuilt buildings around the Plaza del Torico stand on the ground where the siege was fought street by street.
+
+The shelters can usually be visited on guided tours run by the city. Check times and tickets at Teruel's tourist office before you go. The old town is easily covered on foot.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>-1.107220,40.343610,0</coordinates></Point></Placemark>
+<Placemark><name>041 Alcañiz air-raid shelter</name><description>Alcañiz · 3 Mar 1938
+
+Alcañiz council built this shelter in 1937 for about 230 residents of the Almudines quarter. On 3 March 1938, at 16:10, bombers of the Italian Aviazione Legionaria, flying for the Nationalists, attacked the town centre and market area, although the front was more than 70 km away. It was one of the deadliest raids on a town in Aragon. The raid came days before the Nationalist Aragon offensive swept through the Bajo Aragón. The shelter now holds a permanent exhibition about the raid and its victims.
+
+An original underground shelter gallery with a permanent exhibition on the 1938 bombing.
+
+The shelter is between C/ Teniente Moore and C/ Santo Domingo in the old town. It is seen on the booked 1-hour old-town guided tour run by the Alcañiz tourist office (tel. 978 831 213), not as a separate visit.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>-0.134280,41.051900,0</coordinates></Point></Placemark>
+<Placemark><name>058 Refugi 307, Poble-sec (MUHBA)</name><description>Barcelona · 1937–Jan 1939
+
+Barcelona was bombed around 200 times during the war, mostly by Italian aircraft of the Aviazione Legionaria flying from Mallorca, with German participation. The residents of Poble-sec, a working-class district near the port and the Montjuïc gun batteries, dug this shelter themselves from 1937 under the Junta de Defensa Passiva. Its roughly 200 metres of narrow vaulted tunnels had water, a first-aid room, toilets, a fireplace and a children's area. Shelters like this saved many lives during the raids of 1938, including the three days of 16–18 March, when about 1,000 people were killed. After the war it was used to grow mushrooms and later as makeshift housing.
+
+About 200 m of original galleries dug into the Montjuïc slope, with benches, the infirmary and toilets, and interpretation of civil defence in the city.
+
+Carrer Nou de la Rambla 175–179. Guided visits only, run by MUHBA (usually on Sunday mornings); book ahead online. Not suitable for claustrophobes.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>2.166650,41.371330,0</coordinates></Point></Placemark>
+<Placemark><name>068 Refugi antiaeri de Flix</name><description>Flix · 1937–1938
+
+Flix had a large chemical factory and a river crossing, and was bombed repeatedly. Its inhabitants dug this shelter under the old town. On 25 July 1938 Republican units of the XV Army Corps crossed the Ebro in the Flix–Ascó sector at the start of the offensive. On the night of 15–16 November the last Republican troops withdrew back across the river here, ending the Battle of the Ebro. Opened as a museum in 2008, the shelter is part of the Espais de la Batalla de l'Ebre network.
+
+Restored shelter galleries beneath the old town, with an exhibition on the bombing of Flix and civil defence.
+
+Carrer del Castell; guided visits only, booked through the La Cana association (lacana.flix@gmail.com, tel. 654 65 19 66); wear sensible shoes.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>0.549330,41.231420,0</coordinates></Point></Placemark>
+<Placemark><name>078 Els Monjos airfield – Refugi del Serral</name><description>Santa Margarida i els Monjos · 1937–Jan 1939
+
+The Republican air force had a military airfield near Els Monjos in the Penedès, part of a network of Catalan fields that sheltered fighters and bombers from 1937. Because the airfield made the area a bombing target, a shelter for about 120 people was dug in 1937 next to the Serral farmhouse, which was used as a barracks. Its brick-vaulted galleries and three ventilation shafts survive and can be visited as part of the municipality's airfield memory route. It is a rare surviving piece of the Republic's wartime air infrastructure in the Penedès.
+
+A brick barrel-vaulted shelter with ventilation shafts beside the Serral farmhouse; remains of the airfield landscape around.
+
+The shelter is visited with CIARGA (Centre d'Interpretació de l'Aviació Republicana i la Guerra Aèria), Parc de la Memòria, Santa Margarida i els Monjos. It usually opens at weekends and on holidays, 10:00–14:00, for a small fee; check with the town before you go.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>1.652850,41.319000,0</coordinates></Point></Placemark>
+<Placemark><name>089 Santander air-raid shelter (Refugio Antiaéreo)</name><description>Santander · 1937
+
+Santander, then in the Republican zone, was bombed repeatedly during 1937, and over a hundred shelters were dug beneath the city. This one, under the Plaza del Príncipe (then Plaza de Mariana Pineda), was built in spring 1937. It has three connected galleries for about 70 people, mainly military commanders and city officials. It was abandoned after the war and buried during the rebuilding that followed the great fire of 1941. It was rediscovered in 2006 during works on the Plaza Porticada and opened as a museum in 2014. The city fell to Nationalist and Italian troops on 26 August 1937.
+
+About 100 m of restored underground galleries with audiovisuals, period photographs and objects, a Condor Legion airman's equipment and a 250 kg bomb.
+
+Guided visits only, in small groups (about €3). Closed Mondays; book ahead by phone (942 203 099).
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>-3.805620,43.462350,0</coordinates></Point></Placemark>
+<Placemark><name>103 Astra factory air-raid shelter, Gernika</name><description>Gernika-Lumo · Sep 1936–Apr 1937
+
+Gernika's arms industry, which made the famous Astra pistols, was one of the few potentially military targets in the town. In September 1936 the Talleres de Gernika factory built two concrete shelters for its workers. They were disguised under false roofs, and the bombers did not recognise them as shelters on 26 April 1937. The factory buildings on the edge of town largely survived the raid, a fact often cited in the debate over what the attack was really aiming at. The former Astra site is now a cultural centre.
+
+A concrete shelter in the former Astra factory area on Ibarra Kalea.
+
+A 10-minute walk from the Peace Museum. Check with the tourist office about access to the interior.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>-2.676220,43.312070,0</coordinates></Point></Placemark>
+<Placemark><name>105 Refugios de la Guerra Civil, Almería (air-raid shelters)</name><description>Almería · 1936–1938 (German naval bombardment 31 May 1937)
+
+Almería, the Republic's main port on the south-east coast, was bombed repeatedly from the air and the sea — the local memory association counts 57 raids. The worst single attack came at dawn on 31 May 1937, when the German cruiser Admiral Scheer and four destroyers shelled the city in reprisal for a Republican air attack on the cruiser Deutschland off Ibiza; around 19–20 civilians died. In response the city dug one of Europe's largest civilian shelter networks: more than 4 km of galleries about 9 m underground, built 1936–38 for some 40,000 people, with an operating theatre and store rooms. The city was also swollen by refugees from the fall of Málaga in February 1937.
+
+About 1 km of restored galleries, the underground operating theatre, a food store and an introductory video; entrance kiosk on Plaza Manuel Pérez García.
+
+Temporarily closed for works. When open: guided visits only (in Spanish, c. 1 hour), tickets in advance at almeriaculturaentradas.es or by phone (950 268 696). Small fee.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>-2.464540,36.841740,0</coordinates></Point></Placemark>
+<Placemark><name>115 Refugio antiaéreo de Villanueva de Córdoba</name><description>Villanueva de Córdoba · 1937–1939
+
+Villanueva de Córdoba lay in the Republican-held north of Córdoba province, close to the front around Pozoblanco. In March–April 1937 Queipo de Llano's forces tried to break through to the Almadén mercury mines and were stopped at Pozoblanco by Republican forces under Joaquín Pérez Salas and others; the front then stayed close by until the end of the war. Nationalist aircraft bombed the towns of the area, and in 1937 Villanueva built an underground shelter beneath its main square. It is one of the declared Places of Democratic Memory in Andalusia.
+
+An underground shelter beneath the Plaza de España.
+
+Visits by arrangement; ask at the town hall or tourist office in the Plaza de España.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>-4.628600,38.322500,0</coordinates></Point></Placemark>
+<Placemark><name>121 Refugio-Museo de la Guerra Civil, Cartagena</name><description>Cartagena · Nov 1936–Mar 1939
+
+Cartagena was the Republic's main naval base and home of its fleet, which made it one of the most heavily bombed cities of the war. After a four-hour raid by the Condor Legion on 25 November 1936, the city began tunnelling shelters into its hills. This gallery, cut into the Cerro de la Concepción, was designed for more than 5,000 people and was still unfinished when Cartagena fell on 31 March 1939. Estimates of the number of raids the city suffered vary widely, from about 40 to 117. Opened as a museum in 2004, it covers daily life under the bombs, passive and active air defence (DECA), and the damage to the city. It is the best introduction to the war in the south-east.
+
+A long tunnel in the hillside with exhibition rooms, photographs, air-raid sirens and audiovisuals; a panoramic lift beside it rises 45 m to the Castillo de la Concepción.
+
+Run by Cartagena Puerto de Culturas; entry is paid, and a combined ticket with other city museums is available. Entrance is on Calle Gisbert, in the centre, a 10-minute walk from the port.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>-0.980860,37.600080,0</coordinates></Point></Placemark>
+<Placemark><name>122 Refugio antiaéreo del Ayuntamiento, Valencia</name><description>Valencia · Built 1938; raids Jan 1937–Mar 1939
+
+From November 1936 to October 1937, Valencia was the seat of the Republican government, and it became a target. The first air raid came on 12 January 1937, and Italian bombers from Mallorca carried out most of the attacks that followed. The city dug more than 50 public shelters and adapted about 200 basements. In 1938 the architect José Luis Testor built this school shelter under the former Casa de la Enseñanza, next to the Town Hall, for 700 children. Five parallel vaulted chambers had ventilation, lighting and latrines. The Town Hall itself was bombed on 28 May 1937. The shelter was restored in 2016 and opened in 2017.
+
+Five barrel-vaulted concrete chambers with original benches, restored signage, and panels on the bombing of Valencia and its shelter network.
+
+Free, self-guided entry through the Town Hall exhibition hall at Calle Arzobispo Mayoral 1, Tuesday–Sunday; closed Mondays. Bring photo ID.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>-0.377650,39.470140,0</coordinates></Point></Placemark>
+<Placemark><name>129 Refugio de la Plaza Séneca, Alicante</name><description>Alicante · 1937–1939
+
+Alicante, a Republican port and supply base, was bombed repeatedly by Italian aircraft from Mallorca, most deadly on 25 May 1938. The city responded with public shelters under its squares. The Plaza Séneca shelter, next to the old bus station, is one of two (with Plaza Balmis) that the city now opens as a memory site. Soundscapes recreate the experience of a raid, and a linked exhibition, 'Alicante ha caído: aquí comienza la guerra', tells the story of the city's war and its end in the port.
+
+Restored underground galleries with a sound and light installation recreating an air raid.
+
+Guided visits only; book online. Tours run daily (weekday afternoons, weekend mornings) and cost €4.95. Check current times.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>-0.490680,38.341300,0</coordinates></Point></Placemark>
+<Placemark><name>133 Refugio antiaéreo de la Plaza Tetuán, Castelló de la Plana</name><description>Castelló de la Plana · 1937–1938
+
+Castelló was bombed by Nationalist and Italian aircraft as the front approached in spring 1938, and it fell to Nationalist troops in June 1938 during the drive towards Valencia. This public shelter under Plaza Tetuán was built in 1937–38 to protect the townspeople. Restored and opened as a site of the city museum (MUCC), it presents the war as civilians lived it: the raids, the sirens and the shelter network, and life in a city that changed hands in the middle of the war.
+
+A restored underground shelter with exhibits and multimedia; audioguides in Spanish, Valencian, English and French.
+
+Free entry; open Tuesday to Saturday 16:00–19:00 and Sunday 10:00–14:00, closed Mondays and in heavy rain. Guided tour at 19:00 (book on 964 73 52 17). Self-guided visit about 45 minutes, maximum 60 people inside.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>-0.040520,39.987510,0</coordinates></Point></Placemark>
+<Placemark><name>137 Refugio de la calle Serranos, Valencia</name><description>Valencia · Built from June 1937
+
+One of more than 50 public shelters built in Valencia against the raids, which Italian bombers based in Mallorca carried out from 1937 to 1939. Begun on 22 June 1937 at Calle Serranos 25, beside the medieval Torres de Serranos, it held about 400 people in three reinforced-concrete chambers under a roof more than 1.5 m thick. With the shelters at Calle Alta (Falla Ripalda–Sogueros), Bombas Gens and Massarrojos, it forms part of the city's network of visitable shelters. Their Art Deco 'REFUGIO' lettering has become an emblem of Valencia's wartime design.
+
+Three concrete chambers with original features and interpretation panels.
+
+Free guided visits on Saturday and Sunday at 13:00 (none in August), by reservation on 962 081 390.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s5</styleUrl><Point><coordinates>-0.376560,39.478280,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Memorials</name>
+<Placemark><name>015 International Brigades memorials, Jarama</name><description>Morata de Tajuña · Feb 1937; memorials 2000s
+
+Along the Morata–San Martín de la Vega road, near the XV Brigade's old kitchens at the Venta de Frascuelo, stand memorials to the British, Irish, American, Balkan and Franco-Belgian volunteers who fought on the Jarama. Nearby on the Casas Altas hill a sculpture by Martín Chirino of two clasped hands honours all who fought in the battle. For decades after 1939 the Brigades could not be commemorated in Spain; these memorials were raised by associations and veterans' families after the return of democracy.
+
+Memorial stones and plaques by the road, and the Chirino sculpture among trenches and refuge caves.
+
+On Morata's battle route 4; roadside parking. Combine with Suicide Hill (1.5 km) and Pingarrón.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-3.478070,40.222730,0</coordinates></Point></Placemark>
+<Placemark><name>026 Cerro de los Ángeles</name><description>Getafe · Aug 1936; front 1936–39
+
+The hill at Getafe, near Spain's geographic centre, carried the monument to the Sacred Heart of Jesus consecrated by Alfonso XIII in 1919. In the anticlerical violence of summer 1936, militiamen staged a mock 'execution' of the statue by firing squad, photographed for the press, and the monument was dynamited on 7 August. In November the Nationalists took the hill and it remained close to the front for the rest of the war. Franco's regime rebuilt a larger monument (1944–1965), a symbol of the 'crusade' narrative.
+
+The rebuilt monument and basilica; ruins of the original monument and bullet marks on the monument and convent walls.
+
+Free; open daily. Drive or bus from Getafe; views over southern Madrid.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-3.684310,40.307830,0</coordinates></Point></Placemark>
+<Placemark><name>027 Arco de la Victoria (Moncloa)</name><description>Madrid (Moncloa) · Built 1950–1956
+
+This 40 m triumphal arch at the entrance to the University City was built in 1950–56 to commemorate the Francoist victory in the battle for the University City, where the front ran from November 1936 to March 1939. Its Latin inscriptions praise Franco's army and the rebuilt university. Since the Democratic Memory laws it has been the subject of debate over re-naming and re-signification; the avenue beneath it was renamed Avenida de la Concordia in 2024.
+
+The arch itself, seen from the Moncloa interchange; it cannot be entered.
+
+View from outside, beside Metro Moncloa; combine with the University City and the Parque del Oeste.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-3.720200,40.435910,0</coordinates></Point></Placemark>
+<Placemark><name>065 Memorial de les Camposines</name><description>La Fatarella / Corbera d'Ebre · Jul–Nov 1938 (memorial 2009)
+
+The Camposines crossroads, on the road from the Ebro crossings at Ascó and Flix towards Gandesa, was a key junction behind the Republican front and was fought over in the final weeks of the battle. In 2009 the Generalitat built a memorial here over the line of an old trench. It is an ossuary for the remains of soldiers still being found across the battlefield, from both armies, whose identities are mostly unknown. It is the main place of remembrance for the tens of thousands who died in the battle.
+
+A modern memorial building with an ossuary, beside the hermitage of Sant Bartomeu de les Camposines, and a panoramic view towards the Ebro valley.
+
+Beside the C-43 road junction between Ascó and Corbera d'Ebre; roadside parking; free.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>0.536770,41.116230,0</coordinates></Point></Placemark>
+<Placemark><name>073 Quatre Camins – Cota 427 cross, Vilalba dels Arcs</name><description>Vilalba dels Arcs · 19 Aug 1938
+
+At the Quatre Camins crossroads (Cota 427), south of Vilalba, the Catalan Carlist volunteers of the Tercio de Requetés de Nuestra Señora de Montserrat held a Nationalist position facing the Republican 31st Mixed Brigade on Punta Targa (Cota 481), only about 250 m away. On 19 August 1938 the requetés attacked towards Punta Targa and lost 58 killed and 174 wounded, according to the unit's figures; Republican losses are not recorded. This small site is a reminder that Catalans fought on both sides of the battle.
+
+A memorial cross at the crossroads, with the facing hills of Punta Targa in view.
+
+Roadside site south of Vilalba dels Arcs; free; combine with the Barrancs trenches and the Montserrat crypt of the same unit.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>0.419830,41.109500,0</coordinates></Point></Placemark>
+<Placemark><name>080 La Vajol &amp; Coll de Lli – exile crossing</name><description>La Vajol · 5 Feb 1939
+
+In the last days of the Republic in Catalonia, the tiny border village of La Vajol and its surroundings sheltered members of the government and treasures evacuated from Barcelona. On 5 February 1939 President Manuel Azaña, Diego Martínez Barrio, Lluís Companys and the Basque president José Antonio Aguirre crossed the frontier into France on foot by the Coll de Lli. Thousands of refugees used the same mountain paths. A monument to the exile marks the route. Paintings from the Prado and other evacuated collections were also stored in this area before being taken on to Geneva.
+
+The exile monument and waymarked mountain paths towards the Coll de Lli and the French border.
+
+The pin marks the Monument a l'Exili at the entrance to La Vajol. From there the waymarked Ruta de l'Exili climbs about 6 km on forest tracks to the Coll de Lli on the French border; allow half a day on foot. The MUME exile museum in La Jonquera has route details.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>2.803260,42.403190,0</coordinates></Point></Placemark>
+<Placemark><name>082 Portbou – Walter Benjamin memorial 'Passatges'</name><description>Portbou · 26 Sep 1940
+
+Portbou, the railway frontier town, was one of the main crossing points of the Retirada in February 1939. Eighteen months later the flow ran the other way: refugees from Nazi-occupied France tried to reach Spain and Portugal. On 26 September 1940 the German-Jewish philosopher Walter Benjamin, turned back by the Spanish authorities after crossing the Pyrenees on foot, took his own life here. Dani Karavan's memorial 'Passatges' (1994) is a steel corridor descending towards the sea. It belongs to the story of exile rather than to the Civil War itself.
+
+Karavan's steel stairway descending towards the sea beside the cemetery, Benjamin's memorial stone, and the view over the bay.
+
+Free; a short walk up from the station to the cemetery; combine with the border crossing to Cerbère.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>3.163230,42.426800,0</coordinates></Point></Placemark>
+<Placemark><name>087 Durango bombing – Santa María de Uribarri</name><description>Durango · 31 Mar 1937
+
+On 31 March 1937, the first day of General Mola's offensive against Biscay, Italian Savoia-Marchetti S.81 bombers with German and Italian escorts attacked Durango, a road and rail junction behind the front. The first wave struck at about 8 a.m., during morning Mass. The Jesuit church and the Santa Susana convent were hit and priests, nuns and worshippers were killed; Santa María de Uribarri was also damaged. Further raids followed that day. Durango was bombed almost four weeks before Gernika and is often called its forgotten precursor. The town's bombing route links the damaged churches and memorial plaques.
+
+The Uribarri basilica with its large wooden porch, plus plaques and panels on the town's bombing route (Bonbardaketaren ibilbidea) marking the sites hit.
+
+Pick up the bombing-route leaflet at the Durango tourist office; the centre is compact and easy to walk in about an hour.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-2.631420,43.168120,0</coordinates></Point></Placemark>
+<Placemark><name>094 Otxandio – Andikona bombing memorial</name><description>Otxandio · 22 Jul 1936
+
+On 22 July 1936, four days after the coup, two Breguet XIX light bombers flown from Recajo (La Rioja) by Ángel Salas Larrazábal and José Muñoz Jiménez bombed and machine-gunned the Andikona square in Otxandio. The square was crowded for the Santa Marina fiestas. About 61 people were killed, most of them civilians and many of them children. Otxandio sat on the front between Biscay and Álava. The raid is often called 'the first Gernika', because it was one of the first air attacks of the war to kill a crowd of civilians. A sculpture in the square honours the victims.
+
+The village square (Andikona) with a memorial sculpture to the victims of the bombing.
+
+A small village on the BI-623 between Durango and Vitoria; the square is in the centre, so parking and a 20-minute visit are easy.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-2.655140,43.041640,0</coordinates></Point></Placemark>
+<Placemark><name>096 Puerto del Escudo – Italian memorial</name><description>Luena · 14–17 Aug 1937
+
+The Escudo pass (about 1,000 m) carries the main road from Burgos to Santander over the Cantabrian range. When the Nationalist offensive on Santander opened on 14 August 1937, Italian CTV divisions attacked here. By 17 August they had taken the pass and linked up with other columns near San Miguel de Aguayo, encircling Republican units. The Santander front collapsed within days, and Santander fell on 26 August. Basque units surrendered to the Italians under the separate Santoña pact (24 August), which Franco did not honour. A pyramid-shaped memorial to the Italian dead still stands at the summit; the remains once kept there have since been moved.
+
+A stone pyramid memorial beside the N-623 at the top of the pass, with wide mountain views.
+
+Pull in at the summit on the N-623 (Burgos–Santander). The road is often closed by snow in winter.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-3.878130,43.040080,0</coordinates></Point></Placemark>
+<Placemark><name>107 Parque Federico García Lorca, Alfacar (Fuente Grande)</name><description>Alfacar · 17–19 Aug 1936
+
+Federico García Lorca, Spain's best-known poet and dramatist, was arrested in Granada on 16 August 1936 and shot in the early hours near the Fuente Grande spring, with the schoolteacher Dióscoro Galindo and the banderilleros Francisco Galadí and Joaquín Arcollas. Lorca was a Republican sympathiser but not a party member; his killing by the rebel authorities became a worldwide symbol of the war's repression. The provincial council opened this park in 1986 on the spot then believed to be the grave, beside an old olive tree. Excavations in late 2009 found no human remains there, and the location of Lorca's body remains unknown.
+
+A landscaped park with fountains and walls bearing lines of Lorca's poetry, a monolith dedicated 'to Federico García Lorca and all victims of the Civil War' and the olive tree long taken as the execution spot.
+
+Open access, free, on the GR-3101 above Alfacar. A commemorative evening of music and readings is held each 18 August.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-3.553400,37.244400,0</coordinates></Point></Placemark>
+<Placemark><name>109 Paseo de los Canadienses / Peñón del Cuervo — 'La Desbandá' memorial, Málaga</name><description>Málaga · 7–12 Feb 1937
+
+When Nationalist and Italian CTV forces took Málaga on 8 February 1937, a huge column of civilians and militiamen fled east along the only coast road towards Almería, some 200 km away. On the road they were shelled from the sea by the cruisers Canarias, Almirante Cervera and Baleares and attacked from the air; many also died of exhaustion or drowned at river crossings. The Canadian surgeon Norman Bethune, with Hazen Sise and Thomas Worsley, drove his blood-transfusion truck along the road ferrying the weakest to Almería, and his pamphlet made the 'Desbandá' known abroad. This seafront walk, opened on 7 February 2006, marks the start of the route and honours Bethune and the aid of the Canadian people.
+
+A seafront promenade at the Peñón del Cuervo cove on the old coast road east of Málaga, with a plaque to Bethune and the Canadian aid; the N-340 coast road the refugees followed runs alongside.
+
+Open access, free; bus or car along the N-340 towards Rincón de la Victoria. The 'La Desbandá' association runs a commemorative walk to Almería each February.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-4.333600,36.712900,0</coordinates></Point></Placemark>
+<Placemark><name>112 Parque de la Memoria 'Málaga 1937', Torre del Mar</name><description>Torre del Mar (Vélez-Málaga) · Feb 1937
+
+Torre del Mar, about 30 km east of Málaga, was where refugees fleeing along the coast road met those coming down from the villages of the Axarquía during the exodus of February 1937. In 2007 the town opened this memorial garden by the artist Rogelio López Cuenca and architect Santiago Cirugeda, deliberately not a monument but a place to meet. It was among the first sites declared a Place of Memory in Andalusia (2013), and the annual commemoration of the Desbandá has been held here since 2005. Nearby, in Río Seco, a small square is named after Norman Bethune.
+
+A plaque reading 'MÁLAGA 1937 / NUNCA MÁS' split by a crack tracing the coast to Almería, almond trees that flower each February, and more than 400 plaques with survivors' names written in their own hand.
+
+Open access, next to the bus station and the Mancomunidad de la Axarquía building in Torre del Mar. Combine with the Peñón del Cuervo memorial on the way from Málaga.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-4.098950,36.740350,0</coordinates></Point></Placemark>
+<Placemark><name>117 Puente Viejo de Maro (Desbandá crossing), Nerja</name><description>Nerja (Maro) · Feb 1937
+
+The old bridge over the Barranco de Maro, east of Nerja, carried the coast road used by the refugees fleeing Málaga in February 1937. Nearby the road was shelled from the sea, and at the Río de la Miel crossing many were killed. In Nerja itself, evacuation buses with children were bombed. The bridge was declared a Place of Democratic Memory in 2013.
+
+The old stone bridge over the ravine on the old coast road near Maro, with a memorial plaque.
+
+Park in Maro and walk; about 3 km east of Nerja.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-3.850150,36.759560,0</coordinates></Point></Placemark>
+<Placemark><name>123 Mercado Central, Alicante (bombing of 25 May 1938)</name><description>Alicante · 25 May 1938
+
+At 11:18 on 25 May 1938, Italian Aviazione Legionaria SM.79 bombers flying from Mallorca dropped about 90 bombs on central Alicante. There were seven to nine aircraft, led by Captains De Prato and Zigiotti. The morning market was crowded and the sirens had not sounded. It was one of the deadliest air raids of the war on a purely civilian target, and together with raids on Granollers and on British ships it caused protests in London. The square in front of the market was renamed Plaza 25 de Mayo in 2010, and the city holds a memorial act every year.
+
+A ceramic plaque on the market wall and nine aluminium plaques in the square, one for each aircraft, which glow red at noon for ten minutes. Inside, the siren and a clock stopped at the time of the attack are preserved.
+
+The market is open Monday to Saturday mornings; the plaques can be seen at any time. It pairs with the Séneca shelter, 10 minutes away on foot.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-0.486360,38.348080,0</coordinates></Point></Placemark>
+<Placemark><name>148 Monumento a los Caídos, Pamplona</name><description>Pamplona · Built 1942–; exhumations 2016
+
+Pamplona was the base of Gen. Emilio Mola, 'the Director' of the July 1936 coup, and Navarre sent thousands of Carlist requetés to the Nationalist side, while more than 3,000 Navarrese left-wingers were killed in the rearguard. The domed Monument to the Fallen of Navarre (Yárnoz and Eusa, 1942) honoured the Nationalist dead; from 1961 its crypt held Mola and Sanjurjo. Their remains were exhumed in 2016 and the square renamed Plaza de la Libertad. The city now plans to turn it into an interpretation centre for democratic memory, while some groups call for demolition — one of Spain's liveliest 'uncomfortable heritage' debates.
+
+The massive domed building dominating the end of Avenida Carlos III, with Francoist inscriptions covered; interior murals of the 'crusade' in the dome.
+
+Exterior any time. Interior opens only for occasional exhibitions while the transformation project is under way — check the Ayuntamiento de Pamplona website.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-1.634780,42.809150,0</coordinates></Point></Placemark>
+<Placemark><name>151 Parque de la Memoria, Sartaguda</name><description>Sartaguda · Autumn 1936; park opened 10 May 2008
+
+Navarre never saw front-line fighting, yet the rearguard repression of 1936 was severe. In the small Ribera village of Sartaguda at least 86 people were killed, including the socialist mayor and councillors; 45 men were shot between 2 and 4 October after being called up as 'volunteers'. It became known as 'el pueblo de las viudas', the village of widows. The Parque de la Memoria, opened in 2008 with support across most parties, is Navarre's main memorial to the victims of Francoist repression: a 7-metre wall bears the names of 3,431 Navarrese killed in their villages, at Ezkaba, in Mauthausen or in forced labour.
+
+A 6,000 m² landscaped park with the long wall of names, sculptures by Basque artists and plaques.
+
+Open-air, free, any time; on the edge of the village near the swimming pools.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s6</styleUrl><Point><coordinates>-2.052860,42.388650,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Ruined villages</name>
+<Placemark><name>016 Brunete</name><description>Brunete · 6–25 Jul 1937
+
+On 6 July 1937 the Republic launched its first great offensive west of Madrid, aiming to cut off the Nationalist troops besieging the capital and to relieve pressure on the northern front. Líster's 11th Division took Brunete by surprise on the first day, but the attack stalled on Nationalist strongpoints at Villanueva de la Cañada and Quijorna and in the July heat. From 18 July Varela's counter-offensive, backed by the Condor Legion, pushed back, and Brunete was retaken on 24 July. The village was flattened and rebuilt after the war by the Regiones Devastadas agency.
+
+A post-war rebuilt town; the parish church on the Plaza Mayor still shows bullet and shrapnel impacts, and the cemetery marks the last phase of fighting.
+
+Free; park near the Plaza Mayor. Combine with Quijorna and Villanueva de la Cañada (15 minutes' drive).
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s7</styleUrl><Point><coordinates>-3.997990,40.405050,0</coordinates></Point></Placemark>
+<Placemark><name>031 Belchite old town (Pueblo Viejo)</name><description>Belchite · 24 Aug–6 Sep 1937 (retaken by Nationalists 10 Mar 1938)
+
+During the Republican Zaragoza offensive the Army of the East under General Sebastián Pozas, with the XI and XV International Brigades, turned on Belchite when the drive on Zaragoza stalled. Thousands of soldiers and civilians were inside the town. Republican troops went in on 1 September and fought house by house, and the town fell on 6 September. Losses were heavy on both sides, and many defenders were taken prisoner. After the war Franco left the ruins as a monument and built a new Belchite next to them. The Trujal, once a Nationalist memorial inside the ruins, now honours all who died in the battle.
+
+Shell-scarred churches of San Martín de Tours and San Agustín, the Torre del Reloj, the Arco de San Roque and streets of roofless houses. There is also the Trujal memorial.
+
+Entry is by guided tour only (about 1½ hours, starting at the Arco de la Villa). Day tours run every day; night tours on Friday and Saturday focus more on local legends than on the battle. Buy tickets at the tourist office (C/ Becú 2, new town) or on belchite.es, and check prices and times there just before you go.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s7</styleUrl><Point><coordinates>-0.747460,41.300840,0</coordinates></Point></Placemark>
+<Placemark><name>055 Poble Vell de Corbera d'Ebre</name><description>Corbera d'Ebre · Jul–Nov 1938
+
+The old hilltop village of Corbera d'Ebre lay on the road junction between Gandesa and the Ebro crossings. After the Republican Army of the Ebro crossed the river on the night of 24–25 July 1938, Corbera became a front-line and rear-area target, pounded by Nationalist artillery and by the German and Italian air forces over the 115 days of the battle. Fighting swept back through it in the Nationalist counter-offensives of September–November; the British Battalion of the XV International Brigade fought its last action in the hills nearby before the Brigades were withdrawn. The inhabitants never returned: a new village was built below after the war, and the ruins were declared a Bé Cultural d'Interès in 1993 as a memorial to all victims of the battle.
+
+Roofless streets climbing to the shell-scarred baroque church of Sant Pere; the 'Abecedari per la llibertat' installation, the 'Calaix de Lletres' and 'La Bota' art interventions; a plaque to the British Battalion on Carrer Hospital.
+
+Pay-to-enter site (about €3, guided visits about €10); park at the top of the old village. Combine with the '115 dies' interpretation centre, C. Freginals 18–24, which is also the network's information point.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s7</styleUrl><Point><coordinates>0.474600,41.079600,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Cemeteries</name>
+<Placemark><name>020 Cementerio Civil &amp; Almudena execution wall</name><description>Madrid (Ciudad Lineal) · 1939–1944
+
+After Madrid fell in March 1939, the eastern wall of the Cementerio del Este (Almudena) became the main place of execution for the city: according to research by historians, close to 3,000 people were shot there between 1939 and 1944, among them the 'Trece Rosas', thirteen young women executed on 5 August 1939. The adjoining Cementerio Civil, for those buried outside the Catholic Church, holds the graves of Republican leaders such as Francisco Largo Caballero, Dolores Ibárruri 'Pasionaria' and Pablo Iglesias, and plaques to the Trece Rosas.
+
+Graves and memorials in the Cementerio Civil; the wall of the Almudena cemetery, with a memorial to the victims.
+
+Free; cemetery hours daily. Enter the Cementerio Civil from Calle Carmen Martín Gaite; Metro La Elipa.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s8</styleUrl><Point><coordinates>-3.635490,40.421650,0</coordinates></Point></Placemark>
+<Placemark><name>081 Crypt of the Tercio de Montserrat, Montserrat</name><description>Montserrat · 1937–1938
+
+The Tercio de Requetés de Nuestra Señora de Montserrat was a unit of Catalan Carlist volunteers who fought on the Nationalist side, many of them having escaped from Republican Catalonia. It suffered heavy losses at Codo (Aragon) in August 1937 and in the Battle of the Ebro, including at Quatre Camins near Vilalba dels Arcs. Its dead were brought to a crypt at the monastery of Montserrat, Catalonia's national shrine. The crypt is a reminder that Catalan society was divided by the war.
+
+A mausoleum or crypt with the names of the unit's dead, within the Montserrat monastery complex.
+
+In the monastery precinct (rack railway or cable car from the Llobregat valley); access to the crypt may be restricted, so ask at the information office.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s8</styleUrl><Point><coordinates>1.841050,41.594400,0</coordinates></Point></Placemark>
+<Placemark><name>157 La Barranca cemetery memorial, Lardero (La Rioja)</name><description>Lardero · 1936
+
+La Rioja, like Navarre, fell to the rebels without a fight in July 1936, yet around two thousand people were killed in the rearguard repression in the following months. La Barranca, on the outskirts of Lardero near Logroño, was one of the main execution and burial sites: the official heritage declaration records 407 people buried here in three mass graves, killed between 10 September and 15 December 1936. Relatives' association La Barranca turned the site into a memorial cemetery; it is the principal place of remembrance for the victims of repression in La Rioja.
+
+A small walled memorial cemetery with name plaques and flowers left by relatives.
+
+Outside Lardero, a short drive from Logroño (the site is also called Barrigüelo); free, open air.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s8</styleUrl><Point><coordinates>-2.474100,42.414740,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Interpretation centres</name>
+<Placemark><name>036 Battle of the Alfambra interpretation centre (Villarquemado)</name><description>Villarquemado · 5–8 Feb 1938
+
+In early February 1938 Franco's army broke the Republican front north of Teruel in the Alfambra valley. It overran the area of Celadas, Alfambra, Villarquemado and Camañas and made thousands of prisoners. The attack included a charge by Nationalist cavalry, often called one of the last great cavalry charges in Western Europe. The breakthrough cut off the Republican salient north of the city and prepared the retaking of Teruel two weeks later. The centre explains the battle with maps, photographs, panels and objects, and links it to trenches in the surrounding countryside.
+
+Exhibition of maps, photos and military objects. Surviving trenches and positions nearby are part of the 'Atrinchérate' route.
+
+The centre is at C/ la Virgen 11, Villarquemado (tel. 978 867 006), about 24 km north of Teruel. Opening is limited, so ring the council or check villarquemado.es before you go.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s9</styleUrl><Point><coordinates>-1.268270,40.519110,0</coordinates></Point></Placemark>
+<Placemark><name>037 Civil War in Aragon interpretation centre (Robres)</name><description>Robres · 1936–1938
+
+Robres lay just behind the Republican side of the Sierra de Alcubierre front, which was held from 1936 to 1938 by anarchist (CNT-FAI) and POUM militia columns and later by the Popular Army. The village's centre for the interpretation, study and documentation of the Civil War in Aragon covers the militia war and the static front. It also covers the collectives and social revolution in the Republican rear, and the Nationalist breakthrough of March 1938. It pairs naturally with the Ruta Orwell trenches in the hills nearby.
+
+Exhibition rooms with panels, photographs, weapons and everyday objects from the front, plus a documentation centre.
+
+Opening hours are limited, often weekends or by appointment, so contact Robres council or Los Monegros tourism first. Combine it with the Ruta Orwell, about 15 minutes away by car.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s9</styleUrl><Point><coordinates>-0.460730,41.866860,0</coordinates></Point></Placemark>
+<Placemark><name>069 Castell de Miravet – Ebro crossing viewpoint</name><description>Miravet · 24–25 Jul 1938
+
+The Templar castle of Miravet stands above one of the stretches where the Army of the Ebro crossed the river by boat and footbridge in the early hours of 25 July 1938. It took the Nationalists by surprise. The Republican aim was to relieve pressure on Valencia and restore the link with the central zone, and the attack advanced up to 20–40 km in the first days. The castle now holds one of the network's interpretation exhibitions on the objectives and course of the battle, and it gives a good view of how the river shaped the fighting.
+
+A 12th–13th century Templar castle with a permanent exhibition on the Battle of the Ebro, and views over the river, the ferry and the village.
+
+Tue–Sat 10:00–17:30 (to 19:00 May–Sep), Sun 10:00–15:00, closed Mondays; €7 (reduced €5). The traditional river ferry (pas de barca) below the village is worth combining with a visit.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s9</styleUrl><Point><coordinates>0.593740,41.035640,0</coordinates></Point></Placemark>
+<Placemark><name>074 Castell de Móra d'Ebre</name><description>Móra d'Ebre · Jul–Nov 1938
+
+Móra d'Ebre, with its road bridge and the pontoon bridges thrown across the river after 25 July 1938, was the main supply artery of the Republican bridgehead. That made it a constant target for the Nationalist, German and Italian air forces. The Republican engineers kept the crossings working under bombardment by repairing and moving the pontoons night after night. The hilltop castle was used as a strongpoint and was heavily shelled and bombed, leaving it semi-ruined. Today it houses the Centre d'Interpretació de les Guerres Carlines, which is also one of the Espais de la Batalla de l'Ebre, with panels on the battle and a commanding view over the town and the river crossings.
+
+The partly restored castle with its exhibition on the Carlist Wars and panels on the Battle of the Ebro, and views of the river crossing points below.
+
+On the hill above the town centre. Opening is seasonal (summer afternoons; weekend mornings in winter), so check with the Móra d'Ebre tourist office.
+
+Accuracy: HIGH — exact spot known.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s9</styleUrl><Point><coordinates>0.640900,41.094200,0</coordinates></Point></Placemark>
+<Placemark><name>088 Intxorta front &amp; Elgeta memory centre</name><description>Elgeta · Sep 1936–Apr 1937
+
+After the loss of most of Gipuzkoa in 1936, Basque and Republican battalions stabilised the front on the Intxorta heights above Elgeta. They held these trenches through the winter and resisted the first weeks of Mola's spring 1937 offensive, until the line had to be abandoned in late April 1937 as the front collapsed towards Durango and Bilbao. Intxorta became a symbol of Basque resistance. The Basque Centre for the Interpretation of Historical Memory in Elgeta explains the fighting and the recovery of memory, and a signposted route leads to restored trenches, shelters and the 'Intxortako Atea' monument.
+
+An interpretation centre in the village and a 5.8 km waymarked loop with restored trenches, shelters, viewpoints, the Intxortako Atea monument and the Salvador hermitage.
+
+Guided walks (about 3.5 h) usually run on the first and last Sunday of the month from the Espaloia café-theatre at 10:00; book on 943 71 89 11. The 'Elgeta memoria' app supports self-guided visits.
+
+Accuracy: MEDIUM — right area, exact spot uncertain.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s9</styleUrl><Point><coordinates>-2.487500,43.136800,0</coordinates></Point></Placemark>
+<Placemark><name>104 Iron Belt Interpretation Centre, Berango</name><description>Berango · 1936–Jun 1937
+
+The Iron Belt's western end ran through the Uribe district north of Bilbao to the coast at Barrika and Sopela. Remains of bunkers, trenches and gun emplacements survive in Barrika, Berango, Sopela, Urduliz, Gatika, Loiu, Mungia and Zamudio, marked by information panels. The small interpretation centre in Berango has graphic panels and a display of objects and documents on how the line was built and why it failed in June 1937. It makes a good starting point for walks to the coastal and inland remains.
+
+An exhibition of panels, objects and documents, plus signposted remains of the line in the surrounding municipalities.
+
+The Museo Memorial del Cinturón de Hierro is at Simon Otxandategi Etorbidea 64, Berango (tel. 94 668 21 43). Walks to the coastal bunkers around Sopela and Berango take 1–2 h.
+
+Accuracy: LOW — general area only.
+
+Guide: https://dzcharlie.com/spanish-civil-war/
+
+DZ Charlie · dzcharlie.com</description><styleUrl>#s9</styleUrl><Point><coordinates>-2.995870,43.364290,0</coordinates></Point></Placemark>
+</Folder>
+</Document>
+</kml>
